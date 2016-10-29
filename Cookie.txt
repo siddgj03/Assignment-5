@@ -1,0 +1,16 @@
+package org.assigment5;
+
+public class Cookie extends DessertItem{
+	  double weigth;
+	  int priceperdozen;
+      Cookie(String name,double weigth,int priceperdozen)
+      {
+    	  super(name);
+    	  this.weigth=weigth;
+    	  this.priceperdozen=priceperdozen;
+      }
+      
+      public double getCost(){
+    	  return weigth*priceperdozen;
+      }
+}

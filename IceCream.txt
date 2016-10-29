@@ -1,0 +1,14 @@
+package org.assigment5;
+
+public class IceCream extends DessertItem{
+	    double cost;
+        public IceCream(String name,double cost)
+        {
+        	super(name);
+        	this.cost=cost;
+        }
+        public double getCost()
+        {
+        	return cost;
+        }
+}

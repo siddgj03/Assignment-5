@@ -1,0 +1,16 @@
+package org.assigment5;
+
+public class Candy extends DessertItem{
+	  double weigth;
+	  int priceperpound;
+      Candy(String name,double weigth,int priceperpound)
+      {
+    	  super(name);
+    	  this.weigth=weigth;
+    	  this.priceperpound=priceperpound;
+      }
+      
+      public double getCost(){
+    	  return weigth*priceperpound;
+      }
+}
