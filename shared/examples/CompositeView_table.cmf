@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<!-- salt:a037517f-0902-4303-8c04-e858c192c76a -->
+<!-- salt:5399481a-aa56-40a1-afbe-ce8c77eb68df -->
 <metadata name="CompositeView" path="/shared/examples/CompositeView" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="NONE">
   <columns>
     <column name="OrderID" nullable="true">
@@ -46,18 +46,6 @@
     </column>
     <column name="CustomerContactPhone" nullable="true">
       <datatype type="STRING" maxLength="30"/>
-      <security>
-        <owner user="admin" domain="composite"/>
-      </security>
-    </column>
-    <column name="ProductName" nullable="true">
-      <datatype namespace="http://www.w3.org/2001/XMLSchema" superTypeName="anySimpleType" superTypeNamespace="http://www.w3.org/2001/XMLSchema" type="STRING" maxLength="32768"/>
-      <security>
-        <owner user="admin" domain="composite"/>
-      </security>
-    </column>
-    <column name="TransactionID" nullable="true">
-      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
       <security>
         <owner user="admin" domain="composite"/>
       </security>
@@ -212,8 +200,6 @@
   </dependency>
   <attribute name="SQL" type="STRING">SELECT 
     ViewOrder.*, 
-    ViewSales.ProductName, 
-    ViewSupplier.TransactionID, 
     ViewSupplier.DateRequired, 
     ViewSupplier.DatePromised, 
     ViewSupplier.ShipDate, 
@@ -238,8 +224,10 @@ FROM
   <attribute name="creatorUserDomain" type="STRING"/>
   <attribute name="creatorUserName" type="STRING"/>
   <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
-  <attribute name="lastModifiedDate" type="LONG">1401221465456</attribute>
+  <attribute name="impactLevel" type="INTEGER">0</attribute>
+  <attribute name="impactMessage" type="NULL"/>
+  <attribute name="lastModifiedDate" type="LONG">1611686282807</attribute>
   <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
-  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
-  <attribute name="model" type="BYTE_ARRAY">EIEJBAAAAAUQUQYBAAwAVgBpAGUAdwBTAHUAcABwAGwAaQBlAHIGAgAMAFYAaQBlAHcAUwB1AHAAcABsAGkAZQByAwv/////Awr/////Awz/////CxEAAwAGAHMAaABhAHIAZQBkAAgAZQB4AGEAbQBwAGwAZQBzAAwAVgBpAGUAdwBTAHUAcABwAGwAaQBlAHL//xBRBgEACQBWAGkAZQB3AE8AcgBkAGUAcgYCAAkAVgBpAGUAdwBPAHIAZABlAHIDC/////8DCv////8DDP////8LEQADAAYAcwBoAGEAcgBlAGQACABlAHgAYQBtAHAAbABlAHMACQBWAGkAZQB3AE8AcgBkAGUAcv//EFEGAQAJAFYAaQBlAHcAUwBhAGwAZQBzBgIACQBWAGkAZQB3AFMAYQBsAGUAcwML/////wMK/////wMM/////wsRAAMABgBzAGgAYQByAGUAZAAIAGUAeABhAG0AcABsAGUAcwAJAFYAaQBlAHcAUwBhAGwAZQBz//8QUwYJAAUASQBOAE4ARQBSAw0AAAACAw4AAAABCA8QYgYHAAEAPQEFAAgDEEEGAQAJAFAAcgBvAGQAdQBjAHQASQBEBgIAAAYD//8GBP//Awr/////AwsAAAAC//8IBBBBBgEACQBQAHIAbwBkAHUAYwB0AEkARAYCAAAGA///BgT//wMK/////wMLAAAAAf///////xBTBgkABQBJAE4ATgBFAFIDDQAAAAMDDgAAAAAIDxBiBgcAAQA9AQUACAMQQQYBAAkAUAByAG8AZAB1AGMAdABJAEQGAgAABgP//wYE//8DCv////8DCwAAAAH//wgEEEEGAQAJAFAAcgBvAGQAdQBjAHQASQBEBgIAAAYD//8GBP//Awr/////AwsAAAAA////////AwUAAAACCAIQMQYB//8BAgEBBgABAwABBAABBQADBwAAAAAHCQAAAAEAAAAECQoAAAAKEEEGAQABACoGAgAABgP//wYE//8DCv////8DCwAAAAH//xBBBgEACwBQAHIAbwBkAHUAYwB0AE4AYQBtAGUGAgAABgP//wYE//8DCv////8IDBAbBgIABwBWAEEAUgBDAEgAQQBSBiQAIABoAHQAdABwADoALwAvAHcAdwB3AC4AdwAzAC4AbwByAGcALwAyADAAMAAxAC8AWABNAEwAUwBjAGgAZQBtAGEGJQANAGEAbgB5AFMAaQBtAHAAbABlAFQAeQBwAGUGKAAgAGgAdAB0AHAAOgAvAC8AdwB3AHcALgB3ADMALgBvAHIAZwAvADIAMAAwADEALwBYAE0ATABTAGMAaABlAG0AYQMSAAAAAQQEAAAAAAAAgAABEwH//wMLAAAAAv//EEEGAQANAFQAcgBhAG4AcwBhAGMAdABpAG8AbgBJAEQGAgAABgP//wYE//8DCv////8IDBAvAxL///wY//8DCwAAAAD//xBBBgEADABEAGEAdABlAFIAZQBxAHUAaQByAGUAZAYCAAAGA///BgT//wMK/////wgMEC8DEv///CL//wMLAAAAAP//EEEGAQAMAEQAYQB0AGUAUAByAG8AbQBpAHMAZQBkBgIAAAYD//8GBP//Awr/////CAwQLwMS///8Iv//AwsAAAAA//8QQQYBAAgAUwBoAGkAcABEAGEAdABlBgIAAAYD//8GBP//Awr/////CAwQLwMS///8Iv//AwsAAAAA//8QQQYBAAoAUwB1AHAAcABsAGkAZQByAEkARAYCAAAGA///BgT//wMK/////wgMEC8DEv///Bj//wMLAAAAAP//EEEGAQAMAFMAdQBwAHAAbABpAGUAcgBOAGEAbQBlBgIAAAYD//8GBP//Awr/////CAwQGwYCAAcAVgBBAFIAQwBIAEEAUgYDAAsAdgBhAHIAYwBoAGEAcgAoADUAMAApAxIAAAABBAQAAAAAAAAAMgETAf//AwsAAAAA//8QQQYBABMAUwB1AHAAcABsAGkAZQByAEMAbwBuAHQAYQBjAHQATgBhAG0AZQYCAAAGA///BgT//wMK/////wgMEBsGAgAHAFYAQQBSAEMASABBAFIGAwALAHYAYQByAGMAaABhAHIAKAA1ADAAKQMSAAAAAQQEAAAAAAAAADIBEwH//wMLAAAAAP//EEEGAQATAFMAdQBwAHAAbABpAGUAcgBQAGgAbwBuAGUATgB1AG0AYgBlAHIGAgAABgP//wYE//8DCv////8IDBAbBgIABwBWAEEAUgBDAEgAQQBSBgMACwB2AGEAcgBjAGgAYQByACgAMwAwACkDEgAAAAEEBAAAAAAAAAAeARMB//8DCwAAAAD/////CQYAAAAFEIIDCgAAAmoDCwAAABwDDAAAAMgDDQAAAMj//xCCAwoAAAE4AwsAAABdAwwAAADIAw0AAACo//8QggMKAAAAFwMLAAAACAMMAAAAyAMNAAAAyP//EIIDCv////8DC/////8DDP////8DDf///////xCCAwr/////Awv/////Awz/////Aw3///////8IAxBxAwEAAAALAwIAAAAyCQMAAAImEHQDBgAAAAD//xByBgT/////EHMDBQAAAAH//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAAf//EHIGBP////8QcwMFAAAAAv//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAC//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAA///EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAE//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAX//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAABv//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAH//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAj//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAACf//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb///////8=</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">sid</attribute>
+  <attribute name="model" type="NULL"/>
 </metadata>
