@@ -1,0 +1,698 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="DATASOURCE_PROPERTIES_problem" path="/shared/Mike T/Test/DATASOURCE_PROPERTIES_problem" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <annotation><![CDATA[&#x9;(c) 2017 TIBCO Software Inc.  All rights reserved.
+&#x9;
+&#x9;Except as specified below, this software is licensed pursuant to the Eclipse Public License v. 1.0.
+&#x9;The details can be found in the file LICENSE.
+&#x9;
+&#x9;The following proprietary files are included as a convenience, and may not be used except pursuant
+&#x9;to valid license to Composite Information Server or TIBCO® Data Virtualization Server:
+&#x9;csadmin-XXXX.jar, csarchive-XXXX.jar, csbase-XXXX.jar, csclient-XXXX.jar, cscommon-XXXX.jar,
+&#x9;csext-XXXX.jar, csjdbc-XXXX.jar, csserverutil-XXXX.jar, csserver-XXXX.jar, cswebapi-XXXX.jar,
+&#x9;and customproc-XXXX.jar (where -XXXX is an optional version number).  Any included third party files
+&#x9;are licensed under the terms contained in their own accompanying LICENSE files, generally named .LICENSE.txt.
+&#x9;
+&#x9;This software is licensed AS-IS. Support for this software is not covered by standard maintenance agreements with TIBCO.
+&#x9;If you would like to obtain assistance with this software, such assistance may be obtained through a separate paid consulting
+&#x9;agreement with TIBCO.
+]]></annotation>
+  <columns>
+    <column name="RESOURCE_ORIGIN" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RESOURCE_ID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RESOURCE_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PARENT_PATH" nullable="true">
+      <datatype type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RESOURCE_PATH" nullable="true">
+      <datatype type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RESOURCE_TYPE" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RESOURCE_SUBTYPE" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RESOURCE_LINK_TYPE" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="IS_PUBLISHED" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="GUID" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_TYPE" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASERVICE_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CATEGORY_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CATALOG_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SCHEMA_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COLUMN_ID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COLUMN_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COLUMN_TYPE" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COLUMN_BASE" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COLUMN_SIZE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="19" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COLUMN_SCALE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="19" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COLUMN_ORDER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COLUMN_DIRECTION" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ANNOTATION" nullable="true">
+      <datatype type="STRING" maxLength="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OWNER_ID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OWNER_NAME" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OWNER_DOMAIN" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATOR_USER_ID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATOR_USER_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATOR_USER_DOMAIN" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATOR_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATOR_DATE_INT" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LAST_MODIFIED_USER_ID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LAST_MODIFIED_USER_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LAST_MODIFIED_USER_DOMAIN" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LAST_MODIFIED_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LAST_MODIFIED_DATE_INT" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_ADAPTER_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_ADAPTER_TYPE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_HOSTNAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_PORT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_DATABASE_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_LOGIN" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_PASSWORD" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_URL" nullable="true">
+      <datatype type="STRING" maxLength="500"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_PATTERN_STR" nullable="true">
+      <datatype type="STRING" maxLength="500"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_ROOT" nullable="true">
+      <datatype type="STRING" maxLength="500"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_CACHE_STATUS" nullable="true">
+      <datatype type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATASOURCE_CACHE_TRACKING" nullable="true">
+      <datatype type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/services/databases/system/ALL_USERS" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="USER_ID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="USERNAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="DOMAIN_ID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DOMAIN_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="ANNOTATION">
+        <datatype type="STRING" maxLength="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/services/databases/system/model/ALL_DATASOURCES" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="DATASOURCE_ID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATASOURCE_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="DATASOURCE_TYPE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="ADAPTER_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="IS_PUBLISHED">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="GUID">
+        <datatype type="STRING" maxLength="36"/>
+      </element>
+      <element name="ANNOTATION">
+        <datatype type="STRING" maxLength="2147483647"/>
+      </element>
+      <element name="OWNER_ID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OWNER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="PARENT_PATH">
+        <datatype type="STRING" maxLength="2147483647"/>
+      </element>
+      <element name="DATASOURCE_CREATOR_ID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATASOURCE_CREATION_TIMESTAMP">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="DATASOURCE_MODIFIER_ID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATASOURCE_MODIFICATION_TIMESTAMP">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="ADAPTER_TYPE_CATEGORY">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/services/databases/system/model/ALL_RESOURCE_PROPERTIES" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="METADATA_ID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PROPERTY_NAME">
+        <datatype type="STRING" maxLength="2147483647"/>
+      </element>
+      <element name="DATA_TYPE">
+        <datatype type="STRING" maxLength="2147483647"/>
+      </element>
+      <element name="PROPERTY_VALUE">
+        <datatype type="STRING" maxLength="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">--------------------------------------
+-- SELECT /model/ALL_DATASOURCES &#x9;&#x9;        [published + shared: DATA_SOURCE]
+--   INNER JOIN /system/ALL_USERS               [users]
+--&#x9; OUTER JOIN /model/ALL_RESOURCE_ATTRIBUTES&#x9;[join with the above view to get datasource attributes]
+--&#x9; OUTER JOIN /model/ALL_RESOURCE_ATTRIBUTES&#x9;[join with the above view to get resource attributes]
+--
+-- NOTE: This view does push-down.
+--------------------------------------
+---- ALL_DATASOURCES ----
+--  Requires the following XML capabilities to be added to the adapter file for postgresql_9_1
+--&#x9;&#x9;Location: TDV_HOME/conf/adapters/system/postgresql_9_1/postgresql_9_1_values.xml
+--&#x9;&#x9;&lt;common:attribute xmlns:common=&quot;http://www.compositesw.com/services/system/util/common&quot;&gt;
+--&#x9;&#x9;&#x9;&lt;common:name&gt;/custom/TO_TIMESTAMP(~number)&lt;/common:name&gt;
+--&#x9;&#x9;&#x9;&lt;common:type&gt;STRING&lt;/common:type&gt;
+--&#x9;&#x9;&#x9;&lt;common:value&gt;TO_TIMESTAMP($1)&lt;/common:value&gt;
+--&#x9;&#x9;&#x9;&lt;common:configID&gt;TO_TIMESTAMP(~number)&lt;/common:configID&gt;
+--&#x9;&#x9;&lt;/common:attribute&gt;
+SELECT 
+&#x9;  A.RESOURCE_ORIGIN
+&#x9;, A.RESOURCE_ID
+&#x9;, A.RESOURCE_NAME
+&#x9;, A.PARENT_PATH
+&#x9;, A.RESOURCE_PATH
+&#x9;, A.RESOURCE_TYPE
+&#x9;, A.RESOURCE_SUBTYPE
+&#x9;, A.RESOURCE_LINK_TYPE
+&#x9;, A.IS_PUBLISHED
+&#x9;, A.GUID
+&#x9;, A.DATASOURCE_TYPE
+&#x9;, A.DATASERVICE_NAME
+&#x9;, A.CATEGORY_NAME
+&#x9;, A.CATALOG_NAME
+&#x9;, A.SCHEMA_NAME
+&#x9;, A.COLUMN_ID
+&#x9;, A.COLUMN_NAME
+&#x9;, A.COLUMN_TYPE
+&#x9;, A.COLUMN_BASE
+&#x9;, A.COLUMN_SIZE
+&#x9;, A.COLUMN_SCALE
+&#x9;, A.COLUMN_ORDER
+&#x9;, A.COLUMN_DIRECTION
+&#x9;, A.ANNOTATION
+&#x9;, A.OWNER_ID
+&#x9;, A.OWNER_NAME
+&#x9;, A.OWNER_DOMAIN
+&#x9;, A.CREATOR_USER_ID
+&#x9;, A.CREATOR_USER_NAME
+&#x9;, A.CREATOR_USER_DOMAIN
+&#x9;, A.CREATOR_DATE
+&#x9;, A.CREATOR_DATE_INT
+&#x9;, A.LAST_MODIFIED_USER_ID
+&#x9;, A.LAST_MODIFIED_USER_NAME
+&#x9;, A.LAST_MODIFIED_USER_DOMAIN
+&#x9;, A.LAST_MODIFIED_DATE
+&#x9;, A.LAST_MODIFIED_DATE_INT
+--&#x9;, D.LAST_MODIFIED_DATE_INT
+&#x9;, A.DATASOURCE_ADAPTER_NAME
+&#x9;, D.DATASOURCE_ADAPTER_TYPE
+&#x9;, D.DATASOURCE_HOSTNAME
+&#x9;, D.DATASOURCE_PORT
+&#x9;, D.DATASOURCE_DATABASE_NAME
+&#x9;, D.DATASOURCE_LOGIN
+&#x9;, D.DATASOURCE_PASSWORD
+&#x9;, D.DATASOURCE_URL
+&#x9;, D.DATASOURCE_PATTERN_STR
+&#x9;, D.DATASOURCE_ROOT
+&#x9;, D.DATASOURCE_CACHE_STATUS
+&#x9;, D.DATASOURCE_CACHE_TRACKING
+FROM (
+---- ALL_DATASOURCES ----
+SELECT {OPTION IGNORE_TRAILING_SPACES=&quot;FALSE&quot;, CASE_SENSITIVE=&quot;TRUE&quot;} 
+&#x9;  CAST(&apos;ALL_DATASOURCES&apos; AS VARCHAR(30)) RESOURCE_ORIGIN
+&#x9;, P.DATASOURCE_ID RESOURCE_ID
+&#x9;, CAST(CASE WHEN STRPOS(P.DATASOURCE_NAME, &apos;/&apos;) &gt; 0 THEN &apos;&quot;&apos;||P.DATASOURCE_NAME||&apos;&quot;&apos;
+&#x9;&#x9;&#x9;  ELSE P.DATASOURCE_NAME
+&#x9;&#x9; END AS VARCHAR(255)) RESOURCE_NAME
+&#x9;, CAST(P.PARENT_PATH AS VARCHAR(4000)) PARENT_PATH
+&#x9;, REPLACE(CAST(P.PARENT_PATH || &apos;/&apos; || 
+&#x9;&#x9;CASE WHEN STRPOS(P.DATASOURCE_NAME, &apos;/&apos;) &gt; 0 THEN &apos;&quot;&apos;||P.DATASOURCE_NAME||&apos;&quot;&apos;
+&#x9;&#x9;&#x9;  ELSE P.DATASOURCE_NAME
+&#x9;&#x9; END AS VARCHAR(4000)), &apos;//&apos;, &apos;/&apos;) RESOURCE_PATH
+&#x9;, CAST(&apos;DATA_SOURCE&apos; AS VARCHAR(40)) RESOURCE_TYPE
+&#x9;, CAST(P.ADAPTER_TYPE_CATEGORY AS VARCHAR(40)) RESOURCE_SUBTYPE
+&#x9;, CAST(NULL AS VARCHAR(40)) RESOURCE_LINK_TYPE
+&#x9;, CAST(CASE
+&#x9;&#x9;WHEN P.IS_PUBLISHED IS NOT NULL  THEN SUBSTRING(P.IS_PUBLISHED,1,1)
+&#x9;&#x9;ELSE P.IS_PUBLISHED
+&#x9;  END AS VARCHAR(1)) IS_PUBLISHED
+&#x9;, CAST(P.GUID AS VARCHAR(255)) GUID
+&#x9;, CAST(CASE
+&#x9;&#x9;WHEN STRPOS(P.PARENT_PATH, &apos;/services/databases&apos;) = 1  THEN &apos;VirtualRelational&apos;
+&#x9;&#x9;WHEN STRPOS(P.PARENT_PATH, &apos;/services/webservices&apos;) = 1 THEN &apos;VirtualWsdl&apos;
+&#x9;&#x9;ELSE NULL
+&#x9;  END AS VARCHAR(20)) DATASOURCE_TYPE
+&#x9;, P.DATASOURCE_NAME DATASERVICE_NAME
+&#x9;, CAST(NULL AS VARCHAR(255)) CATEGORY_NAME
+&#x9;, CAST(NULL as VARCHAR(255)) CATALOG_NAME
+&#x9;, CAST(NULL as VARCHAR(255)) SCHEMA_NAME
+&#x9;, CAST(NULL AS INTEGER) COLUMN_ID
+&#x9;, CAST(NULL AS VARCHAR(255)) COLUMN_NAME
+&#x9;, CAST(NULL AS VARCHAR(50)) COLUMN_TYPE
+&#x9;, CAST(NULL AS VARCHAR(50)) COLUMN_BASE
+&#x9;, CAST(NULL AS DECIMAL(19,0)) COLUMN_SIZE
+&#x9;, CAST(NULL AS DECIMAL(19,0)) COLUMN_SCALE
+&#x9;, CAST(NULL AS INTEGER) COLUMN_ORDER
+&#x9;, CAST(NULL AS VARCHAR(10)) COLUMN_DIRECTION
+&#x9;, P.ANNOTATION
+&#x9;, P.ADAPTER_NAME DATASOURCE_ADAPTER_NAME
+&#x9;, CAST(NULL AS VARCHAR(50)) DATASOURCE_ADAPTER_TYPE
+&#x9;, CAST(NULL AS VARCHAR(255)) DATASOURCE_HOSTNAME
+&#x9;, CAST(NULL AS INTEGER) DATASOURCE_PORT
+&#x9;, CAST(NULL AS VARCHAR(100)) DATASOURCE_DATABASE_NAME
+&#x9;, CAST(NULL AS VARCHAR(255)) DATASOURCE_LOGIN
+&#x9;, CAST(NULL AS VARCHAR(255)) DATASOURCE_PASSWORD
+&#x9;, CAST(NULL AS VARCHAR(500)) DATASOURCE_URL
+&#x9;, CAST(NULL AS VARCHAR(500)) DATASOURCE_PATTERN_STR
+&#x9;, CAST(NULL AS VARCHAR(500)) DATASOURCE_ROOT
+&#x9;, CAST(NULL AS VARCHAR(4000)) DATASOURCE_CACHE_STATUS
+&#x9;, CAST(NULL AS VARCHAR(4000)) DATASOURCE_CACHE_TRACKING
+&#x9;-- User Information - OWNER
+&#x9;, P.OWNER_ID
+&#x9;, CAST(P.OWNER AS VARCHAR(60)) OWNER_NAME
+&#x9;, CAST(AU.DOMAIN_NAME AS VARCHAR(255)) OWNER_DOMAIN
+&#x9;-- User Information - CREATOR
+&#x9;, P.DATASOURCE_CREATOR_ID CREATOR_USER_ID
+&#x9;, AC.USERNAME CREATOR_USER_NAME
+&#x9;, AC.DOMAIN_NAME CREATOR_USER_DOMAIN
+&#x9;, CAST(
+&#x9;&#x9;CASE WHEN P.DATASOURCE_CREATION_TIMESTAMP IS NULL OR P.DATASOURCE_CREATION_TIMESTAMP=0 THEN NULL
+&#x9;&#x9;&#x9; ELSE TO_TIMESTAMP(TRUNC(CAST(P.DATASOURCE_CREATION_TIMESTAMP AS BIGINT)/1000)) 
+&#x9;&#x9;END AS TIMESTAMP
+&#x9;  ) AS CREATOR_DATE 
+&#x9;, P.DATASOURCE_CREATION_TIMESTAMP CREATOR_DATE_INT 
+&#x9;-- User Information - MODIFIER
+&#x9;, P.DATASOURCE_MODIFIER_ID LAST_MODIFIED_USER_ID 
+&#x9;, AM.USERNAME LAST_MODIFIED_USER_NAME
+&#x9;, AM.DOMAIN_NAME LAST_MODIFIED_USER_DOMAIN
+&#x9;, CAST(
+&#x9;&#x9;CASE WHEN P.DATASOURCE_MODIFICATION_TIMESTAMP IS NULL OR P.DATASOURCE_MODIFICATION_TIMESTAMP=0 THEN NULL
+&#x9;&#x9;&#x9; ELSE TO_TIMESTAMP(TRUNC(CAST(P.DATASOURCE_MODIFICATION_TIMESTAMP AS BIGINT)/1000)) 
+&#x9;&#x9;END AS TIMESTAMP
+&#x9;  ) AS LAST_MODIFIED_DATE 
+&#x9;, CAST(P.DATASOURCE_MODIFICATION_TIMESTAMP AS BIGINT) AS LAST_MODIFIED_DATE_INT 
+FROM
+&#x9;/services/databases/system/model/ALL_DATASOURCES P
+INNER JOIN /services/databases/system/ALL_USERS AU
+&#x9;ON P.OWNER_ID = AU.USER_ID
+  LEFT OUTER JOIN /services/databases/system/ALL_USERS AC
+&#x9;ON P.DATASOURCE_CREATOR_ID = AC.USER_ID
+  LEFT OUTER JOIN /services/databases/system/ALL_USERS AM
+&#x9;ON P.DATASOURCE_MODIFIER_ID = AM.USER_ID
+) A
+&#x9;-- Join model/ALL_RESOURCE_ATTRIBUTES [datasource attributes]
+&#x9;-- Get the data source attributes from model/ALL_RESOURCE_ATTRIBUTES
+&#x9;LEFT OUTER JOIN (
+&#x9;&#x9;SELECT 
+&#x9;&#x9;  DATASOURCE_ID
+--&#x9;&#x9;, CAST(p0.PROPERTY_VALUE AS BIGINT) LAST_MODIFIED_DATE_INT
+&#x9;&#x9;-- Data source attributes
+&#x9;&#x9;, CAST(CASE WHEN p9.PROPERTY_VALUE IS NULL OR LENGTH(p9.PROPERTY_VALUE)=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;ELSE p9.PROPERTY_VALUE
+&#x9;&#x9;&#x9;END AS VARCHAR(255)) AS DATASOURCE_ADAPTER_TYPE
+&#x9;&#x9;, CAST(CASE WHEN p10.PROPERTY_VALUE IS NOT NULL THEN p10.PROPERTY_VALUE
+&#x9;&#x9;&#x9;&#x9;&#x9;WHEN p11.PROPERTY_VALUE IS NOT NULL THEN p11.PROPERTY_VALUE
+&#x9;&#x9;&#x9;&#x9;&#x9;ELSE NULL
+&#x9;&#x9;&#x9;END AS VARCHAR(255)) AS DATASOURCE_LOGIN
+&#x9;&#x9;, CAST(CASE WHEN p12.PROPERTY_VALUE IS NULL OR LENGTH(p12.PROPERTY_VALUE)=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;ELSE p12.PROPERTY_VALUE
+&#x9;&#x9;&#x9;END AS VARCHAR(255)) AS DATASOURCE_PASSWORD
+&#x9;&#x9;, CAST(CASE WHEN p13.PROPERTY_VALUE IS NULL OR LENGTH(p13.PROPERTY_VALUE)=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;ELSE p13.PROPERTY_VALUE
+&#x9;&#x9;&#x9;END AS VARCHAR(255)) AS DATASOURCE_DATABASE_NAME
+&#x9;&#x9;, CAST(CASE WHEN p14.PROPERTY_VALUE IS NULL OR LENGTH(p14.PROPERTY_VALUE)=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;ELSE p14.PROPERTY_VALUE
+&#x9;&#x9;&#x9;END AS VARCHAR(255)) AS DATASOURCE_HOSTNAME
+&#x9;&#x9;, CAST(CASE WHEN p15.PROPERTY_VALUE IS NULL OR LENGTH(p15.PROPERTY_VALUE)=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;ELSE p15.PROPERTY_VALUE
+&#x9;&#x9;&#x9;END AS INTEGER) AS DATASOURCE_PORT
+&#x9;&#x9;, CAST(CASE WHEN p16.PROPERTY_VALUE IS NULL OR LENGTH(p16.PROPERTY_VALUE)=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;ELSE p16.PROPERTY_VALUE
+&#x9;&#x9;&#x9;END AS VARCHAR(500)) AS DATASOURCE_URL
+&#x9;&#x9;, CAST(CASE WHEN p17.PROPERTY_VALUE IS NULL OR LENGTH(p17.PROPERTY_VALUE)=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;ELSE p17.PROPERTY_VALUE
+&#x9;&#x9;&#x9;END AS VARCHAR(500)) AS DATASOURCE_PATTERN_STR
+&#x9;&#x9;, CAST(CASE WHEN p18.PROPERTY_VALUE IS NULL OR LENGTH(p18.PROPERTY_VALUE)=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;ELSE p18.PROPERTY_VALUE
+&#x9;&#x9;&#x9;END AS VARCHAR(500)) AS DATASOURCE_ROOT
+&#x9;&#x9;, CAST(CASE WHEN p19.PROPERTY_VALUE IS NULL OR LENGTH(p19.PROPERTY_VALUE)=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;ELSE p19.PROPERTY_VALUE
+&#x9;&#x9;&#x9;END AS VARCHAR(4000)) AS DATASOURCE_CACHE_STATUS
+&#x9;&#x9;, CAST(CASE WHEN p20.PROPERTY_VALUE IS NULL OR LENGTH(p20.PROPERTY_VALUE)=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;ELSE p20.PROPERTY_VALUE
+&#x9;&#x9;&#x9;END AS VARCHAR(4000)) AS DATASOURCE_CACHE_TRACKING
+&#x9;&#x9;FROM /services/databases/system/model/ALL_DATASOURCES d
+--&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p0
+--&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p0.METADATA_ID
+--&#x9;&#x9;&#x9;and LOWER(p0.PROPERTY_NAME) = LOWER(&apos;lastModifiedDate&apos;)
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p9
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p9.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p9.PROPERTY_NAME) = &apos;type&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p10
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p10.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p10.PROPERTY_NAME) = &apos;login&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p11
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p11.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p11.PROPERTY_NAME) = &apos;username&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p12
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p12.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p12.PROPERTY_NAME) = &apos;password&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p13
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p13.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p13.PROPERTY_NAME) = &apos;urldatabasename&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p14
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p14.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p14.PROPERTY_NAME) = &apos;urlip&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p15
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p15.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p15.PROPERTY_NAME) = &apos;urlport&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p16
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p16.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p16.PROPERTY_NAME) = &apos;url&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p17
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p17.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p17.PROPERTY_NAME) = &apos;urlpatternstr&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p18
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p18.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p18.PROPERTY_NAME) = &apos;root&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p19
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p19.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p19.PROPERTY_NAME) = &apos;cachestatustable&apos;
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p20
+&#x9;&#x9;&#x9;on d.DATASOURCE_ID = p20.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p20.PROPERTY_NAME) = &apos;cachetrackingtable&apos;
+&#x9;) D
+&#x9;   ON A.RESOURCE_ID = D.DATASOURCE_ID
+&#x9;   AND A.RESOURCE_TYPE = &apos;DATA_SOURCE&apos;
+/*
+&#x9;-- Join model/ALL_RESOURCE_ATTRIBUTES [resource attributes]
+&#x9;-- Get the resource creator/modifier attributes from model/ALL_RESOURCE_ATTRIBUTES
+&#x9;LEFT OUTER JOIN (
+&#x9;&#x9;select {OPTION IGNORE_TRAILING_SPACES=&quot;FALSE&quot;, CASE_SENSITIVE=&quot;TRUE&quot;}
+&#x9;&#x9;&#x9;CAST(p1.METADATA_ID AS INTEGER) METADATA_ID
+&#x9;&#x9;&#x9;, CAST(p1.PROPERTY_VALUE AS BIGINT) CREATOR_DATE_INT
+&#x9;&#x9;&#x9;, CAST(CASE WHEN p1.PROPERTY_VALUE IS NULL OR p1.PROPERTY_VALUE=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;&#x9; ELSE TO_TIMESTAMP(TRUNC(CAST(p1.PROPERTY_VALUE AS BIGINT)/1000)) 
+&#x9;&#x9;&#x9;&#x9;&#x9; END AS TIMESTAMP) AS CREATOR_DATE 
+&#x9;&#x9;&#x9;, CAST(p2.PROPERTY_VALUE AS VARCHAR(255)) CREATOR_USER_NAME
+&#x9;&#x9;&#x9;, CAST(p3.PROPERTY_VALUE AS VARCHAR(255)) CREATOR_USER_DOMAIN
+&#x9;&#x9;&#x9;, CAST(p4.PROPERTY_VALUE AS INTEGER) CREATOR_USER_ID
+&#x9;&#x9;&#x9;, CAST(p5.PROPERTY_VALUE AS BIGINT) LAST_MODIFIED_DATE_INT
+&#x9;&#x9;&#x9;, CAST(CASE WHEN p5.PROPERTY_VALUE IS NULL OR p5.PROPERTY_VALUE=0 THEN NULL
+&#x9;&#x9;&#x9;&#x9;&#x9; ELSE TO_TIMESTAMP(TRUNC(CAST(p5.PROPERTY_VALUE AS BIGINT)/1000)) 
+&#x9;&#x9;&#x9;&#x9;&#x9; END AS TIMESTAMP) AS LAST_MODIFIED_DATE 
+&#x9;&#x9;&#x9;, CAST(p6.PROPERTY_VALUE AS VARCHAR(255)) LAST_MODIFIED_USER_NAME
+&#x9;&#x9;&#x9;, CAST(p7.PROPERTY_VALUE AS VARCHAR(255)) LAST_MODIFIED_USER_DOMAIN
+&#x9;&#x9;&#x9;, CAST(p8.PROPERTY_VALUE AS INTEGER) LAST_MODIFIED_USER_ID
+&#x9;&#x9;from  /services/databases/system/model/ALL_RESOURCE_PROPERTIES p1
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p2
+&#x9;&#x9;&#x9;on p1.METADATA_ID = p2.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p2.PROPERTY_NAME) = LOWER(&apos;creatorUserName&apos;)
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p3
+&#x9;&#x9;&#x9;on p1.METADATA_ID = p3.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p3.PROPERTY_NAME) = LOWER(&apos;creatorUserDomain&apos;)
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p4
+&#x9;&#x9;&#x9;on p1.METADATA_ID = p4.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p4.PROPERTY_NAME) = LOWER(&apos;creatorUserId&apos;)
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p5
+&#x9;&#x9;&#x9;on p1.METADATA_ID = p5.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p5.PROPERTY_NAME) = LOWER(&apos;lastModifiedDate&apos;)
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p6
+&#x9;&#x9;&#x9;on p1.METADATA_ID = p6.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p6.PROPERTY_NAME) = LOWER(&apos;lastModifiedUserName&apos;)
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p7
+&#x9;&#x9;&#x9;on p1.METADATA_ID = p7.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p7.PROPERTY_NAME) = LOWER(&apos;lastModifiedUserDomain&apos;)
+&#x9;&#x9;LEFT OUTER JOIN /services/databases/system/model/ALL_RESOURCE_PROPERTIES p8
+&#x9;&#x9;&#x9;on p1.METADATA_ID = p8.METADATA_ID
+&#x9;&#x9;&#x9;and LOWER(p8.PROPERTY_NAME) = LOWER(&apos;lastModifiedUserId&apos;)
+&#x9;&#x9;where LOWER(p1.PROPERTY_NAME) = LOWER(&apos;creationDate&apos;)
+&#x9;) RA
+&#x9;&#x9;ON A.RESOURCE_ID = RA.METADATA_ID
+*/</attribute>
+  <attribute name="creationDate" type="LONG">1666384247794</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1668254935656</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1666384247794</attribute>
+</metadata>

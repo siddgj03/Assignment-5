@@ -1,0 +1,160 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="_README" path="/shared/Mike T/Test/_README" type="PROCEDURE" subtype="SQL_SCRIPT_PROCEDURE" changeToken="0">
+  <parameters></parameters>
+  <security>
+    <owner user="admin" domain="composite"/>
+    <privilege user="anonymous" domain="composite" privileges="READ"/>
+    <privilege group="all" domain="composite" privileges="READ WRITE"/>
+    <privilege group="all" domain="dynamic" privileges="READ"/>
+  </security>
+  <attribute name="Script" type="STRING">/*
+The TDV optimizer should resolve &quot;A&quot;.&quot;expr40&quot;, as &quot;A&quot;.&quot;LAST_MODIFIED_DATE_INT&quot;
+Cause: ERROR: column A.expr40 does not exist
+
+Unable to retrieve result from data source &quot;/system/datasources/repository&quot; during query execution.  Failed query: 
+&quot;SELECT 
+&#x9;&quot;A&quot;.&quot;RESOURCE_ORIGIN&quot;,
+&#x9;&quot;A&quot;.&quot;RESOURCE_ID&quot;,
+&#x9;&quot;A&quot;.&quot;RESOURCE_NAME&quot;,
+&#x9;&quot;A&quot;.&quot;PARENT_PATH&quot;,
+&#x9;&quot;A&quot;.&quot;RESOURCE_PATH&quot;,
+&#x9;&quot;A&quot;.&quot;RESOURCE_TYPE&quot;,
+&#x9;&quot;A&quot;.&quot;RESOURCE_SUBTYPE&quot;,
+&#x9;&quot;A&quot;.&quot;RESOURCE_LINK_TYPE&quot;,
+&#x9;&quot;A&quot;.&quot;IS_PUBLISHED&quot;,
+&#x9;&quot;A&quot;.&quot;GUID&quot;,
+&#x9;&quot;A&quot;.&quot;DATASOURCE_TYPE&quot;,
+&#x9;&quot;A&quot;.&quot;DATASERVICE_NAME&quot;,
+&#x9;&quot;A&quot;.&quot;CATEGORY_NAME&quot;,
+&#x9;&quot;A&quot;.&quot;COLUMN_ID&quot;,
+&#x9;&quot;A&quot;.&quot;COLUMN_TYPE&quot;,
+&#x9;&quot;A&quot;.&quot;COLUMN_SIZE&quot;,
+&#x9;&quot;A&quot;.&quot;COLUMN_DIRECTION&quot;,
+&#x9;&quot;A&quot;.&quot;ANNOTATION&quot;,
+&#x9;&quot;A&quot;.&quot;OWNER_ID&quot;,
+&#x9;&quot;A&quot;.&quot;OWNER_NAME&quot;,
+&#x9;&quot;A&quot;.&quot;OWNER_DOMAIN&quot;,
+&#x9;&quot;A&quot;.&quot;CREATOR_USER_ID&quot;,
+&#x9;&quot;A&quot;.&quot;CREATOR_USER_NAME&quot;,
+&#x9;&quot;A&quot;.&quot;CREATOR_USER_DOMAIN&quot;,
+&#x9;&quot;A&quot;.&quot;CREATOR_DATE&quot;,
+&#x9;&quot;A&quot;.&quot;CREATOR_DATE_INT&quot;,
+&#x9;&quot;A&quot;.&quot;LAST_MODIFIED_USER_ID&quot;,
+&#x9;&quot;A&quot;.&quot;LAST_MODIFIED_USER_NAME&quot;,
+&#x9;&quot;A&quot;.&quot;LAST_MODIFIED_USER_DOMAIN&quot;,
+&#x9;&quot;A&quot;.&quot;LAST_MODIFIED_DATE&quot;,
+
+expr40 should be &quot;A&quot;.&quot;LAST_MODIFIED_DATE_INT&quot;
+--&gt;&#x9;&quot;A&quot;.&quot;expr40&quot;,
+&#x9;&quot;A&quot;.&quot;DATASOURCE_ADAPTER_NAME&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_ADAPTER_TYPE&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_HOSTNAME&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_PORT&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_DATABASE_NAME&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_LOGIN&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_PASSWORD&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_URL&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_PATTERN_STR&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_ROOT&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_CACHE_STATUS&quot;,
+&#x9;&quot;D&quot;.&quot;DATASOURCE_CACHE_TRACKING&quot; 
+&#x9;FROM 
+&#x9;&#x9;(SELECT 
+&#x9;&#x9;&#x9;CAST(&apos;ALL_DATASOURCES&apos; AS VARCHAR) AS &quot;RESOURCE_ORIGIN&quot;,
+&#x9;&#x9;&#x9;&quot;P&quot;.&quot;DATASOURCE_ID&quot; AS &quot;RESOURCE_ID&quot;,
+&#x9;&#x9;&#x9;CAST(CASE WHEN STRPOS(RTRIM(UPPER(&quot;P&quot;.&quot;DATASOURCE_NAME&quot;)),&apos;/&apos;) &gt; 0 THEN ((&apos;&quot;&apos; || &quot;P&quot;.&quot;DATASOURCE_NAME&quot;) || &apos;&quot;&apos;) ELSE &quot;P&quot;.&quot;DATASOURCE_NAME&quot; END AS VARCHAR) AS &quot;RESOURCE_NAME&quot;,
+&#x9;&#x9;&#x9;CAST(&quot;P&quot;.&quot;PARENT_PATH&quot; AS VARCHAR) AS &quot;PARENT_PATH&quot;,REPLACE(CAST(((&quot;P&quot;.&quot;PARENT_PATH&quot; || &apos;/&apos;) || CASE WHEN STRPOS(RTRIM(UPPER(&quot;P&quot;.&quot;DATASOURCE_NAME&quot;)),&apos;/&apos;) &gt; 0 THEN ((&apos;&quot;&apos; || &quot;P&quot;.&quot;DATASOURCE_NAME&quot;) || &apos;&quot;&apos;) ELSE &quot;P&quot;.&quot;DATASOURCE_NAME&quot; END) AS VARCHAR), &apos;//&apos;, &apos;/&apos;) AS &quot;RESOURCE_PATH&quot;,
+&#x9;&#x9;&#x9;CAST(&apos;DATA_SOURCE&apos; AS VARCHAR) AS &quot;RESOURCE_TYPE&quot;,CAST(&quot;P&quot;.&quot;ADAPTER_TYPE_CATEGORY&quot; AS VARCHAR) AS &quot;RESOURCE_SUBTYPE&quot;,
+&#x9;&#x9;&#x9;CAST(NULL as VARCHAR) AS &quot;RESOURCE_LINK_TYPE&quot;,
+&#x9;&#x9;&#x9;CAST(CASE WHEN UPPER(&quot;P&quot;.&quot;IS_PUBLISHED&quot;) IS NOT NULL THEN SUBSTR(&quot;P&quot;.&quot;IS_PUBLISHED&quot;, 1, 1) ELSE &quot;P&quot;.&quot;IS_PUBLISHED&quot; END AS VARCHAR) AS &quot;IS_PUBLISHED&quot;,
+&#x9;&#x9;&#x9;CAST(&quot;P&quot;.&quot;GUID&quot; AS VARCHAR) AS &quot;GUID&quot;,
+&#x9;&#x9;&#x9;CAST(CASE WHEN STRPOS(RTRIM(UPPER(&quot;P&quot;.&quot;PARENT_PATH&quot;)),&apos;/SERVICES/DATABASES&apos;) = 1 THEN &apos;VirtualRelational&apos; WHEN STRPOS(RTRIM(UPPER(&quot;P&quot;.&quot;PARENT_PATH&quot;)),&apos;/SERVICES/WEBSERVICES&apos;) = 1 THEN &apos;VirtualWsdl&apos; ELSE NULL END AS VARCHAR) AS &quot;DATASOURCE_TYPE&quot;,
+&#x9;&#x9;&#x9;&quot;P&quot;.&quot;DATASOURCE_NAME&quot; AS &quot;DATASERVICE_NAME&quot;,
+&#x9;&#x9;&#x9;CAST(NULL as VARCHAR) AS &quot;CATEGORY_NAME&quot;,
+&#x9;&#x9;&#x9;CAST(NULL as VARCHAR) AS &quot;CATALOG_NAME&quot;,
+&#x9;&#x9;&#x9;CAST(NULL as VARCHAR) AS &quot;SCHEMA_NAME&quot;,
+&#x9;&#x9;&#x9;CAST(NULL AS INTEGER) AS &quot;COLUMN_ID&quot;,
+&#x9;&#x9;&#x9;CAST(NULL as VARCHAR) AS &quot;COLUMN_NAME&quot;,
+&#x9;&#x9;&#x9;CAST(NULL as VARCHAR) AS &quot;COLUMN_TYPE&quot;,
+&#x9;&#x9;&#x9;CAST(NULL as VARCHAR) AS &quot;COLUMN_BASE&quot;,
+&#x9;&#x9;&#x9;CAST(NULL AS DECIMAL) AS &quot;COLUMN_SIZE&quot;,
+&#x9;&#x9;&#x9;CAST(NULL AS DECIMAL) AS &quot;COLUMN_SCALE&quot;,
+&#x9;&#x9;&#x9;CAST(NULL AS INTEGER) AS &quot;COLUMN_ORDER&quot;,
+&#x9;&#x9;&#x9;CAST(NULL as VARCHAR) AS &quot;COLUMN_DIRECTION&quot;,
+&#x9;&#x9;&#x9;&quot;P&quot;.&quot;ANNOTATION&quot;,&quot;P&quot;.&quot;OWNER_ID&quot;,
+&#x9;&#x9;&#x9;CAST(&quot;P&quot;.&quot;OWNER&quot; AS VARCHAR) AS &quot;OWNER_NAME&quot;,
+&#x9;&#x9;&#x9;&quot;domains&quot;.&quot;domain_name&quot; AS &quot;OWNER_DOMAIN&quot;,
+&#x9;&#x9;&#x9;&quot;P&quot;.&quot;DATASOURCE_CREATOR_ID&quot; AS &quot;CREATOR_USER_ID&quot;,
+&#x9;&#x9;&#x9;&quot;users1&quot;.&quot;user_name&quot; AS &quot;CREATOR_USER_NAME&quot;,
+&#x9;&#x9;&#x9;&quot;domains2&quot;.&quot;domain_name&quot; AS &quot;CREATOR_USER_DOMAIN&quot;,
+&#x9;&#x9;&#x9;CASE WHEN &quot;P&quot;.&quot;DATASOURCE_CREATION_TIMESTAMP&quot; IS NULL OR &quot;P&quot;.&quot;DATASOURCE_CREATION_TIMESTAMP&quot; = 0 THEN NULL ELSE TO_TIMESTAMP(TRUNC((CAST(&quot;P&quot;.&quot;DATASOURCE_CREATION_TIMESTAMP&quot; AS BIGINT) / 1000))) END AS &quot;CREATOR_DATE&quot;,
+&#x9;&#x9;&#x9;&quot;P&quot;.&quot;DATASOURCE_CREATION_TIMESTAMP&quot; AS &quot;CREATOR_DATE_INT&quot;,
+&#x9;&#x9;&#x9;&quot;P&quot;.&quot;DATASOURCE_MODIFIER_ID&quot; AS &quot;LAST_MODIFIED_USER_ID&quot;,
+&#x9;&#x9;&#x9;&quot;users3&quot;.&quot;user_name&quot; AS &quot;LAST_MODIFIED_USER_NAME&quot;,
+&#x9;&#x9;&#x9;&quot;domains4&quot;.&quot;domain_name&quot; AS &quot;LAST_MODIFIED_USER_DOMAIN&quot;,
+&#x9;&#x9;&#x9;
+expr40 should be &quot;LAST_MODIFIED_DATE_INT&quot;
+-expr40-&gt;&#x9;CASE WHEN &quot;P&quot;.&quot;expr40&quot; IS NULL OR &quot;P&quot;.&quot;expr40&quot; = 0 THEN NULL ELSE TO_TIMESTAMP(TRUNC((CAST(&quot;P&quot;.&quot;expr40&quot; AS BIGINT) / 1000))) END AS &quot;LAST_MODIFIED_DATE&quot;,&quot;P&quot;.&quot;expr40&quot; AS &quot;LAST_MODIFIED_DATE_INT&quot;,
+
+&#x9;&#x9;&#x9;&quot;P&quot;.&quot;ADAPTER_NAME&quot; AS &quot;DATASOURCE_ADAPTER_NAME&quot; 
+&#x9;&#x9;&#x9;FROM 
+&#x9;&#x9;&#x9;&#x9;(((SELECT 
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;datasource_id&quot; AS &quot;DATASOURCE_ID&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;datasource_name&quot; AS &quot;DATASOURCE_NAME&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;parent_path&quot; AS &quot;PARENT_PATH&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;adapter_type_category&quot; AS &quot;ADAPTER_TYPE_CATEGORY&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;CASE WHEN RTRIM(UPPER(CAST(RTRIM(UPPER(&quot;datasources&quot;.&quot;parent_path&quot;)) AS VARCHAR))) LIKE &apos;/SERVICES/%&apos; THEN &apos;YES&apos; ELSE &apos;NO&apos; END AS &quot;IS_PUBLISHED&quot;,&quot;datasources&quot;.&quot;guid&quot; AS &quot;GUID&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;annotation&quot; AS &quot;ANNOTATION&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;owner_id&quot; AS &quot;OWNER_ID&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;users&quot;.&quot;user_name&quot; AS &quot;OWNER&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;datasource_creator_id&quot; AS &quot;DATASOURCE_CREATOR_ID&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;datasource_creation_timestamp&quot; AS &quot;DATASOURCE_CREATION_TIMESTAMP&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;datasource_modifier_id&quot; AS &quot;DATASOURCE_MODIFIER_ID&quot;,
+&#x9;&#x9;&#x9;&#x9;&#x9;
+expr40 should be &quot;LAST_MODIFIED_DATE_INT&quot;
+-expr40-&gt;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;datasource_modification_timestamp&quot; AS &quot;expr40&quot;,
+
+&#x9;&#x9;&#x9;&#x9;&#x9;&quot;datasources&quot;.&quot;adapter_name&quot; AS &quot;ADAPTER_NAME&quot; 
+&#x9;&#x9;&#x9;&#x9;&#x9;FROM &quot;cisrepo&quot;.&quot;system_datasources&quot; &quot;datasources&quot; 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;LEFT OUTER JOIN &quot;cisrepo&quot;.&quot;system_users&quot; &quot;users&quot; ON &quot;datasources&quot;.&quot;owner_id&quot; = &quot;users&quot;.&quot;user_id&quot;) &quot;P&quot; 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;INNER JOIN (&quot;cisrepo&quot;.&quot;system_users&quot; &quot;users0&quot; 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;LEFT OUTER JOIN &quot;cisrepo&quot;.&quot;system_domains&quot; &quot;domains&quot; ON &quot;users0&quot;.&quot;domain_id&quot; = &quot;domains&quot;.&quot;domain_id&quot;) ON &quot;P&quot;.&quot;OWNER_ID&quot; = &quot;users0&quot;.&quot;user_id&quot;) 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;LEFT OUTER JOIN (&quot;cisrepo&quot;.&quot;system_users&quot; &quot;users1&quot; 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;LEFT OUTER JOIN &quot;cisrepo&quot;.&quot;system_domains&quot; &quot;domains2&quot; ON &quot;users1&quot;.&quot;domain_id&quot; = &quot;domains2&quot;.&quot;domain_id&quot;) 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ON &quot;P&quot;.&quot;DATASOURCE_CREATOR_ID&quot; = &quot;users1&quot;.&quot;user_id&quot;)
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;LEFT OUTER JOIN (&quot;cisrepo&quot;.&quot;system_users&quot; &quot;users3&quot; 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;LEFT OUTER JOIN &quot;cisrepo&quot;.&quot;system_domains&quot; &quot;domains4&quot; ON &quot;users3&quot;.&quot;domain_id&quot; = &quot;domains4&quot;.&quot;domain_id&quot;) 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ON &quot;P&quot;.&quot;DATASOURCE_MODIFIER_ID&quot; = &quot;users3&quot;.&quot;user_id&quot;
+&#x9;&#x9;) &quot;A&quot; 
+&#x9;&#x9;&#x9;LEFT OUTER JOIN 
+&#x9;&#x9;&#x9;&#x9;(SELECT CAST(CASE WHEN RTRIM(UPPER(&quot;p9&quot;.&quot;PROPERTY_VALUE&quot;)) IS NULL OR LENGTH(RTRIM(UPPER(&quot;p9&quot;.&quot;PROPERTY_VALUE&quot;))) = 0 THEN NULL ELSE &quot;p9&quot;.&quot;PROPERTY_VALUE&quot; END AS VARCHAR) AS &quot;DATASOURCE_ADAPTER_TYPE&quot;,CAST(CASE WHEN RTRIM(UPPER(&quot;p14&quot;.&quot;PROPERTY_VALUE&quot;)) IS NULL OR LENGTH(RTRIM(UPPER(&quot;p14&quot;.&quot;PROPERTY_VALUE&quot;))) = 0 THEN NULL ELSE &quot;p14&quot;.&quot;PROPERTY_VALUE&quot; END AS VARCHAR) AS &quot;DATASOURCE_HOSTNAME&quot;,CAST(CASE WHEN RTRIM(UPPER(&quot;p15&quot;.&quot;PROPERTY_VALUE&quot;)) IS NULL OR LENGTH(RTRIM(UPPER(&quot;p15&quot;.&quot;PROPERTY_VALUE&quot;))) = 0 THEN NULL ELSE &quot;p15&quot;.&quot;PROPERTY_VALUE&quot; END AS INTEGER) AS &quot;DATASOURCE_PORT&quot;,CAST(CASE WHEN RTRIM(UPPER(&quot;p13&quot;.&quot;PROPERTY_VALUE&quot;)) IS NULL OR LENGTH(RTRIM(UPPER(&quot;p13&quot;.&quot;PROPERTY_VALUE&quot;))) = 0 THEN NULL ELSE &quot;p13&quot;.&quot;PROPERTY_VALUE&quot; END AS VARCHAR) AS &quot;DATASOURCE_DATABASE_NAME&quot;,CAST(CASE WHEN RTRIM(UPPER(&quot;p10&quot;.&quot;PROPERTY_VALUE&quot;)) IS NOT NULL THEN &quot;p10&quot;.&quot;PROPERTY_VALUE&quot; WHEN RTRIM(UPPER(&quot;p11&quot;.&quot;PROPERTY_VALUE&quot;)) IS NOT NULL THEN &quot;p11&quot;.&quot;PROPERTY_VALUE&quot; ELSE NULL END AS VARCHAR) AS &quot;DATASOURCE_LOGIN&quot;,CAST(CASE WHEN RTRIM(UPPER(&quot;p12&quot;.&quot;PROPERTY_VALUE&quot;)) IS NULL OR LENGTH(RTRIM(UPPER(&quot;p12&quot;.&quot;PROPERTY_VALUE&quot;))) = 0 THEN NULL ELSE &quot;p12&quot;.&quot;PROPERTY_VALUE&quot; END AS VARCHAR) AS &quot;DATASOURCE_PASSWORD&quot;,CAST(CASE WHEN RTRIM(UPPER(&quot;p16&quot;.&quot;PROPERTY_VALUE&quot;)) IS NULL OR LENGTH(RTRIM(UPPER(&quot;p16&quot;.&quot;PROPERTY_VALUE&quot;))) = 0 THEN NULL ELSE &quot;p16&quot;.&quot;PROPERTY_VALUE&quot; END AS VARCHAR) AS &quot;DATASOURCE_URL&quot;,CAST(CASE WHEN RTRIM(UPPER(&quot;p17&quot;.&quot;PROPERTY_VALUE&quot;)) IS NULL OR LENGTH(RTRIM(UPPER(&quot;p17&quot;.&quot;PROPERTY_VALUE&quot;))) = 0 THEN NULL ELSE &quot;p17&quot;.&quot;PROPERTY_VALUE&quot; END AS VARCHAR) AS &quot;DATASOURCE_PATTERN_STR&quot;,CAST(CASE WHEN RTRIM(UPPER(&quot;p18&quot;.&quot;PROPERTY_VALUE&quot;)) IS NULL OR LENGTH(RTRIM(UPPER(&quot;p18&quot;.&quot;PROPERTY_VALUE&quot;))) = 0 THEN NULL ELSE &quot;p18&quot;.&quot;PROPERTY_VALUE&quot; END AS VARCHAR) AS &quot;DATASOURCE_ROOT&quot;,CAST(CASE WHEN RTRIM(UPPER(&quot;p19&quot;.&quot;PROPERTY_VALUE&quot;)) IS NULL OR LENGTH(RTRIM(UPPER(&quot;p19&quot;.&quot;PROPERTY_VALUE&quot;))) = 0 THEN NULL ELSE &quot;p19&quot;.&quot;PROPERTY_VALUE&quot; END AS VARCHAR) AS &quot;DATASOURCE_CACHE_STATUS&quot;,CAST(CASE WHEN RTRIM(UPPER(&quot;p20&quot;.&quot;PROPERTY_VALUE&quot;)) IS NULL OR LENGTH(RTRIM(UPPER(&quot;p20&quot;.&quot;PROPERTY_VALUE&quot;))) = 0 THEN NULL ELSE &quot;p20&quot;.&quot;PROPERTY_VALUE&quot; END AS VARCHAR) AS &quot;DATASOURCE_CACHE_TRACKING&quot;,&quot;datasources6&quot;.&quot;datasource_id&quot; AS &quot;DATASOURCE_ID&quot; 
+&#x9;&#x9;&#x9;&#x9;FROM (((((((((((&quot;cisrepo&quot;.&quot;system_datasources&quot; &quot;datasources6&quot; 
+&#x9;&#x9;&#x9;&#x9;&#x9;LEFT OUTER JOIN (SELECT &quot;resourceProperties&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties&quot;.&quot;property_name&quot;))))) = &apos;TYPE&apos;) &quot;p9&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p9&quot;.&quot;METADATA_ID&quot;) 
+&#x9;&#x9;&#x9;LEFT OUTER JOIN 
+&#x9;&#x9;&#x9;&#x9;(SELECT &quot;resourceProperties12&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties12&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties12&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties12&quot;.&quot;property_name&quot;))))) = &apos;LOGIN&apos;) &quot;p10&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p10&quot;.&quot;METADATA_ID&quot;) LEFT OUTER JOIN (SELECT &quot;resourceProperties15&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties15&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties15&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties15&quot;.&quot;property_name&quot;))))) = &apos;USERNAME&apos;) &quot;p11&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p11&quot;.&quot;METADATA_ID&quot;) LEFT OUTER JOIN (SELECT &quot;resourceProperties18&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties18&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties18&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties18&quot;.&quot;property_name&quot;))))) = &apos;PASSWORD&apos;) &quot;p12&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p12&quot;.&quot;METADATA_ID&quot;) LEFT OUTER JOIN (SELECT &quot;resourceProperties21&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties21&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties21&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties21&quot;.&quot;property_name&quot;))))) = &apos;URLDATABASENAME&apos;) &quot;p13&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p13&quot;.&quot;METADATA_ID&quot;) LEFT OUTER JOIN (SELECT &quot;resourceProperties24&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties24&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties24&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties24&quot;.&quot;property_name&quot;))))) = &apos;URLIP&apos;) &quot;p14&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p14&quot;.&quot;METADATA_ID&quot;) LEFT OUTER JOIN (SELECT &quot;resourceProperties27&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties27&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties27&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties27&quot;.&quot;property_name&quot;))))) = &apos;URLPORT&apos;) &quot;p15&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p15&quot;.&quot;METADATA_ID&quot;) LEFT OUTER JOIN (SELECT &quot;resourceProperties30&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties30&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties30&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties30&quot;.&quot;property_name&quot;))))) = &apos;URL&apos;) &quot;p16&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p16&quot;.&quot;METADATA_ID&quot;) LEFT OUTER JOIN (SELECT &quot;resourceProperties33&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties33&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties33&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties33&quot;.&quot;property_name&quot;))))) = &apos;URLPATTERNSTR&apos;) &quot;p17&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p17&quot;.&quot;METADATA_ID&quot;) LEFT OUTER JOIN (SELECT &quot;resourceProperties36&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties36&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties36&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties36&quot;.&quot;property_name&quot;))))) = &apos;ROOT&apos;) &quot;p18&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p18&quot;.&quot;METADATA_ID&quot;) LEFT OUTER JOIN (SELECT &quot;resourceProperties39&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties39&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties39&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties39&quot;.&quot;property_name&quot;))))) = &apos;CACHESTATUSTABLE&apos;) &quot;p19&quot; ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p19&quot;.&quot;METADATA_ID&quot;) LEFT OUTER JOIN (SELECT &quot;resourceProperties42&quot;.&quot;property_value&quot; AS &quot;PROPERTY_VALUE&quot;,&quot;resourceProperties42&quot;.&quot;metadata_id&quot; AS &quot;METADATA_ID&quot; FROM &quot;cisrepo&quot;.&quot;system_resource_properties&quot; &quot;resourceProperties42&quot; WHERE RTRIM(UPPER(LOWER(RTRIM(UPPER(&quot;resourceProperties42&quot;.&quot;property_name&quot;))))) = &apos;CACHETRACKINGTABLE&apos;) &quot;p20&quot; 
+&#x9;&#x9;&#x9;&#x9;ON &quot;datasources6&quot;.&quot;datasource_id&quot; = &quot;p20&quot;.&quot;METADATA_ID&quot;
+&#x9;&#x9;&#x9;) &quot;D&quot; 
+&#x9;&#x9;&#x9;ON &quot;A&quot;.&quot;RESOURCE_ID&quot; = &quot;D&quot;.&quot;DATASOURCE_ID&quot;&quot;
+
+.  [data-3923000]
+Cause: ERROR: column A.expr40 does not exist
+  Position: 641 [Log ID: a85b473f-362b-4bea-b92b-a4eeed313cd3]
+*/
+PROCEDURE &quot;_README&quot;()
+BEGIN
+END</attribute>
+  <attribute name="creationDate" type="LONG">1668254970089</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1668256832758</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="native_only" type="STRING">false</attribute>
+  <attribute name="references" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1668254970089</attribute>
+</metadata>
