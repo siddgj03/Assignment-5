@@ -1,0 +1,303 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPOLICYSTATE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPOLICYSTATE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMTFINALPREMIUMFIXPFROMHVFPPV" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTFINALPREMIUMFULLFROMHVFPPV" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTFINALPREMIUMTERMFROMHVFPPV" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATECONTRACTCONTFROMHVPV" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYCONTFROMHVFPPV" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYCONTINUATIONFROMHVPV" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYENDFROMHVFPPV" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYENDFROMHVPV" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYSTARTFROMHVFPPV" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESUSPENSIONSTARTFROMHVFPPV" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESUSPENSIONSTARTFROMHVPV" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FROMHVFPPVDISTRIBUTORBUSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FROMHVFPPVPAYMENTPERIODID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FROMHVPVDISTRIBUTORBUSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FROMHVPVPAYMENTPERIODID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASCOVERAGEFORDAMAGEFROMHVPV" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HIGHESTVALIDFINPROCPOLVERAPPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HIGHESTVALIDPOLICYVERSIONAPPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVOICEPOLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVOICEPOLICYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCREATEDBYPOLICYCONTINUATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MUSTCONTRACTBECONTFROMHVPV" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORDERWITHINPOLICY" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYSTATEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSSTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYSTATE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPOLICYSTATE.AMTFINALPREMIUMFIXPFROMHVFPPV AMTFINALPREMIUMFIXPFROMHVFPPV,
+&#x9;RPPOLICYSTATE.AMTFINALPREMIUMFULLFROMHVFPPV AMTFINALPREMIUMFULLFROMHVFPPV,
+&#x9;RPPOLICYSTATE.AMTFINALPREMIUMTERMFROMHVFPPV AMTFINALPREMIUMTERMFROMHVFPPV,
+&#x9;RPPOLICYSTATE.CURRENCYID CURRENCYID,
+&#x9;RPPOLICYSTATE.DATECONTRACTCONTFROMHVPV DATECONTRACTCONTFROMHVPV,
+&#x9;RPPOLICYSTATE.DATEPOLICYCONTFROMHVFPPV DATEPOLICYCONTFROMHVFPPV,
+&#x9;RPPOLICYSTATE.DATEPOLICYCONTINUATIONFROMHVPV DATEPOLICYCONTINUATIONFROMHVPV,
+&#x9;RPPOLICYSTATE.DATEPOLICYENDFROMHVFPPV DATEPOLICYENDFROMHVFPPV,
+&#x9;RPPOLICYSTATE.DATEPOLICYENDFROMHVPV DATEPOLICYENDFROMHVPV,
+&#x9;RPPOLICYSTATE.DATEPOLICYSTARTFROMHVFPPV DATEPOLICYSTARTFROMHVFPPV,
+&#x9;RPPOLICYSTATE.DATESUSPENSIONSTARTFROMHVFPPV DATESUSPENSIONSTARTFROMHVFPPV,
+&#x9;RPPOLICYSTATE.DATESUSPENSIONSTARTFROMHVPV DATESUSPENSIONSTARTFROMHVPV,
+&#x9;RPPOLICYSTATE.FROMHVFPPVDISTRIBUTORBUSUNITID FROMHVFPPVDISTRIBUTORBUSUNITID,
+&#x9;RPPOLICYSTATE.FROMHVFPPVPAYMENTPERIODID FROMHVFPPVPAYMENTPERIODID,
+&#x9;RPPOLICYSTATE.FROMHVPVDISTRIBUTORBUSUNITID FROMHVPVDISTRIBUTORBUSUNITID,
+&#x9;RPPOLICYSTATE.FROMHVPVPAYMENTPERIODID FROMHVPVPAYMENTPERIODID,
+&#x9;RPPOLICYSTATE.HASCOVERAGEFORDAMAGEFROMHVPV HASCOVERAGEFORDAMAGEFROMHVPV,
+&#x9;RPPOLICYSTATE.HIGHESTVALIDFINPROCPOLVERAPPID HIGHESTVALIDFINPROCPOLVERAPPID,
+&#x9;RPPOLICYSTATE.HIGHESTVALIDPOLICYVERSIONAPPID HIGHESTVALIDPOLICYVERSIONAPPID,
+&#x9;RPPOLICYSTATE.INVOICEPOLICYID INVOICEPOLICYID,
+&#x9;RPPOLICYSTATE.INVOICEPOLICYIDENTIFIER INVOICEPOLICYIDENTIFIER,
+&#x9;RPPOLICYSTATE.ISCREATEDBYPOLICYCONTINUATION ISCREATEDBYPOLICYCONTINUATION,
+&#x9;RPPOLICYSTATE.MUSTCONTRACTBECONTFROMHVPV MUSTCONTRACTBECONTFROMHVPV,
+&#x9;RPPOLICYSTATE.ORDERWITHINPOLICY ORDERWITHINPOLICY,
+&#x9;RPPOLICYSTATE.POLICYID POLICYID,
+&#x9;RPPOLICYSTATE.POLICYIDENTIFIER POLICYIDENTIFIER,
+&#x9;RPPOLICYSTATE.POLICYSTATEID POLICYSTATEID,
+&#x9;RPPOLICYSTATE.TSCHANGED TSCHANGED,
+&#x9;RPPOLICYSTATE.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPPOLICYSTATE.TSCREATED TSCREATED,
+&#x9;RPPOLICYSTATE.TSEND TSEND,
+&#x9;RPPOLICYSTATE.TSSTART TSSTART,
+&#x9;RPPOLICYSTATE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPOLICYSTATE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYSTATE RPPOLICYSTATE</attribute>
+  <attribute name="creationDate" type="LONG">1664290038265</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYSTATE&apos;.  On line 37, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290038265</attribute>
+</metadata>

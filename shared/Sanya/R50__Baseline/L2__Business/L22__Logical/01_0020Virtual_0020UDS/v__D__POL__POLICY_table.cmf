@@ -1,0 +1,1790 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_D_POL_POLICY" path="/shared/Sanya/R50_Baseline/L2_Business/L22_Logical/01 Virtual UDS/v_D_POL_POLICY" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="POLICY_NO" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_VERSION" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUSTOMER_ID" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="X_SOURCE_SYSTEM_CD" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="XX_ASSISTANCE_TYPE_CD" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/lib/sources/cacheDataSource" type="DATA_SOURCE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/lib/sources/cacheDataSource/view226087" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/AIS/v_Policy_KCIM06T" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CDNUMPOL">
+        <datatype type="STRING" maxLength="14"/>
+      </element>
+      <element name="CTVRSPOL">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="0"/>
+      </element>
+      <element name="CDNUMCON">
+        <datatype type="STRING" maxLength="14"/>
+      </element>
+      <element name="NUSUPLEM">
+        <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+      </element>
+      <element name="INULTSIT">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INBLOPOL">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CDPRODTE">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CDPRODCO">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CDCANALD">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="TCCODTAR">
+        <datatype type="STRING" maxLength="5"/>
+      </element>
+      <element name="TCFORCON">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="CDNIVDIV">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="0"/>
+      </element>
+      <element name="CDNIVSUB">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="0"/>
+      </element>
+      <element name="CDESTRUC">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="CLGESTI">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="CLGESUN">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CLPROTI">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="CLPROUN">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="TCPROPOL">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CDCODCAM">
+        <datatype type="STRING" maxLength="5"/>
+      </element>
+      <element name="NUPROCOF">
+        <datatype type="STRING" maxLength="14"/>
+      </element>
+      <element name="TCTIMOVP">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCMOMOVP">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="DUCONTRA">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="ESPOLIZA">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCMOCAES">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="FECAMEST">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="INEMREPO">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INAVSVTO">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="NUDUPREC">
+        <datatype type="DECIMAL" maxDigits="3" maxFractionalDigits="0"/>
+      </element>
+      <element name="INNIVELR">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INNIVDRE">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TICONESP">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCFORPAG">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCFOPASU">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="HOEFTINI">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      </element>
+      <element name="FEINIPOL">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="FEEFTONA">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="FEEFTOMO">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="FEVENCIM">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="FEFINEFE">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="FEULTSTR">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="INFREREG">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="FEREGUPO">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="INEXOBSE">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INIMPMAL">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCINFISC">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INANCACO">
+        <datatype type="DECIMAL" maxDigits="2" maxFractionalDigits="0"/>
+      </element>
+      <element name="INTICOAS">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INRECUNI">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="POCOASEG">
+        <datatype type="DECIMAL" maxDigits="7" maxFractionalDigits="6"/>
+      </element>
+      <element name="INREAACE">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCINTIPE">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CLFILTOM">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CLSECTOM">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="TCNIFTOM">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCDOCTOM">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CDNIFTOM">
+        <datatype type="STRING" maxLength="9"/>
+      </element>
+      <element name="NOTOMPOL">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="NOTOMP01">
+        <datatype type="STRING" maxLength="45"/>
+      </element>
+      <element name="NOTOMP02">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="TCVIATOM">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="NODIRTOM">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="NUDIRTOM">
+        <datatype type="STRING" maxLength="9"/>
+      </element>
+      <element name="CLACCADT">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="NOPOBTOM">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="NOPROTOM">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="TCPOBTOM">
+        <datatype type="STRING" maxLength="11"/>
+      </element>
+      <element name="TCCOPTOM">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="TCPASTOM">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="INTARZUR">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CLFILPAG">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CDBANCO">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="CDOFICIN">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="NUDICTRL">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="NUMECTA">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="TCTIPCOM">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCCANCO1">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="TCCANCOS">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CLINTEC1">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CLINTECS">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CLINTEP1">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CLINTEP2">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CLINTEP3">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="TCCDMONE">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="CDTIPCAM">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="FECAMBIO">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="INIDIOMA">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="INTIPREF">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="POREVALZ">
+        <datatype type="DECIMAL" maxDigits="7" maxFractionalDigits="6"/>
+      </element>
+      <element name="IMMINREC">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="3"/>
+      </element>
+      <element name="CTVRSANT">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="0"/>
+      </element>
+      <element name="INGENEXT">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INGENDOC">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CDINTCEC">
+        <datatype type="STRING" maxLength="14"/>
+      </element>
+      <element name="TCCDSBU">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="CDCIAGRU">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="INREGULA">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INREACED">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INUNDQUE">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INPOLBOU">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCFIJUT1">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCNMTYT1">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCPREFT1">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="TCSUFIX1">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="DNCOMTO1">
+        <datatype type="STRING" maxLength="120"/>
+      </element>
+      <element name="TCFIJUT2">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCNMTYT2">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CLFILTO2">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CDNIFTO2">
+        <datatype type="STRING" maxLength="9"/>
+      </element>
+      <element name="TCPREFT2">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="NOTOMPO2">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="NOTOMP12">
+        <datatype type="STRING" maxLength="45"/>
+      </element>
+      <element name="NOTOMP22">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="TCSUFIX2">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="DNCOMTO2">
+        <datatype type="STRING" maxLength="120"/>
+      </element>
+      <element name="TCRECTYM">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="DNNOMBRM">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="TCSTCDM">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="CDDEVPTM">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="CDDEVPCM">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CDFIDIM">
+        <datatype type="STRING" maxLength="5"/>
+      </element>
+      <element name="TCTIPDOR">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCTIPDO2">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CLSECTOR">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="NODIRTOR">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="TCRECTYR">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="DNNOMBRR">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="NOPOBTOR">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="TCSTCDR">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="TCCOPTOR">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="CDDEVPTR">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="CDDEVPCR">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCPASTOR">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="CDFIDIR">
+        <datatype type="STRING" maxLength="5"/>
+      </element>
+      <element name="FEELOBDT">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="NUACCBIL">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="TCRISKST">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="CDCMPNY">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CDTIER">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="NOACORID">
+        <datatype type="STRING" maxLength="14"/>
+      </element>
+      <element name="DSREGLAT">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCPREINS">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="CDUNDWRT">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CDPOLPCL">
+        <datatype type="STRING" maxLength="14"/>
+      </element>
+      <element name="ESAPPLIC">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INMPD">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="TCTIPMPD">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="INEXFLAG">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="DSSHNAME">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="CDLBCEFD">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="FEEMISIO">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="CDUSEREM">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CDNEGOCI">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="HOEFTOMO">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      </element>
+      <element name="NUMDURA">
+        <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+      </element>
+      <element name="TYPEDURA">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INOVERWR">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CDNURISK">
+        <datatype type="STRING" maxLength="14"/>
+      </element>
+      <element name="CDDUNNIN">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="INSIGNED">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CDROLE1">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="CDROLE2">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="CDROLE3">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="DSFNCONT">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DSLNCONT">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="INCLEASI">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INALACLI">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="INALAPOL">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="NUMAGECL">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="CDBOX">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="0"/>
+      </element>
+      <element name="ADDRMAIL">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="TYESTRUC">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="DSTEMPLA">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="CDCOLLCH">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="HOURISSU">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      </element>
+      <element name="INDFOBO">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CDADMUSE">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CTVERCON">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="0"/>
+      </element>
+      <element name="NUSOPRES">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+      <element name="FECREATE">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="CDUSERCR">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CDCAMEST">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="TCMOREFQ">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="FECANCFU">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="NUREPLAC">
+        <datatype type="STRING" maxLength="14"/>
+      </element>
+      <element name="INDQQFQ">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="FEVALDAT">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="FECOMQUO">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="ESAUTHOR">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="IMPROADV">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="3"/>
+      </element>
+      <element name="IMADVANC">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="3"/>
+      </element>
+      <element name="NMINSPF">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="NMINSPL">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DATDEADL">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="0"/>
+      </element>
+      <element name="CDINSPEC">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CDSEXPH">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="LNCREATE">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="FNCREATE">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="LNUPDATE">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="FNUPDATE">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="ESCONTRA">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="CDUSUARI">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CDEMPUSU">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="NOPROGRA">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="TSULTMOD">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="X_TIMESTAMP">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/QIS/v_Customer" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="IDENTIFIER">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ROADORGANIZATIONMEMBERNUMBER">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="DISCOUNTAGREEMENTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="LANGUAGEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DEFAULTBANKACCOUNTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="CUSTOMERIDENTIFIER">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="CUSTOMERSATISFACTIONSURVEYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="EMAILADDRESS1">
+        <datatype type="STRING" maxLength="640"/>
+      </element>
+      <element name="EMAILADDRESS2">
+        <datatype type="STRING" maxLength="640"/>
+      </element>
+      <element name="RECEIVESMAILING">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="AVOIDREMOVEDUPLICATE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CANDEDUCTVAT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISMARKED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PREFERREDCOMMUNICATIONTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ISUNUSEDDUETOMERGE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USEPEREXDATEFORCLAIMPAYMENTS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CLAIMPAYMENTFREQUENCYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PERIODICALEXDATEFROMDATE">
+        <datatype type="DATE"/>
+      </element>
+      <element name="ISCOMPANY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NAME">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="FIRSTNAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="INITIALS">
+        <datatype type="STRING" maxLength="24"/>
+      </element>
+      <element name="INSERTION">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="PREFIX">
+        <datatype type="STRING" maxLength="70"/>
+      </element>
+      <element name="DATEOFBIRTH">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEDECEASED">
+        <datatype type="DATE"/>
+      </element>
+      <element name="GENDER">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="TELEPHONENUMBERPRIVATE">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="TELEPHONENUMBERBUSINESS">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="TELEPHONENUMBERMOBILE">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="TELEPHONENUMBER1">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="TELEPHONENUMBER2">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="TELEPHONENUMBER3">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="FAXNUMBER">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="SOCIALSECURITYNUMBER">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="PASSPORTNUMBER">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="CONTACTPERSONFIRSTNAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="CONTACTPERSONGENDER">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="CONTACTPERSONINITIALS">
+        <datatype type="STRING" maxLength="24"/>
+      </element>
+      <element name="CONTACTPERSONINSERTION">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="CONTACTPERSONNAME">
+        <datatype type="STRING" maxLength="140"/>
+      </element>
+      <element name="PASSPORTCOUNTRYOFISSUEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DATEPASSPORTVALIDUNTIL">
+        <datatype type="DATE"/>
+      </element>
+      <element name="PLACEOFBIRTH">
+        <datatype type="STRING" maxLength="120"/>
+      </element>
+      <element name="COUNTRYOFBIRTHID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="IDENTITYCARDNUMBER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="IDENTITYCARDCOUNTRYOFISSUEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DATEIDENTITYCARDVALIDUNTIL">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DRIVINGLICENCENUMBER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="DRIVINGLICENCECOUNTRYOFISSUEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DATEDRIVINGLICENCEVALIDUNTIL">
+        <datatype type="DATE"/>
+      </element>
+      <element name="EMPLOYEENUMBERFORINTERNALORG">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="CHAMBEROFCOMMERCEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="LEGALFORMID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="NATIONALITYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="MEMBERNUMBERLOYALTYPROGRAM">
+        <datatype type="STRING" maxLength="24"/>
+      </element>
+      <element name="CHAMBEROFCOMMERCENUMBER">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="TSFROMCHANGESAREACTIVE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="MERGEDINTOCUSTOMERID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="HASOVERDUEINVOICE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISSPECIALFINPROCAPPLICABLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISRELEVANTFORCRMSYSTEM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="FAMILYCOMPOSITIONID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="HASSALARIEDEMPLOYEES">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="COMMTYPEFORSTATUSUPDATEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="RECEIVESSTATUSUPDATECHECKLIST">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPASSIVENONFINANCIALENTITY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="REGISTRATIONCOUNTRYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ISDECEASED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ALLOWSELECTRDELIVERYBYEXTSYS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISMAILUNDELIVERABLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISEXTERNALLYMANAGED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="POLDOCSCOMMTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DEBTORCATEGORYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="RECEIVESINVOICESINONLBANKING">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NATIONALCOMPANYNUMBER">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="SHOULDREPLACEMENTINCOMEBETAXED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="APPLYTAXDISCOUNTS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ALTTAXPERCENTAGEFINVALID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="APPLICABLETAXTABLEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="HEALTHINSURANCECOMPANY">
+        <datatype type="STRING" maxLength="510"/>
+      </element>
+      <element name="HEALTHINSURANCENUMBER">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="CONTACTPERSONTELEPHONENUMBER">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="CUSTOMERNUMBERFORWORKINJURY">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="CUSTOMERSTATUSID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="EMAILADDRFORCOMMFROMEXTSYSTEM">
+        <datatype type="STRING" maxLength="640"/>
+      </element>
+      <element name="FINANCIALIDENTIFIER">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="ISCONVERTEDFROMLEGACYSYSTEM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="LEGACYIDENTIFIER">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="NUMBERFORCOMPANYLOYALTYPROGRAM">
+        <datatype type="STRING" maxLength="24"/>
+      </element>
+      <element name="USECURRENTACCOUNTFORCLAIM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USECURRENTACCOUNTFORPOLICY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PRINTCURRENTACCOUNTSTATEMENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CURRENTACCSTATEMENTFREQUENCYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ALLOWCURRENTACCAUTOCOLLECTION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ALLOWCURRENTACCOUNTTRANSFER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PRINTCURRENTACCOUNTGIROFORM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCURRENTACCOUNTPAYMENTBLOCKED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCURRENTACCOUNTDEMANDBLOCKED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="APPLICABLETAXSITUATIONID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="EXEMPTTHRESHOLD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="ISYOUNGDISABLED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="VACATIONCOUPONSITUATIONID">
+        <datatype type="STRING" maxLength="70"/>
+      </element>
+      <element name="PERCSPECIALTAXES">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/QIS/v_Policy" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="IDENTIFIER">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="POLICYIDENTIFIER">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="ISOPENPOLICY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISACTIVEREINSURANCEPOLICY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="BROKERINTERMEDIARYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PRODUCTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="TSISSUED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESTART">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEEND">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATELASTDAMAGE">
+        <datatype type="DATE"/>
+      </element>
+      <element name="ISEXTERNAL">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PACKAGEPOLICYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ISPACKAGE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="REPLACEDPOLICYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="ORIGINATESFRMDEACTIVATEDPOLICY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISTRANSFERREDFROMEXTERNALADM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DATEEXTERNALLYINVOICEDTO">
+        <datatype type="DATE"/>
+      </element>
+      <element name="EXTERNALIDENTIFIERFORSORTING">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="LEGACYIDENTIFIER">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="ISSAMPLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="COMMUNICATIONIDENTIFIER">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="POLDOCSALTPAYERCOMMTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="POLDOCSPOLHOLDERCOMMTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DATECONVPREMIUMANNOUNCEMENT">
+        <datatype type="DATE"/>
+      </element>
+      <element name="CURRENCYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="TSCREATEDPOLICYSITUATIONS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="POLDOCSBENEFICIARYCOMMTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="HASOVERDUEINVOICE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASUNPAIDINVOICE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISSPECIALFINPROCAPPLICABLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SENDBYDEFCONCISEPACKPOLSCHED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIFIEDTAXREGIMEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="TAXREGIMEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="GROUPCONTRACTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="SENDCOMMFORPOLHLDRONCONTRLEVEL">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PACKAGETYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/QIS/v_PolicyVersion" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="IDENTIFIER">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="POLICYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ISPOLICYVERSION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ACTIONNUMBER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="VERSIONNUMBER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="VERSIONSUBNUMBER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INTERMEDIARYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="TARGETGROUPAGREEMENTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DEFAULTAGREEMENTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="FROMCONFPAYMENTCOLLECTORID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="FROMCONFFIRSTINVOICEPAYMCOLLID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="SPECIFIEDPAYMENTCOLLECTORID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="FIRSTINVOICEPAYMENTCOLLECTORID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="FROMCONFIGURATIONPAYMENTTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="FROMCONFFIPAYMENTTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PAYMENTTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="FIRSTINVOICEPAYMENTTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PAYMENTPERIODID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="LICENCEPLATE">
+        <datatype type="STRING" maxLength="16"/>
+      </element>
+      <element name="VEHICLEIDENTIFICATIONNUMBER">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="OBJECTIDENTIFICATION">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="MUTATIONTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ORIGINID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="TSACCEPTED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="POLICYIDENTIFICATIONMARK">
+        <datatype type="STRING" maxLength="510"/>
+      </element>
+      <element name="DATESTART">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEEND">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEPOLICYSTART">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEPOLICYCONTINUATION">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEPOLICYEND">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEAPPLICATIONREQUEST">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEAPPLICATIONRECEIVED">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEDEPARTURE">
+        <datatype type="DATE"/>
+      </element>
+      <element name="PRODUCTVERSIONID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="MUTATIONTYPEREASONID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PACKAGEPOLICYINSTANCEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ISCANCELLEDPOLICYVERSION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CONTRACTDURATIONID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="MUSTCONTRACTBECONTINUED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DATECONTRACTCONTINUATION">
+        <datatype type="DATE"/>
+      </element>
+      <element name="CUSTOMERID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="EXTERNALINTERMEDIARYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ISPORTFOLIOTRANSFER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PRORATAPREMIUMRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="AMTTOTALTAXTOSETTLE">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTTOTALTOSETTLE">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="POLICYDURATIONPREMIUMRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="FULLPERIODPREMIUMRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="FIXEDPERIODPREMIUMRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="NONPRORATAPREMIUMRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="POLICYCOSTSRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="HASNOCLAIMPROTECTOR">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CURRENTNCBMSTEP">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EARNEDNCBMYEARS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="COMMERCIALNCBMSTEPS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTRANCBMSTEPS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DEFAULTNCBMSTEP">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="COMPENSATIONNCBMSTEPS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HASNCBMDISCOUNT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="EARNEDNCBMYEARSFORDEACTIVATION">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCNCBMDISCOUNT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="DATEVALUECALCULATIONEND">
+        <datatype type="DATE"/>
+      </element>
+      <element name="REPORTINGIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="POLICYREQUESTID">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="APPLICATIONFORMID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="POLICYACTIONTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ALTERNATIVEPAYERCUSTOMERID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DATEEXTERNALLYINVOICEDTO">
+        <datatype type="DATE"/>
+      </element>
+      <element name="PERCCOMPANYDISCNT1STDURFRMCNF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="DATESUSPENSIONSTART">
+        <datatype type="DATE"/>
+      </element>
+      <element name="HASCOVERAGEFORDAMAGE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISOLDVEHICLETEMPORARILYINSURED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="AMTINSUREDVALUE">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="POLICYDURATIONSEQUENCENUMBER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCANCELLED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPRODUCTDEFINITION">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEFORAUTOMATICREMOVECOVERAGE">
+        <datatype type="DATE"/>
+      </element>
+      <element name="TSFINANCIALLYPROCESSED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCANCELFINANCIALLYPROCESSED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="POLICYACTIONNUMBER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ORDERWITHINPOLICY">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEPOLICYEARLIESTDEACTIVATION">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DOINSUREDAMOUNTSEXCLUDEVAT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="INSURANCEYEAR">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LICENCEPLATEFORSEARCH">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="OBJECTIDENTIFICATIONFORSEARCH">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="PERCCOMPANYDISCNT1STDURSPECFD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCCOMPANYDISCNTINITIALFRMCNF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCCOMPANYDISCOUNTFROMCONF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCCOMPANYDISCOUNTSPECIFIED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONCOSTS1STDURFRMCNF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONCOSTSFROMCONF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONCOSTSSPECIFIED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMRGNONCOSTS1STDURSPECIFIED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONPREM1STDURFRMCNF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONPREMIUMFROMCONF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONPREMIUMSPECIFIED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONPRM1STDURSPECIFIED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCRETURNMARGIN">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCRETURNMARGINCURRENTDUR">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="BASEFORPACKAGEDISCOUNT">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HASPACKAGEDISCOUNT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPARTOFPACKAGE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISINITIALPOLICYACTION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PREVFINANCIALINTERMEDIARYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DATEENDPREVFININTERMEDIARY">
+        <datatype type="DATE"/>
+      </element>
+      <element name="SETTLEALLMARGINWITHNEWINTERMED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DATEPOLICYDURATIONSTART">
+        <datatype type="DATE"/>
+      </element>
+      <element name="APPLICATIONTYPEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="YEARPOLICYSTART">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATESTARTPOLICYSITUATION">
+        <datatype type="DATE"/>
+      </element>
+      <element name="PPRAMTFINALPREMIUM">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PPRAMTMARGIN">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PPRAMTRETURNMARGIN">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PPRAMTTOTALTAXEXCLPOLICYCOSTS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="USESINTERMEDIARYFEETYPEMARGIN">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASINTERMEDIARYFEETYPECHANGED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DISTRIBUTORBUSINESSUNITID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PRODUCERBUSINESSUNITID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PERCPREMIUMCORRDISCOUNT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="5"/>
+      </element>
+      <element name="HASLEGACYPREMIUM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="INTERMEDIARYBUSINESSUNITID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="BRAND">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="BANKACCOUNTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DOESCUSTWANTTOCANCELOLDPOLICY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="EXTERNALORIGIN">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="DATERISKSPRFORAUTHORIZINGCOMP">
+        <datatype type="DATE"/>
+      </element>
+      <element name="VEHICLEUSEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="VEHICLECATEGORYFORLIABILITYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PERCPACKAGEDISCOUNT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="BASEFOREXTRAPACKAGEDISCOUNT">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCEXTRAPACKAGEDISCOUNT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCVATTODEDUCT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="COMMISSIONSTYLEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="VEHICLECATEGORYFORCLAIMHISTORY">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="DATEFOROBJECTDETAILSADJUSTMENT">
+        <datatype type="DATE"/>
+      </element>
+      <element name="SUPPRESSOBJECTDETAILSADJDOC">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="RISKIDENTIFICATION">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="COLLECTIONDAY">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCMARGINONPOLICYCOSTS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="REFERRINGINTERMEDIARYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="REFERRALAGREEMENTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="GENERALCONDTEMPLATEIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="SPECIFIESVERDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIFIESFINDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIFIESCTRDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIFIESCTVDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIFIESKIMDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIFIESDEKDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIFIESPAKDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIFIESINSDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIFIESNAVDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIFIESAODATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISBANKACCOUNTPROCESSED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CURRENTNCBMSTEPFORDEACTIVATION">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NCBMDETAILSSOURCEPOLICY">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="NCBMDETAILSSOURCEOTHER">
+        <datatype type="STRING" maxLength="510"/>
+      </element>
+      <element name="DATEREFERENCEDATA">
+        <datatype type="DATE"/>
+      </element>
+      <element name="ISMARKEDFORCALCMODELCHANGE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AIS/v_PolicyInstanceAssistanceType" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CDNUMPOL">
+        <datatype type="STRING" maxLength="14"/>
+      </element>
+      <element name="CTVRSPOL">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="0"/>
+      </element>
+      <element name="AssistanceType">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/QIS/v_PolicyInstanceAssistanceType" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="POLICYINSTANCEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="VALUE">
+        <datatype type="STRING" maxLength="4000"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    v_Policy.EXTERNALIDENTIFIER POLICY_NO,
+    v_PolicyVersion.VERSIONNUMBER POLICY_VERSION,
+    v_Customer.CUSTOMERIDENTIFIER CUSTOMER_ID,
+    CAST(&apos;50&apos; AS VARCHAR(12)) X_SOURCE_SYSTEM_CD,
+    (CASE 
+        WHEN (v_PolicyInstanceAssistanceType.&quot;Value&quot; IN (&apos;België zonder vervangwagen&apos;, &apos;Formule België zonder vervangwagen&apos;)) THEN &apos;1&apos;
+    END) XX_ASSISTANCE_TYPE_CD
+FROM /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/QIS/v_Policy v_Policy INNER JOIN 
+        /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/QIS/v_PolicyVersion v_PolicyVersion
+    ON v_PolicyVersion.POLICYID = v_Policy.IDENTIFIER LEFT OUTER JOIN 
+        /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/QIS/v_Customer v_Customer
+    ON v_PolicyVersion.CUSTOMERID = v_Customer.IDENTIFIER LEFT OUTER JOIN 
+        /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/QIS/v_PolicyInstanceAssistanceType v_PolicyInstanceAssistanceType
+    ON v_PolicyInstanceAssistanceType.POLICYINSTANCEID = v_PolicyVersion.Identifier
+WHERE v_PolicyVersion.TSACCEPTED IS NOT NULL AND v_Policy.ISPACKAGE = &apos;0&apos;
+UNION ALL
+SELECT 
+    v_Policy_KCIM06T.CDNUMPOL POLICY_NO,
+    v_Policy_KCIM06T.CTVRSPOL POLICY_VERSION,
+    &apos;&apos; CUSTOMER_ID,
+    CAST(&apos;01&apos; AS VARCHAR(12)) X_SOURCE_SYSTEM_CD,
+    (CASE 
+        WHEN v_PolicyInstanceAssistanceType.AssistanceType = &apos;03&apos; THEN &apos;1&apos;
+    END) XX_ASSISTANCE_TYPE_CD
+FROM /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/AIS/v_Policy_KCIM06T v_Policy_KCIM06T LEFT OUTER JOIN 
+        /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AIS/v_PolicyInstanceAssistanceType v_PolicyInstanceAssistanceType
+    ON v_Policy_KCIM06T.CDNUMPOL = v_PolicyInstanceAssistanceType.CDNUMPOL AND v_Policy_KCIM06T.CTVRSPOL = v_PolicyInstanceAssistanceType.CTVRSPOL</attribute>
+  <attribute name="cacheClearRule" type="STRING">MANUAL</attribute>
+  <attribute name="cacheConfigured" type="BOOLEAN">true</attribute>
+  <attribute name="cacheDeltaLoader" type="NULL"/>
+  <attribute name="cacheEnabled" type="BOOLEAN">false</attribute>
+  <attribute name="cacheIncremental" type="BOOLEAN">false</attribute>
+  <attribute name="cacheLastTracking" type="STRING">/lib/sources/cacheDataSource/cstracking</attribute>
+  <attribute name="cachePostRefreshCallback" type="NULL"/>
+  <attribute name="cachePreRefreshCallback" type="NULL"/>
+  <attribute name="cachePullBasedIncremental" type="BOOLEAN">false</attribute>
+  <attribute name="cacheRefreshMode" type="STRING">MANUAL</attribute>
+  <attribute name="cacheSnapshotLoader" type="NULL"/>
+  <attribute name="cacheStorageSource" type="STRING">/lib/sources/cacheDataSource</attribute>
+  <attribute name="cacheStorageTargets" type="MAP">
+    <item>
+      <key type="STRING">result</key>
+      <value type="STRING">/lib/sources/cacheDataSource/view226087</value>
+    </item>
+  </attribute>
+  <attribute name="cacheStorageType" type="STRING">AUTOMATIC</attribute>
+  <attribute name="creationDate" type="LONG">1620637704313</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">78068</attribute>
+  <attribute name="creatorUserName" type="STRING">d008514</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/QIS/RPPOLICY&apos;.  On line 4, column 5.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1639996026368</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">78068</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1620637704313</attribute>
+  <trigger>
+    <security>
+      <owner user="nobody" domain="composite"/>
+    </security>
+    <dependency target="/lib/resource/RefreshResourceCache" type="PROCEDURE">
+      <datatype name="Tree" type="TREE" refId="257"></datatype>
+    </dependency>
+    <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L22_Logical/01 Virtual UDS/v_D_POL_POLICY" type="TABLE">
+      <datatype type="TABLE" refId="256">
+        <element name="POLICY_NO">
+          <datatype type="STRING" maxLength="20"/>
+        </element>
+        <element name="POLICY_VERSION">
+          <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+        </element>
+        <element name="CUSTOMER_ID">
+          <datatype type="STRING" maxLength="40"/>
+        </element>
+        <element name="X_SOURCE_SYSTEM_CD">
+          <datatype type="STRING" maxLength="12"/>
+        </element>
+        <element name="XX_ASSISTANCE_TYPE_CD">
+          <datatype type="STRING" minLength="1" maxLength="1" trailingSpaces="false"/>
+        </element>
+      </datatype>
+    </dependency>
+    <attribute name="actionProperties" type="MAP">
+      <item>
+        <key type="STRING">PATH</key>
+        <value type="STRING">/lib/resource/RefreshResourceCache</value>
+      </item>
+      <item>
+        <key type="STRING">PARAMETERS</key>
+        <value type="STRING">&apos;/shared/Sanya/R50_Baseline/L2_Business/L22_Logical/01 Virtual UDS/v_D_POL_POLICY&apos;,&apos;TABLE&apos;</value>
+      </item>
+    </attribute>
+    <attribute name="actionType" type="STRING">PROCEDURE</attribute>
+    <attribute name="conditionSchedule" type="MAP">
+      <item>
+        <key type="STRING">mode</key>
+        <value type="STRING">CALENDAR</value>
+      </item>
+      <item>
+        <key type="STRING">period</key>
+        <value type="INTEGER">2</value>
+      </item>
+      <item>
+        <key type="STRING">count</key>
+        <value type="INTEGER">1</value>
+      </item>
+      <item>
+        <key type="STRING">startTime</key>
+        <value type="LONG">1622032932000</value>
+      </item>
+      <item>
+        <key type="STRING">interval</key>
+        <value type="INTEGER">0</value>
+      </item>
+      <item>
+        <key type="STRING">endTime</key>
+        <value type="LONG">0</value>
+      </item>
+      <item>
+        <key type="STRING">isCluster</key>
+        <value type="BOOLEAN">false</value>
+      </item>
+    </attribute>
+    <attribute name="conditionType" type="STRING">TIMER</attribute>
+    <attribute name="creationDate" type="LONG">1622035907711</attribute>
+    <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+    <attribute name="creatorUserId" type="INTEGER">78068</attribute>
+    <attribute name="creatorUserName" type="STRING">d008514</attribute>
+    <attribute name="enabled" type="BOOLEAN">false</attribute>
+    <attribute name="isChildTrigger" type="BOOLEAN">true</attribute>
+    <attribute name="lastModifiedDate" type="LONG">1639996026368</attribute>
+    <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+    <attribute name="lastModifiedUserId" type="INTEGER">78068</attribute>
+    <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+    <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1622035907711</attribute>
+  </trigger>
+</metadata>

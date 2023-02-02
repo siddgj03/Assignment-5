@@ -1,0 +1,141 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPGRPCONTRDEFINSTCLAUSEFIELD" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPGRPCONTRDEFINSTCLAUSEFIELD" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CLAUSETYPECLAUSEFIELDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAUSETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFINSTCLAUSEFIELDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFINSTCLAUSEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFINSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPGRPCONTRDEFINSTCLAUSEFIELD" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CLAUSETYPECLAUSEFIELDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAUSETYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GRPCONTRDEFID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GRPCONTRDEFINSTCLAUSEFIELDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GRPCONTRDEFINSTCLAUSEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GRPCONTRDEFINSTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPGRPCONTRDEFINSTCLAUSEFIELD.CLAUSETYPECLAUSEFIELDID CLAUSETYPECLAUSEFIELDID,
+&#x9;RPGRPCONTRDEFINSTCLAUSEFIELD.CLAUSETYPEID CLAUSETYPEID,
+&#x9;RPGRPCONTRDEFINSTCLAUSEFIELD.GRPCONTRDEFID GRPCONTRDEFID,
+&#x9;RPGRPCONTRDEFINSTCLAUSEFIELD.GRPCONTRDEFINSTCLAUSEFIELDID GRPCONTRDEFINSTCLAUSEFIELDID,
+&#x9;RPGRPCONTRDEFINSTCLAUSEFIELD.GRPCONTRDEFINSTCLAUSEID GRPCONTRDEFINSTCLAUSEID,
+&#x9;RPGRPCONTRDEFINSTCLAUSEFIELD.GRPCONTRDEFINSTID GRPCONTRDEFINSTID,
+&#x9;RPGRPCONTRDEFINSTCLAUSEFIELD.TSCHANGED TSCHANGED,
+&#x9;RPGRPCONTRDEFINSTCLAUSEFIELD.TSCREATED TSCREATED,
+&#x9;RPGRPCONTRDEFINSTCLAUSEFIELD.USERIDCHANGED USERIDCHANGED,
+&#x9;RPGRPCONTRDEFINSTCLAUSEFIELD.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPGRPCONTRDEFINSTCLAUSEFIELD RPGRPCONTRDEFINSTCLAUSEFIELD</attribute>
+  <attribute name="creationDate" type="LONG">1664294279575</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPGRPCONTRDEFINSTCLAUSEFIELD&apos;.  On line 13, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294279575</attribute>
+</metadata>

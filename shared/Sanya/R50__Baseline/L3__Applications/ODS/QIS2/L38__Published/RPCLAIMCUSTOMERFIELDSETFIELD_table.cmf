@@ -1,0 +1,207 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCLAIMCUSTOMERFIELDSETFIELD" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCLAIMCUSTOMERFIELDSETFIELD" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CLAIMCUSTOMERFIELDSETFIELDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCUSTOMERFIELDSETID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCUSTOMERFIELDSETTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLCUSTFLSTTPCLCUSTFLDSTTPFLDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEVALUE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DECIMALVALUE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="20" maxFractionalDigits="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTEGERVALUE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUE" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMCUSTOMERFIELDSETFIELD" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CLAIMCUSTOMERFIELDSETFIELDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMCUSTOMERFIELDSETID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMCUSTOMERFIELDSETTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMCUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLCUSTFLSTTPCLCUSTFLDSTTPFLDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEVALUE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DECIMALVALUE">
+        <datatype type="DECIMAL" maxDigits="20" maxFractionalDigits="5"/>
+      </element>
+      <element name="INTEGERVALUE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="VALUE">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="VALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.CLAIMCUSTOMERFIELDSETFIELDID CLAIMCUSTOMERFIELDSETFIELDID,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.CLAIMCUSTOMERFIELDSETID CLAIMCUSTOMERFIELDSETID,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.CLAIMCUSTOMERFIELDSETTYPEID CLAIMCUSTOMERFIELDSETTYPEID,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.CLAIMCUSTOMERID CLAIMCUSTOMERID,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.CLAIMID CLAIMID,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.CLCUSTFLSTTPCLCUSTFLDSTTPFLDID CLCUSTFLSTTPCLCUSTFLDSTTPFLDID,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.DATEVALUE DATEVALUE,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.DECIMALVALUE DECIMALVALUE,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.INTEGERVALUE INTEGERVALUE,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.TSCHANGED TSCHANGED,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.TSCREATED TSCREATED,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.USERIDCREATED USERIDCREATED,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.&quot;VALUE&quot; &quot;VALUE&quot;,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.VALUEID VALUEID,
+&#x9;RPCLAIMCUSTOMERFIELDSETFIELD.VALUELISTID VALUELISTID 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMCUSTOMERFIELDSETFIELD RPCLAIMCUSTOMERFIELDSETFIELD</attribute>
+  <attribute name="creationDate" type="LONG">1664293795224</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMCUSTOMERFIELDSETFIELD&apos;.  On line 19, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293795224</attribute>
+</metadata>

@@ -1,0 +1,137 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_RecPrem_T21" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RecPrem_T21" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="Platform" nullable="true">
+      <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Polisnummer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypePolis" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Kanaal" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Agent" nullable="true">
+      <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Boekjaar" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RecurrentePremie" nullable="true">
+      <datatype type="DECIMAL" maxDigits="24" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Koopsom" nullable="true">
+      <datatype type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_Sales" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="Platform">
+        <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      </element>
+      <element name="policy">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="Polisnummer">
+        <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      </element>
+      <element name="TypePolis">
+        <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      </element>
+      <element name="Kanaal">
+        <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      </element>
+      <element name="Agent">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      </element>
+      <element name="Begindatum">
+        <datatype type="DATE"/>
+      </element>
+      <element name="Beginjaar">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Boekdatum">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="Boekjaar">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Valutajaar">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RecurrentePremie">
+        <datatype type="DECIMAL" maxDigits="18" maxFractionalDigits="2"/>
+      </element>
+      <element name="Koopsom">
+        <datatype type="DECIMAL" maxDigits="14" maxFractionalDigits="2"/>
+      </element>
+      <element name="Tak">
+        <datatype type="STRING" minLength="3" maxLength="3" trailingSpaces="false"/>
+      </element>
+      <element name="Fonds">
+        <datatype type="STRING" maxLength="3" trailingSpaces="false"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT
+
+Platform,
+Polisnummer,
+TypePolis,
+Kanaal,
+Agent,
+Boekjaar,
+SUM(RecurrentePremie) as RecurrentePremie,
+SUM(Koopsom) as Koopsom
+
+FROM /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_Sales
+
+WHERE Tak=&apos;T21&apos; AND Fonds NOT IN (&apos;GI&apos;,&apos;PV&apos;)
+
+GROUP BY Platform, Polisnummer, Boekjaar, TypePolis, Kanaal, Agent</attribute>
+  <attribute name="creationDate" type="LONG">1657181508706</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DULMVTPF&apos;.  On line 24, column 8.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1671633231454</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1657181508706</attribute>
+</metadata>

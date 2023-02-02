@@ -1,0 +1,174 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPAPPLICATIONCOVPREMAMTSTAXCOMP" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPAPPLICATIONCOVPREMAMTSTAXCOMP" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMTTAX" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PACKAGEPOLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREMIUMAMOUNTSTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TAXREGIMECOMPONENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TAXREGIMEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPAPPLICATIONCOVPREMAMTSTAXCOMP" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="AMTTAX">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="APPLICATIONCOVERAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="APPLICATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GROUPCONTRACTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PACKAGEPOLICYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PREMIUMAMOUNTSTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TAXREGIMECOMPONENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TAXREGIMEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.AMTTAX AMTTAX,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.APPLICATIONCOVERAGEID APPLICATIONCOVERAGEID,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.APPLICATIONID APPLICATIONID,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.GROUPCONTRACTID GROUPCONTRACTID,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.PACKAGEPOLICYID PACKAGEPOLICYID,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.POLICYID POLICYID,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.PREMIUMAMOUNTSTYPEID PREMIUMAMOUNTSTYPEID,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.TAXREGIMECOMPONENTID TAXREGIMECOMPONENTID,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.TAXREGIMEID TAXREGIMEID,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.TSCHANGED TSCHANGED,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.TSCREATED TSCREATED,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.USERIDCHANGED USERIDCHANGED,
+&#x9;RPAPPLICATIONCOVPREMAMTSTAXCOMP.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPAPPLICATIONCOVPREMAMTSTAXCOMP RPAPPLICATIONCOVPREMAMTSTAXCOMP</attribute>
+  <attribute name="creationDate" type="LONG">1664293558693</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONCOVPREMAMTSTAXCOMP&apos;.  On line 16, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293558693</attribute>
+</metadata>

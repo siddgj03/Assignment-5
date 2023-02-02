@@ -1,0 +1,394 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCLAIMRISKPOSTING" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCLAIMRISKPOSTING" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMTMUTATIONRECOURSE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTMUTATIONRESERVE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTPAID" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTRECEIVED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTOTALPAID" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTOTALRECEIVED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTOTALRECOURSE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTOTALRESERVE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALAMITYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELLEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELPRCONCLAIMRISKPOSTINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMRISKPOSTINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGCANCELINFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGINFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEREFLODRISKCONTRACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEREFRADRISKCONTRACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELPROCESSED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCONVERTEDFROMLEGACYSYSTEM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCREATEDFROMSOURCEDATA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPROCESSED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTINGNUMBER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCERBUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RISKCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMRISKPOSTING" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="AMTMUTATIONRECOURSE">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTMUTATIONRESERVE">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTPAID">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTRECEIVED">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTTOTALPAID">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTTOTALRECEIVED">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTTOTALRECOURSE">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTTOTALRESERVE">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="CALAMITYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CANCELLEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CANCELPRCONCLAIMRISKPOSTINGID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMRISKPOSTINGID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREATEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEFORPROCESSINGCANCELINFA">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEFORPROCESSINGINFA">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEREFLODRISKCONTRACT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEREFRADRISKCONTRACT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="ISCANCELLED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCANCELPROCESSED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCONVERTEDFROMLEGACYSYSTEM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCREATEDFROMSOURCEDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPROCESSED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="POSTINGNUMBER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODUCERBUSINESSUNITID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODUCTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODUCTVERSIONCOVERAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODUCTVERSIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RISKCOVERAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCLAIMRISKPOSTING.AMTMUTATIONRECOURSE AMTMUTATIONRECOURSE,
+&#x9;RPCLAIMRISKPOSTING.AMTMUTATIONRESERVE AMTMUTATIONRESERVE,
+&#x9;RPCLAIMRISKPOSTING.AMTPAID AMTPAID,
+&#x9;RPCLAIMRISKPOSTING.AMTRECEIVED AMTRECEIVED,
+&#x9;RPCLAIMRISKPOSTING.AMTTOTALPAID AMTTOTALPAID,
+&#x9;RPCLAIMRISKPOSTING.AMTTOTALRECEIVED AMTTOTALRECEIVED,
+&#x9;RPCLAIMRISKPOSTING.AMTTOTALRECOURSE AMTTOTALRECOURSE,
+&#x9;RPCLAIMRISKPOSTING.AMTTOTALRESERVE AMTTOTALRESERVE,
+&#x9;RPCLAIMRISKPOSTING.CALAMITYID CALAMITYID,
+&#x9;RPCLAIMRISKPOSTING.CANCELLEDBYJOBID CANCELLEDBYJOBID,
+&#x9;RPCLAIMRISKPOSTING.CANCELPRCONCLAIMRISKPOSTINGID CANCELPRCONCLAIMRISKPOSTINGID,
+&#x9;RPCLAIMRISKPOSTING.CLAIMID CLAIMID,
+&#x9;RPCLAIMRISKPOSTING.CLAIMRISKPOSTINGID CLAIMRISKPOSTINGID,
+&#x9;RPCLAIMRISKPOSTING.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPCLAIMRISKPOSTING.DATEFORPROCESSINGCANCELINFA DATEFORPROCESSINGCANCELINFA,
+&#x9;RPCLAIMRISKPOSTING.DATEFORPROCESSINGINFA DATEFORPROCESSINGINFA,
+&#x9;RPCLAIMRISKPOSTING.DATEREFLODRISKCONTRACT DATEREFLODRISKCONTRACT,
+&#x9;RPCLAIMRISKPOSTING.DATEREFRADRISKCONTRACT DATEREFRADRISKCONTRACT,
+&#x9;RPCLAIMRISKPOSTING.ISCANCELLED ISCANCELLED,
+&#x9;RPCLAIMRISKPOSTING.ISCANCELPROCESSED ISCANCELPROCESSED,
+&#x9;RPCLAIMRISKPOSTING.ISCONVERTEDFROMLEGACYSYSTEM ISCONVERTEDFROMLEGACYSYSTEM,
+&#x9;RPCLAIMRISKPOSTING.ISCREATEDFROMSOURCEDATA ISCREATEDFROMSOURCEDATA,
+&#x9;RPCLAIMRISKPOSTING.ISPROCESSED ISPROCESSED,
+&#x9;RPCLAIMRISKPOSTING.POSTINGNUMBER POSTINGNUMBER,
+&#x9;RPCLAIMRISKPOSTING.PRODUCERBUSINESSUNITID PRODUCERBUSINESSUNITID,
+&#x9;RPCLAIMRISKPOSTING.PRODUCTID PRODUCTID,
+&#x9;RPCLAIMRISKPOSTING.PRODUCTVERSIONCOVERAGEID PRODUCTVERSIONCOVERAGEID,
+&#x9;RPCLAIMRISKPOSTING.PRODUCTVERSIONID PRODUCTVERSIONID,
+&#x9;RPCLAIMRISKPOSTING.RISKCOVERAGEID RISKCOVERAGEID,
+&#x9;RPCLAIMRISKPOSTING.TSCHANGED TSCHANGED,
+&#x9;RPCLAIMRISKPOSTING.TSCREATED TSCREATED,
+&#x9;RPCLAIMRISKPOSTING.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCLAIMRISKPOSTING.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMRISKPOSTING RPCLAIMRISKPOSTING</attribute>
+  <attribute name="creationDate" type="LONG">1664293842254</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMRISKPOSTING&apos;.  On line 36, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293842254</attribute>
+</metadata>

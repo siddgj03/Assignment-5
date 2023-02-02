@@ -1,0 +1,159 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPREMIUMFACTORCHANGELOG" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPREMIUMFACTORCHANGELOG" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMTFINALPREMIUMNEW" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTFINALPREMIUMOLD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONOBJECTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPREMIUMFACTORAPPLIED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEGACYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MUTATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREMIUMDISCOUNTFACTORNEW" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREMIUMDISCOUNTFACTOROLD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RUNIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPREMIUMFACTORCHANGELOG" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPREMIUMFACTORCHANGELOG.AMTFINALPREMIUMNEW AMTFINALPREMIUMNEW,
+&#x9;RPPREMIUMFACTORCHANGELOG.AMTFINALPREMIUMOLD AMTFINALPREMIUMOLD,
+&#x9;RPPREMIUMFACTORCHANGELOG.APPLICATIONCOVERAGEID APPLICATIONCOVERAGEID,
+&#x9;RPPREMIUMFACTORCHANGELOG.APPLICATIONID APPLICATIONID,
+&#x9;RPPREMIUMFACTORCHANGELOG.APPLICATIONOBJECTID APPLICATIONOBJECTID,
+&#x9;RPPREMIUMFACTORCHANGELOG.ISPREMIUMFACTORAPPLIED ISPREMIUMFACTORAPPLIED,
+&#x9;RPPREMIUMFACTORCHANGELOG.LEGACYIDENTIFIER LEGACYIDENTIFIER,
+&#x9;RPPREMIUMFACTORCHANGELOG.MUTATIONTYPEID MUTATIONTYPEID,
+&#x9;RPPREMIUMFACTORCHANGELOG.POLICYIDENTIFIER POLICYIDENTIFIER,
+&#x9;RPPREMIUMFACTORCHANGELOG.PREMIUMDISCOUNTFACTORNEW PREMIUMDISCOUNTFACTORNEW,
+&#x9;RPPREMIUMFACTORCHANGELOG.PREMIUMDISCOUNTFACTOROLD PREMIUMDISCOUNTFACTOROLD,
+&#x9;RPPREMIUMFACTORCHANGELOG.RUNIDENTIFIER RUNIDENTIFIER,
+&#x9;RPPREMIUMFACTORCHANGELOG.TSCHANGED TSCHANGED,
+&#x9;RPPREMIUMFACTORCHANGELOG.TSCREATED TSCREATED,
+&#x9;RPPREMIUMFACTORCHANGELOG.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPREMIUMFACTORCHANGELOG.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPREMIUMFACTORCHANGELOG RPPREMIUMFACTORCHANGELOG</attribute>
+  <attribute name="creationDate" type="LONG">1664290079926</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPREMIUMFACTORCHANGELOG&apos;.  On line 19, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290079926</attribute>
+</metadata>

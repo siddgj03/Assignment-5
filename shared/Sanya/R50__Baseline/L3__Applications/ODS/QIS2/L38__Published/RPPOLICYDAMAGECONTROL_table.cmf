@@ -1,0 +1,229 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPOLICYDAMAGECONTROL" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPPOLICYDAMAGECONTROL" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="APPLICATIONPROCESSGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATECREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPLANATIONREASON" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISACTIVE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONUSERCHANGEDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONUSERCREATEDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYDAMAGECONTROLID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYDAMAGECONTROLREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYDAMAGECONTROLSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMARK" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSIBLELOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSMODIFIED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPOLICYDAMAGECONTROL" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="APPLICATIONPROCESSGROUPID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATECREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EXPLANATIONREASON">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ISACTIVE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="LOGONUSERCHANGEDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LOGONUSERCREATEDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYDAMAGECONTROLID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYDAMAGECONTROLREASONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYDAMAGECONTROLSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REMARK">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="RESPONSIBLELOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSMODIFIED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPOLICYDAMAGECONTROL.APPLICATIONPROCESSGROUPID APPLICATIONPROCESSGROUPID,
+&#x9;RPPOLICYDAMAGECONTROL.DATECREATED DATECREATED,
+&#x9;RPPOLICYDAMAGECONTROL.EXPLANATIONREASON EXPLANATIONREASON,
+&#x9;RPPOLICYDAMAGECONTROL.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPPOLICYDAMAGECONTROL.ISACTIVE ISACTIVE,
+&#x9;RPPOLICYDAMAGECONTROL.LOGONUSERCHANGEDID LOGONUSERCHANGEDID,
+&#x9;RPPOLICYDAMAGECONTROL.LOGONUSERCREATEDID LOGONUSERCREATEDID,
+&#x9;RPPOLICYDAMAGECONTROL.POLICYDAMAGECONTROLID POLICYDAMAGECONTROLID,
+&#x9;RPPOLICYDAMAGECONTROL.POLICYDAMAGECONTROLREASONID POLICYDAMAGECONTROLREASONID,
+&#x9;RPPOLICYDAMAGECONTROL.POLICYDAMAGECONTROLSTATUSID POLICYDAMAGECONTROLSTATUSID,
+&#x9;RPPOLICYDAMAGECONTROL.POLICYID POLICYID,
+&#x9;RPPOLICYDAMAGECONTROL.REMARK REMARK,
+&#x9;RPPOLICYDAMAGECONTROL.RESPONSIBLELOGONUSERID RESPONSIBLELOGONUSERID,
+&#x9;RPPOLICYDAMAGECONTROL.TSCHANGED TSCHANGED,
+&#x9;RPPOLICYDAMAGECONTROL.TSCREATED TSCREATED,
+&#x9;RPPOLICYDAMAGECONTROL.TSMODIFIED TSMODIFIED,
+&#x9;RPPOLICYDAMAGECONTROL.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPOLICYDAMAGECONTROL.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPOLICYDAMAGECONTROL RPPOLICYDAMAGECONTROL</attribute>
+  <attribute name="creationDate" type="LONG">1664294648171</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYDAMAGECONTROL&apos;.  On line 21, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294648171</attribute>
+</metadata>

@@ -1,0 +1,447 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPBANKSTATEMENTLINE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPBANKSTATEMENTLINE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ADDITIONALINFORMATION" nullable="true">
+      <datatype type="STRING" maxLength="511"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTBANKSTATEMENTLINE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTCHARGES" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTOBEPROCESSED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKERRORMESSAGECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKERRORMESSAGETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKSTATEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKSTATEMENTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKSTATEMENTLINEIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKSTATEMENTLINESTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKTRANSACTIONCODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKTRANSACTIONCODEOTHER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKTRANSACTIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKCLEARINGHOUSECODE" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKIDENTIFIERCODE" nullable="true">
+      <datatype type="STRING" maxLength="11"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABADOMESTICBANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAHASALTERNBANKACCOUNTHOLDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAISDOMESTIC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAISIBANFORMAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTERACCOUNTADDRESSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTERACCOUNTNAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTERACCOUNTNAME_UPPER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPROCESSEDBYBANK" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEVALUE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION_UPPER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISBATCH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCREDIT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFTRANSACTIONSINBATCH" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTIDENTIFIER_UPPER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSINGJOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSACTIONIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSBANKSTATEMENTLINECREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPBANKSTATEMENTLINE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPBANKSTATEMENTLINE.ADDITIONALINFORMATION ADDITIONALINFORMATION,
+&#x9;RPBANKSTATEMENTLINE.AMTBANKSTATEMENTLINE AMTBANKSTATEMENTLINE,
+&#x9;RPBANKSTATEMENTLINE.AMTCHARGES AMTCHARGES,
+&#x9;RPBANKSTATEMENTLINE.AMTTOBEPROCESSED AMTTOBEPROCESSED,
+&#x9;RPBANKSTATEMENTLINE.BANKERRORMESSAGECODEID BANKERRORMESSAGECODEID,
+&#x9;RPBANKSTATEMENTLINE.BANKERRORMESSAGETYPEID BANKERRORMESSAGETYPEID,
+&#x9;RPBANKSTATEMENTLINE.BANKID BANKID,
+&#x9;RPBANKSTATEMENTLINE.BANKSTATEMENTID BANKSTATEMENTID,
+&#x9;RPBANKSTATEMENTLINE.BANKSTATEMENTLINEID BANKSTATEMENTLINEID,
+&#x9;RPBANKSTATEMENTLINE.BANKSTATEMENTLINEIDENTIFIER BANKSTATEMENTLINEIDENTIFIER,
+&#x9;RPBANKSTATEMENTLINE.BANKSTATEMENTLINESTATUSID BANKSTATEMENTLINESTATUSID,
+&#x9;RPBANKSTATEMENTLINE.BANKTRANSACTIONCODEID BANKTRANSACTIONCODEID,
+&#x9;RPBANKSTATEMENTLINE.BANKTRANSACTIONCODEOTHER BANKTRANSACTIONCODEOTHER,
+&#x9;RPBANKSTATEMENTLINE.BANKTRANSACTIONTYPEID BANKTRANSACTIONTYPEID,
+&#x9;RPBANKSTATEMENTLINE.CABAACCOUNTHOLDERADDRESS CABAACCOUNTHOLDERADDRESS,
+&#x9;RPBANKSTATEMENTLINE.CABAACCOUNTHOLDERCITY CABAACCOUNTHOLDERCITY,
+&#x9;RPBANKSTATEMENTLINE.CABAACCOUNTHOLDERCOUNTRYID CABAACCOUNTHOLDERCOUNTRYID,
+&#x9;RPBANKSTATEMENTLINE.CABAACCOUNTHOLDERNAME CABAACCOUNTHOLDERNAME,
+&#x9;RPBANKSTATEMENTLINE.CABAACCOUNTHOLDERPOSTALCODE CABAACCOUNTHOLDERPOSTALCODE,
+&#x9;RPBANKSTATEMENTLINE.CABABANKACCOUNTNUMBER CABABANKACCOUNTNUMBER,
+&#x9;RPBANKSTATEMENTLINE.CABABANKADDRESS CABABANKADDRESS,
+&#x9;RPBANKSTATEMENTLINE.CABABANKCITY CABABANKCITY,
+&#x9;RPBANKSTATEMENTLINE.CABABANKCLEARINGHOUSECODE CABABANKCLEARINGHOUSECODE,
+&#x9;RPBANKSTATEMENTLINE.CABABANKCOUNTRYID CABABANKCOUNTRYID,
+&#x9;RPBANKSTATEMENTLINE.CABABANKIDENTIFIERCODE CABABANKIDENTIFIERCODE,
+&#x9;RPBANKSTATEMENTLINE.CABABANKNAME CABABANKNAME,
+&#x9;RPBANKSTATEMENTLINE.CABABANKPOSTALCODE CABABANKPOSTALCODE,
+&#x9;RPBANKSTATEMENTLINE.CABADOMESTICBANKACCOUNTNUMBER CABADOMESTICBANKACCOUNTNUMBER,
+&#x9;RPBANKSTATEMENTLINE.CABAHASALTERNBANKACCOUNTHOLDER CABAHASALTERNBANKACCOUNTHOLDER,
+&#x9;RPBANKSTATEMENTLINE.CABAISDOMESTIC CABAISDOMESTIC,
+&#x9;RPBANKSTATEMENTLINE.CABAISIBANFORMAT CABAISIBANFORMAT,
+&#x9;RPBANKSTATEMENTLINE.COUNTERACCOUNTADDRESSID COUNTERACCOUNTADDRESSID,
+&#x9;RPBANKSTATEMENTLINE.COUNTERACCOUNTNAME COUNTERACCOUNTNAME,
+&#x9;RPBANKSTATEMENTLINE.COUNTERACCOUNTNAME_UPPER COUNTERACCOUNTNAME_UPPER,
+&#x9;RPBANKSTATEMENTLINE.DATEPROCESSEDBYBANK DATEPROCESSEDBYBANK,
+&#x9;RPBANKSTATEMENTLINE.DATEVALUE DATEVALUE,
+&#x9;RPBANKSTATEMENTLINE.DESCRIPTION DESCRIPTION,
+&#x9;RPBANKSTATEMENTLINE.DESCRIPTION_UPPER DESCRIPTION_UPPER,
+&#x9;RPBANKSTATEMENTLINE.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPBANKSTATEMENTLINE.ISBATCH ISBATCH,
+&#x9;RPBANKSTATEMENTLINE.ISCREDIT ISCREDIT,
+&#x9;RPBANKSTATEMENTLINE.JOURNALENTRYID JOURNALENTRYID,
+&#x9;RPBANKSTATEMENTLINE.NROFTRANSACTIONSINBATCH NROFTRANSACTIONSINBATCH,
+&#x9;RPBANKSTATEMENTLINE.PAYMENTIDENTIFIER PAYMENTIDENTIFIER,
+&#x9;RPBANKSTATEMENTLINE.PAYMENTIDENTIFIER_UPPER PAYMENTIDENTIFIER_UPPER,
+&#x9;RPBANKSTATEMENTLINE.PROCESSINGJOURNALENTRYID PROCESSINGJOURNALENTRYID,
+&#x9;RPBANKSTATEMENTLINE.TRANSACTIONIDENTIFIER TRANSACTIONIDENTIFIER,
+&#x9;RPBANKSTATEMENTLINE.TSBANKSTATEMENTLINECREATED TSBANKSTATEMENTLINECREATED,
+&#x9;RPBANKSTATEMENTLINE.TSCHANGED TSCHANGED,
+&#x9;RPBANKSTATEMENTLINE.TSCREATED TSCREATED,
+&#x9;RPBANKSTATEMENTLINE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPBANKSTATEMENTLINE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPBANKSTATEMENTLINE RPBANKSTATEMENTLINE</attribute>
+  <attribute name="creationDate" type="LONG">1664289020710</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPBANKSTATEMENTLINE&apos;.  On line 55, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289020710</attribute>
+</metadata>

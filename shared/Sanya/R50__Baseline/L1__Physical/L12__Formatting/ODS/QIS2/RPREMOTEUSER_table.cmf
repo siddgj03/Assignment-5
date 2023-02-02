@@ -1,0 +1,215 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPREMOTEUSER" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPREMOTEUSER" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CUSTOMERENVIRONMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENDPASSWORD" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENDTEMPORARYPASSWORD" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISEXTERNALLYMANAGEDUSER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINVALID" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFFAILEDLOGONATTEMPTS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RELATIONIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMOTEUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTLOGON" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSPASSWORDCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSPREVIOUSLOGON" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="UCUSERIDENTIFIER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="UCUSERIDENTIFIEREXTERNALSYSTEM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDENTIFIEREXTERNALSYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPREMOTEUSER" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPREMOTEUSER.CUSTOMERENVIRONMENTID CUSTOMERENVIRONMENTID,
+&#x9;RPREMOTEUSER.CUSTOMERID CUSTOMERID,
+&#x9;RPREMOTEUSER.DATEEND DATEEND,
+&#x9;RPREMOTEUSER.DATEENDPASSWORD DATEENDPASSWORD,
+&#x9;RPREMOTEUSER.DATEENDTEMPORARYPASSWORD DATEENDTEMPORARYPASSWORD,
+&#x9;RPREMOTEUSER.DATESTART DATESTART,
+&#x9;RPREMOTEUSER.ISEXTERNALLYMANAGEDUSER ISEXTERNALLYMANAGEDUSER,
+&#x9;RPREMOTEUSER.ISINVALID ISINVALID,
+&#x9;RPREMOTEUSER.NROFFAILEDLOGONATTEMPTS NROFFAILEDLOGONATTEMPTS,
+&#x9;RPREMOTEUSER.RELATIONIDENTIFIER RELATIONIDENTIFIER,
+&#x9;RPREMOTEUSER.REMOTEUSERID REMOTEUSERID,
+&#x9;RPREMOTEUSER.TSCHANGED TSCHANGED,
+&#x9;RPREMOTEUSER.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPREMOTEUSER.TSCREATED TSCREATED,
+&#x9;RPREMOTEUSER.TSLASTLOGON TSLASTLOGON,
+&#x9;RPREMOTEUSER.TSPASSWORDCHANGED TSPASSWORDCHANGED,
+&#x9;RPREMOTEUSER.TSPREVIOUSLOGON TSPREVIOUSLOGON,
+&#x9;RPREMOTEUSER.UCUSERIDENTIFIER UCUSERIDENTIFIER,
+&#x9;RPREMOTEUSER.UCUSERIDENTIFIEREXTERNALSYSTEM UCUSERIDENTIFIEREXTERNALSYSTEM,
+&#x9;RPREMOTEUSER.USERIDCHANGED USERIDCHANGED,
+&#x9;RPREMOTEUSER.USERIDCREATED USERIDCREATED,
+&#x9;RPREMOTEUSER.USERIDENTIFIER USERIDENTIFIER,
+&#x9;RPREMOTEUSER.USERIDENTIFIEREXTERNALSYSTEM USERIDENTIFIEREXTERNALSYSTEM 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPREMOTEUSER RPREMOTEUSER</attribute>
+  <attribute name="creationDate" type="LONG">1664290209707</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPREMOTEUSER&apos;.  On line 26, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290209707</attribute>
+</metadata>

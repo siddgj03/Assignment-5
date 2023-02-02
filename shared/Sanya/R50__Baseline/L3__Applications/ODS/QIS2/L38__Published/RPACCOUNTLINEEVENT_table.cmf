@@ -1,0 +1,548 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPACCOUNTLINEEVENT" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPACCOUNTLINEEVENT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTLINEEVENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTLINEEVENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADVANCEPAYMENTJOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTACCOUNTLINENEW" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTBALANCECHANGE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDUENEW" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BAACCOUNTHOLDERADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BAACCOUNTHOLDERCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BAACCOUNTHOLDERCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BAACCOUNTHOLDERNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BAACCOUNTHOLDERPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BABANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BABANKADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BABANKCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BABANKCLEARINGHOUSECODE" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BABANKCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BABANKIDENTIFIERCODE" nullable="true">
+      <datatype type="STRING" maxLength="11"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BABANKNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BABANKPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BADOMESTICBANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BAHASALTERNBANKACCOUNTHOLDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BAISDOMESTIC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BAISIBANFORMAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEDESIREDPROCESSINGNEW" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGINFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTIONNEW" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVOICEEVENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVOICEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLEDNEW" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCREDITBALANCECHANGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCREDITNEW" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISTOBEPROCESSEDONBALANCE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISTOBEPROCESSEDONINVOICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTTYPEIDNEW" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SETTLEMENTACCOUNTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TOBEPROCESSEDONORDERNEW" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSACCOUNTLINEEVENT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPACCOUNTLINEEVENT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ACCOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ACCOUNTLINEEVENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ACCOUNTLINEEVENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ACCOUNTLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ADVANCEPAYMENTJOURNALENTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="AMTACCOUNTLINENEW">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTBALANCECHANGE">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTDUENEW">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="BAACCOUNTHOLDERADDRESS">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="BAACCOUNTHOLDERCITY">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="BAACCOUNTHOLDERCOUNTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BAACCOUNTHOLDERNAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="BAACCOUNTHOLDERPOSTALCODE">
+        <datatype type="STRING" maxLength="18"/>
+      </element>
+      <element name="BABANKACCOUNTNUMBER">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="BABANKADDRESS">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="BABANKCITY">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="BABANKCLEARINGHOUSECODE">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="BABANKCOUNTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BABANKIDENTIFIERCODE">
+        <datatype type="STRING" maxLength="11"/>
+      </element>
+      <element name="BABANKNAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="BABANKPOSTALCODE">
+        <datatype type="STRING" maxLength="18"/>
+      </element>
+      <element name="BADOMESTICBANKACCOUNTNUMBER">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="BAHASALTERNBANKACCOUNTHOLDER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="BAISDOMESTIC">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="BAISIBANFORMAT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CHANGEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CHANGEDBYLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEDESIREDPROCESSINGNEW">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEFORPROCESSINGINFA">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DESCRIPTIONNEW">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="INVOICEEVENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INVOICEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISCANCELLEDNEW">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCREDITBALANCECHANGE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCREDITNEW">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISTOBEPROCESSEDONBALANCE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISTOBEPROCESSEDONINVOICE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="JOURNALENTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PAYMENTTYPEIDNEW">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SETTLEMENTACCOUNTLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TOBEPROCESSEDONORDERNEW">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSACCOUNTLINEEVENT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPACCOUNTLINEEVENT.ACCOUNTID ACCOUNTID,
+&#x9;RPACCOUNTLINEEVENT.ACCOUNTLINEEVENTID ACCOUNTLINEEVENTID,
+&#x9;RPACCOUNTLINEEVENT.ACCOUNTLINEEVENTTYPEID ACCOUNTLINEEVENTTYPEID,
+&#x9;RPACCOUNTLINEEVENT.ACCOUNTLINEID ACCOUNTLINEID,
+&#x9;RPACCOUNTLINEEVENT.ADVANCEPAYMENTJOURNALENTRYID ADVANCEPAYMENTJOURNALENTRYID,
+&#x9;RPACCOUNTLINEEVENT.AMTACCOUNTLINENEW AMTACCOUNTLINENEW,
+&#x9;RPACCOUNTLINEEVENT.AMTBALANCECHANGE AMTBALANCECHANGE,
+&#x9;RPACCOUNTLINEEVENT.AMTDUENEW AMTDUENEW,
+&#x9;RPACCOUNTLINEEVENT.BAACCOUNTHOLDERADDRESS BAACCOUNTHOLDERADDRESS,
+&#x9;RPACCOUNTLINEEVENT.BAACCOUNTHOLDERCITY BAACCOUNTHOLDERCITY,
+&#x9;RPACCOUNTLINEEVENT.BAACCOUNTHOLDERCOUNTRYID BAACCOUNTHOLDERCOUNTRYID,
+&#x9;RPACCOUNTLINEEVENT.BAACCOUNTHOLDERNAME BAACCOUNTHOLDERNAME,
+&#x9;RPACCOUNTLINEEVENT.BAACCOUNTHOLDERPOSTALCODE BAACCOUNTHOLDERPOSTALCODE,
+&#x9;RPACCOUNTLINEEVENT.BABANKACCOUNTNUMBER BABANKACCOUNTNUMBER,
+&#x9;RPACCOUNTLINEEVENT.BABANKADDRESS BABANKADDRESS,
+&#x9;RPACCOUNTLINEEVENT.BABANKCITY BABANKCITY,
+&#x9;RPACCOUNTLINEEVENT.BABANKCLEARINGHOUSECODE BABANKCLEARINGHOUSECODE,
+&#x9;RPACCOUNTLINEEVENT.BABANKCOUNTRYID BABANKCOUNTRYID,
+&#x9;RPACCOUNTLINEEVENT.BABANKIDENTIFIERCODE BABANKIDENTIFIERCODE,
+&#x9;RPACCOUNTLINEEVENT.BABANKNAME BABANKNAME,
+&#x9;RPACCOUNTLINEEVENT.BABANKPOSTALCODE BABANKPOSTALCODE,
+&#x9;RPACCOUNTLINEEVENT.BADOMESTICBANKACCOUNTNUMBER BADOMESTICBANKACCOUNTNUMBER,
+&#x9;RPACCOUNTLINEEVENT.BAHASALTERNBANKACCOUNTHOLDER BAHASALTERNBANKACCOUNTHOLDER,
+&#x9;RPACCOUNTLINEEVENT.BAISDOMESTIC BAISDOMESTIC,
+&#x9;RPACCOUNTLINEEVENT.BAISIBANFORMAT BAISIBANFORMAT,
+&#x9;RPACCOUNTLINEEVENT.CHANGEDBYJOBID CHANGEDBYJOBID,
+&#x9;RPACCOUNTLINEEVENT.CHANGEDBYLOGONUSERID CHANGEDBYLOGONUSERID,
+&#x9;RPACCOUNTLINEEVENT.DATEDESIREDPROCESSINGNEW DATEDESIREDPROCESSINGNEW,
+&#x9;RPACCOUNTLINEEVENT.DATEFORPROCESSINGINFA DATEFORPROCESSINGINFA,
+&#x9;RPACCOUNTLINEEVENT.DESCRIPTIONNEW DESCRIPTIONNEW,
+&#x9;RPACCOUNTLINEEVENT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPACCOUNTLINEEVENT.INVOICEEVENTID INVOICEEVENTID,
+&#x9;RPACCOUNTLINEEVENT.INVOICEID INVOICEID,
+&#x9;RPACCOUNTLINEEVENT.ISCANCELLEDNEW ISCANCELLEDNEW,
+&#x9;RPACCOUNTLINEEVENT.ISCREDITBALANCECHANGE ISCREDITBALANCECHANGE,
+&#x9;RPACCOUNTLINEEVENT.ISCREDITNEW ISCREDITNEW,
+&#x9;RPACCOUNTLINEEVENT.ISTOBEPROCESSEDONBALANCE ISTOBEPROCESSEDONBALANCE,
+&#x9;RPACCOUNTLINEEVENT.ISTOBEPROCESSEDONINVOICE ISTOBEPROCESSEDONINVOICE,
+&#x9;RPACCOUNTLINEEVENT.JOURNALENTRYID JOURNALENTRYID,
+&#x9;RPACCOUNTLINEEVENT.PAYMENTTYPEIDNEW PAYMENTTYPEIDNEW,
+&#x9;RPACCOUNTLINEEVENT.SETTLEMENTACCOUNTLINEID SETTLEMENTACCOUNTLINEID,
+&#x9;RPACCOUNTLINEEVENT.TOBEPROCESSEDONORDERNEW TOBEPROCESSEDONORDERNEW,
+&#x9;RPACCOUNTLINEEVENT.TSACCOUNTLINEEVENT TSACCOUNTLINEEVENT,
+&#x9;RPACCOUNTLINEEVENT.TSCHANGED TSCHANGED,
+&#x9;RPACCOUNTLINEEVENT.TSCREATED TSCREATED,
+&#x9;RPACCOUNTLINEEVENT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPACCOUNTLINEEVENT.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPACCOUNTLINEEVENT RPACCOUNTLINEEVENT</attribute>
+  <attribute name="creationDate" type="LONG">1664293455465</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPACCOUNTLINEEVENT&apos;.  On line 50, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293455465</attribute>
+</metadata>

@@ -1,0 +1,229 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPGROUPCONTRACTINSTANCECLSFLD" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPGROUPCONTRACTINSTANCECLSFLD" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="DATEVALUE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DECIMALVALUE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="20" maxFractionalDigits="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTDEFID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTDEFINSTCLAUSEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTDEFINSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTINSTANCECLSFLDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTINSTANCECLSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTINSTANCEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFINSTCLAUSEFIELDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTEGERVALUE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUE" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPGROUPCONTRACTINSTANCECLSFLD" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="DATEVALUE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DECIMALVALUE">
+        <datatype type="DECIMAL" maxDigits="20" maxFractionalDigits="5"/>
+      </element>
+      <element name="GROUPCONTRACTDEFID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GROUPCONTRACTDEFINSTCLAUSEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GROUPCONTRACTDEFINSTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GROUPCONTRACTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GROUPCONTRACTINSTANCECLSFLDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GROUPCONTRACTINSTANCECLSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GROUPCONTRACTINSTANCEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GRPCONTRDEFINSTCLAUSEFIELDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INTEGERVALUE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="VALUE">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="VALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.DATEVALUE DATEVALUE,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.DECIMALVALUE DECIMALVALUE,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.GROUPCONTRACTDEFID GROUPCONTRACTDEFID,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.GROUPCONTRACTDEFINSTCLAUSEID GROUPCONTRACTDEFINSTCLAUSEID,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.GROUPCONTRACTDEFINSTID GROUPCONTRACTDEFINSTID,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.GROUPCONTRACTID GROUPCONTRACTID,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.GROUPCONTRACTINSTANCECLSFLDID GROUPCONTRACTINSTANCECLSFLDID,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.GROUPCONTRACTINSTANCECLSID GROUPCONTRACTINSTANCECLSID,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.GROUPCONTRACTINSTANCEID GROUPCONTRACTINSTANCEID,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.GRPCONTRDEFINSTCLAUSEFIELDID GRPCONTRDEFINSTCLAUSEFIELDID,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.INTEGERVALUE INTEGERVALUE,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.TSCHANGED TSCHANGED,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.TSCREATED TSCREATED,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.USERIDCHANGED USERIDCHANGED,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.USERIDCREATED USERIDCREATED,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.&quot;VALUE&quot; &quot;VALUE&quot;,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.VALUEID VALUEID,
+&#x9;RPGROUPCONTRACTINSTANCECLSFLD.VALUELISTID VALUELISTID 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPGROUPCONTRACTINSTANCECLSFLD RPGROUPCONTRACTINSTANCECLSFLD</attribute>
+  <attribute name="creationDate" type="LONG">1664294269079</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPGROUPCONTRACTINSTANCECLSFLD&apos;.  On line 21, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294269079</attribute>
+</metadata>

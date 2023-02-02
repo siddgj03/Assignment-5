@@ -1,0 +1,407 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPOLICYPERIODCOVPREMLINE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPOLICYPERIODCOVPREMLINE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMTINCOMEFORCOMPANY" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTINCOMERESERVEEND" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTINCOMERESERVEMONTHBOUNDARY" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTINCOMERESERVESTART" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDEXITRESULT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDEXPECTEDEXPENSE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDEXPECTEDEXPENSEPOSTNUM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDEXPECTEDEXPENSEPRENUM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDEXPECTPERIODINCPOSTNUM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDEXPECTPERIODINCPRENUM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDINTEREST" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDONETIMEINCOME" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDPERIODICALINCOME" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDPROVINCOMINGDIFFERENCE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDPROVISIONOUTGOING" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTROUNDPROVOUTGOINGPREVIOUS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONLAYERCOVCOMPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONLAYERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCULATIONMODELCOMPONENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCULATIONMODELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGCANCELINFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGINFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTPOLICYYEARS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISEXTERNAL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYPERIODCOVERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYPERIODCOVPREMLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYPERIODID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYRESERVETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREMIUMCOMPONENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCERBUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPORTINGIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TARGETGROUPAGREEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYPERIODCOVPREMLINE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTINCOMEFORCOMPANY AMTINCOMEFORCOMPANY,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTINCOMERESERVEEND AMTINCOMERESERVEEND,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTINCOMERESERVEMONTHBOUNDARY AMTINCOMERESERVEMONTHBOUNDARY,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTINCOMERESERVESTART AMTINCOMERESERVESTART,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDEXITRESULT AMTROUNDEXITRESULT,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDEXPECTEDEXPENSE AMTROUNDEXPECTEDEXPENSE,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDEXPECTEDEXPENSEPOSTNUM AMTROUNDEXPECTEDEXPENSEPOSTNUM,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDEXPECTEDEXPENSEPRENUM AMTROUNDEXPECTEDEXPENSEPRENUM,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDEXPECTPERIODINCPOSTNUM AMTROUNDEXPECTPERIODINCPOSTNUM,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDEXPECTPERIODINCPRENUM AMTROUNDEXPECTPERIODINCPRENUM,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDINTEREST AMTROUNDINTEREST,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDONETIMEINCOME AMTROUNDONETIMEINCOME,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDPERIODICALINCOME AMTROUNDPERIODICALINCOME,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDPROVINCOMINGDIFFERENCE AMTROUNDPROVINCOMINGDIFFERENCE,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDPROVISIONOUTGOING AMTROUNDPROVISIONOUTGOING,
+&#x9;RPPOLICYPERIODCOVPREMLINE.AMTROUNDPROVOUTGOINGPREVIOUS AMTROUNDPROVOUTGOINGPREVIOUS,
+&#x9;RPPOLICYPERIODCOVPREMLINE.APPLICATIONCOVERAGEID APPLICATIONCOVERAGEID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.APPLICATIONID APPLICATIONID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.APPLICATIONLAYERCOVCOMPID APPLICATIONLAYERCOVCOMPID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.APPLICATIONLAYERID APPLICATIONLAYERID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.CALCULATIONMODELCOMPONENTID CALCULATIONMODELCOMPONENTID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.CALCULATIONMODELID CALCULATIONMODELID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.CURRENCYID CURRENCYID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.DATEEND DATEEND,
+&#x9;RPPOLICYPERIODCOVPREMLINE.DATEFORPROCESSINGCANCELINFA DATEFORPROCESSINGCANCELINFA,
+&#x9;RPPOLICYPERIODCOVPREMLINE.DATEFORPROCESSINGINFA DATEFORPROCESSINGINFA,
+&#x9;RPPOLICYPERIODCOVPREMLINE.DATESTART DATESTART,
+&#x9;RPPOLICYPERIODCOVPREMLINE.DATESTARTPOLICYYEARS DATESTARTPOLICYYEARS,
+&#x9;RPPOLICYPERIODCOVPREMLINE.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.ISCANCELLED ISCANCELLED,
+&#x9;RPPOLICYPERIODCOVPREMLINE.ISEXTERNAL ISEXTERNAL,
+&#x9;RPPOLICYPERIODCOVPREMLINE.POLICYID POLICYID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.POLICYPERIODCOVERID POLICYPERIODCOVERID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.POLICYPERIODCOVPREMLINEID POLICYPERIODCOVPREMLINEID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.POLICYPERIODID POLICYPERIODID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.POLICYRESERVETYPEID POLICYRESERVETYPEID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.PREMIUMCOMPONENTTYPEID PREMIUMCOMPONENTTYPEID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.PRODUCERBUSINESSUNITID PRODUCERBUSINESSUNITID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.PRODUCTID PRODUCTID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.PRODUCTVERSIONCOVERAGEID PRODUCTVERSIONCOVERAGEID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.PRODUCTVERSIONID PRODUCTVERSIONID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.REPORTINGIDENTIFIER REPORTINGIDENTIFIER,
+&#x9;RPPOLICYPERIODCOVPREMLINE.TARGETGROUPAGREEMENTID TARGETGROUPAGREEMENTID,
+&#x9;RPPOLICYPERIODCOVPREMLINE.TSCHANGED TSCHANGED,
+&#x9;RPPOLICYPERIODCOVPREMLINE.TSCREATED TSCREATED,
+&#x9;RPPOLICYPERIODCOVPREMLINE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPOLICYPERIODCOVPREMLINE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYPERIODCOVPREMLINE RPPOLICYPERIODCOVPREMLINE</attribute>
+  <attribute name="creationDate" type="LONG">1664290025162</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYPERIODCOVPREMLINE&apos;.  On line 50, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290025162</attribute>
+</metadata>

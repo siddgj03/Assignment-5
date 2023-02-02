@@ -1,0 +1,636 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPDOCUMENT" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPDOCUMENT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ARCHIVEDOCUMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ARECONTENTSSTOREDINEXTSYS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AREEDITABLECONTENTSSTRDEXTSYS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSMEDICALINFORMATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSPRIVATEINFORMATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYREMOTEUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELASTSENT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTCATEGORYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTCONTENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTIDENTIFIERINEXTSYS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EDITABLEDOCIDENTINEXTSYS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FIATLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FILENAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINISHEDLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIERFOREXTERNALDOCEDITOR" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOMPLETE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOMPRESSED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISLASTVERSIONARCHIVED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREADONLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREADYFORARCHIVEBYACTION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISSHARED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LANGUAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LATESTCHANGELOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINATEDVIAID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PASSWORD" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SALT" nullable="true">
+      <datatype type="STRING" maxLength="24"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDBESHARED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDNEVERBEDELETED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDUPDATEINDEXINEXTSYS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDUPDATEMETADATAINEXTSYS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSSENDINGVIAPRINTQUEUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEMPLATEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCANCELLED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCLEANED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSDOCUMENTCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSDOCUMENTREADYFORARCHIVE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSFIAT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSFINISHED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTARCHIVED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTATTEMPTSUBMITINDEXATION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTATTEMPTSUBMITMETADATA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTATTEMPTSUBMITTOEXTSYSTEM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPDOCUMENT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ARCHIVEDOCUMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ARECONTENTSSTOREDINEXTSYS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="AREEDITABLECONTENTSSTRDEXTSYS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CONTAINSMEDICALINFORMATION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CONTAINSPRIVATEINFORMATION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CREATEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREATEDBYLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREATEDBYREMOTEUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATELASTSENT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DESCRIPTION">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="DOCUMENTCATEGORYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DOCUMENTCONTENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DOCUMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DOCUMENTIDENTIFIERINEXTSYS">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="DOCUMENTSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DOCUMENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EDITABLEDOCIDENTINEXTSYS">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="FIATLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="FILENAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="FINISHEDLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="IDENTIFIERFOREXTERNALDOCEDITOR">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ISCANCELLED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCOMPLETE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCOMPRESSED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISLASTVERSIONARCHIVED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISREADONLY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISREADYFORARCHIVEBYACTION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISSHARED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="LANGUAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LATESTCHANGELOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ORIGINATEDVIAID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ORIGINID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PASSWORD">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="SALT">
+        <datatype type="STRING" maxLength="24"/>
+      </element>
+      <element name="SHOULDBESHARED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHOULDNEVERBEDELETED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHOULDUPDATEINDEXINEXTSYS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHOULDUPDATEMETADATAINEXTSYS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SUPPRESSSENDINGVIAPRINTQUEUE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TEMPLATEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCANCELLED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCLEANED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSDOCUMENTCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSDOCUMENTREADYFORARCHIVE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSFIAT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSFINISHED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSLASTARCHIVED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSLASTATTEMPTSUBMITINDEXATION">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSLASTATTEMPTSUBMITMETADATA">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSLASTATTEMPTSUBMITTOEXTSYSTEM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPDOCUMENT.ARCHIVEDOCUMENTID ARCHIVEDOCUMENTID,
+&#x9;RPDOCUMENT.ARECONTENTSSTOREDINEXTSYS ARECONTENTSSTOREDINEXTSYS,
+&#x9;RPDOCUMENT.AREEDITABLECONTENTSSTRDEXTSYS AREEDITABLECONTENTSSTRDEXTSYS,
+&#x9;RPDOCUMENT.CONTAINSMEDICALINFORMATION CONTAINSMEDICALINFORMATION,
+&#x9;RPDOCUMENT.CONTAINSPRIVATEINFORMATION CONTAINSPRIVATEINFORMATION,
+&#x9;RPDOCUMENT.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPDOCUMENT.CREATEDBYLOGONUSERID CREATEDBYLOGONUSERID,
+&#x9;RPDOCUMENT.CREATEDBYREMOTEUSERID CREATEDBYREMOTEUSERID,
+&#x9;RPDOCUMENT.DATELASTSENT DATELASTSENT,
+&#x9;RPDOCUMENT.DESCRIPTION DESCRIPTION,
+&#x9;RPDOCUMENT.DOCUMENTCATEGORYID DOCUMENTCATEGORYID,
+&#x9;RPDOCUMENT.DOCUMENTCONTENTTYPEID DOCUMENTCONTENTTYPEID,
+&#x9;RPDOCUMENT.DOCUMENTID DOCUMENTID,
+&#x9;RPDOCUMENT.DOCUMENTIDENTIFIERINEXTSYS DOCUMENTIDENTIFIERINEXTSYS,
+&#x9;RPDOCUMENT.DOCUMENTSTATUSID DOCUMENTSTATUSID,
+&#x9;RPDOCUMENT.DOCUMENTTYPEID DOCUMENTTYPEID,
+&#x9;RPDOCUMENT.EDITABLEDOCIDENTINEXTSYS EDITABLEDOCIDENTINEXTSYS,
+&#x9;RPDOCUMENT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPDOCUMENT.FIATLOGONUSERID FIATLOGONUSERID,
+&#x9;RPDOCUMENT.FILENAME FILENAME,
+&#x9;RPDOCUMENT.FINISHEDLOGONUSERID FINISHEDLOGONUSERID,
+&#x9;RPDOCUMENT.IDENTIFIERFOREXTERNALDOCEDITOR IDENTIFIERFOREXTERNALDOCEDITOR,
+&#x9;RPDOCUMENT.ISCANCELLED ISCANCELLED,
+&#x9;RPDOCUMENT.ISCOMPLETE ISCOMPLETE,
+&#x9;RPDOCUMENT.ISCOMPRESSED ISCOMPRESSED,
+&#x9;RPDOCUMENT.ISLASTVERSIONARCHIVED ISLASTVERSIONARCHIVED,
+&#x9;RPDOCUMENT.ISREADONLY ISREADONLY,
+&#x9;RPDOCUMENT.ISREADYFORARCHIVEBYACTION ISREADYFORARCHIVEBYACTION,
+&#x9;RPDOCUMENT.ISSHARED ISSHARED,
+&#x9;RPDOCUMENT.LANGUAGEID LANGUAGEID,
+&#x9;RPDOCUMENT.LATESTCHANGELOGONUSERID LATESTCHANGELOGONUSERID,
+&#x9;RPDOCUMENT.ORIGINATEDVIAID ORIGINATEDVIAID,
+&#x9;RPDOCUMENT.ORIGINID ORIGINID,
+&#x9;RPDOCUMENT.PASSWORD PASSWORD,
+&#x9;RPDOCUMENT.SALT SALT,
+&#x9;RPDOCUMENT.SHOULDBESHARED SHOULDBESHARED,
+&#x9;RPDOCUMENT.SHOULDNEVERBEDELETED SHOULDNEVERBEDELETED,
+&#x9;RPDOCUMENT.SHOULDUPDATEINDEXINEXTSYS SHOULDUPDATEINDEXINEXTSYS,
+&#x9;RPDOCUMENT.SHOULDUPDATEMETADATAINEXTSYS SHOULDUPDATEMETADATAINEXTSYS,
+&#x9;RPDOCUMENT.SUPPRESSSENDINGVIAPRINTQUEUE SUPPRESSSENDINGVIAPRINTQUEUE,
+&#x9;RPDOCUMENT.TEMPLATEID TEMPLATEID,
+&#x9;RPDOCUMENT.TSCANCELLED TSCANCELLED,
+&#x9;RPDOCUMENT.TSCHANGED TSCHANGED,
+&#x9;RPDOCUMENT.TSCLEANED TSCLEANED,
+&#x9;RPDOCUMENT.TSCREATED TSCREATED,
+&#x9;RPDOCUMENT.TSDOCUMENTCREATED TSDOCUMENTCREATED,
+&#x9;RPDOCUMENT.TSDOCUMENTREADYFORARCHIVE TSDOCUMENTREADYFORARCHIVE,
+&#x9;RPDOCUMENT.TSFIAT TSFIAT,
+&#x9;RPDOCUMENT.TSFINISHED TSFINISHED,
+&#x9;RPDOCUMENT.TSLASTARCHIVED TSLASTARCHIVED,
+&#x9;RPDOCUMENT.TSLASTATTEMPTSUBMITINDEXATION TSLASTATTEMPTSUBMITINDEXATION,
+&#x9;RPDOCUMENT.TSLASTATTEMPTSUBMITMETADATA TSLASTATTEMPTSUBMITMETADATA,
+&#x9;RPDOCUMENT.TSLASTATTEMPTSUBMITTOEXTSYSTEM TSLASTATTEMPTSUBMITTOEXTSYSTEM,
+&#x9;RPDOCUMENT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPDOCUMENT.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPDOCUMENT RPDOCUMENT</attribute>
+  <attribute name="creationDate" type="LONG">1664294012989</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPDOCUMENT&apos;.  On line 58, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294012989</attribute>
+</metadata>

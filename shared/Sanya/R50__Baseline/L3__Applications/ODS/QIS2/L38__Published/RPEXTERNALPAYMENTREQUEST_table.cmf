@@ -1,0 +1,196 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPEXTERNALPAYMENTREQUEST" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPEXTERNALPAYMENTREQUEST" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALPAYMENTREQIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALPAYMENTREQUESTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFICATIONFORURL" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVOICEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTRESULTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSEMESSAGE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSREQUEST" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSRESPONSE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPEXTERNALPAYMENTREQUEST" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="APPLICATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="EXTERNALPAYMENTREQIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="EXTERNALPAYMENTREQUESTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="IDENTIFICATIONFORURL">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="INVOICEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PAYMENTRESULTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PAYMENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESPONSEMESSAGE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSREQUEST">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSRESPONSE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPEXTERNALPAYMENTREQUEST.APPLICATIONID APPLICATIONID,
+&#x9;RPEXTERNALPAYMENTREQUEST.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPEXTERNALPAYMENTREQUEST.EXTERNALPAYMENTREQIDENTIFIER EXTERNALPAYMENTREQIDENTIFIER,
+&#x9;RPEXTERNALPAYMENTREQUEST.EXTERNALPAYMENTREQUESTID EXTERNALPAYMENTREQUESTID,
+&#x9;RPEXTERNALPAYMENTREQUEST.IDENTIFICATIONFORURL IDENTIFICATIONFORURL,
+&#x9;RPEXTERNALPAYMENTREQUEST.INVOICEID INVOICEID,
+&#x9;RPEXTERNALPAYMENTREQUEST.PAYMENTRESULTID PAYMENTRESULTID,
+&#x9;RPEXTERNALPAYMENTREQUEST.PAYMENTTYPEID PAYMENTTYPEID,
+&#x9;RPEXTERNALPAYMENTREQUEST.RESPONSEMESSAGE RESPONSEMESSAGE,
+&#x9;RPEXTERNALPAYMENTREQUEST.TSCHANGED TSCHANGED,
+&#x9;RPEXTERNALPAYMENTREQUEST.TSCREATED TSCREATED,
+&#x9;RPEXTERNALPAYMENTREQUEST.TSREQUEST TSREQUEST,
+&#x9;RPEXTERNALPAYMENTREQUEST.TSRESPONSE TSRESPONSE,
+&#x9;RPEXTERNALPAYMENTREQUEST.USERIDCHANGED USERIDCHANGED,
+&#x9;RPEXTERNALPAYMENTREQUEST.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPEXTERNALPAYMENTREQUEST RPEXTERNALPAYMENTREQUEST</attribute>
+  <attribute name="creationDate" type="LONG">1664294062565</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPEXTERNALPAYMENTREQUEST&apos;.  On line 18, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294062565</attribute>
+</metadata>

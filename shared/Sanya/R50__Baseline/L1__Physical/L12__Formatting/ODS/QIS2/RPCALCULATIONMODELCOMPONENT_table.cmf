@@ -1,0 +1,311 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCALCULATIONMODELCOMPONENT" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCALCULATIONMODELCOMPONENT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ASSIGNAMTOUTGOINGTOENDPERIOD" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCULATIONMODELCOMPONENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCULATIONMODELCOMPTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCULATIONMODELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMISSIONBASISFORMULA" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMISSIONCOMPONENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONFIGUREINCOMEFORMULAS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTORDER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEPENDSONONETIMEBENEFIT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPENSESFORMULA" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASPRORATAINCOMEREMAINDERFORONETIMEINCOME" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCOMERESERVEBALANCEAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCOMERESERVECHANGEAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCOMERESERVECOMEINAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCOMERESERVEENDFORMULA" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCOMERESERVEGONEOUTAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCOMEWRITTENAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MARGINLINETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MARGINTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEGMATPROVBALANCEAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEGMATPROVCOMEINAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEGMATPROVGONEOUTAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ONETIMEINCOMEFORMULA" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERIODICALINCOMEFORMULA" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSMATPROVBALANCEAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSMATPROVCOMEINAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSMATPROVGONEOUTAMTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREMIUMCOMPONENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TERMINATIONINCOMEFORMULA" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCALCULATIONMODELCOMPONENT" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCALCULATIONMODELCOMPONENT.ASSIGNAMTOUTGOINGTOENDPERIOD ASSIGNAMTOUTGOINGTOENDPERIOD,
+&#x9;RPCALCULATIONMODELCOMPONENT.CALCULATIONMODELCOMPONENTID CALCULATIONMODELCOMPONENTID,
+&#x9;RPCALCULATIONMODELCOMPONENT.CALCULATIONMODELCOMPTYPEID CALCULATIONMODELCOMPTYPEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.CALCULATIONMODELID CALCULATIONMODELID,
+&#x9;RPCALCULATIONMODELCOMPONENT.COMMISSIONBASISFORMULA COMMISSIONBASISFORMULA,
+&#x9;RPCALCULATIONMODELCOMPONENT.COMMISSIONCOMPONENTTYPEID COMMISSIONCOMPONENTTYPEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.CONFIGUREINCOMEFORMULAS CONFIGUREINCOMEFORMULAS,
+&#x9;RPCALCULATIONMODELCOMPONENT.DEFAULTORDER DEFAULTORDER,
+&#x9;RPCALCULATIONMODELCOMPONENT.DEPENDSONONETIMEBENEFIT DEPENDSONONETIMEBENEFIT,
+&#x9;RPCALCULATIONMODELCOMPONENT.EXPENSESFORMULA EXPENSESFORMULA,
+&#x9;RPCALCULATIONMODELCOMPONENT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCALCULATIONMODELCOMPONENT.HASPRORATAINCOMEREMAINDERFORONETIMEINCOME HASPRORATAINCOMEREMAINDERFORONETIMEINCOME,
+&#x9;RPCALCULATIONMODELCOMPONENT.INCOMERESERVEBALANCEAMTTYPECODEID INCOMERESERVEBALANCEAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.INCOMERESERVECHANGEAMTTYPECODEID INCOMERESERVECHANGEAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.INCOMERESERVECOMEINAMTTYPECODEID INCOMERESERVECOMEINAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.INCOMERESERVEENDFORMULA INCOMERESERVEENDFORMULA,
+&#x9;RPCALCULATIONMODELCOMPONENT.INCOMERESERVEGONEOUTAMTTYPECODEID INCOMERESERVEGONEOUTAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.INCOMEWRITTENAMTTYPECODEID INCOMEWRITTENAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.MARGINLINETYPEID MARGINLINETYPEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.MARGINTYPEID MARGINTYPEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.NEGMATPROVBALANCEAMTTYPECODEID NEGMATPROVBALANCEAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.NEGMATPROVCOMEINAMTTYPECODEID NEGMATPROVCOMEINAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.NEGMATPROVGONEOUTAMTTYPECODEID NEGMATPROVGONEOUTAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.ONETIMEINCOMEFORMULA ONETIMEINCOMEFORMULA,
+&#x9;RPCALCULATIONMODELCOMPONENT.PERIODICALINCOMEFORMULA PERIODICALINCOMEFORMULA,
+&#x9;RPCALCULATIONMODELCOMPONENT.POSMATPROVBALANCEAMTTYPECODEID POSMATPROVBALANCEAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.POSMATPROVCOMEINAMTTYPECODEID POSMATPROVCOMEINAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.POSMATPROVGONEOUTAMTTYPECODEID POSMATPROVGONEOUTAMTTYPECODEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.PREMIUMCOMPONENTTYPEID PREMIUMCOMPONENTTYPEID,
+&#x9;RPCALCULATIONMODELCOMPONENT.TERMINATIONINCOMEFORMULA TERMINATIONINCOMEFORMULA,
+&#x9;RPCALCULATIONMODELCOMPONENT.TSCHANGED TSCHANGED,
+&#x9;RPCALCULATIONMODELCOMPONENT.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPCALCULATIONMODELCOMPONENT.TSCREATED TSCREATED,
+&#x9;RPCALCULATIONMODELCOMPONENT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCALCULATIONMODELCOMPONENT.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCALCULATIONMODELCOMPONENT RPCALCULATIONMODELCOMPONENT</attribute>
+  <attribute name="creationDate" type="LONG">1664289070327</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCALCULATIONMODELCOMPONENT&apos;.  On line 38, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289070327</attribute>
+</metadata>

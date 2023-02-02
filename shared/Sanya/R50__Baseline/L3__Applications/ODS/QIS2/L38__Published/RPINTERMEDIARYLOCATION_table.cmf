@@ -1,0 +1,317 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPINTERMEDIARYLOCATION" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPINTERMEDIARYLOCATION" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ADDRESS1ADDRESSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDRESS2ADDRESSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDRESS3ADDRESSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALTERNATIVEEMAILADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALTERNATIVETELEPHONENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALLCHARGES" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEUSEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEUSESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FAXNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYLOCATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOCATIONIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMARK" nullable="true">
+      <datatype type="STRING" maxLength="2000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSIBLEEMPLOYEENAME" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSIBLEEMPLOYEENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWINSEARCHMODE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TELEPHONENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TELEXNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTEDFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPINTERMEDIARYLOCATION" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ADDRESS1ADDRESSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ADDRESS2ADDRESSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ADDRESS3ADDRESSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ALTERNATIVEEMAILADDRESS">
+        <datatype type="STRING" maxLength="320"/>
+      </element>
+      <element name="ALTERNATIVETELEPHONENUMBER">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="CALLCHARGES">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEUSEEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEUSESTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EMAILADDRESS">
+        <datatype type="STRING" maxLength="320"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="FAXNUMBER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="INTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INTERMEDIARYLOCATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LOCATIONIDENTIFIER">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="REMARK">
+        <datatype type="STRING" maxLength="2000"/>
+      </element>
+      <element name="RESPONSIBLEEMPLOYEENAME">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="RESPONSIBLEEMPLOYEENUMBER">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="SHOWINSEARCHMODE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TELEPHONENUMBER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="TELEXNUMBER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSEXPORTEDFA">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPINTERMEDIARYLOCATION.ADDRESS1ADDRESSID ADDRESS1ADDRESSID,
+&#x9;RPINTERMEDIARYLOCATION.ADDRESS2ADDRESSID ADDRESS2ADDRESSID,
+&#x9;RPINTERMEDIARYLOCATION.ADDRESS3ADDRESSID ADDRESS3ADDRESSID,
+&#x9;RPINTERMEDIARYLOCATION.ALTERNATIVEEMAILADDRESS ALTERNATIVEEMAILADDRESS,
+&#x9;RPINTERMEDIARYLOCATION.ALTERNATIVETELEPHONENUMBER ALTERNATIVETELEPHONENUMBER,
+&#x9;RPINTERMEDIARYLOCATION.CALLCHARGES CALLCHARGES,
+&#x9;RPINTERMEDIARYLOCATION.DATEUSEEND DATEUSEEND,
+&#x9;RPINTERMEDIARYLOCATION.DATEUSESTART DATEUSESTART,
+&#x9;RPINTERMEDIARYLOCATION.EMAILADDRESS EMAILADDRESS,
+&#x9;RPINTERMEDIARYLOCATION.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPINTERMEDIARYLOCATION.FAXNUMBER FAXNUMBER,
+&#x9;RPINTERMEDIARYLOCATION.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPINTERMEDIARYLOCATION.INTERMEDIARYLOCATIONID INTERMEDIARYLOCATIONID,
+&#x9;RPINTERMEDIARYLOCATION.LOCATIONIDENTIFIER LOCATIONIDENTIFIER,
+&#x9;RPINTERMEDIARYLOCATION.REMARK REMARK,
+&#x9;RPINTERMEDIARYLOCATION.RESPONSIBLEEMPLOYEENAME RESPONSIBLEEMPLOYEENAME,
+&#x9;RPINTERMEDIARYLOCATION.RESPONSIBLEEMPLOYEENUMBER RESPONSIBLEEMPLOYEENUMBER,
+&#x9;RPINTERMEDIARYLOCATION.SHOWINSEARCHMODE SHOWINSEARCHMODE,
+&#x9;RPINTERMEDIARYLOCATION.TELEPHONENUMBER TELEPHONENUMBER,
+&#x9;RPINTERMEDIARYLOCATION.TELEXNUMBER TELEXNUMBER,
+&#x9;RPINTERMEDIARYLOCATION.TSCHANGED TSCHANGED,
+&#x9;RPINTERMEDIARYLOCATION.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPINTERMEDIARYLOCATION.TSCREATED TSCREATED,
+&#x9;RPINTERMEDIARYLOCATION.TSEXPORTEDFA TSEXPORTEDFA,
+&#x9;RPINTERMEDIARYLOCATION.USERIDCHANGED USERIDCHANGED,
+&#x9;RPINTERMEDIARYLOCATION.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPINTERMEDIARYLOCATION RPINTERMEDIARYLOCATION</attribute>
+  <attribute name="creationDate" type="LONG">1664294371976</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPINTERMEDIARYLOCATION&apos;.  On line 29, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294371976</attribute>
+</metadata>

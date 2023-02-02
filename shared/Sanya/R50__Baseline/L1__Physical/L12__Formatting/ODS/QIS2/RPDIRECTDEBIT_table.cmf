@@ -1,0 +1,591 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPDIRECTDEBIT" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPDIRECTDEBIT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDEBIT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKERRORMESSAGECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKERRORMESSAGETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKORDERREJECTIONREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKSTATEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKSTATEMENTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKTRANSACTIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITBANKACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKCLEARINGHOUSECODE" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKIDENTIFIERCODE" nullable="true">
+      <datatype type="STRING" maxLength="11"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABADOMESTICBANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAHASALTERNBANKACCOUNTHOLDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAISDOMESTIC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAISIBANFORMAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COLLECTORIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEDESIREDPROCESSING" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELATESTSTATUSCHANGE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="511"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTIONSHORT" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIRDEBMANDATEINSTANCEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIRECTDEBITBATCHID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIRECTDEBITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIRECTDEBITMANDATEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIRECTDEBITSEQUENCETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIRECTDEBITSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISRECONCILED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINATEDFROMFAILEDDDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREVDIRDEBMANDATEINSTANCEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSINGJOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSINGREVJOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REASONOFREJECTION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RECONCILEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REJECTIONJOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REVOCATIONDIRECTDEBITBATCHID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REVOCATIONJOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REVOKEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSDIRECTDEBITCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSFAILED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSFINISHED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSREJECTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSREVOKED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSREVOKEPROCESSED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERTASKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPDIRECTDEBIT" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPDIRECTDEBIT.ACCOUNTID ACCOUNTID,
+&#x9;RPDIRECTDEBIT.AMTDEBIT AMTDEBIT,
+&#x9;RPDIRECTDEBIT.BANKERRORMESSAGECODEID BANKERRORMESSAGECODEID,
+&#x9;RPDIRECTDEBIT.BANKERRORMESSAGETYPEID BANKERRORMESSAGETYPEID,
+&#x9;RPDIRECTDEBIT.BANKID BANKID,
+&#x9;RPDIRECTDEBIT.BANKORDERREJECTIONREASONID BANKORDERREJECTIONREASONID,
+&#x9;RPDIRECTDEBIT.BANKSTATEMENTID BANKSTATEMENTID,
+&#x9;RPDIRECTDEBIT.BANKSTATEMENTLINEID BANKSTATEMENTLINEID,
+&#x9;RPDIRECTDEBIT.BANKTRANSACTIONTYPEID BANKTRANSACTIONTYPEID,
+&#x9;RPDIRECTDEBIT.BUSINESSUNITBANKACCOUNTID BUSINESSUNITBANKACCOUNTID,
+&#x9;RPDIRECTDEBIT.BUSINESSUNITID BUSINESSUNITID,
+&#x9;RPDIRECTDEBIT.CABAACCOUNTHOLDERADDRESS CABAACCOUNTHOLDERADDRESS,
+&#x9;RPDIRECTDEBIT.CABAACCOUNTHOLDERCITY CABAACCOUNTHOLDERCITY,
+&#x9;RPDIRECTDEBIT.CABAACCOUNTHOLDERCOUNTRYID CABAACCOUNTHOLDERCOUNTRYID,
+&#x9;RPDIRECTDEBIT.CABAACCOUNTHOLDERNAME CABAACCOUNTHOLDERNAME,
+&#x9;RPDIRECTDEBIT.CABAACCOUNTHOLDERPOSTALCODE CABAACCOUNTHOLDERPOSTALCODE,
+&#x9;RPDIRECTDEBIT.CABABANKACCOUNTNUMBER CABABANKACCOUNTNUMBER,
+&#x9;RPDIRECTDEBIT.CABABANKADDRESS CABABANKADDRESS,
+&#x9;RPDIRECTDEBIT.CABABANKCITY CABABANKCITY,
+&#x9;RPDIRECTDEBIT.CABABANKCLEARINGHOUSECODE CABABANKCLEARINGHOUSECODE,
+&#x9;RPDIRECTDEBIT.CABABANKCOUNTRYID CABABANKCOUNTRYID,
+&#x9;RPDIRECTDEBIT.CABABANKIDENTIFIERCODE CABABANKIDENTIFIERCODE,
+&#x9;RPDIRECTDEBIT.CABABANKNAME CABABANKNAME,
+&#x9;RPDIRECTDEBIT.CABABANKPOSTALCODE CABABANKPOSTALCODE,
+&#x9;RPDIRECTDEBIT.CABADOMESTICBANKACCOUNTNUMBER CABADOMESTICBANKACCOUNTNUMBER,
+&#x9;RPDIRECTDEBIT.CABAHASALTERNBANKACCOUNTHOLDER CABAHASALTERNBANKACCOUNTHOLDER,
+&#x9;RPDIRECTDEBIT.CABAISDOMESTIC CABAISDOMESTIC,
+&#x9;RPDIRECTDEBIT.CABAISIBANFORMAT CABAISIBANFORMAT,
+&#x9;RPDIRECTDEBIT.CLAIMIDENTIFIER CLAIMIDENTIFIER,
+&#x9;RPDIRECTDEBIT.COLLECTORIDENTIFIER COLLECTORIDENTIFIER,
+&#x9;RPDIRECTDEBIT.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPDIRECTDEBIT.CURRENCYID CURRENCYID,
+&#x9;RPDIRECTDEBIT.DATEDESIREDPROCESSING DATEDESIREDPROCESSING,
+&#x9;RPDIRECTDEBIT.DATELATESTSTATUSCHANGE DATELATESTSTATUSCHANGE,
+&#x9;RPDIRECTDEBIT.DESCRIPTION DESCRIPTION,
+&#x9;RPDIRECTDEBIT.DESCRIPTIONSHORT DESCRIPTIONSHORT,
+&#x9;RPDIRECTDEBIT.DIRDEBMANDATEINSTANCEID DIRDEBMANDATEINSTANCEID,
+&#x9;RPDIRECTDEBIT.DIRECTDEBITBATCHID DIRECTDEBITBATCHID,
+&#x9;RPDIRECTDEBIT.DIRECTDEBITID DIRECTDEBITID,
+&#x9;RPDIRECTDEBIT.DIRECTDEBITMANDATEID DIRECTDEBITMANDATEID,
+&#x9;RPDIRECTDEBIT.DIRECTDEBITSEQUENCETYPEID DIRECTDEBITSEQUENCETYPEID,
+&#x9;RPDIRECTDEBIT.DIRECTDEBITSTATUSID DIRECTDEBITSTATUSID,
+&#x9;RPDIRECTDEBIT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPDIRECTDEBIT.GROUPCONTRACTIDENTIFIER GROUPCONTRACTIDENTIFIER,
+&#x9;RPDIRECTDEBIT.ISRECONCILED ISRECONCILED,
+&#x9;RPDIRECTDEBIT.JOURNALENTRYID JOURNALENTRYID,
+&#x9;RPDIRECTDEBIT.ORIGINATEDFROMFAILEDDDID ORIGINATEDFROMFAILEDDDID,
+&#x9;RPDIRECTDEBIT.PAYMENTIDENTIFIER PAYMENTIDENTIFIER,
+&#x9;RPDIRECTDEBIT.POLICYIDENTIFIER POLICYIDENTIFIER,
+&#x9;RPDIRECTDEBIT.PREVDIRDEBMANDATEINSTANCEID PREVDIRDEBMANDATEINSTANCEID,
+&#x9;RPDIRECTDEBIT.PROCESSINGJOURNALENTRYID PROCESSINGJOURNALENTRYID,
+&#x9;RPDIRECTDEBIT.PROCESSINGREVJOURNALENTRYID PROCESSINGREVJOURNALENTRYID,
+&#x9;RPDIRECTDEBIT.REASONOFREJECTION REASONOFREJECTION,
+&#x9;RPDIRECTDEBIT.RECONCILEDBYJOBID RECONCILEDBYJOBID,
+&#x9;RPDIRECTDEBIT.REJECTIONJOURNALENTRYID REJECTIONJOURNALENTRYID,
+&#x9;RPDIRECTDEBIT.REVOCATIONDIRECTDEBITBATCHID REVOCATIONDIRECTDEBITBATCHID,
+&#x9;RPDIRECTDEBIT.REVOCATIONJOURNALENTRYID REVOCATIONJOURNALENTRYID,
+&#x9;RPDIRECTDEBIT.REVOKEDBYJOBID REVOKEDBYJOBID,
+&#x9;RPDIRECTDEBIT.TSCHANGED TSCHANGED,
+&#x9;RPDIRECTDEBIT.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPDIRECTDEBIT.TSCREATED TSCREATED,
+&#x9;RPDIRECTDEBIT.TSDIRECTDEBITCREATED TSDIRECTDEBITCREATED,
+&#x9;RPDIRECTDEBIT.TSFAILED TSFAILED,
+&#x9;RPDIRECTDEBIT.TSFINISHED TSFINISHED,
+&#x9;RPDIRECTDEBIT.TSREJECTED TSREJECTED,
+&#x9;RPDIRECTDEBIT.TSREVOKED TSREVOKED,
+&#x9;RPDIRECTDEBIT.TSREVOKEPROCESSED TSREVOKEPROCESSED,
+&#x9;RPDIRECTDEBIT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPDIRECTDEBIT.USERIDCREATED USERIDCREATED,
+&#x9;RPDIRECTDEBIT.USERTASKID USERTASKID 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPDIRECTDEBIT RPDIRECTDEBIT</attribute>
+  <attribute name="creationDate" type="LONG">1664289372073</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPDIRECTDEBIT&apos;.  On line 73, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289372073</attribute>
+</metadata>

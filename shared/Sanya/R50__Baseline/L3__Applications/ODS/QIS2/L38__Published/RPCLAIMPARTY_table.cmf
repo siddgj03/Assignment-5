@@ -1,0 +1,317 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCLAIMPARTY" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCLAIMPARTY" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ASSESSMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BRAND" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CARCOLLISIONLIABAGREEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHASSISNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMPARTYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DAMAGEPOSITIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION_UPPER" nullable="true">
+      <datatype type="STRING" maxLength="240"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFOREIGNLICENSEPLATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LICENSEPLATE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LICENSEPLATEFORSEARCH" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MODEL" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OBJECTDESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OBJECTDESCRIPTION_UPPER" nullable="true">
+      <datatype type="STRING" maxLength="765"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PARTYTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYNUMBEROPPOSINGPARTY" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RDRFIXATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEBEFOREACCIDENT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEWRECKAGE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLECATEGORYFORLIABILITYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMPARTY" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ASSESSMENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BRAND">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="CARCOLLISIONLIABAGREEMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CHASSISNUMBER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="CLAIMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMPARTYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DAMAGEPOSITIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DESCRIPTION">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="DESCRIPTION_UPPER">
+        <datatype type="STRING" maxLength="240"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ISFOREIGNLICENSEPLATE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="LICENSEPLATE">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="LICENSEPLATEFORSEARCH">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="MODEL">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="OBJECTDESCRIPTION">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="OBJECTDESCRIPTION_UPPER">
+        <datatype type="STRING" maxLength="765"/>
+      </element>
+      <element name="PARTYTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYNUMBEROPPOSINGPARTY">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="RDRFIXATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="VALUEBEFOREACCIDENT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="VALUEWRECKAGE">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="VEHICLECATEGORYFORLIABILITYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCLAIMPARTY.ASSESSMENTTYPEID ASSESSMENTTYPEID,
+&#x9;RPCLAIMPARTY.BRAND BRAND,
+&#x9;RPCLAIMPARTY.CARCOLLISIONLIABAGREEMENTID CARCOLLISIONLIABAGREEMENTID,
+&#x9;RPCLAIMPARTY.CHASSISNUMBER CHASSISNUMBER,
+&#x9;RPCLAIMPARTY.CLAIMID CLAIMID,
+&#x9;RPCLAIMPARTY.CLAIMPARTYID CLAIMPARTYID,
+&#x9;RPCLAIMPARTY.DAMAGEPOSITIONID DAMAGEPOSITIONID,
+&#x9;RPCLAIMPARTY.DESCRIPTION DESCRIPTION,
+&#x9;RPCLAIMPARTY.DESCRIPTION_UPPER DESCRIPTION_UPPER,
+&#x9;RPCLAIMPARTY.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCLAIMPARTY.ISFOREIGNLICENSEPLATE ISFOREIGNLICENSEPLATE,
+&#x9;RPCLAIMPARTY.LICENSEPLATE LICENSEPLATE,
+&#x9;RPCLAIMPARTY.LICENSEPLATEFORSEARCH LICENSEPLATEFORSEARCH,
+&#x9;RPCLAIMPARTY.MODEL MODEL,
+&#x9;RPCLAIMPARTY.OBJECTDESCRIPTION OBJECTDESCRIPTION,
+&#x9;RPCLAIMPARTY.OBJECTDESCRIPTION_UPPER OBJECTDESCRIPTION_UPPER,
+&#x9;RPCLAIMPARTY.PARTYTYPEID PARTYTYPEID,
+&#x9;RPCLAIMPARTY.POLICYNUMBEROPPOSINGPARTY POLICYNUMBEROPPOSINGPARTY,
+&#x9;RPCLAIMPARTY.RDRFIXATIONID RDRFIXATIONID,
+&#x9;RPCLAIMPARTY.TSCHANGED TSCHANGED,
+&#x9;RPCLAIMPARTY.TSCREATED TSCREATED,
+&#x9;RPCLAIMPARTY.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCLAIMPARTY.USERIDCREATED USERIDCREATED,
+&#x9;RPCLAIMPARTY.VALUEBEFOREACCIDENT VALUEBEFOREACCIDENT,
+&#x9;RPCLAIMPARTY.VALUEWRECKAGE VALUEWRECKAGE,
+&#x9;RPCLAIMPARTY.VEHICLECATEGORYFORLIABILITYID VEHICLECATEGORYFORLIABILITYID 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMPARTY RPCLAIMPARTY</attribute>
+  <attribute name="creationDate" type="LONG">1664293823895</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMPARTY&apos;.  On line 29, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293823895</attribute>
+</metadata>

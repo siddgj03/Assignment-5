@@ -1,0 +1,229 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPGIMPROCESS" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPGIMPROCESS" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ERRORMESSAGE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GIMCONTEXTCODE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GIMFUNCTIONCODE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GIMPROCESSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GIMPROCESSSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GIMPRODUCTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INPUTXML" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISERROR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OUTPUTXML" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SERIALNUMBERCERTIFICATE" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="WARNINGMESSAGE" nullable="true">
+      <datatype type="STRING" maxLength="2000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPGIMPROCESS" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="APPLICATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ERRORMESSAGE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="GIMCONTEXTCODE">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="GIMFUNCTIONCODE">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="GIMPROCESSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GIMPROCESSSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GIMPRODUCTIDENTIFIER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="INPUTXML">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="INTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISERROR">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="OUTPUTXML">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="SERIALNUMBERCERTIFICATE">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="254"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="254"/>
+      </element>
+      <element name="WARNINGMESSAGE">
+        <datatype type="STRING" maxLength="2000"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPGIMPROCESS.APPLICATIONID APPLICATIONID,
+&#x9;RPGIMPROCESS.ERRORMESSAGE ERRORMESSAGE,
+&#x9;RPGIMPROCESS.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPGIMPROCESS.GIMCONTEXTCODE GIMCONTEXTCODE,
+&#x9;RPGIMPROCESS.GIMFUNCTIONCODE GIMFUNCTIONCODE,
+&#x9;RPGIMPROCESS.GIMPROCESSID GIMPROCESSID,
+&#x9;RPGIMPROCESS.GIMPROCESSSTATUSID GIMPROCESSSTATUSID,
+&#x9;RPGIMPROCESS.GIMPRODUCTIDENTIFIER GIMPRODUCTIDENTIFIER,
+&#x9;RPGIMPROCESS.INPUTXML INPUTXML,
+&#x9;RPGIMPROCESS.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPGIMPROCESS.ISERROR ISERROR,
+&#x9;RPGIMPROCESS.OUTPUTXML OUTPUTXML,
+&#x9;RPGIMPROCESS.SERIALNUMBERCERTIFICATE SERIALNUMBERCERTIFICATE,
+&#x9;RPGIMPROCESS.TSCHANGED TSCHANGED,
+&#x9;RPGIMPROCESS.TSCREATED TSCREATED,
+&#x9;RPGIMPROCESS.USERIDCHANGED USERIDCHANGED,
+&#x9;RPGIMPROCESS.USERIDCREATED USERIDCREATED,
+&#x9;RPGIMPROCESS.WARNINGMESSAGE WARNINGMESSAGE 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPGIMPROCESS RPGIMPROCESS</attribute>
+  <attribute name="creationDate" type="LONG">1664294258407</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPGIMPROCESS&apos;.  On line 21, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294258407</attribute>
+</metadata>

@@ -1,0 +1,317 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCLAIMASSESSMENTREPORT" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCLAIMASSESSMENTREPORT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACTIONEXPLANATION" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTESTIMATEDDAMAGE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXCESSDEDUCTED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTCOMMMETHODID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTEXECUTIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTREPORTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMACTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMASSESSMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMASSESSMENTREPORTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATERECEIVED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASPOSITIVEPAYMENTADVICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPROCESSEDBYSYSTEM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISRECOURSEPOSSIBLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEEDSACTIONBYCLAIMHANDLER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROGRESSDESCRIPTION" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REASONRECOURSEPOSSIBLE" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDFILEBECLOSED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTREASONNEGATIVEPAYMADVICE" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEDCLAIMSETTLEMENTAUTHORITY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMASSESSMENTREPORT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ACTIONEXPLANATION">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="AMTESTIMATEDDAMAGE">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTEXCESSDEDUCTED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="ASSESSMENTCOMMMETHODID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSESSMENTEXECUTIONTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSESSMENTREPORTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMACTIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMASSESSMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMASSESSMENTREPORTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREATEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATERECEIVED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="HASPOSITIVEPAYMENTADVICE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPROCESSEDBYSYSTEM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISRECOURSEPOSSIBLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NEEDSACTIONBYCLAIMHANDLER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PROGRESSDESCRIPTION">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="REASONRECOURSEPOSSIBLE">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="SHOULDFILEBECLOSED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TEXTREASONNEGATIVEPAYMADVICE">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USEDCLAIMSETTLEMENTAUTHORITY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCLAIMASSESSMENTREPORT.ACTIONEXPLANATION ACTIONEXPLANATION,
+&#x9;RPCLAIMASSESSMENTREPORT.AMTESTIMATEDDAMAGE AMTESTIMATEDDAMAGE,
+&#x9;RPCLAIMASSESSMENTREPORT.AMTEXCESSDEDUCTED AMTEXCESSDEDUCTED,
+&#x9;RPCLAIMASSESSMENTREPORT.ASSESSMENTCOMMMETHODID ASSESSMENTCOMMMETHODID,
+&#x9;RPCLAIMASSESSMENTREPORT.ASSESSMENTEXECUTIONTYPEID ASSESSMENTEXECUTIONTYPEID,
+&#x9;RPCLAIMASSESSMENTREPORT.ASSESSMENTREPORTTYPEID ASSESSMENTREPORTTYPEID,
+&#x9;RPCLAIMASSESSMENTREPORT.CLAIMACTIONID CLAIMACTIONID,
+&#x9;RPCLAIMASSESSMENTREPORT.CLAIMASSESSMENTID CLAIMASSESSMENTID,
+&#x9;RPCLAIMASSESSMENTREPORT.CLAIMASSESSMENTREPORTID CLAIMASSESSMENTREPORTID,
+&#x9;RPCLAIMASSESSMENTREPORT.CLAIMID CLAIMID,
+&#x9;RPCLAIMASSESSMENTREPORT.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPCLAIMASSESSMENTREPORT.DATERECEIVED DATERECEIVED,
+&#x9;RPCLAIMASSESSMENTREPORT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCLAIMASSESSMENTREPORT.HASPOSITIVEPAYMENTADVICE HASPOSITIVEPAYMENTADVICE,
+&#x9;RPCLAIMASSESSMENTREPORT.ISPROCESSEDBYSYSTEM ISPROCESSEDBYSYSTEM,
+&#x9;RPCLAIMASSESSMENTREPORT.ISRECOURSEPOSSIBLE ISRECOURSEPOSSIBLE,
+&#x9;RPCLAIMASSESSMENTREPORT.NEEDSACTIONBYCLAIMHANDLER NEEDSACTIONBYCLAIMHANDLER,
+&#x9;RPCLAIMASSESSMENTREPORT.PROGRESSDESCRIPTION PROGRESSDESCRIPTION,
+&#x9;RPCLAIMASSESSMENTREPORT.REASONRECOURSEPOSSIBLE REASONRECOURSEPOSSIBLE,
+&#x9;RPCLAIMASSESSMENTREPORT.SHOULDFILEBECLOSED SHOULDFILEBECLOSED,
+&#x9;RPCLAIMASSESSMENTREPORT.TEXTREASONNEGATIVEPAYMADVICE TEXTREASONNEGATIVEPAYMADVICE,
+&#x9;RPCLAIMASSESSMENTREPORT.TSCHANGED TSCHANGED,
+&#x9;RPCLAIMASSESSMENTREPORT.TSCREATED TSCREATED,
+&#x9;RPCLAIMASSESSMENTREPORT.USEDCLAIMSETTLEMENTAUTHORITY USEDCLAIMSETTLEMENTAUTHORITY,
+&#x9;RPCLAIMASSESSMENTREPORT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCLAIMASSESSMENTREPORT.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMASSESSMENTREPORT RPCLAIMASSESSMENTREPORT</attribute>
+  <attribute name="creationDate" type="LONG">1664293764966</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMASSESSMENTREPORT&apos;.  On line 29, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293764966</attribute>
+</metadata>

@@ -1,0 +1,175 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPGRPCONTRDEFINSTPRODINSTINTDF" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPGRPCONTRDEFINSTPRODINSTINTDF" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CODE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COLUMNORDEROUTPUT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFINSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFINSTPRODINSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFINSTPRODINSTINTDFID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISEDITABLEINLIST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFORIMPORTOREXPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISMANDATORYFORIMPORTEXPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="QUESTIONGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="QUESTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWASCOLUMN" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPGRPCONTRDEFINSTPRODINSTINTDF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.CODE CODE,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.COLUMNORDEROUTPUT COLUMNORDEROUTPUT,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.FORMID FORMID,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.GRPCONTRDEFID GRPCONTRDEFID,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.GRPCONTRDEFINSTID GRPCONTRDEFINSTID,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.GRPCONTRDEFINSTPRODINSTID GRPCONTRDEFINSTPRODINSTID,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.GRPCONTRDEFINSTPRODINSTINTDFID GRPCONTRDEFINSTPRODINSTINTDFID,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.ISEDITABLEINLIST ISEDITABLEINLIST,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.ISFORIMPORTOREXPORT ISFORIMPORTOREXPORT,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.ISMANDATORYFORIMPORTEXPORT ISMANDATORYFORIMPORTEXPORT,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.PRODUCTID PRODUCTID,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.QUESTIONGROUPID QUESTIONGROUPID,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.QUESTIONID QUESTIONID,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.SHOWASCOLUMN SHOWASCOLUMN,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.TSCHANGED TSCHANGED,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.TSCREATED TSCREATED,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.USERIDCHANGED USERIDCHANGED,
+&#x9;RPGRPCONTRDEFINSTPRODINSTINTDF.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPGRPCONTRDEFINSTPRODINSTINTDF RPGRPCONTRDEFINSTPRODINSTINTDF</attribute>
+  <attribute name="creationDate" type="LONG">1664289671716</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPGRPCONTRDEFINSTPRODINSTINTDF&apos;.  On line 21, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289671716</attribute>
+</metadata>

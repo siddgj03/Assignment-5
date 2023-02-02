@@ -1,0 +1,229 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPTRANSLATIONTOLEDGERACCOUNT" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPTRANSLATIONTOLEDGERACCOUNT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMOUNTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITBANKACCOUNTNR" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALCODEFORFA" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALCODEFORLEDGER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCREDIT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOURNALENTRYREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEDGERACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RISKBEAREREXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSLATIONTOLEDGERACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="YEARDAMAGE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="YEARSIGNED" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPTRANSLATIONTOLEDGERACCOUNT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="AMOUNTTYPECODEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BUSINESSUNITBANKACCOUNTNR">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="BUSINESSUNITID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CURRENCYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DESCRIPTION">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="EXTERNALCODEFORFA">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="EXTERNALCODEFORLEDGER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ISCREDIT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="JOURNALENTRYREASONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LEDGERACCOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RISKBEAREREXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="TRANSLATIONTOLEDGERACCOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="YEARDAMAGE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="YEARSIGNED">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.AMOUNTTYPECODEID AMOUNTTYPECODEID,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.BUSINESSUNITBANKACCOUNTNR BUSINESSUNITBANKACCOUNTNR,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.BUSINESSUNITID BUSINESSUNITID,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.CURRENCYID CURRENCYID,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.DESCRIPTION DESCRIPTION,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.EXTERNALCODEFORFA EXTERNALCODEFORFA,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.EXTERNALCODEFORLEDGER EXTERNALCODEFORLEDGER,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.ISCREDIT ISCREDIT,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.JOURNALENTRYREASONID JOURNALENTRYREASONID,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.LEDGERACCOUNTID LEDGERACCOUNTID,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.RISKBEAREREXTERNALIDENTIFIER RISKBEAREREXTERNALIDENTIFIER,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.TRANSLATIONTOLEDGERACCOUNTID TRANSLATIONTOLEDGERACCOUNTID,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.TSCHANGED TSCHANGED,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.TSCREATED TSCREATED,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.USERIDCREATED USERIDCREATED,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.YEARDAMAGE YEARDAMAGE,
+&#x9;RPTRANSLATIONTOLEDGERACCOUNT.YEARSIGNED YEARSIGNED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPTRANSLATIONTOLEDGERACCOUNT RPTRANSLATIONTOLEDGERACCOUNT</attribute>
+  <attribute name="creationDate" type="LONG">1664295014491</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPTRANSLATIONTOLEDGERACCOUNT&apos;.  On line 21, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664295014491</attribute>
+</metadata>

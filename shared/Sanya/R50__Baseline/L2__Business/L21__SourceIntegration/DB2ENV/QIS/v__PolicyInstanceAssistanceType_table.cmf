@@ -1,0 +1,290 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_PolicyInstanceAssistanceType" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/QIS/v_PolicyInstanceAssistanceType" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="POLICYINSTANCEID" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="VALUE" nullable="true">
+      <datatype type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/QIS/v_Coverage" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="IDENTIFIER">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="POLICYINSTANCEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PRODUCTVERSIONCOVERAGEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="POLICYINSTANCEOBJECTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ISDELETEDINCURRPOLICYVERSION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="AMTSTANDARDEXCESS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTEXTRAMANDATORYEXCESS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="ISPRESENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISINSUREDEXTERNAL">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DATEENDINSUREDEXTERNAL">
+        <datatype type="DATE"/>
+      </element>
+      <element name="FIXEDPERIODPREMIUMRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="NONPRORATAPREMIUMRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PRORATAPREMIUMRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="FULLPERIODPREMIUMRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="DATECOVERAGESTART">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATECOVERAGEEND">
+        <datatype type="DATE"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="HASEXCESSBEENBOUGHTOFF">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="AMTEXTRAVOLUNTARYEXCESS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="TERMPREMIUMRESULTID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="AMTINSUREDVALUE">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTEXCESSBASE">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="DATECOVERAGESTARTALTERNATIVE">
+        <datatype type="DATE"/>
+      </element>
+      <element name="DATEENDWAITINGPERIOD">
+        <datatype type="DATE"/>
+      </element>
+      <element name="PERCCOMPANYDISCNT1STDURFRMCNF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCCOMPANYDISCOUNTFROMCONF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONPREM1STDURFRMCNF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PREMIUMSPLITWEIGHT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="SPECIFIEDPREMIUMSPLITWEIGHT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONPREMIUMFROMCONF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PPRAMTFINALPREMIUM">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PPRAMTMARGIN">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PPRAMTRETURNMARGIN">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PPRAMTTOTALTAXEXCLPOLICYCOSTS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="POLICYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PERCCOMPANYPOOLPARTICIPATION">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCNCBMDISCOUNT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="EARNEDNCBMYEARS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EARNEDNCBMYEARSFORDEACTIVATION">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CURRENTNCBMSTEP">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DEFAULTNCBMSTEP">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTRANCBMSTEPS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="COMMERCIALNCBMSTEPS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="COMPENSATIONNCBMSTEPS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCCLAIMEDAMTSTANDARDEXCESS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTSTANDARDMINIMUMEXCESS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTSTANDARDMAXIMUMEXCESS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="NRLOYALTYPOINTS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LOYALTYPTTRANSFORVALIDITYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="LOYALTYPTTRANSFORINVALIDITYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PERCMARGINONPREMIUMSPECIFIED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONPRM1STDURSPECIFIED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="ISYEARLYRETENTIONAPPLICABLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DATEENDZEROPREMIUMPERIOD">
+        <datatype type="DATE"/>
+      </element>
+      <element name="PERCALTMINIMUMDISABILITY">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCDISABILITY">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCPREMIUMWAIVER">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCPREMIUMWAIVERSPECIFIED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTPRESVALUEEXPECTEDEXPENSES">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="CALCULATIONMODELID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="ISINSUREDAMOUNTVARIABLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPREMIUMAMOUNTVARIABLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USESONETIMEPREMIUM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DATEENDLASTPREMIUMTERM">
+        <datatype type="DATE"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/QIS/v_CoverageField" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="IDENTIFIER">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="POLICYINSTANCECOVERAGEID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="VALUE">
+        <datatype type="STRING" maxLength="4000"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="POLICYID">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    v_Coverage.POLICYINSTANCEID, 
+    MAX(v_CoverageField.&quot;VALUE&quot;) &quot;VALUE&quot;, 
+    MAX(v_CoverageField.EXTERNALIDENTIFIER) EXTERNALIDENTIFIER
+FROM      
+    /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/QIS/v_CoverageField v_CoverageField INNER JOIN 
+        /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/QIS/v_Coverage v_Coverage
+    ON v_CoverageField.POLICYINSTANCECOVERAGEID = v_Coverage.IDENTIFIER
+WHERE
+    v_CoverageField.EXTERNALIDENTIFIER LIKE &apos;%AssistanceType%&apos;
+GROUP BY v_Coverage.POLICYINSTANCEID</attribute>
+  <attribute name="creationDate" type="LONG">1622019094808</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">78068</attribute>
+  <attribute name="creatorUserName" type="STRING">d008514</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/QIS/RPPOLICYINSTANCECOVERAGEFIELD&apos;.  On line 4, column 5.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1622021428368</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">78068</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d008514</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1622019094808</attribute>
+</metadata>

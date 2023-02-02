@@ -1,0 +1,262 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCLAIMCUSTCLAIMPERIODPOLICY" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCLAIMCUSTCLAIMPERIODPOLICY" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELPROCESSEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELPROCESSEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCUSTCLAIMPERIODPOLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCUSTOMERCLAIMPERIODID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLATIONPROCESSED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPROCESSED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCANCELLATIONPROCESSED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSPROCESSED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMCUSTCLAIMPERIODPOLICY" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="APPLICATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CANCELPROCESSEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CANCELPROCESSEDBYLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMCUSTCLAIMPERIODPOLICYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMCUSTOMERCLAIMPERIODID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMCUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="ISCANCELLATIONPROCESSED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCANCELLED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPROCESSED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="POLICYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PROCESSEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PROCESSEDBYLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCANCELLATIONPROCESSED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSPROCESSED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.APPLICATIONID APPLICATIONID,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.CANCELPROCESSEDBYJOBID CANCELPROCESSEDBYJOBID,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.CANCELPROCESSEDBYLOGONUSERID CANCELPROCESSEDBYLOGONUSERID,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.CLAIMCUSTCLAIMPERIODPOLICYID CLAIMCUSTCLAIMPERIODPOLICYID,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.CLAIMCUSTOMERCLAIMPERIODID CLAIMCUSTOMERCLAIMPERIODID,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.CLAIMCUSTOMERID CLAIMCUSTOMERID,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.CLAIMID CLAIMID,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.DATEEND DATEEND,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.DATESTART DATESTART,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.ISCANCELLATIONPROCESSED ISCANCELLATIONPROCESSED,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.ISCANCELLED ISCANCELLED,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.ISPROCESSED ISPROCESSED,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.POLICYID POLICYID,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.PROCESSEDBYJOBID PROCESSEDBYJOBID,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.PROCESSEDBYLOGONUSERID PROCESSEDBYLOGONUSERID,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.TSCANCELLATIONPROCESSED TSCANCELLATIONPROCESSED,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.TSCHANGED TSCHANGED,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.TSCREATED TSCREATED,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.TSPROCESSED TSPROCESSED,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCLAIMCUSTCLAIMPERIODPOLICY.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMCUSTCLAIMPERIODPOLICY RPCLAIMCUSTCLAIMPERIODPOLICY</attribute>
+  <attribute name="creationDate" type="LONG">1664293784435</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMCUSTCLAIMPERIODPOLICY&apos;.  On line 24, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293784435</attribute>
+</metadata>

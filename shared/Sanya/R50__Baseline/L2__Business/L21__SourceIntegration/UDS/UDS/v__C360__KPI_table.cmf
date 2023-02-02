@@ -1,0 +1,415 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_C360_KPI" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/UDS/UDS/v_C360_KPI" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CUSTOMER_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ACTOR_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ExpectedPremium2021" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ExpectedPremium2022" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ExpectedPremium2023" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SumClaimsCostOpen" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="REPORTING_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_ANA_MODEL" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="MODEL_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="MODEL_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="MODEL_DK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="CURRENT_MODEL_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="MODEL_TYPE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="MODEL_NM">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="MODEL_DESC">
+        <datatype type="STRING" maxLength="1000"/>
+      </element>
+      <element name="MODEL_CREATION_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EFFECTIVE_FROM_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EFFECTIVE_TO_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="VERSION_NO">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="SOURCE_SYSTEM_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="CURRENT_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="DELETED_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="VALID_FROM_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="VALID_TO_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PROCESSED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_PTY_PARTY" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="PARTY_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="VALID_FROM_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="VALID_TO_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PROCESSED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="CURRENT_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="DELETED_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="CURRENT_PARTY_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="PARTY_DK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="PARTY_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="PARTY_TYPE_CD">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="SOURCE_SYSTEM_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="FIRST_NM">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="NAME">
+        <datatype type="STRING" maxLength="600"/>
+      </element>
+      <element name="BIRTH_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="GENDER_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="MOBILE_PHONE_NO">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ADDRESS_LINE_1">
+        <datatype type="STRING" maxLength="256"/>
+      </element>
+      <element name="ADDRESS_LINE_2">
+        <datatype type="STRING" maxLength="256"/>
+      </element>
+      <element name="ADDRESS_LINE_3">
+        <datatype type="STRING" maxLength="256"/>
+      </element>
+      <element name="CITY_NM">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="POSTAL_CD">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="COUNTRY_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="TELEPHONE_NO">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="NIS_SECTOR_CD">
+        <datatype type="STRING" maxLength="36"/>
+      </element>
+      <element name="LANGUAGE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="NONR_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="UL3_PERSON_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="ACTOR_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="SEGMENT_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="INTERCOMPANY_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="COMPANY_REGISTRATION_NO">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="EMAIL">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="REINSURER_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="CLASSIFICATION_ENTERPRISE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="NATURE_OF_BUSINESS_CD">
+        <datatype type="STRING" maxLength="28"/>
+      </element>
+      <element name="ORG_LEGAL_TYPE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="MARITAL_STATUS_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="PSI">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_REF_DATE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="DATE_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="VALID_FROM_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="VALID_TO_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PROCESSED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="CURRENT_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="DELETED_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="DATE_ID">
+        <datatype type="STRING" maxLength="44"/>
+      </element>
+      <element name="DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DAY_NUM_OF_WEEK">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DAY_NUM_OF_MONTH">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DAY_NUM_OF_QUARTER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DAY_NUM_OF_YEAR">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DAY_NUM_ABSOLUTE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DAY_OF_WEEK_NAME">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="DAY_OF_WEEK_ABBREVIATION">
+        <datatype type="STRING" maxLength="32"/>
+      </element>
+      <element name="JULIAN_DAY_NUM_OF_YEAR">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="JULIAN_DAY_NUM_ABSOLUTE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="IS_WEEKDAY">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="IS_LAST_DAY_OF_WEEK">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="IS_LAST_DAY_OF_MONTH">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="IS_LAST_DAY_OF_QUARTER">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="IS_LAST_DAY_OF_YEAR">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="WEEK_NUM_OF_MONTH">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="WEEK_NUM_OF_QUARTER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="WEEK_NUM_OF_YEAR">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MONTH_NUM_OF_YEAR">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MONTH_NAME">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="MONTH_NAME_ABBREVIATION">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="MONTH_BEGIN_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="MONTH_END_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="QUARTER_NUM_OF_YEAR">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="QUARTER_BEGIN_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="QUARTER_END_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="YEAR_NUM">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="YEAR_BEGIN_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="YEAR_END_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="YYYYMM">
+        <datatype type="STRING" maxLength="24"/>
+      </element>
+      <element name="YYYYMMDD">
+        <datatype type="STRING" maxLength="32"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_F_ANA_CUST_KPI" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="MODEL_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="PARTY_DK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="PARTY_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="REPORTING_DT_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="CREATED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DELETED_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="UPDATED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DELETED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="SCORE">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT&#x9;&#x9;P.PARTY_ID AS CUSTOMER_ID, 
+&#x9;&#x9;&#x9;P.ACTOR_ID AS ACTOR_ID,
+&#x9;
+&#x9;MAX(CASE WHEN ANA.MODEL_ID=&apos;SUM_PREM_EXP_2021&apos; THEN KPI.SCORE ELSE NULL END) AS ExpectedPremium2021,
+&#x9;MAX(CASE WHEN ANA.MODEL_ID=&apos;SUM_PREM_EXP_2022&apos; THEN KPI.SCORE ELSE NULL END) AS ExpectedPremium2022,
+&#x9;MAX(CASE WHEN ANA.MODEL_ID=&apos;SUM_PREM_EXP_2023&apos; THEN KPI.SCORE ELSE NULL END) AS ExpectedPremium2023,
+&#x9;MAX(CASE WHEN ANA.MODEL_ID = &apos;SUM_CLMS_COST_OPEN&apos; THEN KPI.SCORE ELSE NULL END) AS SumClaimsCostOpen,
+&#x9;
+&#x9;REFD.&quot;DATE&quot; AS REPORTING_DATE
+
+
+FROM &#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_F_ANA_CUST_KPI KPI INNER JOIN
+&#x9;&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_ANA_MODEL ANA ON KPI.MODEL_SK = ANA.MODEL_SK INNER JOIN
+&#x9;&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_PTY_PARTY P ON P.PARTY_SK = KPI.PARTY_SK INNER JOIN
+&#x9;&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_REF_DATE REFD ON REFD.DATE_SK = KPI.REPORTING_DT_SK
+&#x9;
+WHERE substring(CAST(REFD.&quot;DATE&quot; AS VARCHAR),1,10) = substring(CAST(((CURRENT_DATE + (-DAY(CURRENT_DATE)))) AS VARCHAR),1,10)
+
+
+GROUP BY
+
+P.PARTY_ID,
+P.ACTOR_ID,
+REFD.&quot;DATE&quot;
+
+</attribute>
+  <attribute name="creationDate" type="LONG">1660303918056</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/F_ANA_CUST_KPI&apos;.  On line 4, column 5.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1660308152741</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1660303918056</attribute>
+</metadata>

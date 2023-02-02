@@ -1,0 +1,570 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPLOGONUSER" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPLOGONUSER" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="APPLICATIONPROCESSGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AVAILABILITYDESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANACCESSALLUNLINCCOMMINBOXES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANPROCESSALLAPPLICATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPASSWORDCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESEARCHEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTINTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFLTAPPPRCGRPFORSHOWAPPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEPARTMENTNAME" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FIRSTNAME" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FUNCTIONNAME" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GENDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASCONNECTEDPRINTER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INITIALS" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INSERTION" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INSPECTORCODEFORFA" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCERTIFICATETEMPLATEUSER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINTERMEDIARYCONTACTPERSON" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LANGUAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LASTNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LINKREPCLAIMTOOWNINT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEALLFORMS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEALLQUESTIONGROUPS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEALLQUESTIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEALLVALUELISTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFFAILEDLOGONATTEMPTS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PASSWORDQUESTION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDMANUALCOMFROMOWNINT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TELEPHONENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCLEANED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTLOGON" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSPREVIOUSLOGON" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERDEPARTMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERDEPARTMENTTEAMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDENTIFIER_UPPER" nullable="true">
+      <datatype type="STRING" maxLength="960"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERROLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPLOGONUSER" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="APPLICATIONPROCESSGROUPID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="AVAILABILITYDESCRIPTION">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="BUSINESSUNITID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CANACCESSALLUNLINCCOMMINBOXES">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CANPROCESSALLAPPLICATIONS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DATEEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPASSWORDCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESEARCHEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DEFAULTINTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DEFLTAPPPRCGRPFORSHOWAPPID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DEPARTMENTNAME">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="EMAILADDRESS">
+        <datatype type="STRING" maxLength="320"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="FIRSTNAME">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="FUNCTIONNAME">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="GENDER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASCONNECTEDPRINTER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="INITIALS">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="INSERTION">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="INSPECTORCODEFORFA">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="INTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISCERTIFICATETEMPLATEUSER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISINTERMEDIARYCONTACTPERSON">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="LANGUAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LASTNAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="LINKREPCLAIMTOOWNINT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="LOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MANAGEALLFORMS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="MANAGEALLQUESTIONGROUPS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="MANAGEALLQUESTIONS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="MANAGEALLVALUELISTS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NROFFAILEDLOGONATTEMPTS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PASSWORDQUESTION">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="SENDMANUALCOMFROMOWNINT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TELEPHONENUMBER">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCLEANED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSLASTLOGON">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSPREVIOUSLOGON">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERDEPARTMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="USERDEPARTMENTTEAMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDENTIFIER">
+        <datatype type="STRING" maxLength="320"/>
+      </element>
+      <element name="USERIDENTIFIER_UPPER">
+        <datatype type="STRING" maxLength="960"/>
+      </element>
+      <element name="USERROLEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPLOGONUSER.APPLICATIONPROCESSGROUPID APPLICATIONPROCESSGROUPID,
+&#x9;RPLOGONUSER.AVAILABILITYDESCRIPTION AVAILABILITYDESCRIPTION,
+&#x9;RPLOGONUSER.BUSINESSUNITID BUSINESSUNITID,
+&#x9;RPLOGONUSER.CANACCESSALLUNLINCCOMMINBOXES CANACCESSALLUNLINCCOMMINBOXES,
+&#x9;RPLOGONUSER.CANPROCESSALLAPPLICATIONS CANPROCESSALLAPPLICATIONS,
+&#x9;RPLOGONUSER.DATEEND DATEEND,
+&#x9;RPLOGONUSER.DATEPASSWORDCHANGED DATEPASSWORDCHANGED,
+&#x9;RPLOGONUSER.DATESEARCHEND DATESEARCHEND,
+&#x9;RPLOGONUSER.DATESTART DATESTART,
+&#x9;RPLOGONUSER.DEFAULTINTERMEDIARYID DEFAULTINTERMEDIARYID,
+&#x9;RPLOGONUSER.DEFLTAPPPRCGRPFORSHOWAPPID DEFLTAPPPRCGRPFORSHOWAPPID,
+&#x9;RPLOGONUSER.DEPARTMENTNAME DEPARTMENTNAME,
+&#x9;RPLOGONUSER.EMAILADDRESS EMAILADDRESS,
+&#x9;RPLOGONUSER.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPLOGONUSER.FIRSTNAME FIRSTNAME,
+&#x9;RPLOGONUSER.FUNCTIONNAME FUNCTIONNAME,
+&#x9;RPLOGONUSER.GENDER GENDER,
+&#x9;RPLOGONUSER.HASCONNECTEDPRINTER HASCONNECTEDPRINTER,
+&#x9;RPLOGONUSER.INITIALS INITIALS,
+&#x9;RPLOGONUSER.INSERTION INSERTION,
+&#x9;RPLOGONUSER.INSPECTORCODEFORFA INSPECTORCODEFORFA,
+&#x9;RPLOGONUSER.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPLOGONUSER.ISCERTIFICATETEMPLATEUSER ISCERTIFICATETEMPLATEUSER,
+&#x9;RPLOGONUSER.ISINTERMEDIARYCONTACTPERSON ISINTERMEDIARYCONTACTPERSON,
+&#x9;RPLOGONUSER.LANGUAGEID LANGUAGEID,
+&#x9;RPLOGONUSER.LASTNAME LASTNAME,
+&#x9;RPLOGONUSER.LINKREPCLAIMTOOWNINT LINKREPCLAIMTOOWNINT,
+&#x9;RPLOGONUSER.LOGONUSERID LOGONUSERID,
+&#x9;RPLOGONUSER.MANAGEALLFORMS MANAGEALLFORMS,
+&#x9;RPLOGONUSER.MANAGEALLQUESTIONGROUPS MANAGEALLQUESTIONGROUPS,
+&#x9;RPLOGONUSER.MANAGEALLQUESTIONS MANAGEALLQUESTIONS,
+&#x9;RPLOGONUSER.MANAGEALLVALUELISTS MANAGEALLVALUELISTS,
+&#x9;RPLOGONUSER.NROFFAILEDLOGONATTEMPTS NROFFAILEDLOGONATTEMPTS,
+&#x9;RPLOGONUSER.PASSWORDQUESTION PASSWORDQUESTION,
+&#x9;RPLOGONUSER.SENDMANUALCOMFROMOWNINT SENDMANUALCOMFROMOWNINT,
+&#x9;RPLOGONUSER.TELEPHONENUMBER TELEPHONENUMBER,
+&#x9;RPLOGONUSER.TSCHANGED TSCHANGED,
+&#x9;RPLOGONUSER.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPLOGONUSER.TSCLEANED TSCLEANED,
+&#x9;RPLOGONUSER.TSCREATED TSCREATED,
+&#x9;RPLOGONUSER.TSLASTLOGON TSLASTLOGON,
+&#x9;RPLOGONUSER.TSPREVIOUSLOGON TSPREVIOUSLOGON,
+&#x9;RPLOGONUSER.USERDEPARTMENTID USERDEPARTMENTID,
+&#x9;RPLOGONUSER.USERDEPARTMENTTEAMID USERDEPARTMENTTEAMID,
+&#x9;RPLOGONUSER.USERIDCHANGED USERIDCHANGED,
+&#x9;RPLOGONUSER.USERIDCREATED USERIDCREATED,
+&#x9;RPLOGONUSER.USERIDENTIFIER USERIDENTIFIER,
+&#x9;RPLOGONUSER.USERIDENTIFIER_UPPER USERIDENTIFIER_UPPER,
+&#x9;RPLOGONUSER.USERROLEID USERROLEID 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPLOGONUSER RPLOGONUSER</attribute>
+  <attribute name="creationDate" type="LONG">1664294494777</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPLOGONUSER&apos;.  On line 52, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294494777</attribute>
+</metadata>

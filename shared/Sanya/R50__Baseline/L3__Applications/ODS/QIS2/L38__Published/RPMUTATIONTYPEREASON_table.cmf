@@ -1,0 +1,196 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPMUTATIONTYPEREASON" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPMUTATIONTYPEREASON" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="DEFAULTORDER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASSTANDARDTRANSLATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIERFORIDN" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLEFORCUSTOMERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLEFORINTERMEDIARIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISHARDCODED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MUTATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MUTATIONTYPEREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESULTSINMARKEDCUSTOMER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPMUTATIONTYPEREASON" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="DEFAULTORDER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="HASSTANDARDTRANSLATIONS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="IDENTIFIERFORIDN">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="ISAVAILABLEFORCUSTOMERS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISAVAILABLEFORINTERMEDIARIES">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISHARDCODED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="MUTATIONTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MUTATIONTYPEREASONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESULTSINMARKEDCUSTOMER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPMUTATIONTYPEREASON.DEFAULTORDER DEFAULTORDER,
+&#x9;RPMUTATIONTYPEREASON.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPMUTATIONTYPEREASON.HASSTANDARDTRANSLATIONS HASSTANDARDTRANSLATIONS,
+&#x9;RPMUTATIONTYPEREASON.IDENTIFIERFORIDN IDENTIFIERFORIDN,
+&#x9;RPMUTATIONTYPEREASON.ISAVAILABLEFORCUSTOMERS ISAVAILABLEFORCUSTOMERS,
+&#x9;RPMUTATIONTYPEREASON.ISAVAILABLEFORINTERMEDIARIES ISAVAILABLEFORINTERMEDIARIES,
+&#x9;RPMUTATIONTYPEREASON.ISHARDCODED ISHARDCODED,
+&#x9;RPMUTATIONTYPEREASON.MUTATIONTYPEID MUTATIONTYPEID,
+&#x9;RPMUTATIONTYPEREASON.MUTATIONTYPEREASONID MUTATIONTYPEREASONID,
+&#x9;RPMUTATIONTYPEREASON.RESULTSINMARKEDCUSTOMER RESULTSINMARKEDCUSTOMER,
+&#x9;RPMUTATIONTYPEREASON.TSCHANGED TSCHANGED,
+&#x9;RPMUTATIONTYPEREASON.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPMUTATIONTYPEREASON.TSCREATED TSCREATED,
+&#x9;RPMUTATIONTYPEREASON.USERIDCHANGED USERIDCHANGED,
+&#x9;RPMUTATIONTYPEREASON.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPMUTATIONTYPEREASON RPMUTATIONTYPEREASON</attribute>
+  <attribute name="creationDate" type="LONG">1664294539795</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPMUTATIONTYPEREASON&apos;.  On line 18, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294539795</attribute>
+</metadata>

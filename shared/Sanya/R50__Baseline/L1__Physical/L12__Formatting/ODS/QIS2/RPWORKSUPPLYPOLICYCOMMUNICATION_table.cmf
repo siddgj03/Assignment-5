@@ -1,0 +1,207 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPWORKSUPPLYPOLICYCOMMUNICATION" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPWORKSUPPLYPOLICYCOMMUNICATION" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONPROCESSGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONDESTINATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONORIGINID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSMEDICALINFORMATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSPRIVATEINFORMATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATETOBECOMPLETED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INBOXFORCOMMUNICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINCOMING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYCOMMUNICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRINTLOCATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRIORITYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSIBLELOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPWORKSUPPLYPOLICYCOMMUNICATION" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.APPLICATIONID APPLICATIONID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.APPLICATIONPROCESSGROUPID APPLICATIONPROCESSGROUPID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.COMMUNICATIONDESTINATIONID COMMUNICATIONDESTINATIONID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.COMMUNICATIONID COMMUNICATIONID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.COMMUNICATIONORIGINID COMMUNICATIONORIGINID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.COMMUNICATIONSTATUSID COMMUNICATIONSTATUSID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.COMMUNICATIONTYPEID COMMUNICATIONTYPEID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.CONTAINSMEDICALINFORMATION CONTAINSMEDICALINFORMATION,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.CONTAINSPRIVATEINFORMATION CONTAINSPRIVATEINFORMATION,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.DATETOBECOMPLETED DATETOBECOMPLETED,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.INBOXFORCOMMUNICATIONID INBOXFORCOMMUNICATIONID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.ISINCOMING ISINCOMING,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.POLICYCOMMUNICATIONID POLICYCOMMUNICATIONID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.POLICYID POLICYID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.PRINTLOCATIONID PRINTLOCATIONID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.PRIORITYID PRIORITYID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.RESPONSIBLELOGONUSERID RESPONSIBLELOGONUSERID,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.TSCHANGED TSCHANGED,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.TSCREATED TSCREATED,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.USERIDCHANGED USERIDCHANGED,
+&#x9;RPWORKSUPPLYPOLICYCOMMUNICATION.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPWORKSUPPLYPOLICYCOMMUNICATION RPWORKSUPPLYPOLICYCOMMUNICATION</attribute>
+  <attribute name="creationDate" type="LONG">1664290364544</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPWORKSUPPLYPOLICYCOMMUNICATION&apos;.  On line 25, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290364544</attribute>
+</metadata>

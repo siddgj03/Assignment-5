@@ -1,0 +1,207 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPRODVERVALTABDEFOUTPUTDIM" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPPRODVERVALTABDEFOUTPUTDIM" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISALWAYSPRESENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREQUIRED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORDERFORSHOWING" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODVERVALTABDEFID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODVERVALTABDEFOUTPUTDIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEMAX" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEMIN" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPRODVERVALTABDEFOUTPUTDIM" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="ISALWAYSPRESENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISREQUIRED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ORDERFORSHOWING">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODUCTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODUCTVERSIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODVERVALTABDEFID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODVERVALTABDEFOUTPUTDIMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="VALUEMAX">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="VALUEMIN">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="VALUETYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.ISALWAYSPRESENT ISALWAYSPRESENT,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.ISREQUIRED ISREQUIRED,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.ORDERFORSHOWING ORDERFORSHOWING,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.PRODUCTID PRODUCTID,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.PRODUCTVERSIONID PRODUCTVERSIONID,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.PRODVERVALTABDEFID PRODVERVALTABDEFID,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.PRODVERVALTABDEFOUTPUTDIMID PRODVERVALTABDEFOUTPUTDIMID,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.TSCHANGED TSCHANGED,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.TSCREATED TSCREATED,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.USERIDCREATED USERIDCREATED,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.VALUELISTID VALUELISTID,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.VALUEMAX VALUEMAX,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.VALUEMIN VALUEMIN,
+&#x9;RPPRODVERVALTABDEFOUTPUTDIM.VALUETYPEID VALUETYPEID 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPRODVERVALTABDEFOUTPUTDIM RPPRODVERVALTABDEFOUTPUTDIM</attribute>
+  <attribute name="creationDate" type="LONG">1664294873249</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPRODVERVALTABDEFOUTPUTDIM&apos;.  On line 19, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294873249</attribute>
+</metadata>

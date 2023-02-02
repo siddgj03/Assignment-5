@@ -1,0 +1,207 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="tst" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/Files/ET_mock/tst" type="PROCEDURE" subtype="SQL_SCRIPT_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="pageNum" direction="IN" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="pageSize" direction="IN" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="languageCodeIN" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="rangeType" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="vehicleCategoryCodeIN" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="yearFrom" direction="IN" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="yearTo" direction="IN" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="monthFrom" direction="IN" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="monthTo" direction="IN" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="fuelTypeCodeIN" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="transmissionTypeCodeIN" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="makeCodeIN" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="modelCodeIN" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="motorPowerMin" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="motorPowerMax" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="modelGroup" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="ResultCount" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="PageSize_" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="PageCount" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="PageNum_" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="RESULT" direction="OUT" nullable="true">
+      <datatype name="RESULT" type="TABLE" refId="256">
+        <element name="Value_">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="Text">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="MIN_">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="MAX_">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+      </datatype>
+    </parameter>
+    <parameter name="ErrorCode" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="ErrorDescription" direction="OUT" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <attribute name="Script" type="STRING">PROCEDURE tst(&#x9;IN pageNum INTEGER, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN pageSize INTEGER, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN languageCodeIN VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN rangeType VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN vehicleCategoryCodeIN VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN yearFrom INTEGER, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN yearTo INTEGER, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN monthFrom INTEGER, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN monthTo INTEGER, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN fuelTypeCodeIN VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN transmissionTypeCodeIN VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN makeCodeIN VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN modelCodeIN VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN motorPowerMin DECIMAL(10), 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN motorPowerMax DECIMAL(10), 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN modelGroup VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT ResultCount INT, OUT PageSize_ INT, OUT PageCount INT, OUT PageNum_ INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT RESULT CURSOR(Value_ varchar, Text varchar, MIN_ VARCHAR, MAX_ VARCHAR), OUT ErrorCode INT, OUT ErrorDescription VARCHAR)
+&#x9;
+BEGIN 
+
+DECLARE pageNum2 INTEGER ;
+DECLARE sqlTextFull LONGVARCHAR ;
+DECLARE sqlTextCount LONGVARCHAR ;
+DECLARE sqlTextSelect LONGVARCHAR ;
+DECLARE sqlTextOrder LONGVARCHAR ;
+DECLARE sqlTextFilter1 LONGVARCHAR ;
+DECLARE sqlTextFilter2 LONGVARCHAR ;
+DECLARE sqlTextFilter3 LONGVARCHAR ;
+DECLARE sqlTextFilter4 LONGVARCHAR ;
+DECLARE sqlTextFilter5 LONGVARCHAR ;
+DECLARE sqlTextFilter6 LONGVARCHAR ;
+DECLARE sqlTextFilter7 LONGVARCHAR ;
+DECLARE sqlTextFilter8 LONGVARCHAR ;
+DECLARE sqlTextFilter9 LONGVARCHAR ;
+DECLARE sqlTextFilter10 LONGVARCHAR ;
+DECLARE sqlTextFilter11 LONGVARCHAR ;
+DECLARE sqlTextFilter12 LONGVARCHAR ;
+DECLARE sqlTextFilter13 LONGVARCHAR ;
+DECLARE sqlTextPaging LONGVARCHAR ;
+DECLARE countTable CURSOR ;
+
+
+SET pageNum2 = pageNum - 1 ;
+
+IF (rangeType = &apos;Makes&apos;) THEN
+&#x9;&#x9; SET sqlTextSelect= &apos; SELECT DISTINCT CAST(makeCode AS VARCHAR) AS makeCode, makeDescription, NULL, NULL FROM /shared/R50_Baseline/L1_Physical/L12_Formatting/RDS/VehicleRepository/VehicleRepository ET&apos;;
+&#x9;&#x9;SET sqlTextOrder=&apos;&#x9;ORDER BY makeCode&apos; ;
+
+ELSEIF (rangeType = &apos;Models&apos;) THEN
+&#x9;SET sqlTextSelect= 
+&#x9;&apos; SELECT DISTINCT CAST(modelCode AS VARCHAR) as modelCode, modelDescription, NULL, NULL FROM /shared/R50_Baseline/L1_Physical/L12_Formatting/RDS/VehicleRepository/VehicleRepository ET&apos;;
+&#x9;SET sqlTextOrder = &apos;&#x9;ORDER BY modelCode&apos; ;
+
+ELSEIF (rangeType = &apos;MotorPowers&apos;) THEN
+&#x9;SET sqlTextSelect= &apos; SELECT DISTINCT CAST(motorPowerKw AS VARCHAR) as motorPowerKwA, CAST(motorPowerKw as VARCHAR) as motorPowerKwB, NULL, CAST(motorPowerHp AS VARCHAR) FROM /shared/R50_Baseline/L1_Physical/L12_Formatting/RDS/VehicleRepository/VehicleRepository ET&apos;;
+&#x9;SET sqlTextOrder=&apos;&#x9;ORDER BY motorPowerKwA&apos; ;
+
+ELSEIF (rangeType = &apos;Versions&apos;) THEN
+&#x9;SET sqlTextSelect= &apos; SELECT DISTINCT CAST(vehicleTypeId AS VARCHAR) as vehicleTypeId, typeDescription, NULL, NULL  FROM /shared/R50_Baseline/L1_Physical/L12_Formatting/RDS/VehicleRepository/VehicleRepository ET &apos;;
+&#x9;SET sqlTextOrder=&apos;&#x9;ORDER BY vehicleTypeId&apos;;
+
+ELSEIF (rangeType = &apos;ModelGroups&apos;) THEN
+&#x9;SET sqlTextSelect= &apos; SELECT DISTINCT modelDescriptionShort, modelDescription, NULL, NULL  FROM /shared/R50_Baseline/L1_Physical/L12_Formatting/RDS/VehicleRepository/VehicleRepository ET &apos;;
+&#x9;SET sqlTextOrder=&apos;&#x9;ORDER BY modelDescription&apos;;
+
+
+END IF; 
+
+SET sqlTextFilter1=&apos; WHERE ET.languageCode = languageCodeIN &apos; ;
+IF yearFrom IS NOT NULL then SET sqlTextFilter2= &apos;AND ET.buildFromYear &gt;= yearFrom &apos;; ELSE set sqlTextFilter2=&apos;&apos;; END IF ;
+IF monthFrom IS NOT NULL then SET sqlTextFilter3= &apos;AND ET.buildFromMonth &gt;= monthFrom &apos;; ELSE set sqlTextFilter3=&apos;&apos;; END IF ;
+IF yearTo IS NOT NULL then SET sqlTextFilter4= &apos;AND ET.buildUntilYear &gt;= yearTo &apos;; ELSE set sqlTextFilter4=&apos;&apos;; END IF ;
+IF monthTo IS NOT NULL then SET sqlTextFilter5 = &apos;AND ET.buildUntilMonth &lt;= monthTo &apos;; ELSE set sqlTextFilter5= &apos;&apos;; END IF;
+IF makeCodeIN IS NOT NULL then SET sqlTextFilter6=&apos;AND ET.makeCode = makeCodeIN &apos;; ELSE set sqlTextFilter6=&apos;&apos;; END IF;
+IF modelCodeIN IS NOT NULL then SET sqlTextFilter7=&apos;AND ET.modelCode = modelCodeIN &apos;; ELSE set sqlTextFilter7=&apos;&apos;; END IF;
+IF transmissionTypeCodeIN IS NOT NULL then SET sqlTextFilter8 =&apos;AND ET.transmissionTypeCode = transmissionTypeCodeIN &apos;; ELSE SET sqlTextFilter8=&apos;&apos;; END IF;
+IF motorPowerMin IS NOT NULL then SET sqlTextFilter9=&apos;AND ET.motorPowerKw &gt;= motorPowerMin &apos;; ELSE SET sqlTextFilter9=&apos;&apos;; END IF;
+IF motorPowerMax IS NOT NULL THEN SET sqlTextFilter10=&apos;AND ET.motorPowerKw &lt;= motorPowerMax &apos;; ELSE SET sqlTextFilter10=&apos;&apos;; END IF;
+IF fuelTypeCodeIN IS NOT NULL THEN SET sqlTextFilter11=&apos;AND ET.fuelTypeCode=fuelTypeCodeIN &apos;; ELSE SET sqlTextFilter11= &apos;&apos;; END IF;
+IF vehicleCategoryCodeIN IS NOT NULL THEN SET sqlTextFilter12=&apos;AND ET.vehicleCategoryCode = vehicleCategoryCodeIN &apos;; ELSE SET sqlTextFilter12=&apos;&apos;; END IF;
+IF modelGroup IS NOT NULL THEN SET sqlTextFilter13=&apos;AND ET.modelDescriptionShort= modelGroup &apos;; ELSE SET sqlTextFilter13=&apos;&apos;; END IF;
+
+
+
+
+SET sqlTextPaging= &apos; OFFSET &apos;|| pageNum2*pageSize || &apos;ROWS FETCH FIRST &apos;|| pageSize ||&apos; ROWS ONLY&apos; ;
+SET sqlTextCount=sqlTextSelect||sqlTextFilter1||sqlTextFilter2||sqlTextFilter3||sqlTextFilter4||sqlTextFilter5||sqlTextFilter6||sqlTextFilter7||sqlTextFilter8||sqlTextFilter9||sqlTextFilter10||sqlTextFilter11||sqlTextFilter12||sqlTextFilter13 ;
+OPEN countTable FOR sqlTextCount ; SET ResultCount = (SELECT COUNT(*) FROM countTable) ;
+SET sqlTextFull=sqlTextSelect||sqlTextFilter1||sqlTextFilter2||sqlTextFilter3||sqlTextFilter4||sqlTextFilter5||sqlTextFilter6||sqlTextFilter7||sqlTextFilter8||sqlTextFilter9||sqlTextFilter10||sqlTextFilter11||sqlTextFilter12||sqlTextFilter13||sqlTextOrder||sqlTextPaging ;
+SET PageCount = CAST(CEILING(CAST(ResultCount as double) / CAST(pageSize as DOUBLE)) AS INT);
+SET PageNum_=pageNum;
+SET PageSize_=pageSize;
+
+IF (languageCodeIN IS NULL) or (rangeType IS NULL) THEN 
+SET ErrorCode=1; SET ErrorDescription=&apos;Invalid Parameters&apos;;
+ELSEIF ResultCount = 0 THEN  SET ErrorCode=0; SET ErrorDescription=&apos;Not Found&apos;;
+ELSE SET ErrorCode=NULL; SET ErrorDescription=NULL; END IF ;
+
+OPEN RESULT FOR sqlTextFull ; 
+
+END
+</attribute>
+  <attribute name="creationDate" type="LONG">1643032471387</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1645713849363</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="native_only" type="STRING">false</attribute>
+  <attribute name="references" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1643032471387</attribute>
+</metadata>

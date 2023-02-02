@@ -1,0 +1,351 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPAPPLICATIONEVENT" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPAPPLICATIONEVENT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCEPTANCEMESSAGES" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONEVENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONEVENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONREVISIONNUMBER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONWORKFLOWOPERATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLIENTSESSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENDPROVISIONALCOVERAGE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTEDAPPLICATIONCONTENT" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASPROVISIONALCOVERAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCHANGEAPPROVED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISWRKFLWOPONSUB" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWACCEPTANCEPROCESSINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWACCEPTANCESTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWAPPLICATIONCONTENT" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWAPPLICATIONCONTENTASPDF" nullable="true">
+      <datatype type="BLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWAPPLICATIONCONTENTZIPPED" nullable="true">
+      <datatype type="BLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWAPPLICATIONSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWAPPLICATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWPRELIMINARYDECISIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWPROCESSINGDECISIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDACCEPTANCEPROCESSINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDACCEPTANCESTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDAPPLICATIONSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDAPPLICATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDPRELIMINARYDECISIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDPROCESSINGDECISIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PACKAGEAPPLICATIONEVENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PACKAGEAPPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMOTEUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VERIFIEDBYCOMPANYEMPLOYEENAME" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="WORKFLOWREQUESTIDENTIFIER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONEVENT" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPAPPLICATIONEVENT.ACCEPTANCEMESSAGES ACCEPTANCEMESSAGES,
+&#x9;RPAPPLICATIONEVENT.APPLICATIONEVENTID APPLICATIONEVENTID,
+&#x9;RPAPPLICATIONEVENT.APPLICATIONEVENTTYPEID APPLICATIONEVENTTYPEID,
+&#x9;RPAPPLICATIONEVENT.APPLICATIONID APPLICATIONID,
+&#x9;RPAPPLICATIONEVENT.APPLICATIONREVISIONNUMBER APPLICATIONREVISIONNUMBER,
+&#x9;RPAPPLICATIONEVENT.APPLICATIONWORKFLOWOPERATIONID APPLICATIONWORKFLOWOPERATIONID,
+&#x9;RPAPPLICATIONEVENT.CLIENTSESSIONID CLIENTSESSIONID,
+&#x9;RPAPPLICATIONEVENT.DATEENDPROVISIONALCOVERAGE DATEENDPROVISIONALCOVERAGE,
+&#x9;RPAPPLICATIONEVENT.EXPORTEDAPPLICATIONCONTENT EXPORTEDAPPLICATIONCONTENT,
+&#x9;RPAPPLICATIONEVENT.HASPROVISIONALCOVERAGE HASPROVISIONALCOVERAGE,
+&#x9;RPAPPLICATIONEVENT.ISCHANGEAPPROVED ISCHANGEAPPROVED,
+&#x9;RPAPPLICATIONEVENT.ISWRKFLWOPONSUB ISWRKFLWOPONSUB,
+&#x9;RPAPPLICATIONEVENT.JOBID JOBID,
+&#x9;RPAPPLICATIONEVENT.LOGONUSERID LOGONUSERID,
+&#x9;RPAPPLICATIONEVENT.NEWACCEPTANCEPROCESSINGID NEWACCEPTANCEPROCESSINGID,
+&#x9;RPAPPLICATIONEVENT.NEWACCEPTANCESTATUSID NEWACCEPTANCESTATUSID,
+&#x9;RPAPPLICATIONEVENT.NEWAPPLICATIONCONTENT NEWAPPLICATIONCONTENT,
+&#x9;RPAPPLICATIONEVENT.NEWAPPLICATIONCONTENTASPDF NEWAPPLICATIONCONTENTASPDF,
+&#x9;RPAPPLICATIONEVENT.NEWAPPLICATIONCONTENTZIPPED NEWAPPLICATIONCONTENTZIPPED,
+&#x9;RPAPPLICATIONEVENT.NEWAPPLICATIONSTATUSID NEWAPPLICATIONSTATUSID,
+&#x9;RPAPPLICATIONEVENT.NEWAPPLICATIONTYPEID NEWAPPLICATIONTYPEID,
+&#x9;RPAPPLICATIONEVENT.NEWPRELIMINARYDECISIONID NEWPRELIMINARYDECISIONID,
+&#x9;RPAPPLICATIONEVENT.NEWPROCESSINGDECISIONID NEWPROCESSINGDECISIONID,
+&#x9;RPAPPLICATIONEVENT.OLDACCEPTANCEPROCESSINGID OLDACCEPTANCEPROCESSINGID,
+&#x9;RPAPPLICATIONEVENT.OLDACCEPTANCESTATUSID OLDACCEPTANCESTATUSID,
+&#x9;RPAPPLICATIONEVENT.OLDAPPLICATIONSTATUSID OLDAPPLICATIONSTATUSID,
+&#x9;RPAPPLICATIONEVENT.OLDAPPLICATIONTYPEID OLDAPPLICATIONTYPEID,
+&#x9;RPAPPLICATIONEVENT.OLDPRELIMINARYDECISIONID OLDPRELIMINARYDECISIONID,
+&#x9;RPAPPLICATIONEVENT.OLDPROCESSINGDECISIONID OLDPROCESSINGDECISIONID,
+&#x9;RPAPPLICATIONEVENT.ORIGINID ORIGINID,
+&#x9;RPAPPLICATIONEVENT.PACKAGEAPPLICATIONEVENTID PACKAGEAPPLICATIONEVENTID,
+&#x9;RPAPPLICATIONEVENT.PACKAGEAPPLICATIONID PACKAGEAPPLICATIONID,
+&#x9;RPAPPLICATIONEVENT.POLICYID POLICYID,
+&#x9;RPAPPLICATIONEVENT.REMOTEUSERID REMOTEUSERID,
+&#x9;RPAPPLICATIONEVENT.TSCHANGED TSCHANGED,
+&#x9;RPAPPLICATIONEVENT.TSCREATED TSCREATED,
+&#x9;RPAPPLICATIONEVENT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPAPPLICATIONEVENT.USERIDCREATED USERIDCREATED,
+&#x9;RPAPPLICATIONEVENT.VERIFIEDBYCOMPANYEMPLOYEENAME VERIFIEDBYCOMPANYEMPLOYEENAME,
+&#x9;RPAPPLICATIONEVENT.WORKFLOWREQUESTIDENTIFIER WORKFLOWREQUESTIDENTIFIER 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONEVENT RPAPPLICATIONEVENT</attribute>
+  <attribute name="creationDate" type="LONG">1664288898453</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONEVENT&apos;.  On line 43, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664288898453</attribute>
+</metadata>

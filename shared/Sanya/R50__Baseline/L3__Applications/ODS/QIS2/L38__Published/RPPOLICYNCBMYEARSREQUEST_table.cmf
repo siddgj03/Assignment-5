@@ -1,0 +1,339 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPOLICYNCBMYEARSREQUEST" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPPOLICYNCBMYEARSREQUEST" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CANCELJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATECANCELLATIONSENT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATECANCELLED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYCONTINUATION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYDEACTIVATION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEREMINDERSENTFORNORESULT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATERESPONSEPROCESSED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATERESPONSERECEIVED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESENT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATETASKCREATEDFORNORESULT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDATEXTERNALSYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFNCBMYEARS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFNCBMYEARSTOBEPROCESSED" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYNCBMYEARSREQUESTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REQUESTXMLZIPPED" nullable="true">
+      <datatype type="BLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSEJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSEXMLZIPPED" nullable="true">
+      <datatype type="BLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESULTSTATUSCODE" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCANCELLED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPOLICYNCBMYEARSREQUEST" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CANCELJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATECANCELLATIONSENT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATECANCELLED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPOLICYCONTINUATION">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPOLICYDEACTIVATION">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEREMINDERSENTFORNORESULT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATERESPONSEPROCESSED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATERESPONSERECEIVED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESENT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATETASKCREATEDFORNORESULT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EXTERNALIDATEXTERNALSYSTEM">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ISCANCELLED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="JOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NROFNCBMYEARS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NROFNCBMYEARSTOBEPROCESSED">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYNCBMYEARSREQUESTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REQUESTXMLZIPPED">
+        <datatype type="BLOB" maxLength="2147483647"/>
+      </element>
+      <element name="RESPONSEJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESPONSEXMLZIPPED">
+        <datatype type="BLOB" maxLength="2147483647"/>
+      </element>
+      <element name="RESULTSTATUSCODE">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCANCELLED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPOLICYNCBMYEARSREQUEST.CANCELJOBID CANCELJOBID,
+&#x9;RPPOLICYNCBMYEARSREQUEST.CUSTOMERID CUSTOMERID,
+&#x9;RPPOLICYNCBMYEARSREQUEST.DATECANCELLATIONSENT DATECANCELLATIONSENT,
+&#x9;RPPOLICYNCBMYEARSREQUEST.DATECANCELLED DATECANCELLED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.DATEPOLICYCONTINUATION DATEPOLICYCONTINUATION,
+&#x9;RPPOLICYNCBMYEARSREQUEST.DATEPOLICYDEACTIVATION DATEPOLICYDEACTIVATION,
+&#x9;RPPOLICYNCBMYEARSREQUEST.DATEREMINDERSENTFORNORESULT DATEREMINDERSENTFORNORESULT,
+&#x9;RPPOLICYNCBMYEARSREQUEST.DATERESPONSEPROCESSED DATERESPONSEPROCESSED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.DATERESPONSERECEIVED DATERESPONSERECEIVED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.DATESENT DATESENT,
+&#x9;RPPOLICYNCBMYEARSREQUEST.DATETASKCREATEDFORNORESULT DATETASKCREATEDFORNORESULT,
+&#x9;RPPOLICYNCBMYEARSREQUEST.EXTERNALIDATEXTERNALSYSTEM EXTERNALIDATEXTERNALSYSTEM,
+&#x9;RPPOLICYNCBMYEARSREQUEST.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPPOLICYNCBMYEARSREQUEST.ISCANCELLED ISCANCELLED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.JOBID JOBID,
+&#x9;RPPOLICYNCBMYEARSREQUEST.NROFNCBMYEARS NROFNCBMYEARS,
+&#x9;RPPOLICYNCBMYEARSREQUEST.NROFNCBMYEARSTOBEPROCESSED NROFNCBMYEARSTOBEPROCESSED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.POLICYID POLICYID,
+&#x9;RPPOLICYNCBMYEARSREQUEST.POLICYNCBMYEARSREQUESTID POLICYNCBMYEARSREQUESTID,
+&#x9;RPPOLICYNCBMYEARSREQUEST.REQUESTXMLZIPPED REQUESTXMLZIPPED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.RESPONSEJOBID RESPONSEJOBID,
+&#x9;RPPOLICYNCBMYEARSREQUEST.RESPONSEXMLZIPPED RESPONSEXMLZIPPED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.RESULTSTATUSCODE RESULTSTATUSCODE,
+&#x9;RPPOLICYNCBMYEARSREQUEST.TSCHANGED TSCHANGED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.TSCREATED TSCREATED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.USERIDCANCELLED USERIDCANCELLED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPOLICYNCBMYEARSREQUEST.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPOLICYNCBMYEARSREQUEST RPPOLICYNCBMYEARSREQUEST</attribute>
+  <attribute name="creationDate" type="LONG">1664294667376</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYNCBMYEARSREQUEST&apos;.  On line 31, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294667376</attribute>
+</metadata>

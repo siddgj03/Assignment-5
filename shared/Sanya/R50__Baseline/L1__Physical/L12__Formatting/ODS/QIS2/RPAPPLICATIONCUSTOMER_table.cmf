@@ -1,0 +1,247 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPAPPLICATIONCUSTOMER" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPAPPLICATIONCUSTOMER" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="APPLICATIONCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEPOLICYONADDRESSCHANGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEPOLICYONBIRTHDATECHANGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CODEHEALTHSTATEMENT" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEPOLUSRTASKFORADDRCHANGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEPOLUSRTASKFORCODATCHANGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEPOLUSRTASKFORDTBTHCHANGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEPOLUSRTASKFORFAMCHANGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEREMOTEUSER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERMARKINGFLAGCODE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERSEQUENCENUMBER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEARLIESTFRAUDPOSTAUDIT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISMEDICALFILEREQUIRED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="KEEPTGTBANKANDCONTACTWHENMERGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MEDICALFILEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MEDICALFILETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RECEIVESPROOFOFINSURANCE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REQUIRESFRAUDAUDIT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REQUIRESHEALTHSTATEMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REQUIRESSCHUFACHECK" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSPERFORMEDFRAUDPOSTAUDIT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONCUSTOMER" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPAPPLICATIONCUSTOMER.APPLICATIONCUSTOMERID APPLICATIONCUSTOMERID,
+&#x9;RPAPPLICATIONCUSTOMER.APPLICATIONID APPLICATIONID,
+&#x9;RPAPPLICATIONCUSTOMER.CHANGEPOLICYONADDRESSCHANGE CHANGEPOLICYONADDRESSCHANGE,
+&#x9;RPAPPLICATIONCUSTOMER.CHANGEPOLICYONBIRTHDATECHANGE CHANGEPOLICYONBIRTHDATECHANGE,
+&#x9;RPAPPLICATIONCUSTOMER.CODEHEALTHSTATEMENT CODEHEALTHSTATEMENT,
+&#x9;RPAPPLICATIONCUSTOMER.CREATEPOLUSRTASKFORADDRCHANGE CREATEPOLUSRTASKFORADDRCHANGE,
+&#x9;RPAPPLICATIONCUSTOMER.CREATEPOLUSRTASKFORCODATCHANGE CREATEPOLUSRTASKFORCODATCHANGE,
+&#x9;RPAPPLICATIONCUSTOMER.CREATEPOLUSRTASKFORDTBTHCHANGE CREATEPOLUSRTASKFORDTBTHCHANGE,
+&#x9;RPAPPLICATIONCUSTOMER.CREATEPOLUSRTASKFORFAMCHANGE CREATEPOLUSRTASKFORFAMCHANGE,
+&#x9;RPAPPLICATIONCUSTOMER.CREATEREMOTEUSER CREATEREMOTEUSER,
+&#x9;RPAPPLICATIONCUSTOMER.CUSTOMERID CUSTOMERID,
+&#x9;RPAPPLICATIONCUSTOMER.CUSTOMERMARKINGFLAGCODE CUSTOMERMARKINGFLAGCODE,
+&#x9;RPAPPLICATIONCUSTOMER.CUSTOMERSEQUENCENUMBER CUSTOMERSEQUENCENUMBER,
+&#x9;RPAPPLICATIONCUSTOMER.DATEEARLIESTFRAUDPOSTAUDIT DATEEARLIESTFRAUDPOSTAUDIT,
+&#x9;RPAPPLICATIONCUSTOMER.ISMEDICALFILEREQUIRED ISMEDICALFILEREQUIRED,
+&#x9;RPAPPLICATIONCUSTOMER.KEEPTGTBANKANDCONTACTWHENMERGE KEEPTGTBANKANDCONTACTWHENMERGE,
+&#x9;RPAPPLICATIONCUSTOMER.MEDICALFILEID MEDICALFILEID,
+&#x9;RPAPPLICATIONCUSTOMER.MEDICALFILETYPEID MEDICALFILETYPEID,
+&#x9;RPAPPLICATIONCUSTOMER.RECEIVESPROOFOFINSURANCE RECEIVESPROOFOFINSURANCE,
+&#x9;RPAPPLICATIONCUSTOMER.REQUIRESFRAUDAUDIT REQUIRESFRAUDAUDIT,
+&#x9;RPAPPLICATIONCUSTOMER.REQUIRESHEALTHSTATEMENT REQUIRESHEALTHSTATEMENT,
+&#x9;RPAPPLICATIONCUSTOMER.REQUIRESSCHUFACHECK REQUIRESSCHUFACHECK,
+&#x9;RPAPPLICATIONCUSTOMER.TSCHANGED TSCHANGED,
+&#x9;RPAPPLICATIONCUSTOMER.TSCREATED TSCREATED,
+&#x9;RPAPPLICATIONCUSTOMER.TSPERFORMEDFRAUDPOSTAUDIT TSPERFORMEDFRAUDPOSTAUDIT,
+&#x9;RPAPPLICATIONCUSTOMER.USERIDCHANGED USERIDCHANGED,
+&#x9;RPAPPLICATIONCUSTOMER.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONCUSTOMER RPAPPLICATIONCUSTOMER</attribute>
+  <attribute name="creationDate" type="LONG">1664288888842</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONCUSTOMER&apos;.  On line 30, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664288888842</attribute>
+</metadata>

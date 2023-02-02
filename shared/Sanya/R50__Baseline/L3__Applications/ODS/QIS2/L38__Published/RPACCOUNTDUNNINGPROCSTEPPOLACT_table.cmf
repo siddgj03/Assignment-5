@@ -1,0 +1,218 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPACCOUNTDUNNINGPROCSTEPPOLACT" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPACCOUNTDUNNINGPROCSTEPPOLACT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCOUNTDUNNINGPROCID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTDUNNINGPROCSTEPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTDUNNINGPROCSTEPPOLACTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELERRORMESSAGE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CDPOLICYACTIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTPOLICYINSTANCE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ERRORMESSAGE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELSUCCEEDED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISSUCCEEDED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYINSTANCEIDENTIFIER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYREQUESTIDENTIFIER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPACCOUNTDUNNINGPROCSTEPPOLACT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ACCOUNTDUNNINGPROCID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ACCOUNTDUNNINGPROCSTEPID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ACCOUNTDUNNINGPROCSTEPPOLACTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ACCOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CANCELERRORMESSAGE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="CDPOLICYACTIONTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATESTARTPOLICYINSTANCE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="ERRORMESSAGE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="ISCANCELSUCCEEDED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISSUCCEEDED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="POLICYIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="POLICYINSTANCEIDENTIFIER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYREQUESTIDENTIFIER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.ACCOUNTDUNNINGPROCID ACCOUNTDUNNINGPROCID,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.ACCOUNTDUNNINGPROCSTEPID ACCOUNTDUNNINGPROCSTEPID,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.ACCOUNTDUNNINGPROCSTEPPOLACTID ACCOUNTDUNNINGPROCSTEPPOLACTID,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.ACCOUNTID ACCOUNTID,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.CANCELERRORMESSAGE CANCELERRORMESSAGE,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.CDPOLICYACTIONTYPEID CDPOLICYACTIONTYPEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.DATESTARTPOLICYINSTANCE DATESTARTPOLICYINSTANCE,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.ERRORMESSAGE ERRORMESSAGE,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.ISCANCELSUCCEEDED ISCANCELSUCCEEDED,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.ISSUCCEEDED ISSUCCEEDED,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.POLICYIDENTIFIER POLICYIDENTIFIER,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.POLICYINSTANCEIDENTIFIER POLICYINSTANCEIDENTIFIER,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.POLICYREQUESTIDENTIFIER POLICYREQUESTIDENTIFIER,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.TSCHANGED TSCHANGED,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.TSCREATED TSCREATED,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPACCOUNTDUNNINGPROCSTEPPOLACT.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPACCOUNTDUNNINGPROCSTEPPOLACT RPACCOUNTDUNNINGPROCSTEPPOLACT</attribute>
+  <attribute name="creationDate" type="LONG">1664293442904</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPACCOUNTDUNNINGPROCSTEPPOLACT&apos;.  On line 20, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293442904</attribute>
+</metadata>

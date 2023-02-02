@@ -1,0 +1,284 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPLLMVMESSAGE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPLLMVMESSAGE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CONTENT" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELLMVSTARTFORNEWINSURER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYSTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIERINEXTERNALSYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINGOING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISMANUALLYMARKEDASPROCESSED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISMESSAGESENTMANUALLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LICENCEPLATE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LLMVMESSAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LLMVREGISTRATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINALMESSAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REGISTRATIONNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REQUESTMESSAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSPROCESSED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSPROCESSEDBYVEHICLEREGOFFICE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSSENTRECEIVED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEIDENTIFICATIONNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPLLMVMESSAGE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CONTENT">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="CUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATELLMVSTARTFORNEWINSURER">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPOLICYSTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="IDENTIFIERINEXTERNALSYSTEM">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ISINGOING">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISMANUALLYMARKEDASPROCESSED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISMESSAGESENTMANUALLY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="LICENCEPLATE">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="LLMVMESSAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LLMVREGISTRATIONTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ORIGINALMESSAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REGISTRATIONNUMBER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="REQUESTMESSAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSPROCESSED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSPROCESSEDBYVEHICLEREGOFFICE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSSENTRECEIVED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="VEHICLEIDENTIFICATIONNUMBER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPLLMVMESSAGE.&quot;CONTENT&quot; &quot;CONTENT&quot;,
+&#x9;RPLLMVMESSAGE.CUSTOMERID CUSTOMERID,
+&#x9;RPLLMVMESSAGE.DATELLMVSTARTFORNEWINSURER DATELLMVSTARTFORNEWINSURER,
+&#x9;RPLLMVMESSAGE.DATEPOLICYSTART DATEPOLICYSTART,
+&#x9;RPLLMVMESSAGE.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPLLMVMESSAGE.IDENTIFIERINEXTERNALSYSTEM IDENTIFIERINEXTERNALSYSTEM,
+&#x9;RPLLMVMESSAGE.ISINGOING ISINGOING,
+&#x9;RPLLMVMESSAGE.ISMANUALLYMARKEDASPROCESSED ISMANUALLYMARKEDASPROCESSED,
+&#x9;RPLLMVMESSAGE.ISMESSAGESENTMANUALLY ISMESSAGESENTMANUALLY,
+&#x9;RPLLMVMESSAGE.LICENCEPLATE LICENCEPLATE,
+&#x9;RPLLMVMESSAGE.LLMVMESSAGEID LLMVMESSAGEID,
+&#x9;RPLLMVMESSAGE.LLMVREGISTRATIONTYPEID LLMVREGISTRATIONTYPEID,
+&#x9;RPLLMVMESSAGE.ORIGINALMESSAGEID ORIGINALMESSAGEID,
+&#x9;RPLLMVMESSAGE.REGISTRATIONNUMBER REGISTRATIONNUMBER,
+&#x9;RPLLMVMESSAGE.REQUESTMESSAGEID REQUESTMESSAGEID,
+&#x9;RPLLMVMESSAGE.TSCHANGED TSCHANGED,
+&#x9;RPLLMVMESSAGE.TSCREATED TSCREATED,
+&#x9;RPLLMVMESSAGE.TSPROCESSED TSPROCESSED,
+&#x9;RPLLMVMESSAGE.TSPROCESSEDBYVEHICLEREGOFFICE TSPROCESSEDBYVEHICLEREGOFFICE,
+&#x9;RPLLMVMESSAGE.TSSENTRECEIVED TSSENTRECEIVED,
+&#x9;RPLLMVMESSAGE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPLLMVMESSAGE.USERIDCREATED USERIDCREATED,
+&#x9;RPLLMVMESSAGE.VEHICLEIDENTIFICATIONNUMBER VEHICLEIDENTIFICATIONNUMBER 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPLLMVMESSAGE RPLLMVMESSAGE</attribute>
+  <attribute name="creationDate" type="LONG">1664294475412</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPLLMVMESSAGE&apos;.  On line 26, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294475412</attribute>
+</metadata>

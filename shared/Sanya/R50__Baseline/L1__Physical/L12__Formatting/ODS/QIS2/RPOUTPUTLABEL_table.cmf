@@ -1,0 +1,343 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPOUTPUTLABEL" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPOUTPUTLABEL" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ALIASFORNOREPLYSENDEREMAIL" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALIASFORNOREPLYSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALIASFORSENDERADDRESSAUTOEMAIL" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALIASFORSENDEREMAILADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALIASFORSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALIASFORSNDREMAILFORACCTCOMM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALIASFORSNDREMAILFORCLAIMCOMM" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALIASFORSNDREMAILFORONLPAYMREQ" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALIASNOREPLYSNDREMAILACCTCOMM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALIASNOREPLYSNDREMAILCLAIMCOMM" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALTINSURERFORSATISFSURVEY" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOMAINFORSENDEREMAILADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOMAINFORSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOMAINFORSNDREMAILFORACCTCOMM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOMAINFORSNDREMAILFORCLAIMCOMM" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILHTMLTEMPLATE" nullable="true">
+      <datatype type="BLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASSTANDARDTRANSLATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAPPLICABLETOCLAIMS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NOREPLYSENDEREMAILADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NOREPLYSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NOREPLYSENDEREMAILFORACCTCOMM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NOREPLYSENDEREMAILFORCLAIMCOMM" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OUTPUTLABELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDERADDRESSAUTOEMAIL" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDEREMAILADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDEREMAILFORACCTCOMM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDEREMAILFORCLAIMCOMM" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDEREMAILFORONLINEPAYMENTREQ" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDERIDFORSMS" nullable="true">
+      <datatype type="STRING" maxLength="16"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SMSTEMPLATE" nullable="true">
+      <datatype type="STRING" maxLength="1000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEBGTEMPLATEFORPRINTQUEUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPOUTPUTLABEL" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPOUTPUTLABEL.ALIASFORNOREPLYSENDEREMAIL ALIASFORNOREPLYSENDEREMAIL,
+&#x9;RPOUTPUTLABEL.ALIASFORNOREPLYSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS ALIASFORNOREPLYSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS,
+&#x9;RPOUTPUTLABEL.ALIASFORSENDERADDRESSAUTOEMAIL ALIASFORSENDERADDRESSAUTOEMAIL,
+&#x9;RPOUTPUTLABEL.ALIASFORSENDEREMAILADDRESS ALIASFORSENDEREMAILADDRESS,
+&#x9;RPOUTPUTLABEL.ALIASFORSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS ALIASFORSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS,
+&#x9;RPOUTPUTLABEL.ALIASFORSNDREMAILFORACCTCOMM ALIASFORSNDREMAILFORACCTCOMM,
+&#x9;RPOUTPUTLABEL.ALIASFORSNDREMAILFORCLAIMCOMM ALIASFORSNDREMAILFORCLAIMCOMM,
+&#x9;RPOUTPUTLABEL.ALIASFORSNDREMAILFORONLPAYMREQ ALIASFORSNDREMAILFORONLPAYMREQ,
+&#x9;RPOUTPUTLABEL.ALIASNOREPLYSNDREMAILACCTCOMM ALIASNOREPLYSNDREMAILACCTCOMM,
+&#x9;RPOUTPUTLABEL.ALIASNOREPLYSNDREMAILCLAIMCOMM ALIASNOREPLYSNDREMAILCLAIMCOMM,
+&#x9;RPOUTPUTLABEL.ALTINSURERFORSATISFSURVEY ALTINSURERFORSATISFSURVEY,
+&#x9;RPOUTPUTLABEL.DOMAINFORSENDEREMAILADDRESS DOMAINFORSENDEREMAILADDRESS,
+&#x9;RPOUTPUTLABEL.DOMAINFORSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS DOMAINFORSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS,
+&#x9;RPOUTPUTLABEL.DOMAINFORSNDREMAILFORACCTCOMM DOMAINFORSNDREMAILFORACCTCOMM,
+&#x9;RPOUTPUTLABEL.DOMAINFORSNDREMAILFORCLAIMCOMM DOMAINFORSNDREMAILFORCLAIMCOMM,
+&#x9;RPOUTPUTLABEL.EMAILHTMLTEMPLATE EMAILHTMLTEMPLATE,
+&#x9;RPOUTPUTLABEL.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPOUTPUTLABEL.HASSTANDARDTRANSLATIONS HASSTANDARDTRANSLATIONS,
+&#x9;RPOUTPUTLABEL.IDENTIFIER IDENTIFIER,
+&#x9;RPOUTPUTLABEL.ISAPPLICABLETOCLAIMS ISAPPLICABLETOCLAIMS,
+&#x9;RPOUTPUTLABEL.NOREPLYSENDEREMAILADDRESS NOREPLYSENDEREMAILADDRESS,
+&#x9;RPOUTPUTLABEL.NOREPLYSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS NOREPLYSENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS,
+&#x9;RPOUTPUTLABEL.NOREPLYSENDEREMAILFORACCTCOMM NOREPLYSENDEREMAILFORACCTCOMM,
+&#x9;RPOUTPUTLABEL.NOREPLYSENDEREMAILFORCLAIMCOMM NOREPLYSENDEREMAILFORCLAIMCOMM,
+&#x9;RPOUTPUTLABEL.OUTPUTLABELID OUTPUTLABELID,
+&#x9;RPOUTPUTLABEL.SENDERADDRESSAUTOEMAIL SENDERADDRESSAUTOEMAIL,
+&#x9;RPOUTPUTLABEL.SENDEREMAILADDRESS SENDEREMAILADDRESS,
+&#x9;RPOUTPUTLABEL.SENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS SENDEREMAILADDRESSFORINTERMEDIARYCOMMUNICATIONS,
+&#x9;RPOUTPUTLABEL.SENDEREMAILFORACCTCOMM SENDEREMAILFORACCTCOMM,
+&#x9;RPOUTPUTLABEL.SENDEREMAILFORCLAIMCOMM SENDEREMAILFORCLAIMCOMM,
+&#x9;RPOUTPUTLABEL.SENDEREMAILFORONLINEPAYMENTREQ SENDEREMAILFORONLINEPAYMENTREQ,
+&#x9;RPOUTPUTLABEL.SENDERIDFORSMS SENDERIDFORSMS,
+&#x9;RPOUTPUTLABEL.SMSTEMPLATE SMSTEMPLATE,
+&#x9;RPOUTPUTLABEL.TSCHANGED TSCHANGED,
+&#x9;RPOUTPUTLABEL.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPOUTPUTLABEL.TSCREATED TSCREATED,
+&#x9;RPOUTPUTLABEL.USEBGTEMPLATEFORPRINTQUEUE USEBGTEMPLATEFORPRINTQUEUE,
+&#x9;RPOUTPUTLABEL.USERIDCHANGED USERIDCHANGED,
+&#x9;RPOUTPUTLABEL.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPOUTPUTLABEL RPOUTPUTLABEL</attribute>
+  <attribute name="creationDate" type="LONG">1664289903704</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPOUTPUTLABEL&apos;.  On line 42, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289903704</attribute>
+</metadata>

@@ -1,0 +1,359 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPAGREEMENT" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPAGREEMENT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AGREEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AGREEMENTSETID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONPROCESSGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCAMTEXTRAFORPAYMENTPERIOD" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANINTERMEDIARYPROLONGATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CODE" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTSFORPACKAGEDISCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENDEXTERNALTRANSFERALLOWED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTEXTTRANSFERALLOWED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALCODEFORFA" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASEXTERNALCLAIMS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASEXTERNALPOLICIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASPORTFOLIORIGHT" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYFEETYPECHOICEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTIDAFTERCONTRACTRENEWAL" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISALLOWEDONINTERNET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAPPLICATIONALLOWED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCONTRACTAGREEMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISDEFAULT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISMUTATIONALLOWED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISQUOTATIONALLOWED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISSHARED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OUTPUTLABELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLDOCSALTPAYERCOMMTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLDOCSPOLICYHOLDERCOMMTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCERBUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMOVETARGAGRATCONTRRENEWAL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPLACEDBYAGREEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPORTINGIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWPRODUCTONINTERNETSITE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSCUSTOMERPERIODDISCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSIMPORTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSIMPORTEDBO" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAGREEMENT" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPAGREEMENT.AGREEMENTID AGREEMENTID,
+&#x9;RPAGREEMENT.AGREEMENTSETID AGREEMENTSETID,
+&#x9;RPAGREEMENT.APPLICATIONPROCESSGROUPID APPLICATIONPROCESSGROUPID,
+&#x9;RPAGREEMENT.CALCAMTEXTRAFORPAYMENTPERIOD CALCAMTEXTRAFORPAYMENTPERIOD,
+&#x9;RPAGREEMENT.CANINTERMEDIARYPROLONGATE CANINTERMEDIARYPROLONGATE,
+&#x9;RPAGREEMENT.CODE CODE,
+&#x9;RPAGREEMENT.COUNTSFORPACKAGEDISCOUNT COUNTSFORPACKAGEDISCOUNT,
+&#x9;RPAGREEMENT.DATEENDEXTERNALTRANSFERALLOWED DATEENDEXTERNALTRANSFERALLOWED,
+&#x9;RPAGREEMENT.DATESTARTEXTTRANSFERALLOWED DATESTARTEXTTRANSFERALLOWED,
+&#x9;RPAGREEMENT.EXTERNALCODEFORFA EXTERNALCODEFORFA,
+&#x9;RPAGREEMENT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPAGREEMENT.GRPCONTRDEFID GRPCONTRDEFID,
+&#x9;RPAGREEMENT.HASEXTERNALCLAIMS HASEXTERNALCLAIMS,
+&#x9;RPAGREEMENT.HASEXTERNALPOLICIES HASEXTERNALPOLICIES,
+&#x9;RPAGREEMENT.HASPORTFOLIORIGHT HASPORTFOLIORIGHT,
+&#x9;RPAGREEMENT.INTERMEDIARYFEETYPECHOICEID INTERMEDIARYFEETYPECHOICEID,
+&#x9;RPAGREEMENT.INTIDAFTERCONTRACTRENEWAL INTIDAFTERCONTRACTRENEWAL,
+&#x9;RPAGREEMENT.ISALLOWEDONINTERNET ISALLOWEDONINTERNET,
+&#x9;RPAGREEMENT.ISAPPLICATIONALLOWED ISAPPLICATIONALLOWED,
+&#x9;RPAGREEMENT.ISCONTRACTAGREEMENT ISCONTRACTAGREEMENT,
+&#x9;RPAGREEMENT.ISDEFAULT ISDEFAULT,
+&#x9;RPAGREEMENT.ISMUTATIONALLOWED ISMUTATIONALLOWED,
+&#x9;RPAGREEMENT.ISQUOTATIONALLOWED ISQUOTATIONALLOWED,
+&#x9;RPAGREEMENT.ISSHARED ISSHARED,
+&#x9;RPAGREEMENT.OUTPUTLABELID OUTPUTLABELID,
+&#x9;RPAGREEMENT.POLDOCSALTPAYERCOMMTYPEID POLDOCSALTPAYERCOMMTYPEID,
+&#x9;RPAGREEMENT.POLDOCSPOLICYHOLDERCOMMTYPEID POLDOCSPOLICYHOLDERCOMMTYPEID,
+&#x9;RPAGREEMENT.PRODUCERBUSINESSUNITID PRODUCERBUSINESSUNITID,
+&#x9;RPAGREEMENT.PRODUCTID PRODUCTID,
+&#x9;RPAGREEMENT.REMOVETARGAGRATCONTRRENEWAL REMOVETARGAGRATCONTRRENEWAL,
+&#x9;RPAGREEMENT.REPLACEDBYAGREEMENTID REPLACEDBYAGREEMENTID,
+&#x9;RPAGREEMENT.REPORTINGIDENTIFIER REPORTINGIDENTIFIER,
+&#x9;RPAGREEMENT.SHOWPRODUCTONINTERNETSITE SHOWPRODUCTONINTERNETSITE,
+&#x9;RPAGREEMENT.SUPPRESSCUSTOMERPERIODDISCOUNT SUPPRESSCUSTOMERPERIODDISCOUNT,
+&#x9;RPAGREEMENT.TSCHANGED TSCHANGED,
+&#x9;RPAGREEMENT.TSCREATED TSCREATED,
+&#x9;RPAGREEMENT.TSEXPORTED TSEXPORTED,
+&#x9;RPAGREEMENT.TSIMPORTED TSIMPORTED,
+&#x9;RPAGREEMENT.TSIMPORTEDBO TSIMPORTEDBO,
+&#x9;RPAGREEMENT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPAGREEMENT.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAGREEMENT RPAGREEMENT</attribute>
+  <attribute name="creationDate" type="LONG">1664288800677</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAGREEMENT&apos;.  On line 44, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664288800677</attribute>
+</metadata>

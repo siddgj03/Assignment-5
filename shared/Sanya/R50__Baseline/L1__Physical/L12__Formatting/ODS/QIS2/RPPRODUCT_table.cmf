@@ -1,0 +1,1127 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPRODUCT" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPRODUCT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ALLOWSCHEDPOLCHANGEAFTERCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLYEXCESSONPOLICYFORDAMFORM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPPROCGROUPEXTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITEXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCMODELENDDATETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCULATECUSTPERIODDISCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCULATEPERIODAMTSTOBESETTLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBECOINSUREDPOLICY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBEPARTOFPACKAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBERENEWEDBYPAYMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCOMPLETECLAIMVIAINTERNET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCONTINUATEBYSLIDING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANHAVEINSPECTION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANINCLUDEINPACKAGECUSTOMERENV" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANINTPREVAPPREPORTCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANRENEWALVARIANTDEVIATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANUSERSCHANGEINTDISCOUTFORM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANUSERSCREATEPENDPOLDECLAR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CODEFORASSESSMENTINTERFACE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTROLPARAMFORFRAUDAUDIT" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTROLPARAMFORFRAUDAUDITCLAIM" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTROLPARAMFORFRAUDPOSTAUDIT" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTSFORPACKAGEDISCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTSONCEFORCUSTPERDISCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATECANCPOLVERFOREXPIRY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEPOSTINGSAUTOMATICALLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATETASKWHENPENDECLNOTCOMPL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEUSEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEUSESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DAYSFINPROCBEFORELATERPOLVERS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DECLARATIONFREQUENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DECLARATIONPHASEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTORDER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTTAXREGIMEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIRECTLYFINPRWONETIMEPAYISUSED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTTOCRM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTTOEMERGENCYCALLCENTRE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALCODEFORIMPORTCLAIMS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINAUTHORIZATIONIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GIMPRODUCTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPJOURNALENTRIESONPOLICY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASANNUALPREMIUM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIERFORLINEBASEDIMPORT" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDNBRANCHECODE" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDNCOMPANYBRANCHECODE" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDNCOMPANYPRODUCTCODE" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDNVIEWCODE" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDNVIEWVERSION" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INSTRUCTIONFORNCBMHANDLINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYSELECTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISALLOWEDFORALLFLOATINGMODULES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISALLOWEDFORALLINTERMEDIARIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISASSESSMENTAPPLICABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLEFORCOMPANY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLEFORCOMPANYSITE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLEFORCONSUMERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLEFORGRS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCITYREQUIREDFORCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCLAIMDATEINFUTUREALLOWED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOUNTRYREQUIREDFORCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFORACTIVEREINSURANCEPOLICIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFOROPENPOLICIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPOSTALCODEREQUIREDFORCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISRENEWALPRODUCT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISTOTALLOSSAPPLICABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISUSEDFORCUSTOMEREXTERNALTRANSFER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISVOLUNTARYEXCAPPLFORNONDEFEXC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISWAITFORCNFRMBYCUSTAVAILABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LLMVREGISTRATIONSYSTEMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAXNROFYEARSAUTOMATICPROCESSINGNCBMCLAIMS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MONTHSBEFORERFRSHPRODDEFFORFA" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MUSTBEPARTOFPACKAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NCBMCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NCBMTABLEFORDECRNCBMYEARSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NCBMTABLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NECESSARYPRODUCTPERMITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDAYSCLOSEPENDINGDECLAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDAYSFORFINPROCFIRSTPOLVER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDAYSFORHASOVERDUEINVOICE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDAYSFORSLIDINGCONTINUATION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDAYSLATERCREATEPENDDECLAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDAYSSENDREMINDERPENDDECLAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDCODEFORASSESSMENTINTERFACE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OUTPUTLABELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PIVPRODUCTCODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSNCBMCLAIMINSTACKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTCATEGORYFORDPK" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTCLUSTERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTCODECUSTOMERCONTROLSYST" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTMODELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REFDATEPROCESSINGNCBMCLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REGISTEREARNEDNCBMYEARS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REGISTERLLMVINSURANCEEXT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REGISTERNCBMYEARSATEXTSYSTEM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REQUESTDECLARVALUESAUTOM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REQUIRESOBJDETAILSADJUSTMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REQUIRESRECALCULATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REQUIRESSENDINGDECLARDOCUMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDINJUREDPERSONTOEVALEA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDREMINDERFORQUOTATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDTERMSANDCONDWTHRENEWALPROP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPINTERMFEETYPECHOICEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUSPPOLONTOTALLOSS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TAXCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEALTERNATIVEPERIODFORSHOWINGINACTIVEPOLICIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEDECLARATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEDECLARATIONSFORPOSTCALC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEDECLARATIONSFORRECALC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEEMANDATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEFORMSTORAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USELIABILITYSCREENINCLAIMFORM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USELOSSRATIODISCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEMULTIPLELAYERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USENCBM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USENCBMPERCALENDARYEAR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USENCBMPERCOVERAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEPARTYASINSPECTOR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEPAYMENTPERIODS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEPAYMENTSCREENINCLAIMFORM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEPERIODICGREENCARD" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEPERIODSETTLEMENTPOSTINGS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEPREMIUMWAIVER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEREPDATEFORSELPOLVERSION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERISKCUSTOMERFORCLAIMS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USESCOVERSPECIFICEARNPERIODS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USESIDNMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USESINSURANCEPLATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USESTATICSTORAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPRODUCT" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPRODUCT.ALLOWSCHEDPOLCHANGEAFTERCLAIM ALLOWSCHEDPOLCHANGEAFTERCLAIM,
+&#x9;RPPRODUCT.APPLYEXCESSONPOLICYFORDAMFORM APPLYEXCESSONPOLICYFORDAMFORM,
+&#x9;RPPRODUCT.APPPROCGROUPEXTIDENTIFIER APPPROCGROUPEXTIDENTIFIER,
+&#x9;RPPRODUCT.BUSINESSUNITEXTERNALIDENTIFIER BUSINESSUNITEXTERNALIDENTIFIER,
+&#x9;RPPRODUCT.CALCMODELENDDATETYPEID CALCMODELENDDATETYPEID,
+&#x9;RPPRODUCT.CALCULATECUSTPERIODDISCOUNT CALCULATECUSTPERIODDISCOUNT,
+&#x9;RPPRODUCT.CALCULATEPERIODAMTSTOBESETTLED CALCULATEPERIODAMTSTOBESETTLED,
+&#x9;RPPRODUCT.CANBECOINSUREDPOLICY CANBECOINSUREDPOLICY,
+&#x9;RPPRODUCT.CANBEPARTOFPACKAGE CANBEPARTOFPACKAGE,
+&#x9;RPPRODUCT.CANBERENEWEDBYPAYMENT CANBERENEWEDBYPAYMENT,
+&#x9;RPPRODUCT.CANCOMPLETECLAIMVIAINTERNET CANCOMPLETECLAIMVIAINTERNET,
+&#x9;RPPRODUCT.CANCONTINUATEBYSLIDING CANCONTINUATEBYSLIDING,
+&#x9;RPPRODUCT.CANHAVEINSPECTION CANHAVEINSPECTION,
+&#x9;RPPRODUCT.CANINCLUDEINPACKAGECUSTOMERENV CANINCLUDEINPACKAGECUSTOMERENV,
+&#x9;RPPRODUCT.CANINTPREVAPPREPORTCLAIM CANINTPREVAPPREPORTCLAIM,
+&#x9;RPPRODUCT.CANRENEWALVARIANTDEVIATE CANRENEWALVARIANTDEVIATE,
+&#x9;RPPRODUCT.CANUSERSCHANGEINTDISCOUTFORM CANUSERSCHANGEINTDISCOUTFORM,
+&#x9;RPPRODUCT.CANUSERSCREATEPENDPOLDECLAR CANUSERSCREATEPENDPOLDECLAR,
+&#x9;RPPRODUCT.CODEFORASSESSMENTINTERFACE CODEFORASSESSMENTINTERFACE,
+&#x9;RPPRODUCT.CONTROLPARAMFORFRAUDAUDIT CONTROLPARAMFORFRAUDAUDIT,
+&#x9;RPPRODUCT.CONTROLPARAMFORFRAUDAUDITCLAIM CONTROLPARAMFORFRAUDAUDITCLAIM,
+&#x9;RPPRODUCT.CONTROLPARAMFORFRAUDPOSTAUDIT CONTROLPARAMFORFRAUDPOSTAUDIT,
+&#x9;RPPRODUCT.COUNTSFORPACKAGEDISCOUNT COUNTSFORPACKAGEDISCOUNT,
+&#x9;RPPRODUCT.COUNTSONCEFORCUSTPERDISCOUNT COUNTSONCEFORCUSTPERDISCOUNT,
+&#x9;RPPRODUCT.CREATECANCPOLVERFOREXPIRY CREATECANCPOLVERFOREXPIRY,
+&#x9;RPPRODUCT.CREATEPOSTINGSAUTOMATICALLY CREATEPOSTINGSAUTOMATICALLY,
+&#x9;RPPRODUCT.CREATETASKWHENPENDECLNOTCOMPL CREATETASKWHENPENDECLNOTCOMPL,
+&#x9;RPPRODUCT.CURRENCYID CURRENCYID,
+&#x9;RPPRODUCT.DATEUSEEND DATEUSEEND,
+&#x9;RPPRODUCT.DATEUSESTART DATEUSESTART,
+&#x9;RPPRODUCT.DAYSFINPROCBEFORELATERPOLVERS DAYSFINPROCBEFORELATERPOLVERS,
+&#x9;RPPRODUCT.DECLARATIONFREQUENCYID DECLARATIONFREQUENCYID,
+&#x9;RPPRODUCT.DECLARATIONPHASEID DECLARATIONPHASEID,
+&#x9;RPPRODUCT.DEFAULTORDER DEFAULTORDER,
+&#x9;RPPRODUCT.DEFAULTTAXREGIMEID DEFAULTTAXREGIMEID,
+&#x9;RPPRODUCT.DIRECTLYFINPRWONETIMEPAYISUSED DIRECTLYFINPRWONETIMEPAYISUSED,
+&#x9;RPPRODUCT.EXPORTTOCRM EXPORTTOCRM,
+&#x9;RPPRODUCT.EXPORTTOEMERGENCYCALLCENTRE EXPORTTOEMERGENCYCALLCENTRE,
+&#x9;RPPRODUCT.EXTERNALCODEFORIMPORTCLAIMS EXTERNALCODEFORIMPORTCLAIMS,
+&#x9;RPPRODUCT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPPRODUCT.FINAUTHORIZATIONIDENTIFIER FINAUTHORIZATIONIDENTIFIER,
+&#x9;RPPRODUCT.GIMPRODUCTIDENTIFIER GIMPRODUCTIDENTIFIER,
+&#x9;RPPRODUCT.GROUPJOURNALENTRIESONPOLICY GROUPJOURNALENTRIESONPOLICY,
+&#x9;RPPRODUCT.HASANNUALPREMIUM HASANNUALPREMIUM,
+&#x9;RPPRODUCT.IDENTIFIERFORLINEBASEDIMPORT IDENTIFIERFORLINEBASEDIMPORT,
+&#x9;RPPRODUCT.IDNBRANCHECODE IDNBRANCHECODE,
+&#x9;RPPRODUCT.IDNCOMPANYBRANCHECODE IDNCOMPANYBRANCHECODE,
+&#x9;RPPRODUCT.IDNCOMPANYPRODUCTCODE IDNCOMPANYPRODUCTCODE,
+&#x9;RPPRODUCT.IDNVIEWCODE IDNVIEWCODE,
+&#x9;RPPRODUCT.IDNVIEWVERSION IDNVIEWVERSION,
+&#x9;RPPRODUCT.INSTRUCTIONFORNCBMHANDLINGID INSTRUCTIONFORNCBMHANDLINGID,
+&#x9;RPPRODUCT.INTERMEDIARYSELECTIONID INTERMEDIARYSELECTIONID,
+&#x9;RPPRODUCT.ISALLOWEDFORALLFLOATINGMODULES ISALLOWEDFORALLFLOATINGMODULES,
+&#x9;RPPRODUCT.ISALLOWEDFORALLINTERMEDIARIES ISALLOWEDFORALLINTERMEDIARIES,
+&#x9;RPPRODUCT.ISASSESSMENTAPPLICABLE ISASSESSMENTAPPLICABLE,
+&#x9;RPPRODUCT.ISAVAILABLEFORCOMPANY ISAVAILABLEFORCOMPANY,
+&#x9;RPPRODUCT.ISAVAILABLEFORCOMPANYSITE ISAVAILABLEFORCOMPANYSITE,
+&#x9;RPPRODUCT.ISAVAILABLEFORCONSUMERS ISAVAILABLEFORCONSUMERS,
+&#x9;RPPRODUCT.ISAVAILABLEFORGRS ISAVAILABLEFORGRS,
+&#x9;RPPRODUCT.ISCITYREQUIREDFORCLAIM ISCITYREQUIREDFORCLAIM,
+&#x9;RPPRODUCT.ISCLAIMDATEINFUTUREALLOWED ISCLAIMDATEINFUTUREALLOWED,
+&#x9;RPPRODUCT.ISCOUNTRYREQUIREDFORCLAIM ISCOUNTRYREQUIREDFORCLAIM,
+&#x9;RPPRODUCT.ISFORACTIVEREINSURANCEPOLICIES ISFORACTIVEREINSURANCEPOLICIES,
+&#x9;RPPRODUCT.ISFOROPENPOLICIES ISFOROPENPOLICIES,
+&#x9;RPPRODUCT.ISPOSTALCODEREQUIREDFORCLAIM ISPOSTALCODEREQUIREDFORCLAIM,
+&#x9;RPPRODUCT.ISRENEWALPRODUCT ISRENEWALPRODUCT,
+&#x9;RPPRODUCT.ISTOTALLOSSAPPLICABLE ISTOTALLOSSAPPLICABLE,
+&#x9;RPPRODUCT.ISUSEDFORCUSTOMEREXTERNALTRANSFER ISUSEDFORCUSTOMEREXTERNALTRANSFER,
+&#x9;RPPRODUCT.ISVOLUNTARYEXCAPPLFORNONDEFEXC ISVOLUNTARYEXCAPPLFORNONDEFEXC,
+&#x9;RPPRODUCT.ISWAITFORCNFRMBYCUSTAVAILABLE ISWAITFORCNFRMBYCUSTAVAILABLE,
+&#x9;RPPRODUCT.LLMVREGISTRATIONSYSTEMID LLMVREGISTRATIONSYSTEMID,
+&#x9;RPPRODUCT.MAXNROFYEARSAUTOMATICPROCESSINGNCBMCLAIMS MAXNROFYEARSAUTOMATICPROCESSINGNCBMCLAIMS,
+&#x9;RPPRODUCT.MONTHSBEFORERFRSHPRODDEFFORFA MONTHSBEFORERFRSHPRODDEFFORFA,
+&#x9;RPPRODUCT.MUSTBEPARTOFPACKAGE MUSTBEPARTOFPACKAGE,
+&#x9;RPPRODUCT.NCBMCOUNTRYID NCBMCOUNTRYID,
+&#x9;RPPRODUCT.NCBMTABLEFORDECRNCBMYEARSID NCBMTABLEFORDECRNCBMYEARSID,
+&#x9;RPPRODUCT.NCBMTABLEID NCBMTABLEID,
+&#x9;RPPRODUCT.NECESSARYPRODUCTPERMITID NECESSARYPRODUCTPERMITID,
+&#x9;RPPRODUCT.NROFDAYSCLOSEPENDINGDECLAR NROFDAYSCLOSEPENDINGDECLAR,
+&#x9;RPPRODUCT.NROFDAYSFORFINPROCFIRSTPOLVER NROFDAYSFORFINPROCFIRSTPOLVER,
+&#x9;RPPRODUCT.NROFDAYSFORHASOVERDUEINVOICE NROFDAYSFORHASOVERDUEINVOICE,
+&#x9;RPPRODUCT.NROFDAYSFORSLIDINGCONTINUATION NROFDAYSFORSLIDINGCONTINUATION,
+&#x9;RPPRODUCT.NROFDAYSLATERCREATEPENDDECLAR NROFDAYSLATERCREATEPENDDECLAR,
+&#x9;RPPRODUCT.NROFDAYSSENDREMINDERPENDDECLAR NROFDAYSSENDREMINDERPENDDECLAR,
+&#x9;RPPRODUCT.OLDCODEFORASSESSMENTINTERFACE OLDCODEFORASSESSMENTINTERFACE,
+&#x9;RPPRODUCT.OUTPUTLABELID OUTPUTLABELID,
+&#x9;RPPRODUCT.PIVPRODUCTCODE PIVPRODUCTCODE,
+&#x9;RPPRODUCT.PROCESSNCBMCLAIMINSTACKID PROCESSNCBMCLAIMINSTACKID,
+&#x9;RPPRODUCT.PRODUCTCATEGORYFORDPK PRODUCTCATEGORYFORDPK,
+&#x9;RPPRODUCT.PRODUCTCLUSTERID PRODUCTCLUSTERID,
+&#x9;RPPRODUCT.PRODUCTCODECUSTOMERCONTROLSYST PRODUCTCODECUSTOMERCONTROLSYST,
+&#x9;RPPRODUCT.PRODUCTID PRODUCTID,
+&#x9;RPPRODUCT.PRODUCTMODELID PRODUCTMODELID,
+&#x9;RPPRODUCT.PRODUCTTYPEID PRODUCTTYPEID,
+&#x9;RPPRODUCT.REFDATEPROCESSINGNCBMCLAIMID REFDATEPROCESSINGNCBMCLAIMID,
+&#x9;RPPRODUCT.REGISTEREARNEDNCBMYEARS REGISTEREARNEDNCBMYEARS,
+&#x9;RPPRODUCT.REGISTERLLMVINSURANCEEXT REGISTERLLMVINSURANCEEXT,
+&#x9;RPPRODUCT.REGISTERNCBMYEARSATEXTSYSTEM REGISTERNCBMYEARSATEXTSYSTEM,
+&#x9;RPPRODUCT.REQUESTDECLARVALUESAUTOM REQUESTDECLARVALUESAUTOM,
+&#x9;RPPRODUCT.REQUIRESOBJDETAILSADJUSTMENT REQUIRESOBJDETAILSADJUSTMENT,
+&#x9;RPPRODUCT.REQUIRESRECALCULATION REQUIRESRECALCULATION,
+&#x9;RPPRODUCT.REQUIRESSENDINGDECLARDOCUMENT REQUIRESSENDINGDECLARDOCUMENT,
+&#x9;RPPRODUCT.SENDINJUREDPERSONTOEVALEA SENDINJUREDPERSONTOEVALEA,
+&#x9;RPPRODUCT.SENDREMINDERFORQUOTATION SENDREMINDERFORQUOTATION,
+&#x9;RPPRODUCT.SENDTERMSANDCONDWTHRENEWALPROP SENDTERMSANDCONDWTHRENEWALPROP,
+&#x9;RPPRODUCT.SUPPINTERMFEETYPECHOICEID SUPPINTERMFEETYPECHOICEID,
+&#x9;RPPRODUCT.SUSPPOLONTOTALLOSS SUSPPOLONTOTALLOSS,
+&#x9;RPPRODUCT.TAXCOUNTRYID TAXCOUNTRYID,
+&#x9;RPPRODUCT.TSCHANGED TSCHANGED,
+&#x9;RPPRODUCT.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPPRODUCT.TSCREATED TSCREATED,
+&#x9;RPPRODUCT.USEALTERNATIVEPERIODFORSHOWINGINACTIVEPOLICIES USEALTERNATIVEPERIODFORSHOWINGINACTIVEPOLICIES,
+&#x9;RPPRODUCT.USEDECLARATIONS USEDECLARATIONS,
+&#x9;RPPRODUCT.USEDECLARATIONSFORPOSTCALC USEDECLARATIONSFORPOSTCALC,
+&#x9;RPPRODUCT.USEDECLARATIONSFORRECALC USEDECLARATIONSFORRECALC,
+&#x9;RPPRODUCT.USEEMANDATE USEEMANDATE,
+&#x9;RPPRODUCT.USEFORMSTORAGE USEFORMSTORAGE,
+&#x9;RPPRODUCT.USELIABILITYSCREENINCLAIMFORM USELIABILITYSCREENINCLAIMFORM,
+&#x9;RPPRODUCT.USELOSSRATIODISCOUNT USELOSSRATIODISCOUNT,
+&#x9;RPPRODUCT.USEMULTIPLELAYERS USEMULTIPLELAYERS,
+&#x9;RPPRODUCT.USENCBM USENCBM,
+&#x9;RPPRODUCT.USENCBMPERCALENDARYEAR USENCBMPERCALENDARYEAR,
+&#x9;RPPRODUCT.USENCBMPERCOVERAGE USENCBMPERCOVERAGE,
+&#x9;RPPRODUCT.USEPARTYASINSPECTOR USEPARTYASINSPECTOR,
+&#x9;RPPRODUCT.USEPAYMENTPERIODS USEPAYMENTPERIODS,
+&#x9;RPPRODUCT.USEPAYMENTSCREENINCLAIMFORM USEPAYMENTSCREENINCLAIMFORM,
+&#x9;RPPRODUCT.USEPERIODICGREENCARD USEPERIODICGREENCARD,
+&#x9;RPPRODUCT.USEPERIODSETTLEMENTPOSTINGS USEPERIODSETTLEMENTPOSTINGS,
+&#x9;RPPRODUCT.USEPREMIUMWAIVER USEPREMIUMWAIVER,
+&#x9;RPPRODUCT.USEREPDATEFORSELPOLVERSION USEREPDATEFORSELPOLVERSION,
+&#x9;RPPRODUCT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPRODUCT.USERIDCREATED USERIDCREATED,
+&#x9;RPPRODUCT.USERISKCUSTOMERFORCLAIMS USERISKCUSTOMERFORCLAIMS,
+&#x9;RPPRODUCT.USESCOVERSPECIFICEARNPERIODS USESCOVERSPECIFICEARNPERIODS,
+&#x9;RPPRODUCT.USESIDNMESSAGES USESIDNMESSAGES,
+&#x9;RPPRODUCT.USESINSURANCEPLATE USESINSURANCEPLATE,
+&#x9;RPPRODUCT.USESTATICSTORAGE USESTATICSTORAGE 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPRODUCT RPPRODUCT</attribute>
+  <attribute name="creationDate" type="LONG">1664290110307</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPRODUCT&apos;.  On line 140, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290110307</attribute>
+</metadata>

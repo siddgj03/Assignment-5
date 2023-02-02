@@ -1,0 +1,416 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPACKAGETYPE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPPACKAGETYPE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="APPPROCGROUPEXTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTINUEBYSLIDING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTSUSPPOLFORPACKAGEDISCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DISCOUNTTHRESHOLD" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOSUBPOLSFOLLOWCONTROFPACKAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALCODEFORFA" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALPRODUCTCODEFORASSINT" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTRAPACKDISCOUNTTABLESYSVARID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDNBRANCHCODE" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDNVIEWCODE" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDNVIEWVERSION" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLEONEXTRANET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLEONINTERNET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLEONINTRANET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLEVIAWEBSERVICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILFORBUSINESSPARTIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILFORINDIVIDUALPARTIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDAYSFORSLIDINGCONTINUATION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NUMBEROFDAYSVALIDITYFRAUDCHECK" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OUTPUTLABELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PACKAGEDISCOUNTTABLESYSVARID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PACKAGETYPECODEFORGIM" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PACKAGETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PACKAGETYPESCHEDULETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SORTORDER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPPOLICYCOSTSWHENPACKDISCAPP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEEMANDATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPACKAGETYPE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="APPPROCGROUPEXTIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="CONTINUEBYSLIDING">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="COUNTSUSPPOLFORPACKAGEDISCOUNT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DATEEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DISCOUNTTHRESHOLD">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DOSUBPOLSFOLLOWCONTROFPACKAGE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="EXTERNALCODEFORFA">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="EXTERNALPRODUCTCODEFORASSINT">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="EXTRAPACKDISCOUNTTABLESYSVARID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="IDNBRANCHCODE">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="IDNVIEWCODE">
+        <datatype type="STRING" maxLength="5"/>
+      </element>
+      <element name="IDNVIEWVERSION">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="ISAVAILABLEONEXTRANET">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISAVAILABLEONINTERNET">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISAVAILABLEONINTRANET">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISAVAILABLEVIAWEBSERVICE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISAVAILFORBUSINESSPARTIES">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISAVAILFORINDIVIDUALPARTIES">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NROFDAYSFORSLIDINGCONTINUATION">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NUMBEROFDAYSVALIDITYFRAUDCHECK">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OUTPUTLABELID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PACKAGEDISCOUNTTABLESYSVARID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PACKAGETYPECODEFORGIM">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="PACKAGETYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PACKAGETYPESCHEDULETYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SORTORDER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SUPPPOLICYCOSTSWHENPACKDISCAPP">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USEEMANDATE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPACKAGETYPE.APPPROCGROUPEXTIDENTIFIER APPPROCGROUPEXTIDENTIFIER,
+&#x9;RPPACKAGETYPE.CONTINUEBYSLIDING CONTINUEBYSLIDING,
+&#x9;RPPACKAGETYPE.COUNTSUSPPOLFORPACKAGEDISCOUNT COUNTSUSPPOLFORPACKAGEDISCOUNT,
+&#x9;RPPACKAGETYPE.DATEEND DATEEND,
+&#x9;RPPACKAGETYPE.DATESTART DATESTART,
+&#x9;RPPACKAGETYPE.DISCOUNTTHRESHOLD DISCOUNTTHRESHOLD,
+&#x9;RPPACKAGETYPE.DOSUBPOLSFOLLOWCONTROFPACKAGE DOSUBPOLSFOLLOWCONTROFPACKAGE,
+&#x9;RPPACKAGETYPE.EXTERNALCODEFORFA EXTERNALCODEFORFA,
+&#x9;RPPACKAGETYPE.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPPACKAGETYPE.EXTERNALPRODUCTCODEFORASSINT EXTERNALPRODUCTCODEFORASSINT,
+&#x9;RPPACKAGETYPE.EXTRAPACKDISCOUNTTABLESYSVARID EXTRAPACKDISCOUNTTABLESYSVARID,
+&#x9;RPPACKAGETYPE.IDNBRANCHCODE IDNBRANCHCODE,
+&#x9;RPPACKAGETYPE.IDNVIEWCODE IDNVIEWCODE,
+&#x9;RPPACKAGETYPE.IDNVIEWVERSION IDNVIEWVERSION,
+&#x9;RPPACKAGETYPE.ISAVAILABLEONEXTRANET ISAVAILABLEONEXTRANET,
+&#x9;RPPACKAGETYPE.ISAVAILABLEONINTERNET ISAVAILABLEONINTERNET,
+&#x9;RPPACKAGETYPE.ISAVAILABLEONINTRANET ISAVAILABLEONINTRANET,
+&#x9;RPPACKAGETYPE.ISAVAILABLEVIAWEBSERVICE ISAVAILABLEVIAWEBSERVICE,
+&#x9;RPPACKAGETYPE.ISAVAILFORBUSINESSPARTIES ISAVAILFORBUSINESSPARTIES,
+&#x9;RPPACKAGETYPE.ISAVAILFORINDIVIDUALPARTIES ISAVAILFORINDIVIDUALPARTIES,
+&#x9;RPPACKAGETYPE.NROFDAYSFORSLIDINGCONTINUATION NROFDAYSFORSLIDINGCONTINUATION,
+&#x9;RPPACKAGETYPE.NUMBEROFDAYSVALIDITYFRAUDCHECK NUMBEROFDAYSVALIDITYFRAUDCHECK,
+&#x9;RPPACKAGETYPE.OUTPUTLABELID OUTPUTLABELID,
+&#x9;RPPACKAGETYPE.PACKAGEDISCOUNTTABLESYSVARID PACKAGEDISCOUNTTABLESYSVARID,
+&#x9;RPPACKAGETYPE.PACKAGETYPECODEFORGIM PACKAGETYPECODEFORGIM,
+&#x9;RPPACKAGETYPE.PACKAGETYPEID PACKAGETYPEID,
+&#x9;RPPACKAGETYPE.PACKAGETYPESCHEDULETYPEID PACKAGETYPESCHEDULETYPEID,
+&#x9;RPPACKAGETYPE.SORTORDER SORTORDER,
+&#x9;RPPACKAGETYPE.SUPPPOLICYCOSTSWHENPACKDISCAPP SUPPPOLICYCOSTSWHENPACKDISCAPP,
+&#x9;RPPACKAGETYPE.TSCHANGED TSCHANGED,
+&#x9;RPPACKAGETYPE.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPPACKAGETYPE.TSCREATED TSCREATED,
+&#x9;RPPACKAGETYPE.USEEMANDATE USEEMANDATE,
+&#x9;RPPACKAGETYPE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPACKAGETYPE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPACKAGETYPE RPPACKAGETYPE</attribute>
+  <attribute name="creationDate" type="LONG">1664294578546</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPACKAGETYPE&apos;.  On line 38, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294578546</attribute>
+</metadata>

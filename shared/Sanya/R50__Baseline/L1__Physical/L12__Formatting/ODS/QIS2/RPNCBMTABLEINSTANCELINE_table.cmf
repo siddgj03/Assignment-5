@@ -1,0 +1,223 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPNCBMTABLEINSTANCELINE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPNCBMTABLEINSTANCELINE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTRACOMPSTEPSAFTER1CLAIM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTRACOMPSTEPSAFTER2CLAIM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTRACOMPSTEPSAFTER3CLAIM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTRACOMPSTEPSAFTER4CLAIM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NCBMTABLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NCBMTABLEINSTANCEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NCBMTABLEINSTANCELINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCDISCOUNT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPAFTER1CLAIM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPAFTER1CLAIMWITHNCP" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPAFTER2CLAIM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPAFTER2CLAIMWITHNCP" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPAFTER3CLAIM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPAFTER3CLAIMWITHNCP" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPAFTER4CLAIM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPAFTER4CLAIMWITHNCP" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPAFTERNOCLAIM360DAYS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPAFTERNOCLAIMLESSTHAN360DAYS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPNUMBER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPNCBMTABLEINSTANCELINE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPNCBMTABLEINSTANCELINE.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPNCBMTABLEINSTANCELINE.EXTRACOMPSTEPSAFTER1CLAIM EXTRACOMPSTEPSAFTER1CLAIM,
+&#x9;RPNCBMTABLEINSTANCELINE.EXTRACOMPSTEPSAFTER2CLAIM EXTRACOMPSTEPSAFTER2CLAIM,
+&#x9;RPNCBMTABLEINSTANCELINE.EXTRACOMPSTEPSAFTER3CLAIM EXTRACOMPSTEPSAFTER3CLAIM,
+&#x9;RPNCBMTABLEINSTANCELINE.EXTRACOMPSTEPSAFTER4CLAIM EXTRACOMPSTEPSAFTER4CLAIM,
+&#x9;RPNCBMTABLEINSTANCELINE.NCBMTABLEID NCBMTABLEID,
+&#x9;RPNCBMTABLEINSTANCELINE.NCBMTABLEINSTANCEID NCBMTABLEINSTANCEID,
+&#x9;RPNCBMTABLEINSTANCELINE.NCBMTABLEINSTANCELINEID NCBMTABLEINSTANCELINEID,
+&#x9;RPNCBMTABLEINSTANCELINE.PERCDISCOUNT PERCDISCOUNT,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPAFTER1CLAIM STEPAFTER1CLAIM,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPAFTER1CLAIMWITHNCP STEPAFTER1CLAIMWITHNCP,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPAFTER2CLAIM STEPAFTER2CLAIM,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPAFTER2CLAIMWITHNCP STEPAFTER2CLAIMWITHNCP,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPAFTER3CLAIM STEPAFTER3CLAIM,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPAFTER3CLAIMWITHNCP STEPAFTER3CLAIMWITHNCP,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPAFTER4CLAIM STEPAFTER4CLAIM,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPAFTER4CLAIMWITHNCP STEPAFTER4CLAIMWITHNCP,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPAFTERNOCLAIM360DAYS STEPAFTERNOCLAIM360DAYS,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPAFTERNOCLAIMLESSTHAN360DAYS STEPAFTERNOCLAIMLESSTHAN360DAYS,
+&#x9;RPNCBMTABLEINSTANCELINE.STEPNUMBER STEPNUMBER,
+&#x9;RPNCBMTABLEINSTANCELINE.TSCHANGED TSCHANGED,
+&#x9;RPNCBMTABLEINSTANCELINE.TSCREATED TSCREATED,
+&#x9;RPNCBMTABLEINSTANCELINE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPNCBMTABLEINSTANCELINE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPNCBMTABLEINSTANCELINE RPNCBMTABLEINSTANCELINE</attribute>
+  <attribute name="creationDate" type="LONG">1664289885337</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPNCBMTABLEINSTANCELINE&apos;.  On line 27, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289885337</attribute>
+</metadata>

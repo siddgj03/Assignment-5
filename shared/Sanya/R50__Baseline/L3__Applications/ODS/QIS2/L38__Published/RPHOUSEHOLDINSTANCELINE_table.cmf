@@ -1,0 +1,427 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPHOUSEHOLDINSTANCELINE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPHOUSEHOLDINSTANCELINE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="GEOTYPECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GEOTYPESOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HOUSEHOLDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HOUSEHOLDINSTANCEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HOUSEHOLDINSTANCELINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HOUSENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HOUSENUMBEREXTENSION" nullable="true">
+      <datatype type="STRING" maxLength="7"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INBIGCITYCODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INBIGCITYSOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCOMECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCOMESOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOANSAVECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOANSAVESOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PHASEOFLIFECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PHASEOFLIFESOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="9"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROPERTYCODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROPERTYSOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REGIONTYPECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REGIONTYPESOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESIDENCEBUILDYEARCODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESIDENCEBUILDYEARSOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESIDENCEFLOORAREACODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESIDENCEFLOORAREASOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESIDENCETAXVALUECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESIDENCETAXVALUESOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESIDENCETYPECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESIDENCETYPESOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESIDENCEVOLUMECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESIDENCEVOLUMESOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="URBANIZATIONCODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="URBANIZATIONSOURCECODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPHOUSEHOLDINSTANCELINE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="GEOTYPECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GEOTYPESOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HOUSEHOLDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HOUSEHOLDINSTANCEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HOUSEHOLDINSTANCELINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HOUSENUMBER">
+        <datatype type="STRING" maxLength="5"/>
+      </element>
+      <element name="HOUSENUMBEREXTENSION">
+        <datatype type="STRING" maxLength="7"/>
+      </element>
+      <element name="INBIGCITYCODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INBIGCITYSOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INCOMECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INCOMESOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LOANSAVECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LOANSAVESOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PHASEOFLIFECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PHASEOFLIFESOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POSTALCODE">
+        <datatype type="STRING" maxLength="9"/>
+      </element>
+      <element name="PROPERTYCODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PROPERTYSOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REGIONTYPECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REGIONTYPESOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESIDENCEBUILDYEARCODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESIDENCEBUILDYEARSOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESIDENCEFLOORAREACODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESIDENCEFLOORAREASOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESIDENCETAXVALUECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESIDENCETAXVALUESOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESIDENCETYPECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESIDENCETYPESOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESIDENCEVOLUMECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESIDENCEVOLUMESOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="URBANIZATIONCODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="URBANIZATIONSOURCECODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPHOUSEHOLDINSTANCELINE.GEOTYPECODE GEOTYPECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.GEOTYPESOURCECODE GEOTYPESOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.HOUSEHOLDID HOUSEHOLDID,
+&#x9;RPHOUSEHOLDINSTANCELINE.HOUSEHOLDINSTANCEID HOUSEHOLDINSTANCEID,
+&#x9;RPHOUSEHOLDINSTANCELINE.HOUSEHOLDINSTANCELINEID HOUSEHOLDINSTANCELINEID,
+&#x9;RPHOUSEHOLDINSTANCELINE.HOUSENUMBER HOUSENUMBER,
+&#x9;RPHOUSEHOLDINSTANCELINE.HOUSENUMBEREXTENSION HOUSENUMBEREXTENSION,
+&#x9;RPHOUSEHOLDINSTANCELINE.INBIGCITYCODE INBIGCITYCODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.INBIGCITYSOURCECODE INBIGCITYSOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.INCOMECODE INCOMECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.INCOMESOURCECODE INCOMESOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.LOANSAVECODE LOANSAVECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.LOANSAVESOURCECODE LOANSAVESOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.PHASEOFLIFECODE PHASEOFLIFECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.PHASEOFLIFESOURCECODE PHASEOFLIFESOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.POSTALCODE POSTALCODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.PROPERTYCODE PROPERTYCODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.PROPERTYSOURCECODE PROPERTYSOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.REGIONTYPECODE REGIONTYPECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.REGIONTYPESOURCECODE REGIONTYPESOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.RESIDENCEBUILDYEARCODE RESIDENCEBUILDYEARCODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.RESIDENCEBUILDYEARSOURCECODE RESIDENCEBUILDYEARSOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.RESIDENCEFLOORAREACODE RESIDENCEFLOORAREACODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.RESIDENCEFLOORAREASOURCECODE RESIDENCEFLOORAREASOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.RESIDENCETAXVALUECODE RESIDENCETAXVALUECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.RESIDENCETAXVALUESOURCECODE RESIDENCETAXVALUESOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.RESIDENCETYPECODE RESIDENCETYPECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.RESIDENCETYPESOURCECODE RESIDENCETYPESOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.RESIDENCEVOLUMECODE RESIDENCEVOLUMECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.RESIDENCEVOLUMESOURCECODE RESIDENCEVOLUMESOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.TSCHANGED TSCHANGED,
+&#x9;RPHOUSEHOLDINSTANCELINE.TSCREATED TSCREATED,
+&#x9;RPHOUSEHOLDINSTANCELINE.URBANIZATIONCODE URBANIZATIONCODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.URBANIZATIONSOURCECODE URBANIZATIONSOURCECODE,
+&#x9;RPHOUSEHOLDINSTANCELINE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPHOUSEHOLDINSTANCELINE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPHOUSEHOLDINSTANCELINE RPHOUSEHOLDINSTANCELINE</attribute>
+  <attribute name="creationDate" type="LONG">1664294320726</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPHOUSEHOLDINSTANCELINE&apos;.  On line 39, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294320726</attribute>
+</metadata>

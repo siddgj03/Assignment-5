@@ -1,0 +1,427 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPHEALTHSTATEMENT" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPHEALTHSTATEMENT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCEPTANCEPROCESSINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCEPTANCESTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONFORMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CITYAPPROVALBYCUSTOMER" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONIDENTIFIER2" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEAPPROVALBYCUSTOMER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEHEALTHSTATEMENTDEFINITION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESSSUBMISSION" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRFORLINKTOHEALTHSTAT" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALPRODUCTNAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASPDFBEENOPENED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASREMINDERBEENSENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HEALTHSTATEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HEALTHSTATEMENTSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HEALTHSTATEMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIERFORURL" nullable="true">
+      <datatype type="STRING" maxLength="44"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOMPLETE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISRECEIVEDONPAPER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFFAILEDLOGONATTEMPTS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PASSWORD" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SALT" nullable="true">
+      <datatype type="STRING" maxLength="24"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSFOREXPORT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSHEALTHSTATEMENTCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSSUBMITTEDBYCUSTOMER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPHEALTHSTATEMENT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ACCEPTANCEPROCESSINGID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ACCEPTANCESTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="APPLICATIONFORMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CITYAPPROVALBYCUSTOMER">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="COMMUNICATIONIDENTIFIER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="COMMUNICATIONIDENTIFIER2">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="CUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEAPPROVALBYCUSTOMER">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEHEALTHSTATEMENTDEFINITION">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DOCUMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EMAILADDRESSSUBMISSION">
+        <datatype type="STRING" maxLength="320"/>
+      </element>
+      <element name="EMAILADDRFORLINKTOHEALTHSTAT">
+        <datatype type="STRING" maxLength="320"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="EXTERNALPRODUCTNAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="HASPDFBEENOPENED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASREMINDERBEENSENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HEALTHSTATEMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HEALTHSTATEMENTSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HEALTHSTATEMENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="IDENTIFIERFORURL">
+        <datatype type="STRING" maxLength="44"/>
+      </element>
+      <element name="INTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISCOMPLETE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISRECEIVEDONPAPER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NROFFAILEDLOGONATTEMPTS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ORIGINID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PASSWORD">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="SALT">
+        <datatype type="STRING" maxLength="24"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSEXPORTED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSFOREXPORT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSHEALTHSTATEMENTCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSSUBMITTEDBYCUSTOMER">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPHEALTHSTATEMENT.ACCEPTANCEPROCESSINGID ACCEPTANCEPROCESSINGID,
+&#x9;RPHEALTHSTATEMENT.ACCEPTANCESTATUSID ACCEPTANCESTATUSID,
+&#x9;RPHEALTHSTATEMENT.APPLICATIONFORMID APPLICATIONFORMID,
+&#x9;RPHEALTHSTATEMENT.CITYAPPROVALBYCUSTOMER CITYAPPROVALBYCUSTOMER,
+&#x9;RPHEALTHSTATEMENT.COMMUNICATIONIDENTIFIER COMMUNICATIONIDENTIFIER,
+&#x9;RPHEALTHSTATEMENT.COMMUNICATIONIDENTIFIER2 COMMUNICATIONIDENTIFIER2,
+&#x9;RPHEALTHSTATEMENT.CUSTOMERID CUSTOMERID,
+&#x9;RPHEALTHSTATEMENT.DATEAPPROVALBYCUSTOMER DATEAPPROVALBYCUSTOMER,
+&#x9;RPHEALTHSTATEMENT.DATEHEALTHSTATEMENTDEFINITION DATEHEALTHSTATEMENTDEFINITION,
+&#x9;RPHEALTHSTATEMENT.DOCUMENTID DOCUMENTID,
+&#x9;RPHEALTHSTATEMENT.EMAILADDRESSSUBMISSION EMAILADDRESSSUBMISSION,
+&#x9;RPHEALTHSTATEMENT.EMAILADDRFORLINKTOHEALTHSTAT EMAILADDRFORLINKTOHEALTHSTAT,
+&#x9;RPHEALTHSTATEMENT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPHEALTHSTATEMENT.EXTERNALPRODUCTNAME EXTERNALPRODUCTNAME,
+&#x9;RPHEALTHSTATEMENT.HASPDFBEENOPENED HASPDFBEENOPENED,
+&#x9;RPHEALTHSTATEMENT.HASREMINDERBEENSENT HASREMINDERBEENSENT,
+&#x9;RPHEALTHSTATEMENT.HEALTHSTATEMENTID HEALTHSTATEMENTID,
+&#x9;RPHEALTHSTATEMENT.HEALTHSTATEMENTSTATUSID HEALTHSTATEMENTSTATUSID,
+&#x9;RPHEALTHSTATEMENT.HEALTHSTATEMENTTYPEID HEALTHSTATEMENTTYPEID,
+&#x9;RPHEALTHSTATEMENT.IDENTIFIERFORURL IDENTIFIERFORURL,
+&#x9;RPHEALTHSTATEMENT.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPHEALTHSTATEMENT.ISCOMPLETE ISCOMPLETE,
+&#x9;RPHEALTHSTATEMENT.ISRECEIVEDONPAPER ISRECEIVEDONPAPER,
+&#x9;RPHEALTHSTATEMENT.NROFFAILEDLOGONATTEMPTS NROFFAILEDLOGONATTEMPTS,
+&#x9;RPHEALTHSTATEMENT.ORIGINID ORIGINID,
+&#x9;RPHEALTHSTATEMENT.PASSWORD PASSWORD,
+&#x9;RPHEALTHSTATEMENT.SALT SALT,
+&#x9;RPHEALTHSTATEMENT.TSCHANGED TSCHANGED,
+&#x9;RPHEALTHSTATEMENT.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPHEALTHSTATEMENT.TSCREATED TSCREATED,
+&#x9;RPHEALTHSTATEMENT.TSEXPORTED TSEXPORTED,
+&#x9;RPHEALTHSTATEMENT.TSFOREXPORT TSFOREXPORT,
+&#x9;RPHEALTHSTATEMENT.TSHEALTHSTATEMENTCREATED TSHEALTHSTATEMENTCREATED,
+&#x9;RPHEALTHSTATEMENT.TSSUBMITTEDBYCUSTOMER TSSUBMITTEDBYCUSTOMER,
+&#x9;RPHEALTHSTATEMENT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPHEALTHSTATEMENT.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPHEALTHSTATEMENT RPHEALTHSTATEMENT</attribute>
+  <attribute name="creationDate" type="LONG">1664294307233</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPHEALTHSTATEMENT&apos;.  On line 39, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294307233</attribute>
+</metadata>

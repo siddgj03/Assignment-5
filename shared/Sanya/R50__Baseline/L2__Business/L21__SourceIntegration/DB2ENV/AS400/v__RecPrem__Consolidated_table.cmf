@@ -1,0 +1,229 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_RecPrem_Consolidated" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RecPrem_Consolidated" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="Platform" nullable="true">
+      <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Polisnummer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypePolis" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Kanaal" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Agent" nullable="true">
+      <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Boekjaar" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RecPrem_GI" nullable="true">
+      <datatype type="DECIMAL" maxDigits="24" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RecPrem_T21" nullable="true">
+      <datatype type="DECIMAL" maxDigits="24" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Koopsom_T21" nullable="true">
+      <datatype type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RecPrem_T23" nullable="true">
+      <datatype type="DECIMAL" maxDigits="24" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Koopsom_T23" nullable="true">
+      <datatype type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RecPrem_PV" nullable="true">
+      <datatype type="DECIMAL" maxDigits="24" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RecPrem_GI" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="Platform">
+        <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      </element>
+      <element name="Polisnummer">
+        <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      </element>
+      <element name="TypePolis">
+        <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      </element>
+      <element name="Kanaal">
+        <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      </element>
+      <element name="Agent">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      </element>
+      <element name="Boekjaar">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RecurrentePremie">
+        <datatype type="DECIMAL" maxDigits="24" maxFractionalDigits="2"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RecPrem_PV" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="Platform">
+        <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      </element>
+      <element name="Polisnummer">
+        <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      </element>
+      <element name="TypePolis">
+        <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      </element>
+      <element name="Kanaal">
+        <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      </element>
+      <element name="Agent">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      </element>
+      <element name="Boekjaar">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RecurrentePremie">
+        <datatype type="DECIMAL" maxDigits="24" maxFractionalDigits="2"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RecPrem_T21" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="Platform">
+        <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      </element>
+      <element name="Polisnummer">
+        <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      </element>
+      <element name="TypePolis">
+        <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      </element>
+      <element name="Kanaal">
+        <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      </element>
+      <element name="Agent">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      </element>
+      <element name="Boekjaar">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RecurrentePremie">
+        <datatype type="DECIMAL" maxDigits="24" maxFractionalDigits="2"/>
+      </element>
+      <element name="Koopsom">
+        <datatype type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RecPrem_T23" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="Platform">
+        <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      </element>
+      <element name="Polisnummer">
+        <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      </element>
+      <element name="TypePolis">
+        <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      </element>
+      <element name="Kanaal">
+        <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      </element>
+      <element name="Agent">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      </element>
+      <element name="Boekjaar">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RecurrentePremie">
+        <datatype type="DECIMAL" maxDigits="24" maxFractionalDigits="2"/>
+      </element>
+      <element name="Koopsom">
+        <datatype type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+
+COALESCE(a.Platform, b.Platform, c.Platform, d.Platform) as Platform,
+COALESCE(a.Polisnummer, b.Polisnummer, c.Polisnummer, d.Polisnummer) as Polisnummer,
+COALESCE(a.TypePolis, b.TypePolis, c.TypePolis, d.TypePolis) as TypePolis,
+COALESCE(a.Kanaal, b.Kanaal, c.Kanaal, d.Kanaal) as Kanaal,
+COALESCE(a.Agent, b.Agent, c.Agent, d.Agent) as Agent,
+COALESCE(a.Boekjaar, b.Boekjaar, c.Boekjaar, d.Boekjaar) as Boekjaar,
+a.RecurrentePremie as RecPrem_GI,
+b.RecurrentePremie as RecPrem_T21,
+b.Koopsom as Koopsom_T21,
+c.RecurrentePremie as RecPrem_T23,
+c.Koopsom as Koopsom_T23,
+d.RecurrentePremie as RecPrem_PV
+
+FROM
+
+/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RecPrem_GI a
+FULL JOIN
+/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RecPrem_T21 b 
+ON (a.Polisnummer=b.Polisnummer and a.Boekjaar=b.Boekjaar)
+FULL JOIN
+/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RecPrem_T23 c
+ON (a.Polisnummer = c.Polisnummer and a.Boekjaar=c.Boekjaar)
+FULL JOIN
+/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RecPrem_PV d
+ON (a.Polisnummer=d.Polisnummer and a.Boekjaar=d.Boekjaar)</attribute>
+  <attribute name="creationDate" type="LONG">1657183957122</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DULMVTPF&apos;.  On line 24, column 8.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1671633231454</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1657183957122</attribute>
+</metadata>

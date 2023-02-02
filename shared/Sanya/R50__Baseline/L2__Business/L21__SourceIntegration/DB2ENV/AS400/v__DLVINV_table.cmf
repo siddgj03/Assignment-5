@@ -1,0 +1,54 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_DLVINV" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_DLVINV" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="branche" nullable="true">
+      <datatype type="DECIMAL" maxDigits="2" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="policy" nullable="true">
+      <datatype type="STRING" minLength="7" maxLength="7"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ReserveT23" nullable="true">
+      <datatype type="DECIMAL" maxDigits="18" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DLVINVPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">select 
+&#x9;branche, 
+&#x9;policy, 
+&#x9;sum(res_math+res_corr) as ReserveT23
+
+from  /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DLVINVPF
+where branche = 94 and daclosing =(CURRENT_DATE + (-DAY(CURRENT_DATE)))
+&#x9;and rectype = &apos;1&apos; 
+group by branche, policy</attribute>
+  <attribute name="creationDate" type="LONG">1652789401428</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DLVINVPF&apos;.  On line 6, column 7.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1660308636579</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1652789401428</attribute>
+</metadata>

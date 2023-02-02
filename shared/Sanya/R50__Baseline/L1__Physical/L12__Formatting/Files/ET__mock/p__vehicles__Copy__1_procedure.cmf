@@ -1,0 +1,246 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="p_vehicles_Copy_1" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/Files/ET_mock/p_vehicles_Copy_1" type="PROCEDURE" subtype="SQL_SCRIPT_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="vehicleTypeCodeIN" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="vehicleCategoryCodeIN" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="languageCodeIN" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="pageNum" direction="IN" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="pageSize" direction="IN" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="ResultCount" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="PageSize_" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="PageCount" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="PageNum_" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="RESULT" direction="OUT" nullable="true">
+      <datatype name="RESULT" type="TABLE" refId="256">
+        <element name="VehicleTypeId">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="VehicleCategoryCode">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="MakeDescription">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="ModelDescription">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="TypeDescription">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="MotorSize">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="MotorPowerKw">
+          <datatype name="DOUBLE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+        </element>
+        <element name="MotorPowerHp">
+          <datatype name="DOUBLE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+        </element>
+        <element name="FuelTypeName">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="TransmissionType">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="NumberGears">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="BodyType">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="NumberDoors">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="NumberSeats">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="TopSpeed">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="BuildFromYear">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="BuildFromMonth">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="BuildUntilYear">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="BuildUntilMonth">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="CatalogPriceIncl">
+          <datatype name="DOUBLE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+        </element>
+        <element name="CatalogPriceExcl">
+          <datatype name="DOUBLE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+        </element>
+        <element name="SumEquipmentPriceBrutto">
+          <datatype name="DOUBLE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+        </element>
+        <element name="SumEquipmentPriceNetto">
+          <datatype name="DOUBLE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+        </element>
+        <element name="IsAllTerrain">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="IsCoupe">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="IsConvertible">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="IsSportCar">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="SportivityRatio">
+          <datatype name="DOUBLE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+        </element>
+        <element name="MaxAllowedMass">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="Co2EmissionNedc">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="Co2EmissionWltpMin">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="Co2EmissionWltpMax">
+          <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="ImageURL">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+      </datatype>
+    </parameter>
+    <parameter name="ErrorCode" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="ErrorDescription" direction="OUT" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <attribute name="Script" type="STRING">PROCEDURE &#x9;p_vehicles_Copy_1(&#x9;IN vehicleTypeCodeIN VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN vehicleCategoryCodeIN VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN languageCodeIN VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN pageNum INT, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN pageSize INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT ResultCount INT, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT PageSize_ INT, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT PageCount INT, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT PageNum_ INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT RESULT CURSOR(&#x9;VehicleTypeId VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;VehicleCategoryCode VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;MakeDescription VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ModelDescription VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;TypeDescription VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;MotorSize INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;MotorPowerKw DOUBLE,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;MotorPowerHp DOUBLE,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;FuelTypeName VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;TransmissionType VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;NumberGears INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;BodyType VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;NumberDoors INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;NumberSeats INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;TopSpeed INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;BuildFromYear INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;BuildFromMonth INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;BuildUntilYear INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;BuildUntilMonth INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CatalogPriceIncl DOUBLE,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CatalogPriceExcl DOUBLE,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SumEquipmentPriceBrutto DOUBLE,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SumEquipmentPriceNetto DOUBLE,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IsAllTerrain varchar,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IsCoupe varchar,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IsConvertible varchar,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IsSportCar varchar,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;SportivityRatio DOUBLE,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;MaxAllowedMass INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Co2EmissionNedc INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Co2EmissionWltpMin INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Co2EmissionWltpMax INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ImageURL VARCHAR), 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT ErrorCode INT, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT ErrorDescription VARCHAR
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; &#x9;)
+
+BEGIN
+
+DECLARE sqlTextSelect LONGVARCHAR ;
+DECLARE sqlTextFilter LONGVARCHAR ;
+DECLARE countTable CURSOR ;
+
+
+
+SET sqlTextSelect = &apos;SELECT vehicleTypeId, vehicleCategoryCode, makeDescription,
+&#x9;&#x9;&#x9;&#x9;&#x9;modelDescription, typeDescription, motorSize, motorPowerKw,
+&#x9;&#x9;&#x9;&#x9;&#x9;motorPowerHp, fuelTypeName, transmissionType, numberGears,
+&#x9;&#x9;&#x9;&#x9;&#x9;bodyType, numberDoors, numberSeats, topSpeed, buildFromYear,
+&#x9;&#x9;&#x9;&#x9;&#x9;buildFromMonth, buildUntilYear, buildUntilMonth, catalogPriceIncl,
+&#x9;&#x9;&#x9;&#x9;&#x9;catalogPriceExcl, NULL AS sumEquipmentPriceBrutto, NULL AS sumEquipmentPriceNetto,
+&#x9;&#x9;&#x9;&#x9;&#x9;isAllTerrain, isCoupe, isConvertible, isSportCar, sportivityRatio,
+&#x9;&#x9;&#x9;&#x9;&#x9;maxAllowedMass, co2EmissionNedc, co2EmissionWltpMin, co2EmissionWltpMax,
+&#x9;&#x9;&#x9;&#x9;&#x9;imageURL FROM /shared/R50_Baseline/L1_Physical/L12_Formatting/RDS/VehicleRepository/VehicleRepository ET &apos;;
+
+SET sqlTextFilter=&#x9;&apos;WHERE ET.vehicleTypeCode = vehicleTypeCodeIN
+&#x9;&#x9;&#x9;AND ET.vehicleCategoryCode = vehicleCategoryCodeIN
+&#x9;&#x9;&#x9;AND ET.languageCode = languageCodeIN&apos;;
+
+SET PageSize_ = pageSize; SET PageNum_ = pageNum ;
+--OPEN countTable FOR sqlTextSelect||sqlTextFilter; SET ResultCount = (SELECT COUNT(*) FROM countTable) ;
+
+
+OPEN RESULT FOR sqlTextSelect||sqlTextFilter ; SET ResultCount=RESULT.ROWCOUNT; CLOSE RESULT ;
+SET PageCount = CAST(CEILING(CAST(ResultCount as double) / CAST(pageSize as DOUBLE)) AS INT);
+
+IF (languageCodeIN IS NULL) or (vehicleTypeCodeIN IS NULL) or (vehicleCategoryCodeIN IS NULL)THEN 
+SET ErrorCode=1; SET ErrorDescription=&apos;Invalid Parameters&apos;;
+ELSEIF ResultCount = 0 THEN SET ErrorCode=0; SET ErrorDescription=&apos;Not Found&apos;;
+ELSEIF ResultCount &gt; 1 THEN SET ErrorCode=2; SET ErrorDescription=&apos;Multiple unique IDs found&apos;;
+ELSE SET ErrorCode=NULL; SET ErrorDescription=NULL;
+END IF;
+
+OPEN RESULT ;
+
+
+END
+
+</attribute>
+  <attribute name="creationDate" type="LONG">1643032471387</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1645541643447</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="native_only" type="STRING">false</attribute>
+  <attribute name="references" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1643032471387</attribute>
+</metadata>

@@ -1,0 +1,570 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPINTERMEDIARYINSTANCE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPINTERMEDIARYINSTANCE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="BANKACCOUNTNUMBER_T" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCOLLECTPAYMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMISSIONFREQUENCYDAY" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMISSIONOVERVIEWFREQUENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENTACCINVOICEFREQUENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENTACCSTATEMENTFREQUENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOESDAMAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOESLIFE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FIRSTINVOICEPAYMENTCOLLECTORID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FIRSTINVOICEPAYMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HIGHER1INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HIGHER2INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HIGHER3INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYINSTANCEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISALLOWEDFORLOGON" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISHIGHERLEVEL1" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISHIGHERLEVEL2" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISHIGHERLEVEL3" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAININTERMEDIARYLOCATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORDERWITHININTERMEDIARY" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OUTPUTAUTHORIZATION" nullable="true">
+      <datatype type="STRING" maxLength="2000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTCOLLECTORID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCCOMMISSIONSPLIT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCDISCOUNTMAX" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCDISCOUNTMIN" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCINITIALMARGDISTRLEVEL1INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCINITIALMARGDISTRLEVEL2INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCINITIALMARGDISTRLEVEL3INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCMARGDISTRIBUTIONLEVEL1INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCMARGDISTRIBUTIONLEVEL2INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCMARGDISTRIBUTIONLEVEL3INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCMONTHINTERESTINCOMM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRINTCURRENTACCOUNTINVOICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRINTCURRENTACCOUNTSTATEMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SERVICEPROVFORCOMMISSIONINTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SETTLECOMMVIASERVICEPROVIDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWPAYMENTCOLLECTORQUESTION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTEDFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USECLAWBACKONFIRMONLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPINTERMEDIARYINSTANCE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="BANKACCOUNTNUMBER_T">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="CANCOLLECTPAYMENTS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="COMMISSIONFREQUENCYDAY">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="COMMISSIONOVERVIEWFREQUENCYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CURRENTACCINVOICEFREQUENCYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CURRENTACCSTATEMENTFREQUENCYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DOESDAMAGE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DOESLIFE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="FIRSTINVOICEPAYMENTCOLLECTORID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="FIRSTINVOICEPAYMENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HIGHER1INTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HIGHER2INTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HIGHER3INTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INTERMEDIARYINSTANCEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INTERMEDIARYSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISALLOWEDFORLOGON">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISHIGHERLEVEL1">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISHIGHERLEVEL2">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISHIGHERLEVEL3">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="MAININTERMEDIARYLOCATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ORDERWITHININTERMEDIARY">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OUTPUTAUTHORIZATION">
+        <datatype type="STRING" maxLength="2000"/>
+      </element>
+      <element name="PAYMENTCOLLECTORID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PAYMENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCCOMMISSIONSPLIT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCDISCOUNTMAX">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCDISCOUNTMIN">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCINITIALMARGDISTRLEVEL1INT">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCINITIALMARGDISTRLEVEL2INT">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCINITIALMARGDISTRLEVEL3INT">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGDISTRIBUTIONLEVEL1INT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGDISTRIBUTIONLEVEL2INT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGDISTRIBUTIONLEVEL3INT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMONTHINTERESTINCOMM">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PRINTCURRENTACCOUNTINVOICE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PRINTCURRENTACCOUNTSTATEMENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SERVICEPROVFORCOMMISSIONINTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SETTLECOMMVIASERVICEPROVIDER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHOWPAYMENTCOLLECTORQUESTION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSEXPORTEDFA">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USECLAWBACKONFIRMONLY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPINTERMEDIARYINSTANCE.BANKACCOUNTNUMBER_T BANKACCOUNTNUMBER_T,
+&#x9;RPINTERMEDIARYINSTANCE.CANCOLLECTPAYMENTS CANCOLLECTPAYMENTS,
+&#x9;RPINTERMEDIARYINSTANCE.COMMISSIONFREQUENCYDAY COMMISSIONFREQUENCYDAY,
+&#x9;RPINTERMEDIARYINSTANCE.COMMISSIONOVERVIEWFREQUENCYID COMMISSIONOVERVIEWFREQUENCYID,
+&#x9;RPINTERMEDIARYINSTANCE.CURRENTACCINVOICEFREQUENCYID CURRENTACCINVOICEFREQUENCYID,
+&#x9;RPINTERMEDIARYINSTANCE.CURRENTACCSTATEMENTFREQUENCYID CURRENTACCSTATEMENTFREQUENCYID,
+&#x9;RPINTERMEDIARYINSTANCE.DATEEND DATEEND,
+&#x9;RPINTERMEDIARYINSTANCE.DATESTART DATESTART,
+&#x9;RPINTERMEDIARYINSTANCE.DOESDAMAGE DOESDAMAGE,
+&#x9;RPINTERMEDIARYINSTANCE.DOESLIFE DOESLIFE,
+&#x9;RPINTERMEDIARYINSTANCE.FIRSTINVOICEPAYMENTCOLLECTORID FIRSTINVOICEPAYMENTCOLLECTORID,
+&#x9;RPINTERMEDIARYINSTANCE.FIRSTINVOICEPAYMENTTYPEID FIRSTINVOICEPAYMENTTYPEID,
+&#x9;RPINTERMEDIARYINSTANCE.HIGHER1INTERMEDIARYID HIGHER1INTERMEDIARYID,
+&#x9;RPINTERMEDIARYINSTANCE.HIGHER2INTERMEDIARYID HIGHER2INTERMEDIARYID,
+&#x9;RPINTERMEDIARYINSTANCE.HIGHER3INTERMEDIARYID HIGHER3INTERMEDIARYID,
+&#x9;RPINTERMEDIARYINSTANCE.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPINTERMEDIARYINSTANCE.INTERMEDIARYINSTANCEID INTERMEDIARYINSTANCEID,
+&#x9;RPINTERMEDIARYINSTANCE.INTERMEDIARYSTATUSID INTERMEDIARYSTATUSID,
+&#x9;RPINTERMEDIARYINSTANCE.ISALLOWEDFORLOGON ISALLOWEDFORLOGON,
+&#x9;RPINTERMEDIARYINSTANCE.ISHIGHERLEVEL1 ISHIGHERLEVEL1,
+&#x9;RPINTERMEDIARYINSTANCE.ISHIGHERLEVEL2 ISHIGHERLEVEL2,
+&#x9;RPINTERMEDIARYINSTANCE.ISHIGHERLEVEL3 ISHIGHERLEVEL3,
+&#x9;RPINTERMEDIARYINSTANCE.MAININTERMEDIARYLOCATIONID MAININTERMEDIARYLOCATIONID,
+&#x9;RPINTERMEDIARYINSTANCE.ORDERWITHININTERMEDIARY ORDERWITHININTERMEDIARY,
+&#x9;RPINTERMEDIARYINSTANCE.OUTPUTAUTHORIZATION OUTPUTAUTHORIZATION,
+&#x9;RPINTERMEDIARYINSTANCE.PAYMENTCOLLECTORID PAYMENTCOLLECTORID,
+&#x9;RPINTERMEDIARYINSTANCE.PAYMENTTYPEID PAYMENTTYPEID,
+&#x9;RPINTERMEDIARYINSTANCE.PERCCOMMISSIONSPLIT PERCCOMMISSIONSPLIT,
+&#x9;RPINTERMEDIARYINSTANCE.PERCDISCOUNTMAX PERCDISCOUNTMAX,
+&#x9;RPINTERMEDIARYINSTANCE.PERCDISCOUNTMIN PERCDISCOUNTMIN,
+&#x9;RPINTERMEDIARYINSTANCE.PERCINITIALMARGDISTRLEVEL1INT PERCINITIALMARGDISTRLEVEL1INT,
+&#x9;RPINTERMEDIARYINSTANCE.PERCINITIALMARGDISTRLEVEL2INT PERCINITIALMARGDISTRLEVEL2INT,
+&#x9;RPINTERMEDIARYINSTANCE.PERCINITIALMARGDISTRLEVEL3INT PERCINITIALMARGDISTRLEVEL3INT,
+&#x9;RPINTERMEDIARYINSTANCE.PERCMARGDISTRIBUTIONLEVEL1INT PERCMARGDISTRIBUTIONLEVEL1INT,
+&#x9;RPINTERMEDIARYINSTANCE.PERCMARGDISTRIBUTIONLEVEL2INT PERCMARGDISTRIBUTIONLEVEL2INT,
+&#x9;RPINTERMEDIARYINSTANCE.PERCMARGDISTRIBUTIONLEVEL3INT PERCMARGDISTRIBUTIONLEVEL3INT,
+&#x9;RPINTERMEDIARYINSTANCE.PERCMONTHINTERESTINCOMM PERCMONTHINTERESTINCOMM,
+&#x9;RPINTERMEDIARYINSTANCE.PRINTCURRENTACCOUNTINVOICE PRINTCURRENTACCOUNTINVOICE,
+&#x9;RPINTERMEDIARYINSTANCE.PRINTCURRENTACCOUNTSTATEMENT PRINTCURRENTACCOUNTSTATEMENT,
+&#x9;RPINTERMEDIARYINSTANCE.SERVICEPROVFORCOMMISSIONINTID SERVICEPROVFORCOMMISSIONINTID,
+&#x9;RPINTERMEDIARYINSTANCE.SETTLECOMMVIASERVICEPROVIDER SETTLECOMMVIASERVICEPROVIDER,
+&#x9;RPINTERMEDIARYINSTANCE.SHOWPAYMENTCOLLECTORQUESTION SHOWPAYMENTCOLLECTORQUESTION,
+&#x9;RPINTERMEDIARYINSTANCE.TSCHANGED TSCHANGED,
+&#x9;RPINTERMEDIARYINSTANCE.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPINTERMEDIARYINSTANCE.TSCREATED TSCREATED,
+&#x9;RPINTERMEDIARYINSTANCE.TSEXPORTEDFA TSEXPORTEDFA,
+&#x9;RPINTERMEDIARYINSTANCE.USECLAWBACKONFIRMONLY USECLAWBACKONFIRMONLY,
+&#x9;RPINTERMEDIARYINSTANCE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPINTERMEDIARYINSTANCE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPINTERMEDIARYINSTANCE RPINTERMEDIARYINSTANCE</attribute>
+  <attribute name="creationDate" type="LONG">1664294369287</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPINTERMEDIARYINSTANCE&apos;.  On line 52, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294369287</attribute>
+</metadata>

@@ -1,0 +1,159 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_CodeDescriptions_CPDB" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/U/v_CodeDescriptions_CPDB" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CODE" nullable="true">
+      <datatype type="STRING" maxLength="6"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CODEVALUE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DESCR_NL_SHORT" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DESCR_NL_LONG" nullable="true">
+      <datatype type="STRING" maxLength="36"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DESCR_FR_SHORT" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DESCR_FR_LONG" nullable="true">
+      <datatype type="STRING" maxLength="36"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DESCR_ENG_SHORT" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DESCR_ENG_LONG" nullable="true">
+      <datatype type="STRING" maxLength="36"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/U/v_CodeDescriptions_NL_TBFQ12" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="G1KVWZ">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="A1KVWZ">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="XXTVWZ">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="E1K">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+      <element name="E2N">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="E2OKRT">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="E2OLNG">
+        <datatype type="STRING" maxLength="36"/>
+      </element>
+      <element name="E2DBEG">
+        <datatype type="DATE"/>
+      </element>
+      <element name="E2DEND">
+        <datatype type="DATE"/>
+      </element>
+      <element name="X_TIMESTAMP">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/U/v_CodeDescriptions_OtherLanguages_TBFQ17" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="G1KVWZ">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="A1KVWZ">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="XXTVWZ">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="E1K">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+      <element name="E2N">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="TLK">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="E2OLNG">
+        <datatype type="STRING" maxLength="36"/>
+      </element>
+      <element name="E2OKRT">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="X_TIMESTAMP">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+v_CodeDescriptions_NL_TBFQ12.E1K AS CODE,
+TRIM(v_CodeDescriptions_NL_TBFQ12.E2N) AS CODEVALUE,
+v_CodeDescriptions_NL_TBFQ12.E2OKRT AS DESCR_NL_SHORT, 
+v_CodeDescriptions_NL_TBFQ12.E2OLNG AS DESCR_NL_LONG,
+v_CodeDescriptions_FR_TBFQ17.E2OKRT AS DESCR_FR_SHORT, 
+v_CodeDescriptions_FR_TBFQ17.E2OLNG AS DESCR_FR_LONG, 
+v_CodeDescriptions_ENG_TBFQ17.E2OKRT AS DESCR_ENG_SHORT,
+v_CodeDescriptions_ENG_TBFQ17.E2OLNG AS DESCR_ENG_LONG 
+
+FROM /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/U/v_CodeDescriptions_NL_TBFQ12 v_CodeDescriptions_NL_TBFQ12
+FULL OUTER JOIN /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/U/v_CodeDescriptions_OtherLanguages_TBFQ17 v_CodeDescriptions_FR_TBFQ17 
+ON v_CodeDescriptions_NL_TBFQ12.E1K = v_CodeDescriptions_FR_TBFQ17.E1K
+AND v_CodeDescriptions_NL_TBFQ12.E2N = v_CodeDescriptions_FR_TBFQ17.E2N
+AND v_CodeDescriptions_FR_TBFQ17.TLK = 1 
+
+FULL OUTER JOIN /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/U/v_CodeDescriptions_OtherLanguages_TBFQ17 v_CodeDescriptions_ENG_TBFQ17 
+ON v_CodeDescriptions_NL_TBFQ12.E1K = v_CodeDescriptions_ENG_TBFQ17.E1K
+AND v_CodeDescriptions_NL_TBFQ12.E2N = v_CodeDescriptions_ENG_TBFQ17.E2N
+AND v_CodeDescriptions_FR_TBFQ17.TLK = 4
+</attribute>
+  <attribute name="creationDate" type="LONG">1670337092360</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28084</attribute>
+  <attribute name="creatorUserName" type="STRING">d008289</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/U/TBFQ12&apos;.  On line 4, column 6.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1670339736634</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28084</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d008289</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1670337092360</attribute>
+</metadata>

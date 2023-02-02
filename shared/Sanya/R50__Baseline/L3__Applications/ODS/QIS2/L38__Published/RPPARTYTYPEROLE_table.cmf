@@ -1,0 +1,163 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPARTYTYPEROLE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPPARTYTYPEROLE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="PARTYTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ROLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDPAYMCONFTOINTFORPAYMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDPAYMCONFTOPOLHOLBYPAYM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDPAYMENTNOTIFICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWADDCONTACTINFOONEXTRANET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWONINTERNETANDEXTRANET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEBNKACCNTFROMASSMNTREPPAYM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPARTYTYPEROLE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="PARTYTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ROLEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SENDPAYMCONFTOINTFORPAYMENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SENDPAYMCONFTOPOLHOLBYPAYM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SENDPAYMENTNOTIFICATION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHOWADDCONTACTINFOONEXTRANET">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHOWONINTERNETANDEXTRANET">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USEBNKACCNTFROMASSMNTREPPAYM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPARTYTYPEROLE.PARTYTYPEID PARTYTYPEID,
+&#x9;RPPARTYTYPEROLE.ROLEID ROLEID,
+&#x9;RPPARTYTYPEROLE.SENDPAYMCONFTOINTFORPAYMENT SENDPAYMCONFTOINTFORPAYMENT,
+&#x9;RPPARTYTYPEROLE.SENDPAYMCONFTOPOLHOLBYPAYM SENDPAYMCONFTOPOLHOLBYPAYM,
+&#x9;RPPARTYTYPEROLE.SENDPAYMENTNOTIFICATION SENDPAYMENTNOTIFICATION,
+&#x9;RPPARTYTYPEROLE.SHOWADDCONTACTINFOONEXTRANET SHOWADDCONTACTINFOONEXTRANET,
+&#x9;RPPARTYTYPEROLE.SHOWONINTERNETANDEXTRANET SHOWONINTERNETANDEXTRANET,
+&#x9;RPPARTYTYPEROLE.TSCHANGED TSCHANGED,
+&#x9;RPPARTYTYPEROLE.TSCREATED TSCREATED,
+&#x9;RPPARTYTYPEROLE.USEBNKACCNTFROMASSMNTREPPAYM USEBNKACCNTFROMASSMNTREPPAYM,
+&#x9;RPPARTYTYPEROLE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPARTYTYPEROLE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPARTYTYPEROLE RPPARTYTYPEROLE</attribute>
+  <attribute name="creationDate" type="LONG">1664294593074</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPARTYTYPEROLE&apos;.  On line 15, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294593074</attribute>
+</metadata>

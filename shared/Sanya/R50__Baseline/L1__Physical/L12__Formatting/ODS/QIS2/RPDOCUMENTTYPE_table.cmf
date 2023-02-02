@@ -1,0 +1,375 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPDOCUMENTTYPE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPDOCUMENTTYPE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CANBEREQUESTEDBYCUSTDIGITALLY" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBEREQUESTEDBYCUSTPERMAIL" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBESENTTOCUSTELECTRONICALLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBESENTTOCUSTOMER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBESENTTOINTELECTRONICALLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBESENTTOINTERMEDIARY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSDELIVERYADDRESS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSMEDICALINFORMATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSPRIVATEINFORMATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEUSERTASKONSEND" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTCATEGORYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTGENERATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTTYPEFOREXTSYSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASSTANDARDTRANSLATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCLUDEORIGINALCOMMUNICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISACTIONFROMRECEIVEREXPECTED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAVAILABLETOINTERMEDIARY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISDEFAULT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISDOCUMENTWITHSPECIALAUTH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFIATNECESSARY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFORALLGRPCONTRDEFS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFORALLPACKAGETYPES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFORALLPRODUCTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFORLEGALAID" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISNONINTERACTIVECREATEPOSSIBLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORDERWITHINCOMMUNICATION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAPERTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREFERPORTALCOMMOVEREMAIL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMINDERDOCUMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESTRICTEDITINGDOCAFTCREATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDVIAEMAILWHENMAIL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDWHENMAILUNDELIVERABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDBEPARTOFASSESSMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDBESENTONDEFAULTLABEL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSFORAUTOMATICEMAIL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERTASKTYPEEXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPDOCUMENTTYPE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPDOCUMENTTYPE.CANBEREQUESTEDBYCUSTDIGITALLY CANBEREQUESTEDBYCUSTDIGITALLY,
+&#x9;RPDOCUMENTTYPE.CANBEREQUESTEDBYCUSTPERMAIL CANBEREQUESTEDBYCUSTPERMAIL,
+&#x9;RPDOCUMENTTYPE.CANBESENTTOCUSTELECTRONICALLY CANBESENTTOCUSTELECTRONICALLY,
+&#x9;RPDOCUMENTTYPE.CANBESENTTOCUSTOMER CANBESENTTOCUSTOMER,
+&#x9;RPDOCUMENTTYPE.CANBESENTTOINTELECTRONICALLY CANBESENTTOINTELECTRONICALLY,
+&#x9;RPDOCUMENTTYPE.CANBESENTTOINTERMEDIARY CANBESENTTOINTERMEDIARY,
+&#x9;RPDOCUMENTTYPE.CONTAINSDELIVERYADDRESS CONTAINSDELIVERYADDRESS,
+&#x9;RPDOCUMENTTYPE.CONTAINSMEDICALINFORMATION CONTAINSMEDICALINFORMATION,
+&#x9;RPDOCUMENTTYPE.CONTAINSPRIVATEINFORMATION CONTAINSPRIVATEINFORMATION,
+&#x9;RPDOCUMENTTYPE.CREATEUSERTASKONSEND CREATEUSERTASKONSEND,
+&#x9;RPDOCUMENTTYPE.DOCUMENTCATEGORYID DOCUMENTCATEGORYID,
+&#x9;RPDOCUMENTTYPE.DOCUMENTGENERATIONTYPEID DOCUMENTGENERATIONTYPEID,
+&#x9;RPDOCUMENTTYPE.DOCUMENTTYPEFOREXTSYSID DOCUMENTTYPEFOREXTSYSID,
+&#x9;RPDOCUMENTTYPE.DOCUMENTTYPEID DOCUMENTTYPEID,
+&#x9;RPDOCUMENTTYPE.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPDOCUMENTTYPE.HASSTANDARDTRANSLATIONS HASSTANDARDTRANSLATIONS,
+&#x9;RPDOCUMENTTYPE.INCLUDEORIGINALCOMMUNICATION INCLUDEORIGINALCOMMUNICATION,
+&#x9;RPDOCUMENTTYPE.ISACTIONFROMRECEIVEREXPECTED ISACTIONFROMRECEIVEREXPECTED,
+&#x9;RPDOCUMENTTYPE.ISAVAILABLETOINTERMEDIARY ISAVAILABLETOINTERMEDIARY,
+&#x9;RPDOCUMENTTYPE.ISDEFAULT ISDEFAULT,
+&#x9;RPDOCUMENTTYPE.ISDOCUMENTWITHSPECIALAUTH ISDOCUMENTWITHSPECIALAUTH,
+&#x9;RPDOCUMENTTYPE.ISFIATNECESSARY ISFIATNECESSARY,
+&#x9;RPDOCUMENTTYPE.ISFORALLGRPCONTRDEFS ISFORALLGRPCONTRDEFS,
+&#x9;RPDOCUMENTTYPE.ISFORALLPACKAGETYPES ISFORALLPACKAGETYPES,
+&#x9;RPDOCUMENTTYPE.ISFORALLPRODUCTS ISFORALLPRODUCTS,
+&#x9;RPDOCUMENTTYPE.ISFORLEGALAID ISFORLEGALAID,
+&#x9;RPDOCUMENTTYPE.ISNONINTERACTIVECREATEPOSSIBLE ISNONINTERACTIVECREATEPOSSIBLE,
+&#x9;RPDOCUMENTTYPE.ORDERWITHINCOMMUNICATION ORDERWITHINCOMMUNICATION,
+&#x9;RPDOCUMENTTYPE.PAPERTYPEID PAPERTYPEID,
+&#x9;RPDOCUMENTTYPE.PREFERPORTALCOMMOVEREMAIL PREFERPORTALCOMMOVEREMAIL,
+&#x9;RPDOCUMENTTYPE.REMINDERDOCUMENTTYPEID REMINDERDOCUMENTTYPEID,
+&#x9;RPDOCUMENTTYPE.RESTRICTEDITINGDOCAFTCREATION RESTRICTEDITINGDOCAFTCREATION,
+&#x9;RPDOCUMENTTYPE.SENDVIAEMAILWHENMAIL SENDVIAEMAILWHENMAIL,
+&#x9;RPDOCUMENTTYPE.SENDWHENMAILUNDELIVERABLE SENDWHENMAILUNDELIVERABLE,
+&#x9;RPDOCUMENTTYPE.SHOULDBEPARTOFASSESSMENT SHOULDBEPARTOFASSESSMENT,
+&#x9;RPDOCUMENTTYPE.SHOULDBESENTONDEFAULTLABEL SHOULDBESENTONDEFAULTLABEL,
+&#x9;RPDOCUMENTTYPE.SUPPRESSFORAUTOMATICEMAIL SUPPRESSFORAUTOMATICEMAIL,
+&#x9;RPDOCUMENTTYPE.TSCHANGED TSCHANGED,
+&#x9;RPDOCUMENTTYPE.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPDOCUMENTTYPE.TSCREATED TSCREATED,
+&#x9;RPDOCUMENTTYPE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPDOCUMENTTYPE.USERIDCREATED USERIDCREATED,
+&#x9;RPDOCUMENTTYPE.USERTASKTYPEEXTERNALIDENTIFIER USERTASKTYPEEXTERNALIDENTIFIER 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPDOCUMENTTYPE RPDOCUMENTTYPE</attribute>
+  <attribute name="creationDate" type="LONG">1664289399814</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPDOCUMENTTYPE&apos;.  On line 46, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289399814</attribute>
+</metadata>

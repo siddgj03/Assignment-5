@@ -1,0 +1,263 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPFORMDIALOGUEACTION" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPFORMDIALOGUEACTION" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACTIONTRIGGERTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACTIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLIENTSIDENAVIGATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTORDER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMACTIONGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMBUILDINGBLOCKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMBUILDINGBLOCKLINECELLID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMBUILDINGBLOCKLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMCALCULATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMDIALOGUEACTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMDIALOGUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMDIALOGUELIGHTBOXID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMDIALOGUESCREENID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMGROUPQUESTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMINTERFACEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMQUESTIONGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMVERIFICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISEXECUTEDWHENSCREENNOTAPPL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="QUESTIONGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="QUESTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SKIPINPUTCHECKSONTRIGGER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRIGGERFORMINTERFACEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRIGGERINTERFACEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRIGGERINTSCREENELEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFORMDIALOGUEACTION" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPFORMDIALOGUEACTION.ACTIONTRIGGERTYPEID ACTIONTRIGGERTYPEID,
+&#x9;RPFORMDIALOGUEACTION.ACTIONTYPEID ACTIONTYPEID,
+&#x9;RPFORMDIALOGUEACTION.CLIENTSIDENAVIGATIONTYPEID CLIENTSIDENAVIGATIONTYPEID,
+&#x9;RPFORMDIALOGUEACTION.DEFAULTORDER DEFAULTORDER,
+&#x9;RPFORMDIALOGUEACTION.FORMACTIONGROUPID FORMACTIONGROUPID,
+&#x9;RPFORMDIALOGUEACTION.FORMBUILDINGBLOCKID FORMBUILDINGBLOCKID,
+&#x9;RPFORMDIALOGUEACTION.FORMBUILDINGBLOCKLINECELLID FORMBUILDINGBLOCKLINECELLID,
+&#x9;RPFORMDIALOGUEACTION.FORMBUILDINGBLOCKLINEID FORMBUILDINGBLOCKLINEID,
+&#x9;RPFORMDIALOGUEACTION.FORMCALCULATIONID FORMCALCULATIONID,
+&#x9;RPFORMDIALOGUEACTION.FORMDIALOGUEACTIONID FORMDIALOGUEACTIONID,
+&#x9;RPFORMDIALOGUEACTION.FORMDIALOGUEID FORMDIALOGUEID,
+&#x9;RPFORMDIALOGUEACTION.FORMDIALOGUELIGHTBOXID FORMDIALOGUELIGHTBOXID,
+&#x9;RPFORMDIALOGUEACTION.FORMDIALOGUESCREENID FORMDIALOGUESCREENID,
+&#x9;RPFORMDIALOGUEACTION.FORMGROUPQUESTIONID FORMGROUPQUESTIONID,
+&#x9;RPFORMDIALOGUEACTION.FORMID FORMID,
+&#x9;RPFORMDIALOGUEACTION.FORMINTERFACEID FORMINTERFACEID,
+&#x9;RPFORMDIALOGUEACTION.FORMQUESTIONGROUPID FORMQUESTIONGROUPID,
+&#x9;RPFORMDIALOGUEACTION.FORMVERIFICATIONID FORMVERIFICATIONID,
+&#x9;RPFORMDIALOGUEACTION.ISEXECUTEDWHENSCREENNOTAPPL ISEXECUTEDWHENSCREENNOTAPPL,
+&#x9;RPFORMDIALOGUEACTION.QUESTIONGROUPID QUESTIONGROUPID,
+&#x9;RPFORMDIALOGUEACTION.QUESTIONID QUESTIONID,
+&#x9;RPFORMDIALOGUEACTION.SKIPINPUTCHECKSONTRIGGER SKIPINPUTCHECKSONTRIGGER,
+&#x9;RPFORMDIALOGUEACTION.TRIGGERFORMINTERFACEID TRIGGERFORMINTERFACEID,
+&#x9;RPFORMDIALOGUEACTION.TRIGGERINTERFACEID TRIGGERINTERFACEID,
+&#x9;RPFORMDIALOGUEACTION.TRIGGERINTSCREENELEMENTID TRIGGERINTSCREENELEMENTID,
+&#x9;RPFORMDIALOGUEACTION.TSCHANGED TSCHANGED,
+&#x9;RPFORMDIALOGUEACTION.TSCREATED TSCREATED,
+&#x9;RPFORMDIALOGUEACTION.USERIDCHANGED USERIDCHANGED,
+&#x9;RPFORMDIALOGUEACTION.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFORMDIALOGUEACTION RPFORMDIALOGUEACTION</attribute>
+  <attribute name="creationDate" type="LONG">1664289529435</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFORMDIALOGUEACTION&apos;.  On line 32, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289529435</attribute>
+</metadata>

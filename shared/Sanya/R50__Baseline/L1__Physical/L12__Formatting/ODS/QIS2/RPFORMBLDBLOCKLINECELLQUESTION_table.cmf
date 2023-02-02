@@ -1,0 +1,263 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPFORMBLDBLOCKLINECELLQUESTION" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPFORMBLDBLOCKLINECELLQUESTION" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AUTOCOMPLETE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTORDER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTVALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTVALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMBUILDINGBLOCKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMBUILDINGBLOCKLINECELLID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMBUILDINGBLOCKLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMGROUPQUESTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORMQUESTIONGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INPUTHEIGHT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INPUTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INPUTTYPESTYLINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INPUTWIDTH" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISEDITABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREQUIRED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAXRESULTSAUTOSUGGEST" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWLABEL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWLISTVALUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWOLDVALUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWTEXTLEFTOFVALUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWTEXTRIGHTOFVALUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWVALUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPSIZE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSESCAPEMARKUP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFORMBLDBLOCKLINECELLQUESTION" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.AUTOCOMPLETE AUTOCOMPLETE,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.DEFAULTORDER DEFAULTORDER,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.DEFAULTVALUEID DEFAULTVALUEID,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.DEFAULTVALUELISTID DEFAULTVALUELISTID,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.FORMBUILDINGBLOCKID FORMBUILDINGBLOCKID,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.FORMBUILDINGBLOCKLINECELLID FORMBUILDINGBLOCKLINECELLID,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.FORMBUILDINGBLOCKLINEID FORMBUILDINGBLOCKLINEID,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.FORMGROUPQUESTIONID FORMGROUPQUESTIONID,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.FORMID FORMID,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.FORMQUESTIONGROUPID FORMQUESTIONGROUPID,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.INPUTHEIGHT INPUTHEIGHT,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.INPUTTYPEID INPUTTYPEID,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.INPUTTYPESTYLINGID INPUTTYPESTYLINGID,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.INPUTWIDTH INPUTWIDTH,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.ISEDITABLE ISEDITABLE,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.ISREQUIRED ISREQUIRED,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.MAXRESULTSAUTOSUGGEST MAXRESULTSAUTOSUGGEST,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.SHOWLABEL SHOWLABEL,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.SHOWLISTVALUE SHOWLISTVALUE,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.SHOWOLDVALUE SHOWOLDVALUE,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.SHOWTEXTLEFTOFVALUE SHOWTEXTLEFTOFVALUE,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.SHOWTEXTRIGHTOFVALUE SHOWTEXTRIGHTOFVALUE,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.SHOWVALUE SHOWVALUE,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.STEPSIZE STEPSIZE,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.SUPPRESSESCAPEMARKUP SUPPRESSESCAPEMARKUP,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.TSCHANGED TSCHANGED,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.TSCREATED TSCREATED,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.USERIDCHANGED USERIDCHANGED,
+&#x9;RPFORMBLDBLOCKLINECELLQUESTION.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFORMBLDBLOCKLINECELLQUESTION RPFORMBLDBLOCKLINECELLQUESTION</attribute>
+  <attribute name="creationDate" type="LONG">1664289506455</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFORMBLDBLOCKLINECELLQUESTION&apos;.  On line 32, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289506455</attribute>
+</metadata>

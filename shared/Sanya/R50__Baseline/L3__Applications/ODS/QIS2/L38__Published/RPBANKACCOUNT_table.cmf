@@ -1,0 +1,317 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPBANKACCOUNT" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPBANKACCOUNT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCOUNTHOLDERADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTHOLDERCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTHOLDERCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTHOLDERNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTHOLDERPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKACCOUNTSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKCLEARINGHOUSECODE" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKIDENTIFIERCODE" nullable="true">
+      <datatype type="STRING" maxLength="11"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOMESTICBANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASALTERNBANKACCOUNTHOLDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISDOMESTIC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISIBANFORMAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LATESTCHANGELOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSIBLELOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPBANKACCOUNT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ACCOUNTHOLDERADDRESS">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="ACCOUNTHOLDERCITY">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="ACCOUNTHOLDERCOUNTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ACCOUNTHOLDERNAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="ACCOUNTHOLDERPOSTALCODE">
+        <datatype type="STRING" maxLength="18"/>
+      </element>
+      <element name="BANKACCOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BANKACCOUNTNUMBER">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="BANKACCOUNTSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BANKADDRESS">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="BANKCITY">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="BANKCLEARINGHOUSECODE">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="BANKCOUNTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BANKIDENTIFIERCODE">
+        <datatype type="STRING" maxLength="11"/>
+      </element>
+      <element name="BANKNAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="BANKPOSTALCODE">
+        <datatype type="STRING" maxLength="18"/>
+      </element>
+      <element name="DESCRIPTION">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="DOMESTICBANKACCOUNTNUMBER">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="HASALTERNBANKACCOUNTHOLDER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISDOMESTIC">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISIBANFORMAT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="LATESTCHANGELOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESPONSIBLELOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPBANKACCOUNT.ACCOUNTHOLDERADDRESS ACCOUNTHOLDERADDRESS,
+&#x9;RPBANKACCOUNT.ACCOUNTHOLDERCITY ACCOUNTHOLDERCITY,
+&#x9;RPBANKACCOUNT.ACCOUNTHOLDERCOUNTRYID ACCOUNTHOLDERCOUNTRYID,
+&#x9;RPBANKACCOUNT.ACCOUNTHOLDERNAME ACCOUNTHOLDERNAME,
+&#x9;RPBANKACCOUNT.ACCOUNTHOLDERPOSTALCODE ACCOUNTHOLDERPOSTALCODE,
+&#x9;RPBANKACCOUNT.BANKACCOUNTID BANKACCOUNTID,
+&#x9;RPBANKACCOUNT.BANKACCOUNTNUMBER BANKACCOUNTNUMBER,
+&#x9;RPBANKACCOUNT.BANKACCOUNTSTATUSID BANKACCOUNTSTATUSID,
+&#x9;RPBANKACCOUNT.BANKADDRESS BANKADDRESS,
+&#x9;RPBANKACCOUNT.BANKCITY BANKCITY,
+&#x9;RPBANKACCOUNT.BANKCLEARINGHOUSECODE BANKCLEARINGHOUSECODE,
+&#x9;RPBANKACCOUNT.BANKCOUNTRYID BANKCOUNTRYID,
+&#x9;RPBANKACCOUNT.BANKIDENTIFIERCODE BANKIDENTIFIERCODE,
+&#x9;RPBANKACCOUNT.BANKNAME BANKNAME,
+&#x9;RPBANKACCOUNT.BANKPOSTALCODE BANKPOSTALCODE,
+&#x9;RPBANKACCOUNT.DESCRIPTION DESCRIPTION,
+&#x9;RPBANKACCOUNT.DOMESTICBANKACCOUNTNUMBER DOMESTICBANKACCOUNTNUMBER,
+&#x9;RPBANKACCOUNT.HASALTERNBANKACCOUNTHOLDER HASALTERNBANKACCOUNTHOLDER,
+&#x9;RPBANKACCOUNT.ISDOMESTIC ISDOMESTIC,
+&#x9;RPBANKACCOUNT.ISIBANFORMAT ISIBANFORMAT,
+&#x9;RPBANKACCOUNT.LATESTCHANGELOGONUSERID LATESTCHANGELOGONUSERID,
+&#x9;RPBANKACCOUNT.RESPONSIBLELOGONUSERID RESPONSIBLELOGONUSERID,
+&#x9;RPBANKACCOUNT.TSCHANGED TSCHANGED,
+&#x9;RPBANKACCOUNT.TSCREATED TSCREATED,
+&#x9;RPBANKACCOUNT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPBANKACCOUNT.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPBANKACCOUNT RPBANKACCOUNT</attribute>
+  <attribute name="creationDate" type="LONG">1664293657890</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPBANKACCOUNT&apos;.  On line 29, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293657890</attribute>
+</metadata>

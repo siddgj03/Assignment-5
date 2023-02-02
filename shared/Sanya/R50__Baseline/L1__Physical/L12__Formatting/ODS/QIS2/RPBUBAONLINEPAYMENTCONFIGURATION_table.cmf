@@ -1,0 +1,183 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPBUBAONLINEPAYMENTCONFIGURATION" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPBUBAONLINEPAYMENTCONFIGURATION" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="BUBAONLINEPAYMENTCONFIGURATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITBANKACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CERTIFICATEFILE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTENSIONIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FETCHWEBSERVICEURL" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INITIATETRANSACTIONURL" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="KEYSTOREFILE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTPROVIDEREMAIL" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTPROVIDERIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTPROVIDERSUBIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PLUGINIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRIVATEKEYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSACTIONSTATUSURL" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPBUBAONLINEPAYMENTCONFIGURATION" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.BUBAONLINEPAYMENTCONFIGURATIONID BUBAONLINEPAYMENTCONFIGURATIONID,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.BUSINESSUNITBANKACCOUNTID BUSINESSUNITBANKACCOUNTID,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.BUSINESSUNITID BUSINESSUNITID,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.CERTIFICATEFILE CERTIFICATEFILE,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.EXTENSIONIDENTIFIER EXTENSIONIDENTIFIER,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.FETCHWEBSERVICEURL FETCHWEBSERVICEURL,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.INITIATETRANSACTIONURL INITIATETRANSACTIONURL,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.KEYSTOREFILE KEYSTOREFILE,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.PAYMENTPROVIDEREMAIL PAYMENTPROVIDEREMAIL,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.PAYMENTPROVIDERIDENTIFIER PAYMENTPROVIDERIDENTIFIER,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.PAYMENTPROVIDERSUBIDENTIFIER PAYMENTPROVIDERSUBIDENTIFIER,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.PLUGINIDENTIFIER PLUGINIDENTIFIER,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.PRIVATEKEYIDENTIFIER PRIVATEKEYIDENTIFIER,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.TRANSACTIONSTATUSURL TRANSACTIONSTATUSURL,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.TSCHANGED TSCHANGED,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.TSCREATED TSCREATED,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.USERIDCHANGED USERIDCHANGED,
+&#x9;RPBUBAONLINEPAYMENTCONFIGURATION.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPBUBAONLINEPAYMENTCONFIGURATION RPBUBAONLINEPAYMENTCONFIGURATION</attribute>
+  <attribute name="creationDate" type="LONG">1664289036813</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPBUBAONLINEPAYMENTCONFIGURATION&apos;.  On line 22, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289036813</attribute>
+</metadata>

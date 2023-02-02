@@ -1,0 +1,196 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPOBJECTTYPEOBJECTFIELD" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPOBJECTTYPEOBJECTFIELD" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CLAIMASSESSMENTFIELDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COLUMNNUMBER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTORDER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTORDERCUSTENVCLAIMDETAILS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTORDERCUSTENVPOLDETAILS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFORCLAIMS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OBJECTTYPEFIXEDFIELDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OBJECTTYPEFLEXFIELDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OBJECTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OBJECTTYPEOBJECTFIELDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWONGENERALPOLICYDETAILSTAB" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPOBJECTTYPEOBJECTFIELD" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CLAIMASSESSMENTFIELDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="COLUMNNUMBER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DEFAULTORDER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DEFAULTORDERCUSTENVCLAIMDETAILS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DEFAULTORDERCUSTENVPOLDETAILS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISFORCLAIMS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="OBJECTTYPEFIXEDFIELDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OBJECTTYPEFLEXFIELDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OBJECTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OBJECTTYPEOBJECTFIELDID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SHOWONGENERALPOLICYDETAILSTAB">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPOBJECTTYPEOBJECTFIELD.CLAIMASSESSMENTFIELDID CLAIMASSESSMENTFIELDID,
+&#x9;RPOBJECTTYPEOBJECTFIELD.COLUMNNUMBER COLUMNNUMBER,
+&#x9;RPOBJECTTYPEOBJECTFIELD.DEFAULTORDER DEFAULTORDER,
+&#x9;RPOBJECTTYPEOBJECTFIELD.DEFAULTORDERCUSTENVCLAIMDETAILS DEFAULTORDERCUSTENVCLAIMDETAILS,
+&#x9;RPOBJECTTYPEOBJECTFIELD.DEFAULTORDERCUSTENVPOLDETAILS DEFAULTORDERCUSTENVPOLDETAILS,
+&#x9;RPOBJECTTYPEOBJECTFIELD.ISFORCLAIMS ISFORCLAIMS,
+&#x9;RPOBJECTTYPEOBJECTFIELD.OBJECTTYPEFIXEDFIELDID OBJECTTYPEFIXEDFIELDID,
+&#x9;RPOBJECTTYPEOBJECTFIELD.OBJECTTYPEFLEXFIELDID OBJECTTYPEFLEXFIELDID,
+&#x9;RPOBJECTTYPEOBJECTFIELD.OBJECTTYPEID OBJECTTYPEID,
+&#x9;RPOBJECTTYPEOBJECTFIELD.OBJECTTYPEOBJECTFIELDID OBJECTTYPEOBJECTFIELDID,
+&#x9;RPOBJECTTYPEOBJECTFIELD.SHOWONGENERALPOLICYDETAILSTAB SHOWONGENERALPOLICYDETAILSTAB,
+&#x9;RPOBJECTTYPEOBJECTFIELD.TSCHANGED TSCHANGED,
+&#x9;RPOBJECTTYPEOBJECTFIELD.TSCREATED TSCREATED,
+&#x9;RPOBJECTTYPEOBJECTFIELD.USERIDCHANGED USERIDCHANGED,
+&#x9;RPOBJECTTYPEOBJECTFIELD.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPOBJECTTYPEOBJECTFIELD RPOBJECTTYPEOBJECTFIELD</attribute>
+  <attribute name="creationDate" type="LONG">1664294559660</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPOBJECTTYPEOBJECTFIELD&apos;.  On line 18, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294559660</attribute>
+</metadata>

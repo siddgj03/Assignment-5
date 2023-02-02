@@ -1,0 +1,229 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPRODUCTMUTATIONTYPE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPPRODUCTMUTATIONTYPE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ALLOWFUTRENASSTARTDATEONMYENV" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALLOWOTHDATEASSTARTDATEONMYENV" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALLOWSTARTDATEINTHEPASTONMYENV" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALWAYSUSEQUOTATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCHANGESTARTDATEPOLICYCHANGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANOVERWRITECHANGEPRODDEF" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEUSEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEUSESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MUTATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REDETERMINEPRODUCTDEFINITION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDSMSPOLICYVERSIONCREATED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USESFORCEDREDETERMPRODDEFDATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USESFORMDIALOGUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPRODUCTMUTATIONTYPE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ALLOWFUTRENASSTARTDATEONMYENV">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ALLOWOTHDATEASSTARTDATEONMYENV">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ALLOWSTARTDATEINTHEPASTONMYENV">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ALWAYSUSEQUOTATION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CANCHANGESTARTDATEPOLICYCHANGE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CANOVERWRITECHANGEPRODDEF">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DATEUSEEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEUSESTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="MUTATIONTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODUCTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REDETERMINEPRODUCTDEFINITION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SENDSMSPOLICYVERSIONCREATED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USESFORCEDREDETERMPRODDEFDATE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USESFORMDIALOGUE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPRODUCTMUTATIONTYPE.ALLOWFUTRENASSTARTDATEONMYENV ALLOWFUTRENASSTARTDATEONMYENV,
+&#x9;RPPRODUCTMUTATIONTYPE.ALLOWOTHDATEASSTARTDATEONMYENV ALLOWOTHDATEASSTARTDATEONMYENV,
+&#x9;RPPRODUCTMUTATIONTYPE.ALLOWSTARTDATEINTHEPASTONMYENV ALLOWSTARTDATEINTHEPASTONMYENV,
+&#x9;RPPRODUCTMUTATIONTYPE.ALWAYSUSEQUOTATION ALWAYSUSEQUOTATION,
+&#x9;RPPRODUCTMUTATIONTYPE.CANCHANGESTARTDATEPOLICYCHANGE CANCHANGESTARTDATEPOLICYCHANGE,
+&#x9;RPPRODUCTMUTATIONTYPE.CANOVERWRITECHANGEPRODDEF CANOVERWRITECHANGEPRODDEF,
+&#x9;RPPRODUCTMUTATIONTYPE.DATEUSEEND DATEUSEEND,
+&#x9;RPPRODUCTMUTATIONTYPE.DATEUSESTART DATEUSESTART,
+&#x9;RPPRODUCTMUTATIONTYPE.MUTATIONTYPEID MUTATIONTYPEID,
+&#x9;RPPRODUCTMUTATIONTYPE.PRODUCTID PRODUCTID,
+&#x9;RPPRODUCTMUTATIONTYPE.REDETERMINEPRODUCTDEFINITION REDETERMINEPRODUCTDEFINITION,
+&#x9;RPPRODUCTMUTATIONTYPE.SENDSMSPOLICYVERSIONCREATED SENDSMSPOLICYVERSIONCREATED,
+&#x9;RPPRODUCTMUTATIONTYPE.TSCHANGED TSCHANGED,
+&#x9;RPPRODUCTMUTATIONTYPE.TSCREATED TSCREATED,
+&#x9;RPPRODUCTMUTATIONTYPE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPRODUCTMUTATIONTYPE.USERIDCREATED USERIDCREATED,
+&#x9;RPPRODUCTMUTATIONTYPE.USESFORCEDREDETERMPRODDEFDATE USESFORCEDREDETERMPRODDEFDATE,
+&#x9;RPPRODUCTMUTATIONTYPE.USESFORMDIALOGUE USESFORMDIALOGUE 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPRODUCTMUTATIONTYPE RPPRODUCTMUTATIONTYPE</attribute>
+  <attribute name="creationDate" type="LONG">1664294818113</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPRODUCTMUTATIONTYPE&apos;.  On line 21, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294818113</attribute>
+</metadata>

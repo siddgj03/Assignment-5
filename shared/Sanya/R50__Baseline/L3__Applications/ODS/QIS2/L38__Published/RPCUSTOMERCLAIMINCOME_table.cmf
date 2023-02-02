@@ -1,0 +1,427 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCUSTOMERCLAIMINCOME" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCUSTOMERCLAIMINCOME" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMOUNTGROSS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMOUNTNETTOPEN" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMOUNTNETTPERPERIOD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMOUNTTAXESPERPERIOD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTGENERALTAXDISCPERPERIOD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTGROSSCURRENTYEAR" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTGROSSNORMALTARIFF" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTGROSSNOTAXES" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTGROSSPREVIOUSYEARS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTGROSSSPECIALTARIFF" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTLEGALHEALTHPREMPERPERIOD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTLOWGENTAXDISCPERPERIOD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTNETTNORMALTARIFF" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTNETTNOTAXES" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTNETTSPECIALTARIFF" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTAXESNORMALTARIFF" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTAXESSPECIALTARIFF" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTWORKBONUSPERPERIOD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTWORKTAXDISCOUNTPERPERIOD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTYODISDISCOUNTPERPERIOD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERCLAIMINCOMEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DISTRIBUTORBUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERIODNUMBER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSAMOUNTGROSSUPDATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSAMOUNTNETTOPEN" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSAMOUNTNETTPERPERIOD" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSGROSSAMOUNTSPECCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCUSTOMERCLAIMINCOME" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="AMOUNTGROSS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMOUNTNETTOPEN">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMOUNTNETTPERPERIOD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMOUNTTAXESPERPERIOD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTGENERALTAXDISCPERPERIOD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTGROSSCURRENTYEAR">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTGROSSNORMALTARIFF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTGROSSNOTAXES">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTGROSSPREVIOUSYEARS">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTGROSSSPECIALTARIFF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTLEGALHEALTHPREMPERPERIOD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTLOWGENTAXDISCPERPERIOD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTNETTNORMALTARIFF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTNETTNOTAXES">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTNETTSPECIALTARIFF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTTAXESNORMALTARIFF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTTAXESSPECIALTARIFF">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTWORKBONUSPERPERIOD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTWORKTAXDISCOUNTPERPERIOD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTYODISDISCOUNTPERPERIOD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="CURRENCYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CUSTOMERCLAIMINCOMEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DISTRIBUTORBUSINESSUNITID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERIODNUMBER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSAMOUNTGROSSUPDATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSAMOUNTNETTOPEN">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSAMOUNTNETTPERPERIOD">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSGROSSAMOUNTSPECCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="YEAR">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCUSTOMERCLAIMINCOME.AMOUNTGROSS AMOUNTGROSS,
+&#x9;RPCUSTOMERCLAIMINCOME.AMOUNTNETTOPEN AMOUNTNETTOPEN,
+&#x9;RPCUSTOMERCLAIMINCOME.AMOUNTNETTPERPERIOD AMOUNTNETTPERPERIOD,
+&#x9;RPCUSTOMERCLAIMINCOME.AMOUNTTAXESPERPERIOD AMOUNTTAXESPERPERIOD,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTGENERALTAXDISCPERPERIOD AMTGENERALTAXDISCPERPERIOD,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTGROSSCURRENTYEAR AMTGROSSCURRENTYEAR,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTGROSSNORMALTARIFF AMTGROSSNORMALTARIFF,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTGROSSNOTAXES AMTGROSSNOTAXES,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTGROSSPREVIOUSYEARS AMTGROSSPREVIOUSYEARS,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTGROSSSPECIALTARIFF AMTGROSSSPECIALTARIFF,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTLEGALHEALTHPREMPERPERIOD AMTLEGALHEALTHPREMPERPERIOD,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTLOWGENTAXDISCPERPERIOD AMTLOWGENTAXDISCPERPERIOD,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTNETTNORMALTARIFF AMTNETTNORMALTARIFF,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTNETTNOTAXES AMTNETTNOTAXES,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTNETTSPECIALTARIFF AMTNETTSPECIALTARIFF,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTTAXESNORMALTARIFF AMTTAXESNORMALTARIFF,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTTAXESSPECIALTARIFF AMTTAXESSPECIALTARIFF,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTWORKBONUSPERPERIOD AMTWORKBONUSPERPERIOD,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTWORKTAXDISCOUNTPERPERIOD AMTWORKTAXDISCOUNTPERPERIOD,
+&#x9;RPCUSTOMERCLAIMINCOME.AMTYODISDISCOUNTPERPERIOD AMTYODISDISCOUNTPERPERIOD,
+&#x9;RPCUSTOMERCLAIMINCOME.CURRENCYID CURRENCYID,
+&#x9;RPCUSTOMERCLAIMINCOME.CUSTOMERCLAIMINCOMEID CUSTOMERCLAIMINCOMEID,
+&#x9;RPCUSTOMERCLAIMINCOME.CUSTOMERID CUSTOMERID,
+&#x9;RPCUSTOMERCLAIMINCOME.DATEEND DATEEND,
+&#x9;RPCUSTOMERCLAIMINCOME.DATESTART DATESTART,
+&#x9;RPCUSTOMERCLAIMINCOME.DISTRIBUTORBUSINESSUNITID DISTRIBUTORBUSINESSUNITID,
+&#x9;RPCUSTOMERCLAIMINCOME.PERIODNUMBER PERIODNUMBER,
+&#x9;RPCUSTOMERCLAIMINCOME.TSAMOUNTGROSSUPDATED TSAMOUNTGROSSUPDATED,
+&#x9;RPCUSTOMERCLAIMINCOME.TSAMOUNTNETTOPEN TSAMOUNTNETTOPEN,
+&#x9;RPCUSTOMERCLAIMINCOME.TSAMOUNTNETTPERPERIOD TSAMOUNTNETTPERPERIOD,
+&#x9;RPCUSTOMERCLAIMINCOME.TSCHANGED TSCHANGED,
+&#x9;RPCUSTOMERCLAIMINCOME.TSCREATED TSCREATED,
+&#x9;RPCUSTOMERCLAIMINCOME.TSGROSSAMOUNTSPECCREATED TSGROSSAMOUNTSPECCREATED,
+&#x9;RPCUSTOMERCLAIMINCOME.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCUSTOMERCLAIMINCOME.USERIDCREATED USERIDCREATED,
+&#x9;RPCUSTOMERCLAIMINCOME.&quot;YEAR&quot; &quot;YEAR&quot; 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCUSTOMERCLAIMINCOME RPCUSTOMERCLAIMINCOME</attribute>
+  <attribute name="creationDate" type="LONG">1664293943221</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCUSTOMERCLAIMINCOME&apos;.  On line 39, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293943221</attribute>
+</metadata>

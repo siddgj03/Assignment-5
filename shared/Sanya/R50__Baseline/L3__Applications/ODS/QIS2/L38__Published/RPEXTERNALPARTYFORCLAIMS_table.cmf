@@ -1,0 +1,273 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPEXTERNALPARTYFORCLAIMS" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPEXTERNALPARTYFORCLAIMS" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CANASSESSCANCELLEDPOLICIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANASSESSFUTUREPOLICY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANREGISTERGOODWILLCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANREGISTERPROVISIONALCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANSYSTCLOSEONRECEIPTINVOICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALPARTYFORCLAIMSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IMPORTEXTENSIONIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IMPORTPLUGINIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDAYSTOSHOWCANCPOLICIES" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDEXCESSININVOICEBECHECKED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPLIESINVOICESFORIMPORTJOB" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSSENDPAYMENTCONFANDNOTIFICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSFORMATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERNAMEFORWEBSERVICES" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERTASKTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USESWEBSERVICEFORCOVERASS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPEXTERNALPARTYFORCLAIMS" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CANASSESSCANCELLEDPOLICIES">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CANASSESSFUTUREPOLICY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CANREGISTERGOODWILLCLAIM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CANREGISTERPROVISIONALCLAIM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CANSYSTCLOSEONRECEIPTINVOICE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="EXTERNALPARTYFORCLAIMSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="IMPORTEXTENSIONIDENTIFIER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="IMPORTPLUGINIDENTIFIER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="NROFDAYSTOSHOWCANCPOLICIES">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ORIGINIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="SHOULDEXCESSININVOICEBECHECKED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SUPPLIESINVOICESFORIMPORTJOB">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SUPPRESSSENDPAYMENTCONFANDNOTIFICATION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TRANSFORMATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERNAMEFORWEBSERVICES">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="USERTASKTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="USESWEBSERVICEFORCOVERASS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPEXTERNALPARTYFORCLAIMS.CANASSESSCANCELLEDPOLICIES CANASSESSCANCELLEDPOLICIES,
+&#x9;RPEXTERNALPARTYFORCLAIMS.CANASSESSFUTUREPOLICY CANASSESSFUTUREPOLICY,
+&#x9;RPEXTERNALPARTYFORCLAIMS.CANREGISTERGOODWILLCLAIM CANREGISTERGOODWILLCLAIM,
+&#x9;RPEXTERNALPARTYFORCLAIMS.CANREGISTERPROVISIONALCLAIM CANREGISTERPROVISIONALCLAIM,
+&#x9;RPEXTERNALPARTYFORCLAIMS.CANSYSTCLOSEONRECEIPTINVOICE CANSYSTCLOSEONRECEIPTINVOICE,
+&#x9;RPEXTERNALPARTYFORCLAIMS.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPEXTERNALPARTYFORCLAIMS.EXTERNALPARTYFORCLAIMSID EXTERNALPARTYFORCLAIMSID,
+&#x9;RPEXTERNALPARTYFORCLAIMS.IMPORTEXTENSIONIDENTIFIER IMPORTEXTENSIONIDENTIFIER,
+&#x9;RPEXTERNALPARTYFORCLAIMS.IMPORTPLUGINIDENTIFIER IMPORTPLUGINIDENTIFIER,
+&#x9;RPEXTERNALPARTYFORCLAIMS.NROFDAYSTOSHOWCANCPOLICIES NROFDAYSTOSHOWCANCPOLICIES,
+&#x9;RPEXTERNALPARTYFORCLAIMS.ORIGINIDENTIFIER ORIGINIDENTIFIER,
+&#x9;RPEXTERNALPARTYFORCLAIMS.SHOULDEXCESSININVOICEBECHECKED SHOULDEXCESSININVOICEBECHECKED,
+&#x9;RPEXTERNALPARTYFORCLAIMS.SUPPLIESINVOICESFORIMPORTJOB SUPPLIESINVOICESFORIMPORTJOB,
+&#x9;RPEXTERNALPARTYFORCLAIMS.SUPPRESSSENDPAYMENTCONFANDNOTIFICATION SUPPRESSSENDPAYMENTCONFANDNOTIFICATION,
+&#x9;RPEXTERNALPARTYFORCLAIMS.TRANSFORMATIONID TRANSFORMATIONID,
+&#x9;RPEXTERNALPARTYFORCLAIMS.TSCHANGED TSCHANGED,
+&#x9;RPEXTERNALPARTYFORCLAIMS.TSCREATED TSCREATED,
+&#x9;RPEXTERNALPARTYFORCLAIMS.USERIDCHANGED USERIDCHANGED,
+&#x9;RPEXTERNALPARTYFORCLAIMS.USERIDCREATED USERIDCREATED,
+&#x9;RPEXTERNALPARTYFORCLAIMS.USERNAMEFORWEBSERVICES USERNAMEFORWEBSERVICES,
+&#x9;RPEXTERNALPARTYFORCLAIMS.USERTASKTYPEID USERTASKTYPEID,
+&#x9;RPEXTERNALPARTYFORCLAIMS.USESWEBSERVICEFORCOVERASS USESWEBSERVICEFORCOVERASS 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPEXTERNALPARTYFORCLAIMS RPEXTERNALPARTYFORCLAIMS</attribute>
+  <attribute name="creationDate" type="LONG">1664294060505</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPEXTERNALPARTYFORCLAIMS&apos;.  On line 25, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294060505</attribute>
+</metadata>

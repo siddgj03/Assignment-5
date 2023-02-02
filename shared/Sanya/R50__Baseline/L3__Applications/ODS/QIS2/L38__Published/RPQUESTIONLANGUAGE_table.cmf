@@ -1,0 +1,229 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPQUESTIONLANGUAGE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPQUESTIONLANGUAGE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="HELPTEXTHEADER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HTMLFRAGMENT" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LANGUAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PLACEHOLDER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="QUESTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REGULAREXPRESSIONERRORMESSAGE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTHELP" nullable="true">
+      <datatype type="STRING" maxLength="2000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTHELPFORCONSUMER" nullable="true">
+      <datatype type="STRING" maxLength="2000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTLEFTOFINPUTFIELD" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTQUESTION" nullable="true">
+      <datatype type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTRIGHTOFINPUTFIELD" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEDEFAULT" nullable="true">
+      <datatype type="STRING" maxLength="2000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEFORSCREEN" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPQUESTIONLANGUAGE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="HELPTEXTHEADER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="HTMLFRAGMENT">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="LANGUAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="PLACEHOLDER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="QUESTIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REGULAREXPRESSIONERRORMESSAGE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="TEXTHELP">
+        <datatype type="STRING" maxLength="2000"/>
+      </element>
+      <element name="TEXTHELPFORCONSUMER">
+        <datatype type="STRING" maxLength="2000"/>
+      </element>
+      <element name="TEXTLEFTOFINPUTFIELD">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="TEXTQUESTION">
+        <datatype type="STRING" maxLength="4000"/>
+      </element>
+      <element name="TEXTRIGHTOFINPUTFIELD">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="VALUEDEFAULT">
+        <datatype type="STRING" maxLength="2000"/>
+      </element>
+      <element name="VALUEFORSCREEN">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPQUESTIONLANGUAGE.HELPTEXTHEADER HELPTEXTHEADER,
+&#x9;RPQUESTIONLANGUAGE.HTMLFRAGMENT HTMLFRAGMENT,
+&#x9;RPQUESTIONLANGUAGE.LANGUAGEID LANGUAGEID,
+&#x9;RPQUESTIONLANGUAGE.&quot;NAME&quot; &quot;NAME&quot;,
+&#x9;RPQUESTIONLANGUAGE.PLACEHOLDER PLACEHOLDER,
+&#x9;RPQUESTIONLANGUAGE.QUESTIONID QUESTIONID,
+&#x9;RPQUESTIONLANGUAGE.REGULAREXPRESSIONERRORMESSAGE REGULAREXPRESSIONERRORMESSAGE,
+&#x9;RPQUESTIONLANGUAGE.TEXTHELP TEXTHELP,
+&#x9;RPQUESTIONLANGUAGE.TEXTHELPFORCONSUMER TEXTHELPFORCONSUMER,
+&#x9;RPQUESTIONLANGUAGE.TEXTLEFTOFINPUTFIELD TEXTLEFTOFINPUTFIELD,
+&#x9;RPQUESTIONLANGUAGE.TEXTQUESTION TEXTQUESTION,
+&#x9;RPQUESTIONLANGUAGE.TEXTRIGHTOFINPUTFIELD TEXTRIGHTOFINPUTFIELD,
+&#x9;RPQUESTIONLANGUAGE.TSCHANGED TSCHANGED,
+&#x9;RPQUESTIONLANGUAGE.TSCREATED TSCREATED,
+&#x9;RPQUESTIONLANGUAGE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPQUESTIONLANGUAGE.USERIDCREATED USERIDCREATED,
+&#x9;RPQUESTIONLANGUAGE.VALUEDEFAULT VALUEDEFAULT,
+&#x9;RPQUESTIONLANGUAGE.VALUEFORSCREEN VALUEFORSCREEN 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPQUESTIONLANGUAGE RPQUESTIONLANGUAGE</attribute>
+  <attribute name="creationDate" type="LONG">1664294893045</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPQUESTIONLANGUAGE&apos;.  On line 21, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294893045</attribute>
+</metadata>

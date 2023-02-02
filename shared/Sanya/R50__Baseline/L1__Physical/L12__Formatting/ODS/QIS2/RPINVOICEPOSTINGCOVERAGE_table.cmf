@@ -1,0 +1,479 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPINVOICEPOSTINGCOVERAGE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPINVOICEPOSTINGCOVERAGE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMTBASEFORRISKSPREAD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTFINALPREMIUM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTMARGIN" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTPREMTOBEPROCONPREMPOSTINGS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTRETURNMARGIN" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTAXONPREMIUM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTOTAL" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTOTALMARGIN" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTWAIVEDMARGIN" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTWAIVEDPREMIUM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONREPORTINGIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELRISKPOSTINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATERISKPOSTINGSCANCELJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATERISKPOSTINGSJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATECANCELFINANCIALFACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFINANCIALFACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGCANCELINFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGINFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGINFACOALESCE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPERIODEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPERIODSTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEREFLODRISKCONTRACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEREFLODRISKCONTRACTCANCEL" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEREFLODRISKCONTRACTCOALESCE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEREFRADRISKCONTRACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXCLUDEFROMTREATYREINSURANCE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVOICEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVOICEPOSTINGCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVOICEREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISBASEDONCALCULATIONMODEL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISEARNABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISELIGIBLEFORTAXREFUND" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFORCANCELLEDPOSTING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINSURANCECOVER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPREMIUMBALANCE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAX_DPS_DPA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTINGCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTINGTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCERBUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RISKBEARERCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RISKPOSTINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TARGETGROUPAGREEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPINVOICEPOSTINGCOVERAGE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPINVOICEPOSTINGCOVERAGE.AMTBASEFORRISKSPREAD AMTBASEFORRISKSPREAD,
+&#x9;RPINVOICEPOSTINGCOVERAGE.AMTFINALPREMIUM AMTFINALPREMIUM,
+&#x9;RPINVOICEPOSTINGCOVERAGE.AMTMARGIN AMTMARGIN,
+&#x9;RPINVOICEPOSTINGCOVERAGE.AMTPREMTOBEPROCONPREMPOSTINGS AMTPREMTOBEPROCONPREMPOSTINGS,
+&#x9;RPINVOICEPOSTINGCOVERAGE.AMTRETURNMARGIN AMTRETURNMARGIN,
+&#x9;RPINVOICEPOSTINGCOVERAGE.AMTTAXONPREMIUM AMTTAXONPREMIUM,
+&#x9;RPINVOICEPOSTINGCOVERAGE.AMTTOTAL AMTTOTAL,
+&#x9;RPINVOICEPOSTINGCOVERAGE.AMTTOTALMARGIN AMTTOTALMARGIN,
+&#x9;RPINVOICEPOSTINGCOVERAGE.AMTWAIVEDMARGIN AMTWAIVEDMARGIN,
+&#x9;RPINVOICEPOSTINGCOVERAGE.AMTWAIVEDPREMIUM AMTWAIVEDPREMIUM,
+&#x9;RPINVOICEPOSTINGCOVERAGE.APPLICATIONID APPLICATIONID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.APPLICATIONREPORTINGIDENTIFIER APPLICATIONREPORTINGIDENTIFIER,
+&#x9;RPINVOICEPOSTINGCOVERAGE.CANCELRISKPOSTINGID CANCELRISKPOSTINGID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.CREATERISKPOSTINGSCANCELJOBID CREATERISKPOSTINGSCANCELJOBID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.CREATERISKPOSTINGSJOBID CREATERISKPOSTINGSJOBID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.CURRENCYID CURRENCYID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATECANCELFINANCIALFACT DATECANCELFINANCIALFACT,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATEFINANCIALFACT DATEFINANCIALFACT,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATEFORPROCESSINGCANCELINFA DATEFORPROCESSINGCANCELINFA,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATEFORPROCESSINGINFA DATEFORPROCESSINGINFA,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATEFORPROCESSINGINFACOALESCE DATEFORPROCESSINGINFACOALESCE,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATEPERIODEND DATEPERIODEND,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATEPERIODSTART DATEPERIODSTART,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATEREFLODRISKCONTRACT DATEREFLODRISKCONTRACT,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATEREFLODRISKCONTRACTCANCEL DATEREFLODRISKCONTRACTCANCEL,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATEREFLODRISKCONTRACTCOALESCE DATEREFLODRISKCONTRACTCOALESCE,
+&#x9;RPINVOICEPOSTINGCOVERAGE.DATEREFRADRISKCONTRACT DATEREFRADRISKCONTRACT,
+&#x9;RPINVOICEPOSTINGCOVERAGE.EXCLUDEFROMTREATYREINSURANCE EXCLUDEFROMTREATYREINSURANCE,
+&#x9;RPINVOICEPOSTINGCOVERAGE.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.INVOICEID INVOICEID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.INVOICEPOSTINGCOVERAGEID INVOICEPOSTINGCOVERAGEID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.INVOICEREASONID INVOICEREASONID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.ISBASEDONCALCULATIONMODEL ISBASEDONCALCULATIONMODEL,
+&#x9;RPINVOICEPOSTINGCOVERAGE.ISCANCELLED ISCANCELLED,
+&#x9;RPINVOICEPOSTINGCOVERAGE.ISEARNABLE ISEARNABLE,
+&#x9;RPINVOICEPOSTINGCOVERAGE.ISELIGIBLEFORTAXREFUND ISELIGIBLEFORTAXREFUND,
+&#x9;RPINVOICEPOSTINGCOVERAGE.ISFORCANCELLEDPOSTING ISFORCANCELLEDPOSTING,
+&#x9;RPINVOICEPOSTINGCOVERAGE.ISINSURANCECOVER ISINSURANCECOVER,
+&#x9;RPINVOICEPOSTINGCOVERAGE.ISPREMIUMBALANCE ISPREMIUMBALANCE,
+&#x9;RPINVOICEPOSTINGCOVERAGE.MAX_DPS_DPA MAX_DPS_DPA,
+&#x9;RPINVOICEPOSTINGCOVERAGE.POLICYID POLICYID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.POLICYIDENTIFIER POLICYIDENTIFIER,
+&#x9;RPINVOICEPOSTINGCOVERAGE.POSTINGCOVERAGEID POSTINGCOVERAGEID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.POSTINGID POSTINGID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.POSTINGTYPEID POSTINGTYPEID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.PRODUCERBUSINESSUNITID PRODUCERBUSINESSUNITID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.PRODUCTID PRODUCTID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.PRODUCTVERSIONCOVERAGEID PRODUCTVERSIONCOVERAGEID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.PRODUCTVERSIONID PRODUCTVERSIONID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.RISKBEARERCUSTOMERID RISKBEARERCUSTOMERID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.RISKPOSTINGID RISKPOSTINGID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.TARGETGROUPAGREEMENTID TARGETGROUPAGREEMENTID,
+&#x9;RPINVOICEPOSTINGCOVERAGE.TSCHANGED TSCHANGED,
+&#x9;RPINVOICEPOSTINGCOVERAGE.TSCREATED TSCREATED,
+&#x9;RPINVOICEPOSTINGCOVERAGE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPINVOICEPOSTINGCOVERAGE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPINVOICEPOSTINGCOVERAGE RPINVOICEPOSTINGCOVERAGE</attribute>
+  <attribute name="creationDate" type="LONG">1664289781874</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPINVOICEPOSTINGCOVERAGE&apos;.  On line 59, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289781874</attribute>
+</metadata>

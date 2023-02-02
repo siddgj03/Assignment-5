@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_PolicyInstanceBonusMalus" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/QIS/v_PolicyInstanceBonusMalus" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BONUS_MALUS" nullable="true">
+      <datatype type="STRING" maxLength="1000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/LANGUAGE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONFIELD" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFLEXFIELD" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPLISTVALUELANGUAGE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICY" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPRODUCTVERSIONFIELD" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">WITH TEMP AS (
+&#x9;SELECT APP.POLICYID, MAX(APP.TSCHANGED) AS MAX_TS
+    FROM /shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONFIELD APP
+&#x9;INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPRODUCTVERSIONFIELD PROD
+&#x9;&#x9;ON APP.PRODUCTID=PROD.PRODUCTID AND APP.PRODUCTVERSIONFIELDID = PROD.PRODUCTVERSIONFIELDID AND APP.PRODUCTVERSIONID = PROD.PRODUCTVERSIONID 
+&#x9;INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFLEXFIELD FLEX
+&#x9;&#x9;ON PROD.FLEXFIELDID = FLEX.FLEXFIELDID
+    WHERE FLEX.EXTERNALIDENTIFIER LIKE &apos;pol%BMCurrentStepLs&apos;
+    GROUP BY APP.POLICYID
+),
+
+TEMP2 AS (
+&#x9;SELECT TEMP.POLICYID, TEMP.MAX_TS, APP.VALUEID, APP.VALUELISTID
+    FROM /shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONFIELD APP
+&#x9;INNER JOIN TEMP TEMP
+&#x9;&#x9;ON APP.POLICYID = TEMP.POLICYID AND APP.TSCHANGED = TEMP.MAX_TS
+),
+
+TEMP3 AS (
+&#x9;SELECT TEMP2.POLICYID, LIST.&quot;VALUE&quot;
+    FROM TEMP2 TEMP2
+&#x9;INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPLISTVALUELANGUAGE LIST
+&#x9;&#x9;ON TEMP2.VALUEID = LIST.VALUEID AND TEMP2.VALUELISTID = LIST.VALUELISTID 
+&#x9;&#x9;AND LIST.languageId = (SELECT languageId FROM /shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/&quot;LANGUAGE&quot; WHERE code = &apos;VLS&apos;)
+)
+
+SELECT POL.POLICYIDENTIFIER AS EXTERNALIDENTIFIER, TEMP3.&quot;VALUE&quot; AS BONUS_MALUS
+FROM TEMP3 TEMP3
+INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICY POL
+&#x9;ON POL.POLICYID = TEMP3.POLICYID
+WHERE POL.POLICYIDENTIFIER IS NOT NULL</attribute>
+  <attribute name="creationDate" type="LONG">1655800689882</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONFIELD&apos;.  On line 3, column 10.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669217751220</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1655800689882</attribute>
+</metadata>

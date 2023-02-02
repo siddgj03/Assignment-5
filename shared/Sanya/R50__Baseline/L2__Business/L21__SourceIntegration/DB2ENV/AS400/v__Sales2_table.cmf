@@ -1,0 +1,185 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_Sales2" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_Sales2" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="Platform" nullable="true">
+      <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Policy" nullable="true">
+      <datatype type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Polisnummer" nullable="true">
+      <datatype type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypePolis" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Kanaal" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Agent" nullable="true">
+      <datatype type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Begindatum" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Beginjaar" nullable="true">
+      <datatype type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Boekdatum" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Boekjaar" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Valutajaar" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RecurrentePremie" nullable="true">
+      <datatype type="DECIMAL" maxDigits="18" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Koopsom" nullable="true">
+      <datatype type="INTEGER" minValue="-128" maxValue="127"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Tak" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Fonds" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DULMVTPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLICYDXPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">/*sluitpost risicopremieOvl*/
+SELECT &#x9;Platform,
+&#x9;&#x9;Policy,
+&#x9;&#x9;Polisnummer,
+&#x9;&#x9;TypePolis,
+&#x9;&#x9;Kanaal,
+&#x9;&#x9;Agent,
+&#x9;&#x9;Begindatum,
+&#x9;&#x9;Beginjaar,
+&#x9;&#x9;Boekdatum,
+&#x9;&#x9;Boekjaar,
+&#x9;&#x9;Valutajaar,
+&#x9;&#x9;sum(RecurrentePremie) as RecurrentePremie,
+&#x9;&#x9;Koopsom,
+&#x9;&#x9;Tak,
+&#x9;&#x9;Fonds
+&#x9;&#x9;FROM (
+
+select &apos;AS400&apos; as Platform,   0 as Policy,
+&#x9;    0 as Polisnummer,
+&#x9;    case when p.Branche = 95 then &apos;VAPZ&apos;
+&#x9;&#x9;&#x9;  when p.Branche = 94 and p.sub_br in (3,2103) then &apos;POZ&apos;
+&#x9;&#x9;&#x9;  else &apos;IPT&apos; end as TypePolis,
+&#x9;&#x9;case when p.sub_br &lt; 2100 then &apos;Belfius&apos; else &apos;DVV&apos; end as Kanaal, 
+&#x9;&#x9;0 as Agent,
+&#x9;&#x9;&apos;0001-01-01&apos; as Begindatum,
+&#x9;&#x9;0 as Beginjaar,
+&#x9;    &apos;0001-01-01&apos; as Boekdatum,  
+&#x9;&#x9;year(current_date()) as Boekjaar, /*later nog aanpassen naar year(d.dapost), zodat query ook werkt over meerdere jaren*/
+&#x9;&#x9;year(current_date()) as Valutajaar, /*idem*/
+&#x9;&#x9;&#x9;&#x9;
+&#x9;&#x9;d.amtcap + d.amtint as RecurrentePremie,
+&#x9;&#x9;0 as Koopsom,
+&#x9;&#x9;&apos;T21&apos; as Tak,
+&#x9;&#x9;&apos;Ovl&apos; as Fonds
+
+&#x9;from /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DULMVTPF d, 
+&#x9;&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLICYDXPF p
+
+&#x9;  where d.branche = p.branche
+        and d.policy = p.policy
+&#x9;&#x9;and (year(d.dapost)&gt;= YEAR(CURRENT_DATE)-2 AND month(d.dapost)&gt;=1 AND day(d.dapost)&gt;=1) 
+&#x9;&#x9;and (year(d.dapost)&lt;= YEAR(CURRENT_DATE) AND month(d.dapost)=1 AND day(d.dapost)&lt;=31) &#x9;&#x9;and d.branche in (94,95)
+&#x9;  &#x9;and d.movement = 26
+&#x9;&#x9;and CAST(p.policy AS DECIMAL(7)) &lt; 9999900
+&#x9;&#x9;and D.COTRSCDOM = &apos;UL21&apos;) a
+
+&#x9;&#x9;GROUP BY 
+&#x9;&#x9;Policy,
+&#x9;&#x9;TypePolis, 
+&#x9;&#x9;Kanaal, 
+&#x9;&#x9;Platform, 
+&#x9;&#x9;Polisnummer, 
+&#x9;&#x9;TypePolis,
+&#x9;&#x9;Kanaal,
+&#x9;&#x9;Agent,
+&#x9;&#x9;Begindatum,
+&#x9;&#x9;Beginjaar,
+&#x9;&#x9;Boekdatum,
+&#x9;&#x9;Boekjaar,
+&#x9;&#x9;Valutajaar,
+&#x9;&#x9;Koopsom,
+&#x9;&#x9;Tak,
+&#x9;&#x9;Fonds
+</attribute>
+  <attribute name="creationDate" type="LONG">1657111159579</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DULMVTPF&apos;.  On line 37, column 7.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1660308636579</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1657111159579</attribute>
+</metadata>

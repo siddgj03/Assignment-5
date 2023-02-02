@@ -1,0 +1,51 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_LAST_ENDORS" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_LAST_ENDORS" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="branche" nullable="true">
+      <datatype type="DECIMAL" maxDigits="2" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="policy" nullable="true">
+      <datatype type="STRING" minLength="7" maxLength="7"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Maxendors" nullable="true">
+      <datatype type="DECIMAL" maxDigits="3" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLENDVPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">select branche, policy, max(endors) as Maxendors
+from /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLENDVPF 
+where branche in (94,95) and (subscrdte &lt;= (CURRENT_DATE + (-DAY(CURRENT_DATE))) or endors = 0) 
+and (status = &apos;A&apos; or status = &apos;H&apos;)
+group by branche, policy
+</attribute>
+  <attribute name="creationDate" type="LONG">1652789582665</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLENDVPF&apos;.  On line 2, column 6.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1660308636579</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1652789582665</attribute>
+</metadata>

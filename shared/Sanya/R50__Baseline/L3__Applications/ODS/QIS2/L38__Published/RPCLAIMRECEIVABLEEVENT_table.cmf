@@ -1,0 +1,328 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCLAIMRECEIVABLEEVENT" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCLAIMRECEIVABLEEVENT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMTDUETOTALMUTATION" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDUETOTALNEW" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDUETOTALOLD" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMRECEIVABLEEVENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMRECEIVABLEEVENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMRECEIVABLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGINFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPAYMENTSTATUSCHANGEDNEW" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPAYMENTSTATUSCHANGEDOLD" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTTOFAJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWCONTENT" nullable="true">
+      <datatype type="BLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWPAYMENTSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWPAYMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDCONTENT" nullable="true">
+      <datatype type="BLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDPAYMENTSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDPAYMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCLAIMRECEIVABLEEVENTCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMRECEIVABLEEVENT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="AMTDUETOTALMUTATION">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTDUETOTALNEW">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTDUETOTALOLD">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="CLAIMRECEIVABLEEVENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMRECEIVABLEEVENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMRECEIVABLEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREATEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEFORPROCESSINGINFA">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPAYMENTSTATUSCHANGEDNEW">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPAYMENTSTATUSCHANGEDOLD">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EXPORTTOFAJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="JOURNALENTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NEWCONTENT">
+        <datatype type="BLOB" maxLength="2147483647"/>
+      </element>
+      <element name="NEWISCANCELLED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NEWPAYMENTSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NEWPAYMENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OLDCONTENT">
+        <datatype type="BLOB" maxLength="2147483647"/>
+      </element>
+      <element name="OLDISCANCELLED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="OLDPAYMENTSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OLDPAYMENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCLAIMRECEIVABLEEVENTCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCLAIMRECEIVABLEEVENT.AMTDUETOTALMUTATION AMTDUETOTALMUTATION,
+&#x9;RPCLAIMRECEIVABLEEVENT.AMTDUETOTALNEW AMTDUETOTALNEW,
+&#x9;RPCLAIMRECEIVABLEEVENT.AMTDUETOTALOLD AMTDUETOTALOLD,
+&#x9;RPCLAIMRECEIVABLEEVENT.CLAIMRECEIVABLEEVENTID CLAIMRECEIVABLEEVENTID,
+&#x9;RPCLAIMRECEIVABLEEVENT.CLAIMRECEIVABLEEVENTTYPEID CLAIMRECEIVABLEEVENTTYPEID,
+&#x9;RPCLAIMRECEIVABLEEVENT.CLAIMRECEIVABLEID CLAIMRECEIVABLEID,
+&#x9;RPCLAIMRECEIVABLEEVENT.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPCLAIMRECEIVABLEEVENT.DATEFORPROCESSINGINFA DATEFORPROCESSINGINFA,
+&#x9;RPCLAIMRECEIVABLEEVENT.DATEPAYMENTSTATUSCHANGEDNEW DATEPAYMENTSTATUSCHANGEDNEW,
+&#x9;RPCLAIMRECEIVABLEEVENT.DATEPAYMENTSTATUSCHANGEDOLD DATEPAYMENTSTATUSCHANGEDOLD,
+&#x9;RPCLAIMRECEIVABLEEVENT.EXPORTTOFAJOBID EXPORTTOFAJOBID,
+&#x9;RPCLAIMRECEIVABLEEVENT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCLAIMRECEIVABLEEVENT.JOURNALENTRYID JOURNALENTRYID,
+&#x9;RPCLAIMRECEIVABLEEVENT.LOGONUSERID LOGONUSERID,
+&#x9;RPCLAIMRECEIVABLEEVENT.NEWCONTENT NEWCONTENT,
+&#x9;RPCLAIMRECEIVABLEEVENT.NEWISCANCELLED NEWISCANCELLED,
+&#x9;RPCLAIMRECEIVABLEEVENT.NEWPAYMENTSTATUSID NEWPAYMENTSTATUSID,
+&#x9;RPCLAIMRECEIVABLEEVENT.NEWPAYMENTTYPEID NEWPAYMENTTYPEID,
+&#x9;RPCLAIMRECEIVABLEEVENT.OLDCONTENT OLDCONTENT,
+&#x9;RPCLAIMRECEIVABLEEVENT.OLDISCANCELLED OLDISCANCELLED,
+&#x9;RPCLAIMRECEIVABLEEVENT.OLDPAYMENTSTATUSID OLDPAYMENTSTATUSID,
+&#x9;RPCLAIMRECEIVABLEEVENT.OLDPAYMENTTYPEID OLDPAYMENTTYPEID,
+&#x9;RPCLAIMRECEIVABLEEVENT.TSCHANGED TSCHANGED,
+&#x9;RPCLAIMRECEIVABLEEVENT.TSCLAIMRECEIVABLEEVENTCREATED TSCLAIMRECEIVABLEEVENTCREATED,
+&#x9;RPCLAIMRECEIVABLEEVENT.TSCREATED TSCREATED,
+&#x9;RPCLAIMRECEIVABLEEVENT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCLAIMRECEIVABLEEVENT.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMRECEIVABLEEVENT RPCLAIMRECEIVABLEEVENT</attribute>
+  <attribute name="creationDate" type="LONG">1664293833878</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMRECEIVABLEEVENT&apos;.  On line 30, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293833878</attribute>
+</metadata>

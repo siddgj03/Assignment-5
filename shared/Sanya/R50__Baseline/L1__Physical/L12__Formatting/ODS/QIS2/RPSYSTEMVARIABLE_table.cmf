@@ -1,0 +1,255 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPSYSTEMVARIABLE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPSYSTEMVARIABLE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CODE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTVALUEEXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION1FUNCTIONALDATATYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION1VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION2FUNCTIONALDATATYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION2VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION3FUNCTIONALDATATYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION3VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION4FUNCTIONALDATATYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION4VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION5FUNCTIONALDATATYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION5VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION6FUNCTIONALDATATYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION6VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASSTANDARDTRANSLATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISSHARED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NUMBEROFADDITIONALOUTPUTFIELDS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDALLPARAMETERSBEFILLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDALWAYSRETRIEVEAVALUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SYSTEMVARIABLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SYSTEMVARIABLESUBTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SYSTEMVARIABLETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPSYSTEMVARIABLE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPSYSTEMVARIABLE.CODE CODE,
+&#x9;RPSYSTEMVARIABLE.DEFAULTVALUEEXTERNALIDENTIFIER DEFAULTVALUEEXTERNALIDENTIFIER,
+&#x9;RPSYSTEMVARIABLE.DIMENSION1FUNCTIONALDATATYPEID DIMENSION1FUNCTIONALDATATYPEID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION1VALUELISTID DIMENSION1VALUELISTID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION2FUNCTIONALDATATYPEID DIMENSION2FUNCTIONALDATATYPEID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION2VALUELISTID DIMENSION2VALUELISTID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION3FUNCTIONALDATATYPEID DIMENSION3FUNCTIONALDATATYPEID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION3VALUELISTID DIMENSION3VALUELISTID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION4FUNCTIONALDATATYPEID DIMENSION4FUNCTIONALDATATYPEID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION4VALUELISTID DIMENSION4VALUELISTID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION5FUNCTIONALDATATYPEID DIMENSION5FUNCTIONALDATATYPEID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION5VALUELISTID DIMENSION5VALUELISTID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION6FUNCTIONALDATATYPEID DIMENSION6FUNCTIONALDATATYPEID,
+&#x9;RPSYSTEMVARIABLE.DIMENSION6VALUELISTID DIMENSION6VALUELISTID,
+&#x9;RPSYSTEMVARIABLE.HASSTANDARDTRANSLATIONS HASSTANDARDTRANSLATIONS,
+&#x9;RPSYSTEMVARIABLE.ISSHARED ISSHARED,
+&#x9;RPSYSTEMVARIABLE.NUMBEROFADDITIONALOUTPUTFIELDS NUMBEROFADDITIONALOUTPUTFIELDS,
+&#x9;RPSYSTEMVARIABLE.SHOULDALLPARAMETERSBEFILLED SHOULDALLPARAMETERSBEFILLED,
+&#x9;RPSYSTEMVARIABLE.SHOULDALWAYSRETRIEVEAVALUE SHOULDALWAYSRETRIEVEAVALUE,
+&#x9;RPSYSTEMVARIABLE.SYSTEMVARIABLEID SYSTEMVARIABLEID,
+&#x9;RPSYSTEMVARIABLE.SYSTEMVARIABLESUBTYPEID SYSTEMVARIABLESUBTYPEID,
+&#x9;RPSYSTEMVARIABLE.SYSTEMVARIABLETYPEID SYSTEMVARIABLETYPEID,
+&#x9;RPSYSTEMVARIABLE.TSCHANGED TSCHANGED,
+&#x9;RPSYSTEMVARIABLE.TSCREATED TSCREATED,
+&#x9;RPSYSTEMVARIABLE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPSYSTEMVARIABLE.USERIDCREATED USERIDCREATED,
+&#x9;RPSYSTEMVARIABLE.VALUELISTID VALUELISTID,
+&#x9;RPSYSTEMVARIABLE.VALUETYPEID VALUETYPEID 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPSYSTEMVARIABLE RPSYSTEMVARIABLE</attribute>
+  <attribute name="creationDate" type="LONG">1664290279137</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPSYSTEMVARIABLE&apos;.  On line 31, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290279137</attribute>
+</metadata>

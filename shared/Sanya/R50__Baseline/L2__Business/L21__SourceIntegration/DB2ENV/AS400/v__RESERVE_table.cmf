@@ -1,0 +1,87 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_RESERVE" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RESERVE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="Polisnummer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Res" nullable="true">
+      <datatype type="DECIMAL" maxDigits="27" maxFractionalDigits="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_WAARBORGEN" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="Branche">
+        <datatype type="DECIMAL" maxDigits="2" maxFractionalDigits="0"/>
+      </element>
+      <element name="Sub_br">
+        <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+      </element>
+      <element name="Policy">
+        <datatype type="STRING" minLength="7" maxLength="7"/>
+      </element>
+      <element name="Platform">
+        <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      </element>
+      <element name="Polisnummer">
+        <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      </element>
+      <element name="TypePolis">
+        <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      </element>
+      <element name="Kanaal">
+        <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      </element>
+      <element name="TypeWaarborg">
+        <datatype type="STRING" minLength="2" maxLength="12" trailingSpaces="false"/>
+      </element>
+      <element name="BegindatumWaarborg">
+        <datatype type="DATE"/>
+      </element>
+      <element name="EinddatumWaarborg">
+        <datatype type="DATE"/>
+      </element>
+      <element name="BedragWaarborg">
+        <datatype type="DECIMAL" maxDigits="21" maxFractionalDigits="8"/>
+      </element>
+      <element name="PremieWaarborg">
+        <datatype type="DECIMAL" maxDigits="35" maxFractionalDigits="10"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+
+Polisnummer, 
+
+sum(BedragWaarborg) as Res 
+
+from /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_WAARBORGEN
+
+where TypeWaarborg in (&apos;PensioenT21&apos;,&apos;PensioenT23&apos;)
+
+group by Polisnummer</attribute>
+  <attribute name="creationDate" type="LONG">1654866789825</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLICYDXPF&apos;.  On line 20, column 8.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1671633231454</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1654866789825</attribute>
+</metadata>

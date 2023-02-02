@@ -1,0 +1,77 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_PolSectionCoverage_NL" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/UDS/UDS/v_PolSectionCoverage_NL" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="POLICY_SK" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SECTION_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COVERAGE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_COV_TYPE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_POL_POLICY" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_SOI_TYPE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/F_POL_THEORETICAL_PREMIUM" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">   SELECT t2.POLICY_SK, 
+          t3.POLICY_ID, 
+          t4.SECTION_DESC, 
+          t1.COVERAGE_DESC
+
+    FROM &#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/F_POL_THEORETICAL_PREMIUM t2, 
+&#x9;&#x9;&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_COV_TYPE t1, 
+&#x9;&#x9;&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_POL_POLICY t3, 
+&#x9;&#x9;&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_SOI_TYPE t4
+
+&#x9;WHERE &#x9;(t2.COVERAGE_TYPE_SK = t1.COVERAGE_TYPE_SK AND t2.POLICY_SK = t3.POLICY_SK AND t2.OBJECT_TYPE_SK = 
+&#x9;&#x9;&#x9;&#x9;&#x9;t4.OBJECT_TYPE_SK) AND t2.CURRENT_IND = 1
+
+&#x9;ORDER BY &#x9;&#x9;t3.POLICY_ID,
+&#x9;&#x9;&#x9;&#x9;   &#x9;t4.SECTION_DESC,
+&#x9;&#x9;&#x9;&#x9;   &#x9;t1.COVERAGE_DESC</attribute>
+  <attribute name="creationDate" type="LONG">1657529404990</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/F_POL_THEORETICAL_PREMIUM&apos;.  On line 6, column 11.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1657531229362</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1657529404990</attribute>
+</metadata>

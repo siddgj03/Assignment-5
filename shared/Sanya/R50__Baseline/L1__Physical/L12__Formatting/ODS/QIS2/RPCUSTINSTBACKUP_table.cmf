@@ -1,0 +1,711 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCUSTINSTBACKUP" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCUSTINSTBACKUP" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ADDITIONALINFORMATION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDRESSFORSEARCH" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDRESSINDICATION" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDRESSLINE1" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDRESSLINE2" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDRESSLINE3" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALLOWCURRENTACCAUTOCOLLECTION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALLOWCURRENTACCOUNTTRANSFER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELLEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHAMBEROFCOMMERCENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTACTPERSONFIRSTNAME" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTACTPERSONGENDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTACTPERSONINITIALS" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTACTPERSONINSERTION" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTACTPERSONNAME" nullable="true">
+      <datatype type="STRING" maxLength="70"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTACTPERSONTELEPHONENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENTACCSTATEMENTFREQUENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERINSTANCEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERMUTATIONTYPEREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEDECEASED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEOFBIRTH" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FAXNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FIRSTNAME" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GENDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASPOSTALADDRESS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HEALTHINSURANCECOMPANY" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HEALTHINSURANCENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HOUSENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HOUSENUMBEREXTENSION" nullable="true">
+      <datatype type="STRING" maxLength="7"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INITIALS" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INSERTION" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERNALORGANIZATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOMPANY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOMPLETE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCURRENTACCOUNTDEMANDBLOCKED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCURRENTACCOUNTPAYMENTBLOCKED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISHISTORYCREATED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NAME" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PASSPORTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALADDRESSINDICATION" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALADDRESSLINE1" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALADDRESSLINE2" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALADDRESSLINE3" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="9"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALHOUSENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALHOUSENUMBEREXTENSION" nullable="true">
+      <datatype type="STRING" maxLength="7"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="9"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALSTREETNAME" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREFIX" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRINTCURRENTACCOUNTGIROFORM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRINTCURRENTACCOUNTSTATEMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROFESSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SOCIALSECURITYNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="17"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STREETNAME" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TELEPHONENUMBER1" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TELEPHONENUMBER2" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TELEPHONENUMBER3" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TELEPHONENUMBERBUSINESS" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TELEPHONENUMBERMOBILE" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TELEPHONENUMBERPRIVATE" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCANCELLED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTEDFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTEDFA2" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTEDFA3" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTEDFA4" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTEDTOEXTERNALCLAIMADM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSSUBMITCHANGETOEXTERNALRELADM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USECURRENTACCOUNTFORCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USECURRENTACCOUNTFORPOLICY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VERSIONNUMBER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCUSTINSTBACKUP" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCUSTINSTBACKUP.ADDITIONALINFORMATION ADDITIONALINFORMATION,
+&#x9;RPCUSTINSTBACKUP.ADDRESSFORSEARCH ADDRESSFORSEARCH,
+&#x9;RPCUSTINSTBACKUP.ADDRESSINDICATION ADDRESSINDICATION,
+&#x9;RPCUSTINSTBACKUP.ADDRESSLINE1 ADDRESSLINE1,
+&#x9;RPCUSTINSTBACKUP.ADDRESSLINE2 ADDRESSLINE2,
+&#x9;RPCUSTINSTBACKUP.ADDRESSLINE3 ADDRESSLINE3,
+&#x9;RPCUSTINSTBACKUP.ALLOWCURRENTACCAUTOCOLLECTION ALLOWCURRENTACCAUTOCOLLECTION,
+&#x9;RPCUSTINSTBACKUP.ALLOWCURRENTACCOUNTTRANSFER ALLOWCURRENTACCOUNTTRANSFER,
+&#x9;RPCUSTINSTBACKUP.CANCELLEDBYLOGONUSERID CANCELLEDBYLOGONUSERID,
+&#x9;RPCUSTINSTBACKUP.CHAMBEROFCOMMERCENUMBER CHAMBEROFCOMMERCENUMBER,
+&#x9;RPCUSTINSTBACKUP.CITY CITY,
+&#x9;RPCUSTINSTBACKUP.CONTACTPERSONFIRSTNAME CONTACTPERSONFIRSTNAME,
+&#x9;RPCUSTINSTBACKUP.CONTACTPERSONGENDER CONTACTPERSONGENDER,
+&#x9;RPCUSTINSTBACKUP.CONTACTPERSONINITIALS CONTACTPERSONINITIALS,
+&#x9;RPCUSTINSTBACKUP.CONTACTPERSONINSERTION CONTACTPERSONINSERTION,
+&#x9;RPCUSTINSTBACKUP.CONTACTPERSONNAME CONTACTPERSONNAME,
+&#x9;RPCUSTINSTBACKUP.CONTACTPERSONTELEPHONENUMBER CONTACTPERSONTELEPHONENUMBER,
+&#x9;RPCUSTINSTBACKUP.COUNTRYID COUNTRYID,
+&#x9;RPCUSTINSTBACKUP.CREATEDBYLOGONUSERID CREATEDBYLOGONUSERID,
+&#x9;RPCUSTINSTBACKUP.CURRENTACCSTATEMENTFREQUENCYID CURRENTACCSTATEMENTFREQUENCYID,
+&#x9;RPCUSTINSTBACKUP.CUSTOMERID CUSTOMERID,
+&#x9;RPCUSTINSTBACKUP.CUSTOMERINSTANCEID CUSTOMERINSTANCEID,
+&#x9;RPCUSTINSTBACKUP.CUSTOMERMUTATIONTYPEREASONID CUSTOMERMUTATIONTYPEREASONID,
+&#x9;RPCUSTINSTBACKUP.CUSTOMERSTATUSID CUSTOMERSTATUSID,
+&#x9;RPCUSTINSTBACKUP.DATEDECEASED DATEDECEASED,
+&#x9;RPCUSTINSTBACKUP.DATEEND DATEEND,
+&#x9;RPCUSTINSTBACKUP.DATEOFBIRTH DATEOFBIRTH,
+&#x9;RPCUSTINSTBACKUP.DATESTART DATESTART,
+&#x9;RPCUSTINSTBACKUP.FAXNUMBER FAXNUMBER,
+&#x9;RPCUSTINSTBACKUP.FIRSTNAME FIRSTNAME,
+&#x9;RPCUSTINSTBACKUP.GENDER GENDER,
+&#x9;RPCUSTINSTBACKUP.HASPOSTALADDRESS HASPOSTALADDRESS,
+&#x9;RPCUSTINSTBACKUP.HEALTHINSURANCECOMPANY HEALTHINSURANCECOMPANY,
+&#x9;RPCUSTINSTBACKUP.HEALTHINSURANCENUMBER HEALTHINSURANCENUMBER,
+&#x9;RPCUSTINSTBACKUP.HOUSENUMBER HOUSENUMBER,
+&#x9;RPCUSTINSTBACKUP.HOUSENUMBEREXTENSION HOUSENUMBEREXTENSION,
+&#x9;RPCUSTINSTBACKUP.INITIALS INITIALS,
+&#x9;RPCUSTINSTBACKUP.INSERTION INSERTION,
+&#x9;RPCUSTINSTBACKUP.INTERNALORGANIZATIONID INTERNALORGANIZATIONID,
+&#x9;RPCUSTINSTBACKUP.ISCANCELLED ISCANCELLED,
+&#x9;RPCUSTINSTBACKUP.ISCOMPANY ISCOMPANY,
+&#x9;RPCUSTINSTBACKUP.ISCOMPLETE ISCOMPLETE,
+&#x9;RPCUSTINSTBACKUP.ISCURRENTACCOUNTDEMANDBLOCKED ISCURRENTACCOUNTDEMANDBLOCKED,
+&#x9;RPCUSTINSTBACKUP.ISCURRENTACCOUNTPAYMENTBLOCKED ISCURRENTACCOUNTPAYMENTBLOCKED,
+&#x9;RPCUSTINSTBACKUP.ISHISTORYCREATED ISHISTORYCREATED,
+&#x9;RPCUSTINSTBACKUP.&quot;NAME&quot; &quot;NAME&quot;,
+&#x9;RPCUSTINSTBACKUP.PASSPORTNUMBER PASSPORTNUMBER,
+&#x9;RPCUSTINSTBACKUP.POSTALADDRESSINDICATION POSTALADDRESSINDICATION,
+&#x9;RPCUSTINSTBACKUP.POSTALADDRESSLINE1 POSTALADDRESSLINE1,
+&#x9;RPCUSTINSTBACKUP.POSTALADDRESSLINE2 POSTALADDRESSLINE2,
+&#x9;RPCUSTINSTBACKUP.POSTALADDRESSLINE3 POSTALADDRESSLINE3,
+&#x9;RPCUSTINSTBACKUP.POSTALCITY POSTALCITY,
+&#x9;RPCUSTINSTBACKUP.POSTALCODE POSTALCODE,
+&#x9;RPCUSTINSTBACKUP.POSTALCOUNTRYID POSTALCOUNTRYID,
+&#x9;RPCUSTINSTBACKUP.POSTALHOUSENUMBER POSTALHOUSENUMBER,
+&#x9;RPCUSTINSTBACKUP.POSTALHOUSENUMBEREXTENSION POSTALHOUSENUMBEREXTENSION,
+&#x9;RPCUSTINSTBACKUP.POSTALPOSTALCODE POSTALPOSTALCODE,
+&#x9;RPCUSTINSTBACKUP.POSTALSTREETNAME POSTALSTREETNAME,
+&#x9;RPCUSTINSTBACKUP.PREFIX PREFIX,
+&#x9;RPCUSTINSTBACKUP.PRINTCURRENTACCOUNTGIROFORM PRINTCURRENTACCOUNTGIROFORM,
+&#x9;RPCUSTINSTBACKUP.PRINTCURRENTACCOUNTSTATEMENT PRINTCURRENTACCOUNTSTATEMENT,
+&#x9;RPCUSTINSTBACKUP.PROFESSIONID PROFESSIONID,
+&#x9;RPCUSTINSTBACKUP.SOCIALSECURITYNUMBER SOCIALSECURITYNUMBER,
+&#x9;RPCUSTINSTBACKUP.STREETNAME STREETNAME,
+&#x9;RPCUSTINSTBACKUP.TELEPHONENUMBER1 TELEPHONENUMBER1,
+&#x9;RPCUSTINSTBACKUP.TELEPHONENUMBER2 TELEPHONENUMBER2,
+&#x9;RPCUSTINSTBACKUP.TELEPHONENUMBER3 TELEPHONENUMBER3,
+&#x9;RPCUSTINSTBACKUP.TELEPHONENUMBERBUSINESS TELEPHONENUMBERBUSINESS,
+&#x9;RPCUSTINSTBACKUP.TELEPHONENUMBERMOBILE TELEPHONENUMBERMOBILE,
+&#x9;RPCUSTINSTBACKUP.TELEPHONENUMBERPRIVATE TELEPHONENUMBERPRIVATE,
+&#x9;RPCUSTINSTBACKUP.TSCANCELLED TSCANCELLED,
+&#x9;RPCUSTINSTBACKUP.TSCHANGED TSCHANGED,
+&#x9;RPCUSTINSTBACKUP.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPCUSTINSTBACKUP.TSCREATED TSCREATED,
+&#x9;RPCUSTINSTBACKUP.TSEXPORTEDFA TSEXPORTEDFA,
+&#x9;RPCUSTINSTBACKUP.TSEXPORTEDFA2 TSEXPORTEDFA2,
+&#x9;RPCUSTINSTBACKUP.TSEXPORTEDFA3 TSEXPORTEDFA3,
+&#x9;RPCUSTINSTBACKUP.TSEXPORTEDFA4 TSEXPORTEDFA4,
+&#x9;RPCUSTINSTBACKUP.TSEXPORTEDTOEXTERNALCLAIMADM TSEXPORTEDTOEXTERNALCLAIMADM,
+&#x9;RPCUSTINSTBACKUP.TSSUBMITCHANGETOEXTERNALRELADM TSSUBMITCHANGETOEXTERNALRELADM,
+&#x9;RPCUSTINSTBACKUP.USECURRENTACCOUNTFORCLAIM USECURRENTACCOUNTFORCLAIM,
+&#x9;RPCUSTINSTBACKUP.USECURRENTACCOUNTFORPOLICY USECURRENTACCOUNTFORPOLICY,
+&#x9;RPCUSTINSTBACKUP.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCUSTINSTBACKUP.USERIDCREATED USERIDCREATED,
+&#x9;RPCUSTINSTBACKUP.VERSIONNUMBER VERSIONNUMBER 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCUSTINSTBACKUP RPCUSTINSTBACKUP</attribute>
+  <attribute name="creationDate" type="LONG">1664289287165</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCUSTINSTBACKUP&apos;.  On line 88, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289287165</attribute>
+</metadata>

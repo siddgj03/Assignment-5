@@ -1,0 +1,273 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCOUNTRY" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCOUNTRY" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ADDRESSLOOKUPTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDRESSSTORAGETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTCOUNTRYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKACCOUNTLOOKUPTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKACCOUNTSTORAGETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BOIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CODEISO3166PART1ALPHA2" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CODEISO3166PART1ALPHA3" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CODEISO3166PART3" nullable="true">
+      <datatype type="STRING" minLength="4" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERNATIONALCALLINGCODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISALLOWEDTODEDUCTVATPARTLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISBANKIDENTIFIERCODEMANDATORY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LENGTHIBAN" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LICENCEPLATECOUNTRYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REGISTRATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEASDOMESTIC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCOUNTRY" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ADDRESSLOOKUPTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ADDRESSSTORAGETYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSESSMENTCOUNTRYIDENTIFIER">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="BANKACCOUNTLOOKUPTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BANKACCOUNTSTORAGETYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BOIDENTIFIER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="CODEISO3166PART1ALPHA2">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="CODEISO3166PART1ALPHA3">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="CODEISO3166PART3">
+        <datatype type="STRING" minLength="4" maxLength="4"/>
+      </element>
+      <element name="COUNTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="INTERNATIONALCALLINGCODE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISALLOWEDTODEDUCTVATPARTLY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISBANKIDENTIFIERCODEMANDATORY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="LENGTHIBAN">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LICENCEPLATECOUNTRYIDENTIFIER">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="REGISTRATIONTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USEASDOMESTIC">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCOUNTRY.ADDRESSLOOKUPTYPEID ADDRESSLOOKUPTYPEID,
+&#x9;RPCOUNTRY.ADDRESSSTORAGETYPEID ADDRESSSTORAGETYPEID,
+&#x9;RPCOUNTRY.ASSESSMENTCOUNTRYIDENTIFIER ASSESSMENTCOUNTRYIDENTIFIER,
+&#x9;RPCOUNTRY.BANKACCOUNTLOOKUPTYPEID BANKACCOUNTLOOKUPTYPEID,
+&#x9;RPCOUNTRY.BANKACCOUNTSTORAGETYPEID BANKACCOUNTSTORAGETYPEID,
+&#x9;RPCOUNTRY.BOIDENTIFIER BOIDENTIFIER,
+&#x9;RPCOUNTRY.CODEISO3166PART1ALPHA2 CODEISO3166PART1ALPHA2,
+&#x9;RPCOUNTRY.CODEISO3166PART1ALPHA3 CODEISO3166PART1ALPHA3,
+&#x9;RPCOUNTRY.CODEISO3166PART3 CODEISO3166PART3,
+&#x9;RPCOUNTRY.COUNTRYID COUNTRYID,
+&#x9;RPCOUNTRY.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCOUNTRY.INTERNATIONALCALLINGCODE INTERNATIONALCALLINGCODE,
+&#x9;RPCOUNTRY.ISALLOWEDTODEDUCTVATPARTLY ISALLOWEDTODEDUCTVATPARTLY,
+&#x9;RPCOUNTRY.ISBANKIDENTIFIERCODEMANDATORY ISBANKIDENTIFIERCODEMANDATORY,
+&#x9;RPCOUNTRY.LENGTHIBAN LENGTHIBAN,
+&#x9;RPCOUNTRY.LICENCEPLATECOUNTRYIDENTIFIER LICENCEPLATECOUNTRYIDENTIFIER,
+&#x9;RPCOUNTRY.REGISTRATIONTYPEID REGISTRATIONTYPEID,
+&#x9;RPCOUNTRY.TSCHANGED TSCHANGED,
+&#x9;RPCOUNTRY.TSCREATED TSCREATED,
+&#x9;RPCOUNTRY.USEASDOMESTIC USEASDOMESTIC,
+&#x9;RPCOUNTRY.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCOUNTRY.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCOUNTRY RPCOUNTRY</attribute>
+  <attribute name="creationDate" type="LONG">1664293907930</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCOUNTRY&apos;.  On line 25, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293907930</attribute>
+</metadata>

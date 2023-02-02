@@ -1,0 +1,287 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCLAIMCHECKLISTITEM" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMCHECKLISTITEM" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AREACTIONSUNFOLDED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBECOMPLETEDAUTATFSTENTITY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELLEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHECKLISTDATEFORGUIDELINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHECKLISTENTITYTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMASSESSMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCHECKLISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCHECKLISTITEMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMPLETEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORGUIDELINE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTORDER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALREFERENCENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINANCIALTRANSFERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GUIDELINEFORCOMPLETION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOMPLETED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOMPLETEDAUTOMATICALLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCREATEDBYTRIGGEREXTINTERFACE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISONLYFORINTRANET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISSTATUSUPDATESENTTOCUSTOMER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRIORITYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMARK" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPAIRMESSAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDSTATUSUPDATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCANCELLED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCOMPLETED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMCHECKLISTITEM" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCLAIMCHECKLISTITEM.AREACTIONSUNFOLDED AREACTIONSUNFOLDED,
+&#x9;RPCLAIMCHECKLISTITEM.CANBECOMPLETEDAUTATFSTENTITY CANBECOMPLETEDAUTATFSTENTITY,
+&#x9;RPCLAIMCHECKLISTITEM.CANCELLEDBYLOGONUSERID CANCELLEDBYLOGONUSERID,
+&#x9;RPCLAIMCHECKLISTITEM.CHECKLISTDATEFORGUIDELINEID CHECKLISTDATEFORGUIDELINEID,
+&#x9;RPCLAIMCHECKLISTITEM.CHECKLISTENTITYTYPEID CHECKLISTENTITYTYPEID,
+&#x9;RPCLAIMCHECKLISTITEM.CLAIMASSESSMENTID CLAIMASSESSMENTID,
+&#x9;RPCLAIMCHECKLISTITEM.CLAIMCHECKLISTID CLAIMCHECKLISTID,
+&#x9;RPCLAIMCHECKLISTITEM.CLAIMCHECKLISTITEMID CLAIMCHECKLISTITEMID,
+&#x9;RPCLAIMCHECKLISTITEM.CLAIMID CLAIMID,
+&#x9;RPCLAIMCHECKLISTITEM.COMPLETEDBYLOGONUSERID COMPLETEDBYLOGONUSERID,
+&#x9;RPCLAIMCHECKLISTITEM.DATEFORGUIDELINE DATEFORGUIDELINE,
+&#x9;RPCLAIMCHECKLISTITEM.DEFAULTORDER DEFAULTORDER,
+&#x9;RPCLAIMCHECKLISTITEM.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCLAIMCHECKLISTITEM.EXTERNALREFERENCENUMBER EXTERNALREFERENCENUMBER,
+&#x9;RPCLAIMCHECKLISTITEM.FINANCIALTRANSFERID FINANCIALTRANSFERID,
+&#x9;RPCLAIMCHECKLISTITEM.GUIDELINEFORCOMPLETION GUIDELINEFORCOMPLETION,
+&#x9;RPCLAIMCHECKLISTITEM.ISCANCELLED ISCANCELLED,
+&#x9;RPCLAIMCHECKLISTITEM.ISCOMPLETED ISCOMPLETED,
+&#x9;RPCLAIMCHECKLISTITEM.ISCOMPLETEDAUTOMATICALLY ISCOMPLETEDAUTOMATICALLY,
+&#x9;RPCLAIMCHECKLISTITEM.ISCREATEDBYTRIGGEREXTINTERFACE ISCREATEDBYTRIGGEREXTINTERFACE,
+&#x9;RPCLAIMCHECKLISTITEM.ISONLYFORINTRANET ISONLYFORINTRANET,
+&#x9;RPCLAIMCHECKLISTITEM.ISSTATUSUPDATESENTTOCUSTOMER ISSTATUSUPDATESENTTOCUSTOMER,
+&#x9;RPCLAIMCHECKLISTITEM.PRIORITYID PRIORITYID,
+&#x9;RPCLAIMCHECKLISTITEM.REMARK REMARK,
+&#x9;RPCLAIMCHECKLISTITEM.REPAIRMESSAGEID REPAIRMESSAGEID,
+&#x9;RPCLAIMCHECKLISTITEM.SENDSTATUSUPDATE SENDSTATUSUPDATE,
+&#x9;RPCLAIMCHECKLISTITEM.TSCANCELLED TSCANCELLED,
+&#x9;RPCLAIMCHECKLISTITEM.TSCHANGED TSCHANGED,
+&#x9;RPCLAIMCHECKLISTITEM.TSCOMPLETED TSCOMPLETED,
+&#x9;RPCLAIMCHECKLISTITEM.TSCREATED TSCREATED,
+&#x9;RPCLAIMCHECKLISTITEM.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCLAIMCHECKLISTITEM.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMCHECKLISTITEM RPCLAIMCHECKLISTITEM</attribute>
+  <attribute name="creationDate" type="LONG">1664289149569</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMCHECKLISTITEM&apos;.  On line 35, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289149569</attribute>
+</metadata>

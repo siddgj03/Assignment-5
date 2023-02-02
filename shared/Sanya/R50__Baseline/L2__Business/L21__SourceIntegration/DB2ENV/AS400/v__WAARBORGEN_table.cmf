@@ -1,0 +1,291 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_WAARBORGEN" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_WAARBORGEN" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="Branche" nullable="true">
+      <datatype type="DECIMAL" maxDigits="2" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Sub_br" nullable="true">
+      <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Policy" nullable="true">
+      <datatype type="STRING" minLength="7" maxLength="7"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Platform" nullable="true">
+      <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Polisnummer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypePolis" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Kanaal" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypeWaarborg" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="12" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BegindatumWaarborg" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EinddatumWaarborg" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BedragWaarborg" nullable="true">
+      <datatype type="DECIMAL" maxDigits="21" maxFractionalDigits="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PremieWaarborg" nullable="true">
+      <datatype type="DECIMAL" maxDigits="35" maxFractionalDigits="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DLIFECPDPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/LIGRGI1PF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/LIGUAR1PF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/LISCDE1PF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_DLVINV" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_LAST_ENDORS2" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_MAXDAFROM" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLENDPPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLFUNDPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLICY" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RISICOPREMIE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_VINVUL" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">select a.branche as Branche,
+&#x9;&#x9;a.sub_br as Sub_br,
+&#x9;&#x9;a.policy as Policy,
+&#x9;&#x9;&apos;AS400&apos; as Platform,
+&#x9;&#x9;a.Polisnummer as Polisnummer,
+&#x9;&#x9;a.TypePolis as TypePolis,
+&#x9;&#x9;a.Kanaal as Kanaal,
+&#x9;&#x9;&apos;PensioenT21&apos; as TypeWaarborg,
+&#x9;&#x9;dastart as BegindatumWaarborg, --put(year(a.dastart),z4.0)||&apos;-&apos;||put(month(a.dastart),z2.0)||&apos;-&apos;||put(day(a.dastart),z2.0) as BegindatumWaarborg,
+&#x9;&#x9;end_d as EinddatumWaarborg,-- put(year(a.end_d),z4.0)||&apos;-&apos;||put(month(a.end_d),z2.0)||&apos;-&apos;||put(day(a.end_d),z2.0) as EinddatumWaarborg,
+&#x9;&#x9;b.ReserveT21 as BedragWaarborg,
+&#x9;&#x9;case when d.Pct23 is null then c.TheorJP
+&#x9;&#x9;else (1-d.Pct23*0.01)*c.TheorJP end as PremieWaarborg
+&#x9;&#x9;&#x9;
+from /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLICY a 
+inner join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_VINVUL b
+&#x9;on a.branche = b.branche and a.policy = b.policy
+left join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLENDPPF c 
+&#x9;on (a.branche = c.branche and a.policy = c.policy)
+left join  /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLFUNDPF d 
+&#x9;on (a.branche = d.branche and a.policy = d.policy) 
+where c.sub_vent = 1
+
+UNION ALL
+/* Tak 23 Pensioen*/
+select a.branche as Branche,
+&#x9;   a.sub_br as Sub_br,
+&#x9;   a.policy as Policy,
+&#x9;   &apos;AS400&apos; as Platform,
+&#x9;   a.Polisnummer as Polisnummer,
+&#x9;   a.TypePolis as TypePolis,
+&#x9;   a.Kanaal as Kanaal,
+&#x9;   &apos;PensioenT23&apos; as TypeWaarborg,
+&#x9;   a.dastart as BegindatumWaarborg,-- put(year(a.dastart),z4.0)||&apos;-&apos;||put(month(a.dastart),z2.0)||&apos;-&apos;||put(day(a.dastart),z2.0) as BegindatumWaarborg,
+&#x9;   a.end_d as EinddatumWaarborg,--put(year(a.end_d),z4.0)||&apos;-&apos;||put(month(a.end_d),z2.0)||&apos;-&apos;||put(day(a.end_d),z2.0) as EinddatumWaarborg,
+&#x9;   b.ReserveT23 as BedragWaarborg,
+&#x9;   case when d.Pct23 is null then 0 else d.Pct23*0.01*c.TheorJP end as PremieWaarborg
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+from /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLICY a 
+inner join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_DLVINV b 
+&#x9;on a.branche = b.branche and a.policy = b.policy
+left join  /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLENDPPF c 
+&#x9;on (a.branche = c.branche and a.policy = c.policy)
+left join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLFUNDPF d 
+&#x9;on (a.branche = d.branche and a.policy = d.policy) &#x9;
+where c.sub_vent = 1
+    
+UNION ALL
+/*Overlijden*/
+select a.branche as Branche,
+&#x9;   a.sub_br as Sub_br,
+&#x9;   a.policy as Policy,
+&#x9;   &apos;AS400&apos; as Platform,
+&#x9;   a.Polisnummer as Polisnummer,
+&#x9;   a.TypePolis as TypePolis,
+&#x9;   a.Kanaal as Kanaal,
+&#x9;   &apos;OverlijdenFC&apos; as TypeWaarborg,
+&#x9;   g.dastart as BegindatumWaarborg,&#x9;--put(year(g.dastart),z4.0)||&apos;-&apos;||put(month(g.dastart),z2.0)||&apos;-&apos;||put(day(g.dastart),z2.0) as BegindatumWaarborg,
+&#x9;   g.daend as EinddatumWaarborg,    --put(year(g.daend),z4.0)||&apos;-&apos;||put(month(g.daend),z2.0)||&apos;-&apos;||put(day(g.daend),z2.0) as EinddatumWaarborg,
+&#x9;   b.fix_capd as BedragWaarborg,
+&#x9;   case when d.Riskpremium is null then 0 
+&#x9;   else d.Riskpremium end as PremieWaarborg
+&#x9;&#x9;&#x9;
+from /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLICY a
+inner join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_LAST_ENDORS2 c
+&#x9;on a.branche = c.branche and a.policy = c.policy
+inner join /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/LIGUAR1PF g
+&#x9;on a.branche = g.cobranch and a.policy = g.nrpolicy and g.nrendors = c.pol_zz04
+inner join /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DLIFECPDPF b
+&#x9;on a.branche = b.branche and a.policy = b.policy and b.endors = c.pol_xx
+left join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RISICOPREMIE d 
+&#x9;on (a.branche = d.branche and a.policy = d.policy)
+where g.coguarnt = &apos;DI1&apos; and b.guar_dec = &apos;FC&apos; and g.daend &gt; (CURRENT_DATE + (-DAY(CURRENT_DATE)))
+
+UNION ALL
+  
+/*Overlijden Flex Sched*/
+select a.branche as Branche,
+&#x9;   a.sub_br as Sub_br,
+&#x9;   a.policy as Policy,
+&#x9;   &apos;AS400&apos; as Platform,
+&#x9;   a.Polisnummer as Polisnummer,
+&#x9;   a.TypePolis as TypePolis,
+&#x9;   a.Kanaal as Kanaal,
+&#x9;   &apos;OverlijdenFS&apos; as TypeWaarborg,
+&#x9;   g.dastart as BegindatumWaarborg,--put(year(g.dastart),z4.0)||&apos;-&apos;||put(month(g.dastart),z2.0)||&apos;-&apos;||put(day(g.dastart),z2.0) as BegindatumWaarborg,
+&#x9;   g.daend as EinddatumWaarborg, -- put(year(g.daend),z4.0)||&apos;-&apos;||put(month(g.daend),z2.0)||&apos;-&apos;||put(day(g.daend),z2.0) as EinddatumWaarborg,
+&#x9;   e.amflex as BedragWaarborg,
+&#x9;   case when d.Riskpremium is null then 0 
+&#x9;   else d.Riskpremium end as PremieWaarborg
+&#x9;&#x9;&#x9;
+from /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLICY a 
+inner join /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DLIFECPDPF b 
+&#x9;on a.branche = b.branche and a.policy = b.policy
+inner join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_LAST_ENDORS2 c
+&#x9;on b.endors = c.pol_xx and b.branche = c.branche and b.policy = c.policy
+inner join /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/LISCDE1PF e
+&#x9;on a.branche = e.cobranch and a.policy = e.nrpolicy and e.nrendors = c.pol_zz08
+inner join /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/LIGUAR1PF g
+&#x9;on a.branche = g.cobranch and a.policy = g.nrpolicy and g.nrendors = c.pol_zz04
+inner join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_MAXDAFROM m
+&#x9;on e.dafrom = m.maxdf and a.polisnummer = m.polisnummer
+left join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RISICOPREMIE d 
+&#x9;on (a.branche = d.branche and a.policy = d.policy) 
+where g.coguarnt = &apos;DI1&apos; and g.daend &gt; (CURRENT_DATE + (-DAY(CURRENT_DATE))) and b.guar_dec = &apos;FS&apos;
+
+UNION ALL
+/* Gewaarborgd Inkomen*/
+select a.branche as Branche,
+&#x9;   a.sub_br as Sub_br,
+&#x9;   a.policy as Policy,
+&#x9;   &apos;AS400&apos; as Platform,
+&#x9;   a.Polisnummer as Polisnummer,
+&#x9;   a.TypePolis as TypePolis,
+&#x9;   a.Kanaal as Kanaal,
+&#x9;   &apos;GI&apos; as TypeWaarborg,
+&#x9;   g.dastart as BegindatumWaarborg,--put(year(g.dastart),z4.0)||&apos;-&apos;||put(month(g.dastart),z2.0)||&apos;-&apos;||put(day(g.dastart),z2.0) as BegindatumWaarborg,
+&#x9;   g.daend as EinddatumWaarborg,--put(year(g.daend),z4.0)||&apos;-&apos;||put(month(g.daend),z2.0)||&apos;-&apos;||put(day(g.daend),z2.0) as EinddatumWaarborg,
+&#x9;   h.AMGI as BedragWaarborg,
+&#x9;   case when b.TheorJP is null then 0 
+&#x9;   else b.TheorJP end as PremieWaarborg
+&#x9;&#x9;&#x9;
+from /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLICY a
+inner join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_LAST_ENDORS2 c
+&#x9;on a.branche = c.branche and a.policy = c.policy
+inner join /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/LIGUAR1PF g
+&#x9;on a.branche = g.cobranch and a.policy = g.nrpolicy and c.pol_zz04 = g.nrendors
+inner join /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/LIGRGI1PF h
+&#x9;on a.branche = h.cobranch and a.policy = h.nrpolicy and c.pol_zz04 = h.nrendors
+left join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLENDPPF b 
+&#x9;on (a.branche = b.branche and a.policy = b.policy and b.sub_vent = 40) 
+where g.cosbvent = 40
+
+UNION ALL
+/*Premievrijstelling*/
+select a.branche as Branche,
+&#x9;   a.sub_br as Sub_br,
+&#x9;   a.policy as Policy,
+&#x9;   &apos;AS400&apos; as Platform,
+&#x9;   a.Polisnummer as Polisnummer,
+&#x9;   a.TypePolis as TypePolis,
+&#x9;   a.Kanaal as Kanaal,
+&#x9;   &apos;PV&apos; as TypeWaarborg,
+&#x9;   g.dastart as BegindatumWaarborg,--put(year(g.dastart),z4.0)||&apos;-&apos;||put(month(g.dastart),z2.0)||&apos;-&apos;||put(day(g.dastart),z2.0) as BegindatumWaarborg,
+&#x9;   g.daend as EinddatumWaarborg,-- put(year(g.daend),z4.0)||&apos;-&apos;||put(month(g.daend),z2.0)||&apos;-&apos;||put(day(g.daend),z2.0) as EinddatumWaarborg,
+&#x9;   h.TheorJP as BedragWaarborg,
+&#x9;   case when b.TheorJP is null then 0 
+&#x9;   else b.TheorJP end as PremieWaarborg
+&#x9;&#x9;&#x9;
+from /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLICY a 
+inner join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_LAST_ENDORS2 c
+&#x9;on a.branche = c.branche and a.policy = c.policy
+inner join /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/LIGUAR1PF g
+&#x9;on a.branche = g.cobranch and a.policy = g.nrpolicy and c.pol_zz04 = g.nrendors
+inner join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLENDPPF h
+&#x9;on a.branche = h.branche and a.policy = h.policy
+left join /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_POLENDPPF b 
+&#x9;on (a.branche = b.branche and a.policy = b.policy and b.sub_vent = 41)
+where g.cosbvent = 41 and h.sub_vent = 1</attribute>
+  <attribute name="creationDate" type="LONG">1652796160098</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/LIGUAR1PF&apos;.  On line 67, column 12.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1671633231454</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1652796160098</attribute>
+</metadata>

@@ -1,0 +1,460 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPEXTERNALPOLICY" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPEXTERNALPOLICY" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AGREEMENTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELASTCHANGEDEXTERNALSYSTEM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEOFBIRTH" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYSTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER_UPPER" nullable="true">
+      <datatype type="STRING" maxLength="90"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALINSURANCECOMPANY" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALPOLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALSYSTEMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FIRSTNAME" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GENDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HOUSENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HOUSENUMBEREXTENSION" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INITIALS" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INSERTION" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCLAIMALLOWED" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFORCUSTOMEROVERVIEW" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NAME" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYDETAILS" nullable="true">
+      <datatype type="BLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYIDENTIFICATIONMARK" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTNAME" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SOURCEDETAILS" nullable="true">
+      <datatype type="BLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STREETNAME" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPEXTERNALPOLICY" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="AGREEMENTIDENTIFIER">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="BANKACCOUNTNUMBER">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="CITY">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="CUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CUSTOMERIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="DATELASTCHANGEDEXTERNALSYSTEM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEOFBIRTH">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPOLICYEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPOLICYSTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EMAILADDRESS">
+        <datatype type="STRING" maxLength="320"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER_UPPER">
+        <datatype type="STRING" maxLength="90"/>
+      </element>
+      <element name="EXTERNALINSURANCECOMPANY">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="EXTERNALPOLICYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALSYSTEMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="FIRSTNAME">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="GENDER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HOUSENUMBER">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="HOUSENUMBEREXTENSION">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="INITIALS">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="INSERTION">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="INTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISCLAIMALLOWED">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="ISFORCUSTOMEROVERVIEW">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="JOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NAME">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="POLICYDETAILS">
+        <datatype type="BLOB" maxLength="2147483647"/>
+      </element>
+      <element name="POLICYIDENTIFICATIONMARK">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="POLICYIDENTIFIER">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="POSTALCODE">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="PRODUCTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODUCTNAME">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="SOURCEDETAILS">
+        <datatype type="BLOB" maxLength="2147483647"/>
+      </element>
+      <element name="STREETNAME">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPEXTERNALPOLICY.AGREEMENTIDENTIFIER AGREEMENTIDENTIFIER,
+&#x9;RPEXTERNALPOLICY.BANKACCOUNTNUMBER BANKACCOUNTNUMBER,
+&#x9;RPEXTERNALPOLICY.CITY CITY,
+&#x9;RPEXTERNALPOLICY.CUSTOMERID CUSTOMERID,
+&#x9;RPEXTERNALPOLICY.CUSTOMERIDENTIFIER CUSTOMERIDENTIFIER,
+&#x9;RPEXTERNALPOLICY.DATELASTCHANGEDEXTERNALSYSTEM DATELASTCHANGEDEXTERNALSYSTEM,
+&#x9;RPEXTERNALPOLICY.DATEOFBIRTH DATEOFBIRTH,
+&#x9;RPEXTERNALPOLICY.DATEPOLICYEND DATEPOLICYEND,
+&#x9;RPEXTERNALPOLICY.DATEPOLICYSTART DATEPOLICYSTART,
+&#x9;RPEXTERNALPOLICY.EMAILADDRESS EMAILADDRESS,
+&#x9;RPEXTERNALPOLICY.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPEXTERNALPOLICY.EXTERNALIDENTIFIER_UPPER EXTERNALIDENTIFIER_UPPER,
+&#x9;RPEXTERNALPOLICY.EXTERNALINSURANCECOMPANY EXTERNALINSURANCECOMPANY,
+&#x9;RPEXTERNALPOLICY.EXTERNALPOLICYID EXTERNALPOLICYID,
+&#x9;RPEXTERNALPOLICY.EXTERNALSYSTEMID EXTERNALSYSTEMID,
+&#x9;RPEXTERNALPOLICY.FIRSTNAME FIRSTNAME,
+&#x9;RPEXTERNALPOLICY.GENDER GENDER,
+&#x9;RPEXTERNALPOLICY.HOUSENUMBER HOUSENUMBER,
+&#x9;RPEXTERNALPOLICY.HOUSENUMBEREXTENSION HOUSENUMBEREXTENSION,
+&#x9;RPEXTERNALPOLICY.INITIALS INITIALS,
+&#x9;RPEXTERNALPOLICY.INSERTION INSERTION,
+&#x9;RPEXTERNALPOLICY.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPEXTERNALPOLICY.ISCLAIMALLOWED ISCLAIMALLOWED,
+&#x9;RPEXTERNALPOLICY.ISFORCUSTOMEROVERVIEW ISFORCUSTOMEROVERVIEW,
+&#x9;RPEXTERNALPOLICY.JOBID JOBID,
+&#x9;RPEXTERNALPOLICY.&quot;NAME&quot; &quot;NAME&quot;,
+&#x9;RPEXTERNALPOLICY.POLICYDETAILS POLICYDETAILS,
+&#x9;RPEXTERNALPOLICY.POLICYIDENTIFICATIONMARK POLICYIDENTIFICATIONMARK,
+&#x9;RPEXTERNALPOLICY.POLICYIDENTIFIER POLICYIDENTIFIER,
+&#x9;RPEXTERNALPOLICY.POSTALCODE POSTALCODE,
+&#x9;RPEXTERNALPOLICY.PRODUCTID PRODUCTID,
+&#x9;RPEXTERNALPOLICY.PRODUCTNAME PRODUCTNAME,
+&#x9;RPEXTERNALPOLICY.SOURCEDETAILS SOURCEDETAILS,
+&#x9;RPEXTERNALPOLICY.STREETNAME STREETNAME,
+&#x9;RPEXTERNALPOLICY.TSCHANGED TSCHANGED,
+&#x9;RPEXTERNALPOLICY.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPEXTERNALPOLICY.TSCREATED TSCREATED,
+&#x9;RPEXTERNALPOLICY.USERIDCHANGED USERIDCHANGED,
+&#x9;RPEXTERNALPOLICY.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPEXTERNALPOLICY RPEXTERNALPOLICY</attribute>
+  <attribute name="creationDate" type="LONG">1664294064579</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPEXTERNALPOLICY&apos;.  On line 42, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294064579</attribute>
+</metadata>

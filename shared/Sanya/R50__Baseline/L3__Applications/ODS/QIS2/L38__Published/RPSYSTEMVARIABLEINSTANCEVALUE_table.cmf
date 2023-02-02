@@ -1,0 +1,416 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPSYSTEMVARIABLEINSTANCEVALUE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPSYSTEMVARIABLEINSTANCEVALUE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="DIMENSION1ALPHANUMERICVALUE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION1ALPHANUMERICVALUEFORSEARCH" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION1VALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION1VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION2ALPHANUMERICVALUE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION2ALPHANUMERICVALUEFORSEARCH" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION2VALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION2VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION3ALPHANUMERICVALUE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION3ALPHANUMERICVALUEFORSEARCH" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION3VALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION3VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION4ALPHANUMERICVALUE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION4ALPHANUMERICVALUEFORSEARCH" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION4VALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION4VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION5ALPHANUMERICVALUE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION5ALPHANUMERICVALUEFORSEARCH" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION5VALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION5VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION6ALPHANUMERICVALUE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION6ALPHANUMERICVALUEFORSEARCH" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION6VALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIMENSION6VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMARKS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SYSTEMVARIABLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SYSTEMVARIABLEINSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SYSTEMVARIABLEINSTVALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUE" nullable="true">
+      <datatype type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPSYSTEMVARIABLEINSTANCEVALUE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="DIMENSION1ALPHANUMERICVALUE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="DIMENSION1ALPHANUMERICVALUEFORSEARCH">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="DIMENSION1VALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION1VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION2ALPHANUMERICVALUE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="DIMENSION2ALPHANUMERICVALUEFORSEARCH">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="DIMENSION2VALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION2VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION3ALPHANUMERICVALUE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="DIMENSION3ALPHANUMERICVALUEFORSEARCH">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="DIMENSION3VALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION3VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION4ALPHANUMERICVALUE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="DIMENSION4ALPHANUMERICVALUEFORSEARCH">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="DIMENSION4VALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION4VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION5ALPHANUMERICVALUE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="DIMENSION5ALPHANUMERICVALUEFORSEARCH">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="DIMENSION5VALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION5VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION6ALPHANUMERICVALUE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="DIMENSION6ALPHANUMERICVALUEFORSEARCH">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="DIMENSION6VALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DIMENSION6VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REMARKS">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="SYSTEMVARIABLEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SYSTEMVARIABLEINSTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SYSTEMVARIABLEINSTVALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="VALUE">
+        <datatype type="STRING" maxLength="4000"/>
+      </element>
+      <element name="VALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION1ALPHANUMERICVALUE DIMENSION1ALPHANUMERICVALUE,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION1ALPHANUMERICVALUEFORSEARCH DIMENSION1ALPHANUMERICVALUEFORSEARCH,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION1VALUEID DIMENSION1VALUEID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION1VALUELISTID DIMENSION1VALUELISTID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION2ALPHANUMERICVALUE DIMENSION2ALPHANUMERICVALUE,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION2ALPHANUMERICVALUEFORSEARCH DIMENSION2ALPHANUMERICVALUEFORSEARCH,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION2VALUEID DIMENSION2VALUEID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION2VALUELISTID DIMENSION2VALUELISTID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION3ALPHANUMERICVALUE DIMENSION3ALPHANUMERICVALUE,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION3ALPHANUMERICVALUEFORSEARCH DIMENSION3ALPHANUMERICVALUEFORSEARCH,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION3VALUEID DIMENSION3VALUEID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION3VALUELISTID DIMENSION3VALUELISTID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION4ALPHANUMERICVALUE DIMENSION4ALPHANUMERICVALUE,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION4ALPHANUMERICVALUEFORSEARCH DIMENSION4ALPHANUMERICVALUEFORSEARCH,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION4VALUEID DIMENSION4VALUEID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION4VALUELISTID DIMENSION4VALUELISTID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION5ALPHANUMERICVALUE DIMENSION5ALPHANUMERICVALUE,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION5ALPHANUMERICVALUEFORSEARCH DIMENSION5ALPHANUMERICVALUEFORSEARCH,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION5VALUEID DIMENSION5VALUEID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION5VALUELISTID DIMENSION5VALUELISTID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION6ALPHANUMERICVALUE DIMENSION6ALPHANUMERICVALUE,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION6ALPHANUMERICVALUEFORSEARCH DIMENSION6ALPHANUMERICVALUEFORSEARCH,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION6VALUEID DIMENSION6VALUEID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.DIMENSION6VALUELISTID DIMENSION6VALUELISTID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.REMARKS REMARKS,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.SYSTEMVARIABLEID SYSTEMVARIABLEID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.SYSTEMVARIABLEINSTID SYSTEMVARIABLEINSTID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.SYSTEMVARIABLEINSTVALUEID SYSTEMVARIABLEINSTVALUEID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.TSCHANGED TSCHANGED,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.TSCREATED TSCREATED,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.USERIDCREATED USERIDCREATED,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.&quot;VALUE&quot; &quot;VALUE&quot;,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.VALUEID VALUEID,
+&#x9;RPSYSTEMVARIABLEINSTANCEVALUE.VALUELISTID VALUELISTID 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPSYSTEMVARIABLEINSTANCEVALUE RPSYSTEMVARIABLEINSTANCEVALUE</attribute>
+  <attribute name="creationDate" type="LONG">1664294983583</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPSYSTEMVARIABLEINSTANCEVALUE&apos;.  On line 38, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294983583</attribute>
+</metadata>

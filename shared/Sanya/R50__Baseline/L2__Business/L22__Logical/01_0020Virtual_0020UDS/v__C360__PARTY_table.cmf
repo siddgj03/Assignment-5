@@ -1,0 +1,291 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_C360_PARTY" path="/shared/Sanya/R50_Baseline/L2_Business/L22_Logical/01 Virtual UDS/v_C360_PARTY" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CUSTOMER_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ACTOR_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="FIRST_NM" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="NAME" nullable="true">
+      <datatype type="STRING" maxLength="600"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PARTY_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BIRTH_DT" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LFTD_PSI" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="GENDER_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ADDRESS_LINE_1" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ADDRESS_LINE_2" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ADDRESS_LINE_3" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POSTAL_CD" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="REGION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COUNTRY_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EMAIL" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LANGUAGE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LANGUAGE_DESC" nullable="true">
+      <datatype type="STRING" minLength="5" maxLength="7" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="NIS_SECTOR_CD" nullable="true">
+      <datatype type="STRING" maxLength="36"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SEGMENT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPANY_REGISTRATION_NO" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="NATURE_OF_BUSINESS_CD" nullable="true">
+      <datatype type="STRING" maxLength="28"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ORG_LEGAL_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PSKSES_SEGMENT_CD" nullable="true">
+      <datatype type="STRING" maxLength="32"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PSKSEI_SEGMENT_CD" nullable="true">
+      <datatype type="STRING" maxLength="32"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PSKSEB_SEGMENT_CD" nullable="true">
+      <datatype type="STRING" maxLength="32"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CAR_INS_IND_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="FIRE_INS_IND_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="FAMILY_INS_IND_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DEATH_INS_IND_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ExpectedPremium2021" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ExpectedPremium2022" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ExpectedPremium2023" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SumClaimsCostOpen" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="REPORTING_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/services/databases/UDS/UDS/D_PTY_PARTY_EXT" type="LINK">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_TR_REF_DESCRIPTION" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/UDS/UDS/v_C360_KPI" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/UDS/UDS/v_D_PTY_CUSTOMER_EXT" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT DISTINCT
+
+&#x9;P.PARTY_ID AS CUSTOMER_ID,
+&#x9;P.ACTOR_ID,
+    FIRST_NM, 
+    NAME, 
+    PARTY_TYPE_CD,  
+&#x9;BIRTH_DT_YYYYMMDD as BIRTH_DT,
+&#x9;LFTD_PSI,
+&#x9;GENDER_CD,
+&#x9;ADDRESS_LINE_1,
+&#x9;ADDRESS_LINE_2,
+&#x9;ADDRESS_LINE_3,
+&#x9;POSTAL_CD,
+&#x9;REGION,
+&#x9;COUNTRY_CD,
+&#x9;EMAIL,
+&#x9;LANGUAGE_CD,
+&#x9;LANGUAGE_DESC,
+&#x9;NIS_SECTOR_CD,
+&#x9;REF.ENGLISH AS SEGMENT_DESC,
+    P.COMPANY_REGISTRATION_NO,
+&#x9;NATURE_OF_BUSINESS_CD,
+&#x9;ORG_LEGAL_TYPE_CD,
+&#x9;CUST.PSKSES_SEGMENT_CD,
+&#x9;CUST.PSKSEI_SEGMENT_CD,
+&#x9;CUST.PSKSEB_SEGMENT_CD,
+&#x9;CAR_INS_IND_CD,
+&#x9;FIRE_INS_IND_CD,
+&#x9;FAMILY_INS_IND_CD,
+&#x9;DEATH_INS_IND_CD,
+&#x9;KPI.ExpectedPremium2021,
+&#x9;KPI.ExpectedPremium2022,
+&#x9;KPI.ExpectedPremium2023,
+&#x9;KPI.SumClaimsCostOpen,
+&#x9;KPI.REPORTING_DATE
+
+FROM /services/databases/UDS/UDS/D_PTY_PARTY_EXT as P
+LEFT JOIN (SELECT ENGLISH,CODE_VALUE,COLUMN_NM 
+&#x9;&#x9;&#x9;FROM /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_TR_REF_DESCRIPTION) as REF
+&#x9;ON REF.CODE_VALUE = SEGMENT_CD
+LEFT JOIN /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/UDS/UDS/v_D_PTY_CUSTOMER_EXT as CUST
+&#x9;on P.PARTY_ID=CUST.PARTY_ID
+LEFT JOIN /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/UDS/UDS/v_C360_KPI as KPI
+&#x9;on P.PARTY_ID=KPI.CUSTOMER_ID
+WHERE REF.COLUMN_NM = &apos;SEGMENT_CD&apos; and P.CURRENT_IND=1
+
+
+</attribute>
+  <attribute name="cacheLastTracking" type="STRING">/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/CACHE_TRACKING</attribute>
+  <attribute name="creationDate" type="LONG">1644155564454</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/services/databases/UDS/UDS/D_PTY_PARTY_EXT&apos;.  On line 38, column 6.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1668413964154</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1644155564454</attribute>
+</metadata>

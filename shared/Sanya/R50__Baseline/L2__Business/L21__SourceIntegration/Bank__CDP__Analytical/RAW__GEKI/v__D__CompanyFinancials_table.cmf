@@ -1,0 +1,99 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_D_CompanyFinancials" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/Bank_CDP_Analytical/RAW_GEKI/v_D_CompanyFinancials" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="COMPANY_REGISTRATION_NO" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BALANCE_YR" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="GROSS_SALARY" nullable="true">
+      <datatype type="DECIMAL" maxDigits="18" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TOTAL_ASSETS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="18" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EQUITY" nullable="true">
+      <datatype type="DECIMAL" maxDigits="18" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="REVENUE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="18" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CLOSE_ACC_PERIOD_YM" nullable="true">
+      <datatype type="STRING" maxLength="6"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/Bank_CDP_Analytical/RAW_GEKI/v_FinancialIndicators_KIRUACAD" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="NR_KBOE_020BENT">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="DY_EXERC_020ACNT">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="CO_RUBR_020CRUB">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+      <element name="AM_RUB_020RUAC">
+        <datatype type="DECIMAL" maxDigits="18" maxFractionalDigits="0"/>
+      </element>
+      <element name="YM_CLOT_020ACNT">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT
+
+NR_KBOE_020BENT AS COMPANY_REGISTRATION_NO,
+MAX(DY_EXERC_020ACNT) AS BALANCE_YR,
+MAX(CASE WHEN CO_RUBR_020CRUB = &apos;000062&apos; THEN AM_RUB_020RUAC END) AS GROSS_SALARY,
+MAX(CASE WHEN CO_RUBR_020CRUB = &apos;002058&apos; THEN AM_RUB_020RUAC END) AS TOTAL_ASSETS,
+MAX(CASE WHEN CO_RUBR_020CRUB = &apos;001015&apos; THEN AM_RUB_020RUAC END) AS EQUITY,
+MAX(CASE WHEN CO_RUBR_020CRUB = &apos;000070&apos; THEN AM_RUB_020RUAC END) AS REVENUE,
+MAX(YM_CLOT_020ACNT) as CLOSE_ACC_PERIOD_YM
+
+
+FROM /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/Bank_CDP_Analytical/RAW_GEKI/v_FinancialIndicators_KIRUACAD
+GROUP BY NR_KBOE_020BENT</attribute>
+  <attribute name="creationDate" type="LONG">1644414589739</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/Bank_CDP_Analytical/RAW_GEKI/KIRUACAD&apos;.  On line 4, column 5.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1648045850927</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1644414589739</attribute>
+</metadata>

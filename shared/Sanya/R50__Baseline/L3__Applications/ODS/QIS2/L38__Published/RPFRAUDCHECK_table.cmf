@@ -1,0 +1,207 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPFRAUDCHECK" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPFRAUDCHECK" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CONTROLPARAMFORFRAUDAUDIT" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXECUTEDLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALLOGEVENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FEEDBACKINDICATOR" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FRAUDCHECKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FRAUDCHECKIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FRAUDCHECKTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASFRAUDMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="QISSTATUS" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTMESSAGEFRAUDCHECK" nullable="true">
+      <datatype type="STRING" maxLength="500"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFEEDBACK" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTEDFEEDBACK" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPFRAUDCHECK" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CONTROLPARAMFORFRAUDAUDIT">
+        <datatype type="STRING" maxLength="254"/>
+      </element>
+      <element name="EXECUTEDLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALLOGEVENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="FEEDBACKINDICATOR">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="FRAUDCHECKID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="FRAUDCHECKIDENTIFIER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="FRAUDCHECKTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HASFRAUDMESSAGES">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="QISSTATUS">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="TEXTMESSAGEFRAUDCHECK">
+        <datatype type="STRING" maxLength="500"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFEEDBACK">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSEXPORTEDFEEDBACK">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPFRAUDCHECK.CONTROLPARAMFORFRAUDAUDIT CONTROLPARAMFORFRAUDAUDIT,
+&#x9;RPFRAUDCHECK.EXECUTEDLOGONUSERID EXECUTEDLOGONUSERID,
+&#x9;RPFRAUDCHECK.EXTERNALLOGEVENTID EXTERNALLOGEVENTID,
+&#x9;RPFRAUDCHECK.FEEDBACKINDICATOR FEEDBACKINDICATOR,
+&#x9;RPFRAUDCHECK.FRAUDCHECKID FRAUDCHECKID,
+&#x9;RPFRAUDCHECK.FRAUDCHECKIDENTIFIER FRAUDCHECKIDENTIFIER,
+&#x9;RPFRAUDCHECK.FRAUDCHECKTYPEID FRAUDCHECKTYPEID,
+&#x9;RPFRAUDCHECK.HASFRAUDMESSAGES HASFRAUDMESSAGES,
+&#x9;RPFRAUDCHECK.QISSTATUS QISSTATUS,
+&#x9;RPFRAUDCHECK.TEXTMESSAGEFRAUDCHECK TEXTMESSAGEFRAUDCHECK,
+&#x9;RPFRAUDCHECK.TSCHANGED TSCHANGED,
+&#x9;RPFRAUDCHECK.TSCHANGEDFEEDBACK TSCHANGEDFEEDBACK,
+&#x9;RPFRAUDCHECK.TSCREATED TSCREATED,
+&#x9;RPFRAUDCHECK.TSEXPORTEDFEEDBACK TSEXPORTEDFEEDBACK,
+&#x9;RPFRAUDCHECK.USERIDCHANGED USERIDCHANGED,
+&#x9;RPFRAUDCHECK.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPFRAUDCHECK RPFRAUDCHECK</attribute>
+  <attribute name="creationDate" type="LONG">1664294219566</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFRAUDCHECK&apos;.  On line 19, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294219566</attribute>
+</metadata>

@@ -1,0 +1,196 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCALCULATIONMODELTESTCASE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCALCULATIONMODELTESTCASE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CALCULATIONMODELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCULATIONMODELOPERATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALCULATIONMODELTESTCASEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMPILETIME" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="3000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXECUTIONTIME" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INSUREDAMOUNT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="15"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISOK" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUMCOMPONENTPREMIUMS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="15"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTCALCULATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCALCULATIONMODELTESTCASE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CALCULATIONMODELID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CALCULATIONMODELOPERATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CALCULATIONMODELTESTCASEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="COMPILETIME">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DESCRIPTION">
+        <datatype type="STRING" maxLength="3000"/>
+      </element>
+      <element name="EXECUTIONTIME">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="INSUREDAMOUNT">
+        <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="15"/>
+      </element>
+      <element name="ISOK">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SUMCOMPONENTPREMIUMS">
+        <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="15"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSLASTCALCULATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCALCULATIONMODELTESTCASE.CALCULATIONMODELID CALCULATIONMODELID,
+&#x9;RPCALCULATIONMODELTESTCASE.CALCULATIONMODELOPERATIONID CALCULATIONMODELOPERATIONID,
+&#x9;RPCALCULATIONMODELTESTCASE.CALCULATIONMODELTESTCASEID CALCULATIONMODELTESTCASEID,
+&#x9;RPCALCULATIONMODELTESTCASE.COMPILETIME COMPILETIME,
+&#x9;RPCALCULATIONMODELTESTCASE.DESCRIPTION DESCRIPTION,
+&#x9;RPCALCULATIONMODELTESTCASE.EXECUTIONTIME EXECUTIONTIME,
+&#x9;RPCALCULATIONMODELTESTCASE.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCALCULATIONMODELTESTCASE.INSUREDAMOUNT INSUREDAMOUNT,
+&#x9;RPCALCULATIONMODELTESTCASE.ISOK ISOK,
+&#x9;RPCALCULATIONMODELTESTCASE.SUMCOMPONENTPREMIUMS SUMCOMPONENTPREMIUMS,
+&#x9;RPCALCULATIONMODELTESTCASE.TSCHANGED TSCHANGED,
+&#x9;RPCALCULATIONMODELTESTCASE.TSCREATED TSCREATED,
+&#x9;RPCALCULATIONMODELTESTCASE.TSLASTCALCULATED TSLASTCALCULATED,
+&#x9;RPCALCULATIONMODELTESTCASE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCALCULATIONMODELTESTCASE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCALCULATIONMODELTESTCASE RPCALCULATIONMODELTESTCASE</attribute>
+  <attribute name="creationDate" type="LONG">1664293707389</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCALCULATIONMODELTESTCASE&apos;.  On line 18, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293707389</attribute>
+</metadata>

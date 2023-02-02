@@ -1,0 +1,2767 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPUSERROLE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPUSERROLE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCEPTANCESTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACTIVATECLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDAPPLICATIONMAXDAYSINPAST" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDMUTATIONMAXDAYSINPAST" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDPERIODICALSETTLEMENTPOSTING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDPOLICYREQUESTBATCH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDTASKSFORINTERNALUSERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPROVEAPPLICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPROVEAPPLICATIONMEDICALLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPROVEBANKACCOUNTPARTY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPROVEHEALTHSTATFOREXTAPPL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ARCHIVECASES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSIGNAPPTOSELFONOPENING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSIGNCASE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSIGNCASEWITHNOCOVDECISION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSIGNCOMMTOSELFONOPENING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEACCOUNTOWNINTERMEDIARY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEADDITIONALCUSTOMERDATA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEADMINISTRATIONREPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEAPPLICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEAPPLICATIONPROCESSGROUP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEBATCHJOBSFROMOTHERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSECASE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSECASEPAYMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSECASERECEIPT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSECHECKLIST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSECHECKREPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSECLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSECLAIMISCASE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSECONSERVATIVEAMTLOSS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSECUSTOMER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEDAMAGECONTROLREPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEDECLARATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEEMPLOYMENTDECLARATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEEXTERNALPOLICY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEFINANCIALREPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEFINANCIALVALUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEFORMSREPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEFRAUDAUDITDETAILS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEHEALTHSTATFOREXTAPPL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEIBNRBALANCE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEIDNMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEINTCOMMUNICATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEINTERMEDIARY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEINTERMEDIARYPRODUCT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEJOBREQUEST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSELANGUAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSELOGONUSER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEMEMO" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSENEWSITEM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEOTHERWORKSUPPLYALLPRGRP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEOTHERWORKSUPPLYOWNPRGRP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEOWNAPPLICATIONSONLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEPOLICY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEPOLICYDETAILS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEPREMIUMRESERVE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEPREMIUMSPLIT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEPRODUCTDEFINITION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEPRODUCTIVITYREPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEPROPERTY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEPROVISION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSERELATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSERISKIBNRBALANCE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSERISKPREMIUMRESERVE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSESALESREPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSESUMMARYINVOICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSESUPPORTREPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSESYSTEMVARIABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSETOBEACCEPTEDREPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSETRANSACTIONOVERVIEW" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BROWSEUSERROLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANACCEPTITSOWNCHANGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANADDAPPWITHPREDEFPOLICYNR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANADDCLAIMWITHPREDEFCLAIMNR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANAPPLYCHANGEDREFERENCEDATA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANAPPROVECLAIMPERIODS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANAPPROVECLAIMREPORTEDVIAFORM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBROWSEARRANGEMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBROWSEPOLICYPERIODS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELREQUESTNCBMYEARS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCHANGEDISCOUNTBYINT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCHANGEEXTMANAGEDCUSTOMERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCLEANOBSOLETEDATA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANDECOUPLEEXTPARTYACCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANDELETEINPROGRESSPAYMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANEDITRESTRICTEDDOCUMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANINTERCHANGENCBMDETAILSOFPOL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANINVALIDATEPARTYACCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGEARRANGEMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGEAUXILIARYCLAIMS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGECOINSURANCEDETAILS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGEFLEXFIELDSFORCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGEINDICATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGEINSPECTION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGEMEDICALFILE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGESSN" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGETASKSINHIERARCHY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGEUNLINKEDEVBMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANAGEVWBMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMANUALLYSENDEVBMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMARKPAYMCOMPIFCLAIMSPECCASE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANONLYVIEWSPECIFICCOMMUNICATIONSONEXTRANET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANREPCLAIMVIACLAIMHANDLDIALOG" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANREPORTCLAIMCONVFROMLEGSYS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANREPORTCLAIMWITHDATEINFUTURE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANREQUESTEVBFROMPARTY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANRESENDEVBMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANSEARCHONLICENSEPLATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANSENDINFORMATIONTOEXTSYSTEM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANUPLOADTEMPLATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANUSEEXTERNALDOCUMENTEDITOR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANVIEWAUXILIARYCLAIMS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANVIEWDATAMARTREPORTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANVIEWEVBMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANVIEWHIDDENPREMIUMOFREQUEST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANVIEWMEDICALFILE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANVIEWPARTYHISTORY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANVIEWPROVISIONALCLAIMWITHOUTBUSINESSUNIT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANVIEWSENSITIVEPARTYINFO" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEAPPLICATIONMARGIN" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEAUTOCREATEDPOLICYCOMM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGECASESUBSUBJECT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGECLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGECOVERAGEDECISION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEINTERMEDIARYPRODUCT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEISCOULANCE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEISPAYED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEPARTYEMAILADDRESSFROMCOMMUNICATIONWIZARD" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEPAYMENTCOLLECTOROFPOLICY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGEPROCGUIDELINEINCCOMMDET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGESHAREDCUSTOMER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHANGETREATMENTTYPE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMACCEPTANCESTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CODE" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONFIRMAPPONLINEPAYTYPEFORCUST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEANDTREATDOSSIERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDOCUMENTSWITHSPECIALAUTH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEEXTRACASE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEPOLICYDAMAGECONTROL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEREQUESTFORREFUNDRDR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTREQUESTTYPEFORPRODUCTSELECTION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DELETEALLAPPLICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DETACHRECEIPTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FETCHLICENCEPLATEOWNERDETAILS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FETCHVEHICLEINSURANCEDETAILS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FETCHVEHIOWNERDETAILSFROMCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FIATDOCUMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FIATESTIMATEPOSITION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINAUTHORIZATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINPOLICYAUTHID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORCEAPPLICATIONTOACCEPTANT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASSTANDARDTRANSLATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HIDESENSITIVECOMMUNICATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVALIDATEALLPOLICYVERSIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVALIDATECUSTOMERINSTANCE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVALIDATEDECLARATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVALIDATEEXTERNALTRANSFERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVALIDATEFUTUREPOLICYVERSIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVALIDATEINVOICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVALIDATEPERIODSETTLEMENTPOST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVALIDATEPOSTING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INVALIDATEPRODUCTPAYMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINTERMEDIARYROLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LINKINCOMINGCOMMUNICATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LINKINCOMINGDOCUMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LINKRECEIPTTOCASE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONTOPORTALADMINISTRATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONTOPORTALCONFIGURATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONTOPORTALDATAMARTREPORTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONTOPORTALREGISTRATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONTOPORTALSUPPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAINTAINFRAUD" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEACCOUNTDUNNINGPROCESS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEADVICESPECIALBUSINESS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEAGREEMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEALLUSERTASKS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEAPPLICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEAPPLICATIONFRAUDCHECKS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEAPPLICATIONPROCESSGROUP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEAPPLICATIONSALLPRODUCTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEAPPLICATIONSSPECIALCASES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEARCHIVEORCLEARING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEBANKACCOUNTRELATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEBANKCONFIGURATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEBANKORDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEBANKSTATEMENTLINE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECALAMITIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECASE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECASEPAYMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECASEPROCESSGROUP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECHECKLIST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECLAIMGROUP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECLAIMS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECOLLDISBACCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECOLLDISBACCTADMIN" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECOMMTYPEFORSTATUSUPDATE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECOMMUNICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECOMMUNICATIONDEFINITIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECONFIDENTIALDOCUMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECONFIGFORNVGAINTERFACE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECONFIGURATIONFORFA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECPGLOGONUSERPARTFACTOR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECURRACCTADMIN" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECURRACCTSETTINGSCUSTOMER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECURRENTACCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECUSTCOMPANYACTIVITY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECUSTOMER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECUSTOMERSATSURVEYFIELDS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECUSTOMERWITHINTERNALPOL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGECUSTOMERWITHROLES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEDAMCAUSEREPORTINGCODES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEDECLARATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEDEFAULTBANKACCOUNTPARTY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEDENYREASONSINFIAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEDENYREASONSINIC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEDIRECTDEBITMANDATES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEDISABILITYDETAILS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEDUNNINGPROCESSCONF" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEEARNINGPATTERNS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEELECTRONICCONTACTDATA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEEMPDECCONFIGURATIONDATA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEEMPLOYMENTDECLARATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEEQUIVALENCYRULES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEEXTFRAUDSYSTRECORDS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEFINANCIALACTIONCONF" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEFINANCIALVALUE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEFORM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEFRAUDCHECKRULES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEGROUP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEHEALTHSTATFOREXTAPPL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEHEALTHSTATTYPEDEFINITION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEIBNRPERCENTAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEIDCUSTDATAWITHINTPOL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEIDCUSTDATAWITHOUTINTPOL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEINJURYDETAILS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEINSURANCEPLATES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEINTERMEDIARY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEINTERMEDIARYAGREEMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEINTERMEDIARYPREFERENCES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEJOBREQUEST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGELEGALCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGELIST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGELOGONUSER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEMANUALEXTERNALTRANSFER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEMANUALPOSTING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEMEDICALDOCUMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEMEMO" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEMEMOFORSPECAUTHORISATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGENEWSITEM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEOTHERADMDEFINITIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEOTHERCUSTOMERDATA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEOTHERFORMDEFINITIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEOTHERSUPPDEFINITIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEPARTYNUMBERINEXTADMIN" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEPAYMDATAOFPOLDURPOLDRTN" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEPAYMENTONBEHALFOFINTERM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEPOLICY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEPOLICYDAMAGECONTROL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEPOLICYINTERNALEMPLOYEES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEPRODUCTDEFINITION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEPROPERTY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEQUESTION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGERELATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGERISKDISTRIBUTION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGERISKPARTPOSTINGS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGERISKPOSTINGS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGERISKTRANSFERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGERULESPAYMENTIC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGESANCTIONSFRAUDINQUIRY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGESERVICELOG" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGESIGNREQUESTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGESYNCHRONISATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGESYSTEMVARIABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEUNSENTEMAILS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEUSERROLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEUSERTASKS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEUSERTASKSOFOWNORNODEPT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEVEHICLEINFORMATIONTABLES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MANAGEVIRTUALRECEIPT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAXINPUTAMTCASEPAYMENT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAXVALIDATIONAMTCASEPAYMENT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MERGECUSTOMERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OVERWRITECHANGEPRODDEFINITION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYANDRESERVEONPRODUCTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYGOODWILLCOSTSWITHOUTFIAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTBUBANKACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTBUID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYONNEWACCOUNTWITHOUTFIAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYTOOTHRELWHENREPCLAIMSVIAFRM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PLACEAPPINWAITFORCNFRMBYCUST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREFFRSTSCRNAFTERLOGINID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREFPOLICYSUBMENUID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRINTACCEPTGIROINBATCH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSCASERECEIPT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROVIDEADDITINFOFORAPPLICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RELEASEAPPLLOCKBYACCEPTANT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPORTCLAIMS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPORTCLAIMSVIAGENERALFORM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPORTSCLAIMSVIAFORM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESENDIDNMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESTARTBATCHJOBSFROMOTHERS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REVERSECLAIMINVOICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RUNBATCHMUTATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RUNBATCHMUTFORMULTIPLEPOLICIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RUNBATCHPOLCHANGESNOVALIDATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RUNGROUPCONTRACTBATCHMUTATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SELECTALTCOMPANYACTIVITY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SELECTCOMMDISTRIBINWORKFLOW" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SELECTPRINTINBATCH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDAPPLICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SETTLEACCOUNTLINES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWDEBUGINFORMATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STARTBATCHJOBS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STARTFINANCIALBATCH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STARTPRINTINBATCH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STARTPROLONGATIONBATCH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STARTSCREENPAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STARTTRANSFERCASESBATCH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSAUTOMATICLLMVMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SWITCHRECEIVABLETOCOMPCOLL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SWITCHRECEIVABLETOCOMPCOLLMAX" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SWITCHRECEIVABLETOINTERMCOLL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TAKEOVERQUOTATIONSOFOTHERINT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSFERAMOUNTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USECLAIMADMINISTRATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERELATIONSOFROADORGANISATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERROLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALIDATEBATCHPOLCHANGEREQUESTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALIDATECASEPAYMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALIDATECASEPAYMENTABOVELIMIT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALIDATECOVERAGEDECISION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALIDATEPAYMENTINFIAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALIDATEPAYMENTININTERNALCHECK" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VIEWCLAIMDETAILS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VIEWFRAUD" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VIEWHISTORY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VIEWMARKINGS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPUSERROLE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPUSERROLE.ACCEPTANCESTATUSID ACCEPTANCESTATUSID,
+&#x9;RPUSERROLE.ACTIVATECLAIM ACTIVATECLAIM,
+&#x9;RPUSERROLE.ADDAPPLICATIONMAXDAYSINPAST ADDAPPLICATIONMAXDAYSINPAST,
+&#x9;RPUSERROLE.ADDMUTATIONMAXDAYSINPAST ADDMUTATIONMAXDAYSINPAST,
+&#x9;RPUSERROLE.ADDPERIODICALSETTLEMENTPOSTING ADDPERIODICALSETTLEMENTPOSTING,
+&#x9;RPUSERROLE.ADDPOLICYREQUESTBATCH ADDPOLICYREQUESTBATCH,
+&#x9;RPUSERROLE.ADDTASKSFORINTERNALUSERS ADDTASKSFORINTERNALUSERS,
+&#x9;RPUSERROLE.APPROVEAPPLICATION APPROVEAPPLICATION,
+&#x9;RPUSERROLE.APPROVEAPPLICATIONMEDICALLY APPROVEAPPLICATIONMEDICALLY,
+&#x9;RPUSERROLE.APPROVEBANKACCOUNTPARTY APPROVEBANKACCOUNTPARTY,
+&#x9;RPUSERROLE.APPROVEHEALTHSTATFOREXTAPPL APPROVEHEALTHSTATFOREXTAPPL,
+&#x9;RPUSERROLE.ARCHIVECASES ARCHIVECASES,
+&#x9;RPUSERROLE.ASSIGNAPPTOSELFONOPENING ASSIGNAPPTOSELFONOPENING,
+&#x9;RPUSERROLE.ASSIGNCASE ASSIGNCASE,
+&#x9;RPUSERROLE.ASSIGNCASEWITHNOCOVDECISION ASSIGNCASEWITHNOCOVDECISION,
+&#x9;RPUSERROLE.ASSIGNCOMMTOSELFONOPENING ASSIGNCOMMTOSELFONOPENING,
+&#x9;RPUSERROLE.BROWSEACCOUNTOWNINTERMEDIARY BROWSEACCOUNTOWNINTERMEDIARY,
+&#x9;RPUSERROLE.BROWSEADDITIONALCUSTOMERDATA BROWSEADDITIONALCUSTOMERDATA,
+&#x9;RPUSERROLE.BROWSEADMINISTRATIONREPORT BROWSEADMINISTRATIONREPORT,
+&#x9;RPUSERROLE.BROWSEAPPLICATION BROWSEAPPLICATION,
+&#x9;RPUSERROLE.BROWSEAPPLICATIONPROCESSGROUP BROWSEAPPLICATIONPROCESSGROUP,
+&#x9;RPUSERROLE.BROWSEBATCHJOBSFROMOTHERS BROWSEBATCHJOBSFROMOTHERS,
+&#x9;RPUSERROLE.BROWSECASE BROWSECASE,
+&#x9;RPUSERROLE.BROWSECASEPAYMENT BROWSECASEPAYMENT,
+&#x9;RPUSERROLE.BROWSECASERECEIPT BROWSECASERECEIPT,
+&#x9;RPUSERROLE.BROWSECHECKLIST BROWSECHECKLIST,
+&#x9;RPUSERROLE.BROWSECHECKREPORT BROWSECHECKREPORT,
+&#x9;RPUSERROLE.BROWSECLAIM BROWSECLAIM,
+&#x9;RPUSERROLE.BROWSECLAIMISCASE BROWSECLAIMISCASE,
+&#x9;RPUSERROLE.BROWSECONSERVATIVEAMTLOSS BROWSECONSERVATIVEAMTLOSS,
+&#x9;RPUSERROLE.BROWSECUSTOMER BROWSECUSTOMER,
+&#x9;RPUSERROLE.BROWSEDAMAGECONTROLREPORT BROWSEDAMAGECONTROLREPORT,
+&#x9;RPUSERROLE.BROWSEDECLARATIONS BROWSEDECLARATIONS,
+&#x9;RPUSERROLE.BROWSEEMPLOYMENTDECLARATIONS BROWSEEMPLOYMENTDECLARATIONS,
+&#x9;RPUSERROLE.BROWSEEXTERNALPOLICY BROWSEEXTERNALPOLICY,
+&#x9;RPUSERROLE.BROWSEFINANCIALREPORT BROWSEFINANCIALREPORT,
+&#x9;RPUSERROLE.BROWSEFINANCIALVALUE BROWSEFINANCIALVALUE,
+&#x9;RPUSERROLE.BROWSEFORMSREPORT BROWSEFORMSREPORT,
+&#x9;RPUSERROLE.BROWSEFRAUDAUDITDETAILS BROWSEFRAUDAUDITDETAILS,
+&#x9;RPUSERROLE.BROWSEHEALTHSTATFOREXTAPPL BROWSEHEALTHSTATFOREXTAPPL,
+&#x9;RPUSERROLE.BROWSEIBNRBALANCE BROWSEIBNRBALANCE,
+&#x9;RPUSERROLE.BROWSEIDNMESSAGES BROWSEIDNMESSAGES,
+&#x9;RPUSERROLE.BROWSEINTCOMMUNICATIONS BROWSEINTCOMMUNICATIONS,
+&#x9;RPUSERROLE.BROWSEINTERMEDIARY BROWSEINTERMEDIARY,
+&#x9;RPUSERROLE.BROWSEINTERMEDIARYPRODUCT BROWSEINTERMEDIARYPRODUCT,
+&#x9;RPUSERROLE.BROWSEJOBREQUEST BROWSEJOBREQUEST,
+&#x9;RPUSERROLE.BROWSELANGUAGE BROWSELANGUAGE,
+&#x9;RPUSERROLE.BROWSELOGONUSER BROWSELOGONUSER,
+&#x9;RPUSERROLE.BROWSEMEMO BROWSEMEMO,
+&#x9;RPUSERROLE.BROWSENEWSITEM BROWSENEWSITEM,
+&#x9;RPUSERROLE.BROWSEOTHERWORKSUPPLYALLPRGRP BROWSEOTHERWORKSUPPLYALLPRGRP,
+&#x9;RPUSERROLE.BROWSEOTHERWORKSUPPLYOWNPRGRP BROWSEOTHERWORKSUPPLYOWNPRGRP,
+&#x9;RPUSERROLE.BROWSEOWNAPPLICATIONSONLY BROWSEOWNAPPLICATIONSONLY,
+&#x9;RPUSERROLE.BROWSEPOLICY BROWSEPOLICY,
+&#x9;RPUSERROLE.BROWSEPOLICYDETAILS BROWSEPOLICYDETAILS,
+&#x9;RPUSERROLE.BROWSEPREMIUMRESERVE BROWSEPREMIUMRESERVE,
+&#x9;RPUSERROLE.BROWSEPREMIUMSPLIT BROWSEPREMIUMSPLIT,
+&#x9;RPUSERROLE.BROWSEPRODUCTDEFINITION BROWSEPRODUCTDEFINITION,
+&#x9;RPUSERROLE.BROWSEPRODUCTIVITYREPORT BROWSEPRODUCTIVITYREPORT,
+&#x9;RPUSERROLE.BROWSEPROPERTY BROWSEPROPERTY,
+&#x9;RPUSERROLE.BROWSEPROVISION BROWSEPROVISION,
+&#x9;RPUSERROLE.BROWSERELATION BROWSERELATION,
+&#x9;RPUSERROLE.BROWSERISKIBNRBALANCE BROWSERISKIBNRBALANCE,
+&#x9;RPUSERROLE.BROWSERISKPREMIUMRESERVE BROWSERISKPREMIUMRESERVE,
+&#x9;RPUSERROLE.BROWSESALESREPORT BROWSESALESREPORT,
+&#x9;RPUSERROLE.BROWSESUMMARYINVOICE BROWSESUMMARYINVOICE,
+&#x9;RPUSERROLE.BROWSESUPPORTREPORT BROWSESUPPORTREPORT,
+&#x9;RPUSERROLE.BROWSESYSTEMVARIABLE BROWSESYSTEMVARIABLE,
+&#x9;RPUSERROLE.BROWSETOBEACCEPTEDREPORT BROWSETOBEACCEPTEDREPORT,
+&#x9;RPUSERROLE.BROWSETRANSACTIONOVERVIEW BROWSETRANSACTIONOVERVIEW,
+&#x9;RPUSERROLE.BROWSEUSERROLE BROWSEUSERROLE,
+&#x9;RPUSERROLE.CANACCEPTITSOWNCHANGES CANACCEPTITSOWNCHANGES,
+&#x9;RPUSERROLE.CANADDAPPWITHPREDEFPOLICYNR CANADDAPPWITHPREDEFPOLICYNR,
+&#x9;RPUSERROLE.CANADDCLAIMWITHPREDEFCLAIMNR CANADDCLAIMWITHPREDEFCLAIMNR,
+&#x9;RPUSERROLE.CANAPPLYCHANGEDREFERENCEDATA CANAPPLYCHANGEDREFERENCEDATA,
+&#x9;RPUSERROLE.CANAPPROVECLAIMPERIODS CANAPPROVECLAIMPERIODS,
+&#x9;RPUSERROLE.CANAPPROVECLAIMREPORTEDVIAFORM CANAPPROVECLAIMREPORTEDVIAFORM,
+&#x9;RPUSERROLE.CANBROWSEARRANGEMENTS CANBROWSEARRANGEMENTS,
+&#x9;RPUSERROLE.CANBROWSEPOLICYPERIODS CANBROWSEPOLICYPERIODS,
+&#x9;RPUSERROLE.CANCELREQUESTNCBMYEARS CANCELREQUESTNCBMYEARS,
+&#x9;RPUSERROLE.CANCHANGEDISCOUNTBYINT CANCHANGEDISCOUNTBYINT,
+&#x9;RPUSERROLE.CANCHANGEEXTMANAGEDCUSTOMERS CANCHANGEEXTMANAGEDCUSTOMERS,
+&#x9;RPUSERROLE.CANCLEANOBSOLETEDATA CANCLEANOBSOLETEDATA,
+&#x9;RPUSERROLE.CANDECOUPLEEXTPARTYACCOUNT CANDECOUPLEEXTPARTYACCOUNT,
+&#x9;RPUSERROLE.CANDELETEINPROGRESSPAYMENTS CANDELETEINPROGRESSPAYMENTS,
+&#x9;RPUSERROLE.CANEDITRESTRICTEDDOCUMENTS CANEDITRESTRICTEDDOCUMENTS,
+&#x9;RPUSERROLE.CANINTERCHANGENCBMDETAILSOFPOL CANINTERCHANGENCBMDETAILSOFPOL,
+&#x9;RPUSERROLE.CANINVALIDATEPARTYACCOUNT CANINVALIDATEPARTYACCOUNT,
+&#x9;RPUSERROLE.CANMANAGEARRANGEMENTS CANMANAGEARRANGEMENTS,
+&#x9;RPUSERROLE.CANMANAGEAUXILIARYCLAIMS CANMANAGEAUXILIARYCLAIMS,
+&#x9;RPUSERROLE.CANMANAGECOINSURANCEDETAILS CANMANAGECOINSURANCEDETAILS,
+&#x9;RPUSERROLE.CANMANAGEFLEXFIELDSFORCLAIM CANMANAGEFLEXFIELDSFORCLAIM,
+&#x9;RPUSERROLE.CANMANAGEINDICATIONS CANMANAGEINDICATIONS,
+&#x9;RPUSERROLE.CANMANAGEINSPECTION CANMANAGEINSPECTION,
+&#x9;RPUSERROLE.CANMANAGEMEDICALFILE CANMANAGEMEDICALFILE,
+&#x9;RPUSERROLE.CANMANAGESSN CANMANAGESSN,
+&#x9;RPUSERROLE.CANMANAGETASKSINHIERARCHY CANMANAGETASKSINHIERARCHY,
+&#x9;RPUSERROLE.CANMANAGEUNLINKEDEVBMESSAGES CANMANAGEUNLINKEDEVBMESSAGES,
+&#x9;RPUSERROLE.CANMANAGEVWBMESSAGES CANMANAGEVWBMESSAGES,
+&#x9;RPUSERROLE.CANMANUALLYSENDEVBMESSAGES CANMANUALLYSENDEVBMESSAGES,
+&#x9;RPUSERROLE.CANMARKPAYMCOMPIFCLAIMSPECCASE CANMARKPAYMCOMPIFCLAIMSPECCASE,
+&#x9;RPUSERROLE.CANONLYVIEWSPECIFICCOMMUNICATIONSONEXTRANET CANONLYVIEWSPECIFICCOMMUNICATIONSONEXTRANET,
+&#x9;RPUSERROLE.CANREPCLAIMVIACLAIMHANDLDIALOG CANREPCLAIMVIACLAIMHANDLDIALOG,
+&#x9;RPUSERROLE.CANREPORTCLAIMCONVFROMLEGSYS CANREPORTCLAIMCONVFROMLEGSYS,
+&#x9;RPUSERROLE.CANREPORTCLAIMWITHDATEINFUTURE CANREPORTCLAIMWITHDATEINFUTURE,
+&#x9;RPUSERROLE.CANREQUESTEVBFROMPARTY CANREQUESTEVBFROMPARTY,
+&#x9;RPUSERROLE.CANRESENDEVBMESSAGES CANRESENDEVBMESSAGES,
+&#x9;RPUSERROLE.CANSEARCHONLICENSEPLATE CANSEARCHONLICENSEPLATE,
+&#x9;RPUSERROLE.CANSENDINFORMATIONTOEXTSYSTEM CANSENDINFORMATIONTOEXTSYSTEM,
+&#x9;RPUSERROLE.CANUPLOADTEMPLATE CANUPLOADTEMPLATE,
+&#x9;RPUSERROLE.CANUSEEXTERNALDOCUMENTEDITOR CANUSEEXTERNALDOCUMENTEDITOR,
+&#x9;RPUSERROLE.CANVIEWAUXILIARYCLAIMS CANVIEWAUXILIARYCLAIMS,
+&#x9;RPUSERROLE.CANVIEWDATAMARTREPORTS CANVIEWDATAMARTREPORTS,
+&#x9;RPUSERROLE.CANVIEWEVBMESSAGES CANVIEWEVBMESSAGES,
+&#x9;RPUSERROLE.CANVIEWHIDDENPREMIUMOFREQUEST CANVIEWHIDDENPREMIUMOFREQUEST,
+&#x9;RPUSERROLE.CANVIEWMEDICALFILE CANVIEWMEDICALFILE,
+&#x9;RPUSERROLE.CANVIEWPARTYHISTORY CANVIEWPARTYHISTORY,
+&#x9;RPUSERROLE.CANVIEWPROVISIONALCLAIMWITHOUTBUSINESSUNIT CANVIEWPROVISIONALCLAIMWITHOUTBUSINESSUNIT,
+&#x9;RPUSERROLE.CANVIEWSENSITIVEPARTYINFO CANVIEWSENSITIVEPARTYINFO,
+&#x9;RPUSERROLE.CHANGEAPPLICATIONMARGIN CHANGEAPPLICATIONMARGIN,
+&#x9;RPUSERROLE.CHANGEAUTOCREATEDPOLICYCOMM CHANGEAUTOCREATEDPOLICYCOMM,
+&#x9;RPUSERROLE.CHANGECASESUBSUBJECT CHANGECASESUBSUBJECT,
+&#x9;RPUSERROLE.CHANGECLAIM CHANGECLAIM,
+&#x9;RPUSERROLE.CHANGECOVERAGEDECISION CHANGECOVERAGEDECISION,
+&#x9;RPUSERROLE.CHANGEINTERMEDIARYPRODUCT CHANGEINTERMEDIARYPRODUCT,
+&#x9;RPUSERROLE.CHANGEISCOULANCE CHANGEISCOULANCE,
+&#x9;RPUSERROLE.CHANGEISPAYED CHANGEISPAYED,
+&#x9;RPUSERROLE.CHANGEPARTYEMAILADDRESSFROMCOMMUNICATIONWIZARD CHANGEPARTYEMAILADDRESSFROMCOMMUNICATIONWIZARD,
+&#x9;RPUSERROLE.CHANGEPAYMENTCOLLECTOROFPOLICY CHANGEPAYMENTCOLLECTOROFPOLICY,
+&#x9;RPUSERROLE.CHANGEPROCGUIDELINEINCCOMMDET CHANGEPROCGUIDELINEINCCOMMDET,
+&#x9;RPUSERROLE.CHANGESHAREDCUSTOMER CHANGESHAREDCUSTOMER,
+&#x9;RPUSERROLE.CHANGETREATMENTTYPE CHANGETREATMENTTYPE,
+&#x9;RPUSERROLE.CLAIMACCEPTANCESTATUSID CLAIMACCEPTANCESTATUSID,
+&#x9;RPUSERROLE.CODE CODE,
+&#x9;RPUSERROLE.CONFIRMAPPONLINEPAYTYPEFORCUST CONFIRMAPPONLINEPAYTYPEFORCUST,
+&#x9;RPUSERROLE.CREATEANDTREATDOSSIERS CREATEANDTREATDOSSIERS,
+&#x9;RPUSERROLE.CREATEDOCUMENTSWITHSPECIALAUTH CREATEDOCUMENTSWITHSPECIALAUTH,
+&#x9;RPUSERROLE.CREATEEXTRACASE CREATEEXTRACASE,
+&#x9;RPUSERROLE.CREATEPOLICYDAMAGECONTROL CREATEPOLICYDAMAGECONTROL,
+&#x9;RPUSERROLE.CREATEREQUESTFORREFUNDRDR CREATEREQUESTFORREFUNDRDR,
+&#x9;RPUSERROLE.DEFAULTREQUESTTYPEFORPRODUCTSELECTION DEFAULTREQUESTTYPEFORPRODUCTSELECTION,
+&#x9;RPUSERROLE.DELETEALLAPPLICATION DELETEALLAPPLICATION,
+&#x9;RPUSERROLE.DETACHRECEIPTS DETACHRECEIPTS,
+&#x9;RPUSERROLE.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPUSERROLE.FETCHLICENCEPLATEOWNERDETAILS FETCHLICENCEPLATEOWNERDETAILS,
+&#x9;RPUSERROLE.FETCHVEHICLEINSURANCEDETAILS FETCHVEHICLEINSURANCEDETAILS,
+&#x9;RPUSERROLE.FETCHVEHIOWNERDETAILSFROMCLAIM FETCHVEHIOWNERDETAILSFROMCLAIM,
+&#x9;RPUSERROLE.FIATDOCUMENT FIATDOCUMENT,
+&#x9;RPUSERROLE.FIATESTIMATEPOSITION FIATESTIMATEPOSITION,
+&#x9;RPUSERROLE.FINAUTHORIZATIONID FINAUTHORIZATIONID,
+&#x9;RPUSERROLE.FINPOLICYAUTHID FINPOLICYAUTHID,
+&#x9;RPUSERROLE.FORCEAPPLICATIONTOACCEPTANT FORCEAPPLICATIONTOACCEPTANT,
+&#x9;RPUSERROLE.HASSTANDARDTRANSLATIONS HASSTANDARDTRANSLATIONS,
+&#x9;RPUSERROLE.HIDESENSITIVECOMMUNICATIONS HIDESENSITIVECOMMUNICATIONS,
+&#x9;RPUSERROLE.INVALIDATEALLPOLICYVERSIONS INVALIDATEALLPOLICYVERSIONS,
+&#x9;RPUSERROLE.INVALIDATECUSTOMERINSTANCE INVALIDATECUSTOMERINSTANCE,
+&#x9;RPUSERROLE.INVALIDATEDECLARATIONS INVALIDATEDECLARATIONS,
+&#x9;RPUSERROLE.INVALIDATEEXTERNALTRANSFERS INVALIDATEEXTERNALTRANSFERS,
+&#x9;RPUSERROLE.INVALIDATEFUTUREPOLICYVERSIONS INVALIDATEFUTUREPOLICYVERSIONS,
+&#x9;RPUSERROLE.INVALIDATEINVOICE INVALIDATEINVOICE,
+&#x9;RPUSERROLE.INVALIDATEPERIODSETTLEMENTPOST INVALIDATEPERIODSETTLEMENTPOST,
+&#x9;RPUSERROLE.INVALIDATEPOSTING INVALIDATEPOSTING,
+&#x9;RPUSERROLE.INVALIDATEPRODUCTPAYMENTS INVALIDATEPRODUCTPAYMENTS,
+&#x9;RPUSERROLE.ISINTERMEDIARYROLE ISINTERMEDIARYROLE,
+&#x9;RPUSERROLE.LINKINCOMINGCOMMUNICATIONS LINKINCOMINGCOMMUNICATIONS,
+&#x9;RPUSERROLE.LINKINCOMINGDOCUMENTS LINKINCOMINGDOCUMENTS,
+&#x9;RPUSERROLE.LINKRECEIPTTOCASE LINKRECEIPTTOCASE,
+&#x9;RPUSERROLE.LOGONTOPORTALADMINISTRATION LOGONTOPORTALADMINISTRATION,
+&#x9;RPUSERROLE.LOGONTOPORTALCONFIGURATION LOGONTOPORTALCONFIGURATION,
+&#x9;RPUSERROLE.LOGONTOPORTALDATAMARTREPORTS LOGONTOPORTALDATAMARTREPORTS,
+&#x9;RPUSERROLE.LOGONTOPORTALREGISTRATION LOGONTOPORTALREGISTRATION,
+&#x9;RPUSERROLE.LOGONTOPORTALSUPPORT LOGONTOPORTALSUPPORT,
+&#x9;RPUSERROLE.MAINTAINFRAUD MAINTAINFRAUD,
+&#x9;RPUSERROLE.MANAGEACCOUNTDUNNINGPROCESS MANAGEACCOUNTDUNNINGPROCESS,
+&#x9;RPUSERROLE.MANAGEADVICESPECIALBUSINESS MANAGEADVICESPECIALBUSINESS,
+&#x9;RPUSERROLE.MANAGEAGREEMENT MANAGEAGREEMENT,
+&#x9;RPUSERROLE.MANAGEALLUSERTASKS MANAGEALLUSERTASKS,
+&#x9;RPUSERROLE.MANAGEAPPLICATION MANAGEAPPLICATION,
+&#x9;RPUSERROLE.MANAGEAPPLICATIONFRAUDCHECKS MANAGEAPPLICATIONFRAUDCHECKS,
+&#x9;RPUSERROLE.MANAGEAPPLICATIONPROCESSGROUP MANAGEAPPLICATIONPROCESSGROUP,
+&#x9;RPUSERROLE.MANAGEAPPLICATIONSALLPRODUCTS MANAGEAPPLICATIONSALLPRODUCTS,
+&#x9;RPUSERROLE.MANAGEAPPLICATIONSSPECIALCASES MANAGEAPPLICATIONSSPECIALCASES,
+&#x9;RPUSERROLE.MANAGEARCHIVEORCLEARING MANAGEARCHIVEORCLEARING,
+&#x9;RPUSERROLE.MANAGEBANKACCOUNTRELATION MANAGEBANKACCOUNTRELATION,
+&#x9;RPUSERROLE.MANAGEBANKCONFIGURATIONS MANAGEBANKCONFIGURATIONS,
+&#x9;RPUSERROLE.MANAGEBANKORDER MANAGEBANKORDER,
+&#x9;RPUSERROLE.MANAGEBANKSTATEMENTLINE MANAGEBANKSTATEMENTLINE,
+&#x9;RPUSERROLE.MANAGECALAMITIES MANAGECALAMITIES,
+&#x9;RPUSERROLE.MANAGECASE MANAGECASE,
+&#x9;RPUSERROLE.MANAGECASEPAYMENT MANAGECASEPAYMENT,
+&#x9;RPUSERROLE.MANAGECASEPROCESSGROUP MANAGECASEPROCESSGROUP,
+&#x9;RPUSERROLE.MANAGECHECKLIST MANAGECHECKLIST,
+&#x9;RPUSERROLE.MANAGECLAIMGROUP MANAGECLAIMGROUP,
+&#x9;RPUSERROLE.MANAGECLAIMS MANAGECLAIMS,
+&#x9;RPUSERROLE.MANAGECOLLDISBACCOUNT MANAGECOLLDISBACCOUNT,
+&#x9;RPUSERROLE.MANAGECOLLDISBACCTADMIN MANAGECOLLDISBACCTADMIN,
+&#x9;RPUSERROLE.MANAGECOMMTYPEFORSTATUSUPDATE MANAGECOMMTYPEFORSTATUSUPDATE,
+&#x9;RPUSERROLE.MANAGECOMMUNICATION MANAGECOMMUNICATION,
+&#x9;RPUSERROLE.MANAGECOMMUNICATIONDEFINITIONS MANAGECOMMUNICATIONDEFINITIONS,
+&#x9;RPUSERROLE.MANAGECONFIDENTIALDOCUMENTS MANAGECONFIDENTIALDOCUMENTS,
+&#x9;RPUSERROLE.MANAGECONFIGFORNVGAINTERFACE MANAGECONFIGFORNVGAINTERFACE,
+&#x9;RPUSERROLE.MANAGECONFIGURATIONFORFA MANAGECONFIGURATIONFORFA,
+&#x9;RPUSERROLE.MANAGECPGLOGONUSERPARTFACTOR MANAGECPGLOGONUSERPARTFACTOR,
+&#x9;RPUSERROLE.MANAGECURRACCTADMIN MANAGECURRACCTADMIN,
+&#x9;RPUSERROLE.MANAGECURRACCTSETTINGSCUSTOMER MANAGECURRACCTSETTINGSCUSTOMER,
+&#x9;RPUSERROLE.MANAGECURRENTACCOUNT MANAGECURRENTACCOUNT,
+&#x9;RPUSERROLE.MANAGECUSTCOMPANYACTIVITY MANAGECUSTCOMPANYACTIVITY,
+&#x9;RPUSERROLE.MANAGECUSTOMER MANAGECUSTOMER,
+&#x9;RPUSERROLE.MANAGECUSTOMERSATSURVEYFIELDS MANAGECUSTOMERSATSURVEYFIELDS,
+&#x9;RPUSERROLE.MANAGECUSTOMERWITHINTERNALPOL MANAGECUSTOMERWITHINTERNALPOL,
+&#x9;RPUSERROLE.MANAGECUSTOMERWITHROLES MANAGECUSTOMERWITHROLES,
+&#x9;RPUSERROLE.MANAGEDAMCAUSEREPORTINGCODES MANAGEDAMCAUSEREPORTINGCODES,
+&#x9;RPUSERROLE.MANAGEDECLARATIONS MANAGEDECLARATIONS,
+&#x9;RPUSERROLE.MANAGEDEFAULTBANKACCOUNTPARTY MANAGEDEFAULTBANKACCOUNTPARTY,
+&#x9;RPUSERROLE.MANAGEDENYREASONSINFIAT MANAGEDENYREASONSINFIAT,
+&#x9;RPUSERROLE.MANAGEDENYREASONSINIC MANAGEDENYREASONSINIC,
+&#x9;RPUSERROLE.MANAGEDIRECTDEBITMANDATES MANAGEDIRECTDEBITMANDATES,
+&#x9;RPUSERROLE.MANAGEDISABILITYDETAILS MANAGEDISABILITYDETAILS,
+&#x9;RPUSERROLE.MANAGEDUNNINGPROCESSCONF MANAGEDUNNINGPROCESSCONF,
+&#x9;RPUSERROLE.MANAGEEARNINGPATTERNS MANAGEEARNINGPATTERNS,
+&#x9;RPUSERROLE.MANAGEELECTRONICCONTACTDATA MANAGEELECTRONICCONTACTDATA,
+&#x9;RPUSERROLE.MANAGEEMPDECCONFIGURATIONDATA MANAGEEMPDECCONFIGURATIONDATA,
+&#x9;RPUSERROLE.MANAGEEMPLOYMENTDECLARATIONS MANAGEEMPLOYMENTDECLARATIONS,
+&#x9;RPUSERROLE.MANAGEEQUIVALENCYRULES MANAGEEQUIVALENCYRULES,
+&#x9;RPUSERROLE.MANAGEEXTFRAUDSYSTRECORDS MANAGEEXTFRAUDSYSTRECORDS,
+&#x9;RPUSERROLE.MANAGEFINANCIALACTIONCONF MANAGEFINANCIALACTIONCONF,
+&#x9;RPUSERROLE.MANAGEFINANCIALVALUE MANAGEFINANCIALVALUE,
+&#x9;RPUSERROLE.MANAGEFORM MANAGEFORM,
+&#x9;RPUSERROLE.MANAGEFRAUDCHECKRULES MANAGEFRAUDCHECKRULES,
+&#x9;RPUSERROLE.MANAGEGROUP MANAGEGROUP,
+&#x9;RPUSERROLE.MANAGEHEALTHSTATFOREXTAPPL MANAGEHEALTHSTATFOREXTAPPL,
+&#x9;RPUSERROLE.MANAGEHEALTHSTATTYPEDEFINITION MANAGEHEALTHSTATTYPEDEFINITION,
+&#x9;RPUSERROLE.MANAGEIBNRPERCENTAGES MANAGEIBNRPERCENTAGES,
+&#x9;RPUSERROLE.MANAGEIDCUSTDATAWITHINTPOL MANAGEIDCUSTDATAWITHINTPOL,
+&#x9;RPUSERROLE.MANAGEIDCUSTDATAWITHOUTINTPOL MANAGEIDCUSTDATAWITHOUTINTPOL,
+&#x9;RPUSERROLE.MANAGEINJURYDETAILS MANAGEINJURYDETAILS,
+&#x9;RPUSERROLE.MANAGEINSURANCEPLATES MANAGEINSURANCEPLATES,
+&#x9;RPUSERROLE.MANAGEINTERMEDIARY MANAGEINTERMEDIARY,
+&#x9;RPUSERROLE.MANAGEINTERMEDIARYAGREEMENTS MANAGEINTERMEDIARYAGREEMENTS,
+&#x9;RPUSERROLE.MANAGEINTERMEDIARYPREFERENCES MANAGEINTERMEDIARYPREFERENCES,
+&#x9;RPUSERROLE.MANAGEJOBREQUEST MANAGEJOBREQUEST,
+&#x9;RPUSERROLE.MANAGELEGALCLAIM MANAGELEGALCLAIM,
+&#x9;RPUSERROLE.MANAGELIST MANAGELIST,
+&#x9;RPUSERROLE.MANAGELOGONUSER MANAGELOGONUSER,
+&#x9;RPUSERROLE.MANAGEMANUALEXTERNALTRANSFER MANAGEMANUALEXTERNALTRANSFER,
+&#x9;RPUSERROLE.MANAGEMANUALPOSTING MANAGEMANUALPOSTING,
+&#x9;RPUSERROLE.MANAGEMEDICALDOCUMENTS MANAGEMEDICALDOCUMENTS,
+&#x9;RPUSERROLE.MANAGEMEMO MANAGEMEMO,
+&#x9;RPUSERROLE.MANAGEMEMOFORSPECAUTHORISATION MANAGEMEMOFORSPECAUTHORISATION,
+&#x9;RPUSERROLE.MANAGENEWSITEM MANAGENEWSITEM,
+&#x9;RPUSERROLE.MANAGEOTHERADMDEFINITIONS MANAGEOTHERADMDEFINITIONS,
+&#x9;RPUSERROLE.MANAGEOTHERCUSTOMERDATA MANAGEOTHERCUSTOMERDATA,
+&#x9;RPUSERROLE.MANAGEOTHERFORMDEFINITIONS MANAGEOTHERFORMDEFINITIONS,
+&#x9;RPUSERROLE.MANAGEOTHERSUPPDEFINITIONS MANAGEOTHERSUPPDEFINITIONS,
+&#x9;RPUSERROLE.MANAGEPARTYNUMBERINEXTADMIN MANAGEPARTYNUMBERINEXTADMIN,
+&#x9;RPUSERROLE.MANAGEPAYMDATAOFPOLDURPOLDRTN MANAGEPAYMDATAOFPOLDURPOLDRTN,
+&#x9;RPUSERROLE.MANAGEPAYMENTONBEHALFOFINTERM MANAGEPAYMENTONBEHALFOFINTERM,
+&#x9;RPUSERROLE.MANAGEPOLICY MANAGEPOLICY,
+&#x9;RPUSERROLE.MANAGEPOLICYDAMAGECONTROL MANAGEPOLICYDAMAGECONTROL,
+&#x9;RPUSERROLE.MANAGEPOLICYINTERNALEMPLOYEES MANAGEPOLICYINTERNALEMPLOYEES,
+&#x9;RPUSERROLE.MANAGEPRODUCTDEFINITION MANAGEPRODUCTDEFINITION,
+&#x9;RPUSERROLE.MANAGEPROPERTY MANAGEPROPERTY,
+&#x9;RPUSERROLE.MANAGEQUESTION MANAGEQUESTION,
+&#x9;RPUSERROLE.MANAGERELATION MANAGERELATION,
+&#x9;RPUSERROLE.MANAGERISKDISTRIBUTION MANAGERISKDISTRIBUTION,
+&#x9;RPUSERROLE.MANAGERISKPARTPOSTINGS MANAGERISKPARTPOSTINGS,
+&#x9;RPUSERROLE.MANAGERISKPOSTINGS MANAGERISKPOSTINGS,
+&#x9;RPUSERROLE.MANAGERISKTRANSFERS MANAGERISKTRANSFERS,
+&#x9;RPUSERROLE.MANAGERULESPAYMENTIC MANAGERULESPAYMENTIC,
+&#x9;RPUSERROLE.MANAGESANCTIONSFRAUDINQUIRY MANAGESANCTIONSFRAUDINQUIRY,
+&#x9;RPUSERROLE.MANAGESERVICELOG MANAGESERVICELOG,
+&#x9;RPUSERROLE.MANAGESIGNREQUESTS MANAGESIGNREQUESTS,
+&#x9;RPUSERROLE.MANAGESYNCHRONISATION MANAGESYNCHRONISATION,
+&#x9;RPUSERROLE.MANAGESYSTEMVARIABLE MANAGESYSTEMVARIABLE,
+&#x9;RPUSERROLE.MANAGEUNSENTEMAILS MANAGEUNSENTEMAILS,
+&#x9;RPUSERROLE.MANAGEUSERROLE MANAGEUSERROLE,
+&#x9;RPUSERROLE.MANAGEUSERTASKS MANAGEUSERTASKS,
+&#x9;RPUSERROLE.MANAGEUSERTASKSOFOWNORNODEPT MANAGEUSERTASKSOFOWNORNODEPT,
+&#x9;RPUSERROLE.MANAGEVEHICLEINFORMATIONTABLES MANAGEVEHICLEINFORMATIONTABLES,
+&#x9;RPUSERROLE.MANAGEVIRTUALRECEIPT MANAGEVIRTUALRECEIPT,
+&#x9;RPUSERROLE.MAXINPUTAMTCASEPAYMENT MAXINPUTAMTCASEPAYMENT,
+&#x9;RPUSERROLE.MAXVALIDATIONAMTCASEPAYMENT MAXVALIDATIONAMTCASEPAYMENT,
+&#x9;RPUSERROLE.MERGECUSTOMERS MERGECUSTOMERS,
+&#x9;RPUSERROLE.OVERWRITECHANGEPRODDEFINITION OVERWRITECHANGEPRODDEFINITION,
+&#x9;RPUSERROLE.PAYANDRESERVEONPRODUCTS PAYANDRESERVEONPRODUCTS,
+&#x9;RPUSERROLE.PAYGOODWILLCOSTSWITHOUTFIAT PAYGOODWILLCOSTSWITHOUTFIAT,
+&#x9;RPUSERROLE.PAYMENTBUBANKACCOUNTID PAYMENTBUBANKACCOUNTID,
+&#x9;RPUSERROLE.PAYMENTBUID PAYMENTBUID,
+&#x9;RPUSERROLE.PAYONNEWACCOUNTWITHOUTFIAT PAYONNEWACCOUNTWITHOUTFIAT,
+&#x9;RPUSERROLE.PAYTOOTHRELWHENREPCLAIMSVIAFRM PAYTOOTHRELWHENREPCLAIMSVIAFRM,
+&#x9;RPUSERROLE.PLACEAPPINWAITFORCNFRMBYCUST PLACEAPPINWAITFORCNFRMBYCUST,
+&#x9;RPUSERROLE.PREFFRSTSCRNAFTERLOGINID PREFFRSTSCRNAFTERLOGINID,
+&#x9;RPUSERROLE.PREFPOLICYSUBMENUID PREFPOLICYSUBMENUID,
+&#x9;RPUSERROLE.PRINTACCEPTGIROINBATCH PRINTACCEPTGIROINBATCH,
+&#x9;RPUSERROLE.PROCESSCASERECEIPT PROCESSCASERECEIPT,
+&#x9;RPUSERROLE.PROVIDEADDITINFOFORAPPLICATION PROVIDEADDITINFOFORAPPLICATION,
+&#x9;RPUSERROLE.RELEASEAPPLLOCKBYACCEPTANT RELEASEAPPLLOCKBYACCEPTANT,
+&#x9;RPUSERROLE.REPORTCLAIMS REPORTCLAIMS,
+&#x9;RPUSERROLE.REPORTCLAIMSVIAGENERALFORM REPORTCLAIMSVIAGENERALFORM,
+&#x9;RPUSERROLE.REPORTSCLAIMSVIAFORM REPORTSCLAIMSVIAFORM,
+&#x9;RPUSERROLE.RESENDIDNMESSAGES RESENDIDNMESSAGES,
+&#x9;RPUSERROLE.RESTARTBATCHJOBSFROMOTHERS RESTARTBATCHJOBSFROMOTHERS,
+&#x9;RPUSERROLE.REVERSECLAIMINVOICE REVERSECLAIMINVOICE,
+&#x9;RPUSERROLE.RUNBATCHMUTATIONS RUNBATCHMUTATIONS,
+&#x9;RPUSERROLE.RUNBATCHMUTFORMULTIPLEPOLICIES RUNBATCHMUTFORMULTIPLEPOLICIES,
+&#x9;RPUSERROLE.RUNBATCHPOLCHANGESNOVALIDATION RUNBATCHPOLCHANGESNOVALIDATION,
+&#x9;RPUSERROLE.RUNGROUPCONTRACTBATCHMUTATION RUNGROUPCONTRACTBATCHMUTATION,
+&#x9;RPUSERROLE.SELECTALTCOMPANYACTIVITY SELECTALTCOMPANYACTIVITY,
+&#x9;RPUSERROLE.SELECTCOMMDISTRIBINWORKFLOW SELECTCOMMDISTRIBINWORKFLOW,
+&#x9;RPUSERROLE.SELECTPRINTINBATCH SELECTPRINTINBATCH,
+&#x9;RPUSERROLE.SENDAPPLICATION SENDAPPLICATION,
+&#x9;RPUSERROLE.SETTLEACCOUNTLINES SETTLEACCOUNTLINES,
+&#x9;RPUSERROLE.SHOWDEBUGINFORMATION SHOWDEBUGINFORMATION,
+&#x9;RPUSERROLE.STARTBATCHJOBS STARTBATCHJOBS,
+&#x9;RPUSERROLE.STARTFINANCIALBATCH STARTFINANCIALBATCH,
+&#x9;RPUSERROLE.STARTPRINTINBATCH STARTPRINTINBATCH,
+&#x9;RPUSERROLE.STARTPROLONGATIONBATCH STARTPROLONGATIONBATCH,
+&#x9;RPUSERROLE.STARTSCREENPAGEID STARTSCREENPAGEID,
+&#x9;RPUSERROLE.STARTTRANSFERCASESBATCH STARTTRANSFERCASESBATCH,
+&#x9;RPUSERROLE.SUPPRESSAUTOMATICLLMVMESSAGES SUPPRESSAUTOMATICLLMVMESSAGES,
+&#x9;RPUSERROLE.SWITCHRECEIVABLETOCOMPCOLL SWITCHRECEIVABLETOCOMPCOLL,
+&#x9;RPUSERROLE.SWITCHRECEIVABLETOCOMPCOLLMAX SWITCHRECEIVABLETOCOMPCOLLMAX,
+&#x9;RPUSERROLE.SWITCHRECEIVABLETOINTERMCOLL SWITCHRECEIVABLETOINTERMCOLL,
+&#x9;RPUSERROLE.TAKEOVERQUOTATIONSOFOTHERINT TAKEOVERQUOTATIONSOFOTHERINT,
+&#x9;RPUSERROLE.TRANSFERAMOUNTS TRANSFERAMOUNTS,
+&#x9;RPUSERROLE.TSCHANGED TSCHANGED,
+&#x9;RPUSERROLE.TSCREATED TSCREATED,
+&#x9;RPUSERROLE.USECLAIMADMINISTRATION USECLAIMADMINISTRATION,
+&#x9;RPUSERROLE.USERELATIONSOFROADORGANISATION USERELATIONSOFROADORGANISATION,
+&#x9;RPUSERROLE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPUSERROLE.USERIDCREATED USERIDCREATED,
+&#x9;RPUSERROLE.USERROLEID USERROLEID,
+&#x9;RPUSERROLE.VALIDATEBATCHPOLCHANGEREQUESTS VALIDATEBATCHPOLCHANGEREQUESTS,
+&#x9;RPUSERROLE.VALIDATECASEPAYMENT VALIDATECASEPAYMENT,
+&#x9;RPUSERROLE.VALIDATECASEPAYMENTABOVELIMIT VALIDATECASEPAYMENTABOVELIMIT,
+&#x9;RPUSERROLE.VALIDATECOVERAGEDECISION VALIDATECOVERAGEDECISION,
+&#x9;RPUSERROLE.VALIDATEPAYMENTINFIAT VALIDATEPAYMENTINFIAT,
+&#x9;RPUSERROLE.VALIDATEPAYMENTININTERNALCHECK VALIDATEPAYMENTININTERNALCHECK,
+&#x9;RPUSERROLE.VIEWCLAIMDETAILS VIEWCLAIMDETAILS,
+&#x9;RPUSERROLE.VIEWFRAUD VIEWFRAUD,
+&#x9;RPUSERROLE.VIEWHISTORY VIEWHISTORY,
+&#x9;RPUSERROLE.VIEWMARKINGS VIEWMARKINGS 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPUSERROLE RPUSERROLE</attribute>
+  <attribute name="creationDate" type="LONG">1664290320482</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPUSERROLE&apos;.  On line 345, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290320482</attribute>
+</metadata>

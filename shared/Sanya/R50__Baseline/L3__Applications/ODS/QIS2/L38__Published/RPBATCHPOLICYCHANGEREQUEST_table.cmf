@@ -1,0 +1,350 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPBATCHPOLICYCHANGEREQUEST" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPBATCHPOLICYCHANGEREQUEST" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="BATCHPOLICYCHANGEREQUESTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONSOLIDATEMARGINWITHNEWINT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTULTIMATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIRECTDEBITMANDATEREGTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EVALUATEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INSERTEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INSERTEDDURINGCLIENTSESSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISAPPROVED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPORTFOLIOTRANSFER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOBPARAMETERS" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOBTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWINTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEWREFERRINGINTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICIES" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYMUTATIONMOMENTEXTID" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REFERRINGINTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDCONFIRMLETTERSFORINTERM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDPOLICYDOCUMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEVALUATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSINSERTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEINTERMFEETYPEOFNEWINTERM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPBATCHPOLICYCHANGEREQUEST" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="BATCHPOLICYCHANGEREQUESTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CONSOLIDATEMARGINWITHNEWINT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DATESTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESTARTULTIMATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DIRECTDEBITMANDATEREGTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EVALUATEDBYLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="INSERTEDBYLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INSERTEDDURINGCLIENTSESSIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISAPPROVED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPORTFOLIOTRANSFER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="JOBPARAMETERS">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="JOBTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NEWINTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NEWREFERRINGINTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICIES">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="POLICYMUTATIONMOMENTEXTID">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="REFERRINGINTERMEDIARYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SENDCONFIRMLETTERSFORINTERM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SENDPOLICYDOCUMENTS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSEVALUATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSINSERTED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USEINTERMFEETYPEOFNEWINTERM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPBATCHPOLICYCHANGEREQUEST.BATCHPOLICYCHANGEREQUESTID BATCHPOLICYCHANGEREQUESTID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.CONSOLIDATEMARGINWITHNEWINT CONSOLIDATEMARGINWITHNEWINT,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.DATESTART DATESTART,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.DATESTARTULTIMATE DATESTARTULTIMATE,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.DIRECTDEBITMANDATEREGTYPEID DIRECTDEBITMANDATEREGTYPEID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.EVALUATEDBYLOGONUSERID EVALUATEDBYLOGONUSERID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.INSERTEDBYLOGONUSERID INSERTEDBYLOGONUSERID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.INSERTEDDURINGCLIENTSESSIONID INSERTEDDURINGCLIENTSESSIONID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.ISAPPROVED ISAPPROVED,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.ISPORTFOLIOTRANSFER ISPORTFOLIOTRANSFER,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.JOBPARAMETERS JOBPARAMETERS,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.JOBTYPEID JOBTYPEID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.NEWINTERMEDIARYID NEWINTERMEDIARYID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.NEWREFERRINGINTERMEDIARYID NEWREFERRINGINTERMEDIARYID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.POLICIES POLICIES,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.POLICYMUTATIONMOMENTEXTID POLICYMUTATIONMOMENTEXTID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.REFERRINGINTERMEDIARYID REFERRINGINTERMEDIARYID,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.SENDCONFIRMLETTERSFORINTERM SENDCONFIRMLETTERSFORINTERM,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.SENDPOLICYDOCUMENTS SENDPOLICYDOCUMENTS,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.TSCHANGED TSCHANGED,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.TSCREATED TSCREATED,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.TSEVALUATED TSEVALUATED,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.TSINSERTED TSINSERTED,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.USEINTERMFEETYPEOFNEWINTERM USEINTERMFEETYPEOFNEWINTERM,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.USERIDCHANGED USERIDCHANGED,
+&#x9;RPBATCHPOLICYCHANGEREQUEST.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPBATCHPOLICYCHANGEREQUEST RPBATCHPOLICYCHANGEREQUEST</attribute>
+  <attribute name="creationDate" type="LONG">1664293674447</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPBATCHPOLICYCHANGEREQUEST&apos;.  On line 32, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293674447</attribute>
+</metadata>

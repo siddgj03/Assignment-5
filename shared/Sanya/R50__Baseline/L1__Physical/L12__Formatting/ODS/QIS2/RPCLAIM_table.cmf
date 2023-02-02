@@ -1,0 +1,911 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCLAIM" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIM" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCEPTANCEPROCESSINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCEPTANCERULEMESSAGE" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTESTIMATEDCLAIM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AREDOCUMENTSAVAILABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AREPAYMENTSMANBYINTINEXTADM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CALAMITYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANADDDETAILSDIALOGBEUSED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCHMESSBECREATEDAUTO" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANMAKEAUTOMATICRDR12MESSAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CASEPROCESSGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMFINISHREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMFORMSIGNEDBY" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMIDENTIFICATIONMARK" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMPROCESSINTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSTRANSFERREDCASES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYREMOTEUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEDAMAGE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENTERED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEXPIRATIONFRISSCHECK" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEXTERNALLYPAIDTO" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFINISHED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELASTREOPENED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELATESTSTATUSCHANGE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEREPORTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATERESULTFRAUDINQUIRY" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTFRAUDINQUIRY" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="500"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTSEXPLANATION" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DOCUMENTSTOSEND" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESSFORCOMPLETION" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILINTERMEDIARYEMPLOYEE" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTNEWCLAIMSJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTAMTCOMPENSATION" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTAMTCOMPENSATIONVULNERABLE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTCLAIMSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALRISKIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FIRSTORIGINID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FRAUDRESULTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GENERALEXPLANATION" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCODEFORREPORTINGCLAIMSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASBEENRELEASED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASEMAILFORCOMPLETIONBEENSENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASFRAUDBEENCONSULTED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASFRAUDRESULTTOASSESS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASREMINDERFORCLAIMBEENSENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIERFORCOMPLETION" nullable="true">
+      <datatype type="STRING" maxLength="16"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIERFORCRM" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCIDENTNRFRAUDINQUIRY_UPPER" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCIDENTNUMBERFRAUDINQUIRY" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERNALRISKIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISASSESSMENTNECESSARYFORCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCLAIMFORMSIGNEDBYALLPARTIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOINSUREDCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCONVERTEDFROMLEGACYSYSTEM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISEXPRESSCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISEXTERNALCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISIMPACTFULCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISMATTEROFCONCEALMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISMATTEROFFRAUD" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPOLICREPORTNECESSARYFORCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISRDRCOUNTERPARTYAGREED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISRELATEDTOEXTERNALPOLICIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREPAIRNECESSARYFORCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREPONACTREINSURANCEPOLICIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREPORTEDONOPENPOLICIES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREPORTEDUNJUSTLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREPORTEDVIAFORM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREPORTEDVIAWEBSERVICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISSPECIALCASE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LASTCHANGEDIALOGORIGINID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEGACYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MUNICIPALITYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NAMEINTERMEDIARYEMPLOYEE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PLACE" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMARK" nullable="true">
+      <datatype type="STRING" maxLength="500"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPORTERROLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSIBLELOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RISKANALYSISFAILED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RISKCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTADVICESPECIALBUSINESS" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTFINISHED" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTFRAUDINQUIRY" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFOREXTFRAUDSYSTEM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCLAIMCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCLEANED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSPASSEDTOEXTERNALSYSTEM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSRELEASED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSREMINDERREQUESTCLAIMINFOSENT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSREMINDERSENT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSREQUESTCLAIMINFOSENT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERCOULDAPPROVECLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERWANTEDTOAPPROVECLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIM" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCLAIM.ACCEPTANCEPROCESSINGID ACCEPTANCEPROCESSINGID,
+&#x9;RPCLAIM.ACCEPTANCERULEMESSAGE ACCEPTANCERULEMESSAGE,
+&#x9;RPCLAIM.AMTESTIMATEDCLAIM AMTESTIMATEDCLAIM,
+&#x9;RPCLAIM.AREDOCUMENTSAVAILABLE AREDOCUMENTSAVAILABLE,
+&#x9;RPCLAIM.AREPAYMENTSMANBYINTINEXTADM AREPAYMENTSMANBYINTINEXTADM,
+&#x9;RPCLAIM.CALAMITYID CALAMITYID,
+&#x9;RPCLAIM.CANADDDETAILSDIALOGBEUSED CANADDDETAILSDIALOGBEUSED,
+&#x9;RPCLAIM.CANCHMESSBECREATEDAUTO CANCHMESSBECREATEDAUTO,
+&#x9;RPCLAIM.CANMAKEAUTOMATICRDR12MESSAGE CANMAKEAUTOMATICRDR12MESSAGE,
+&#x9;RPCLAIM.CASEPROCESSGROUPID CASEPROCESSGROUPID,
+&#x9;RPCLAIM.CLAIMFINISHREASONID CLAIMFINISHREASONID,
+&#x9;RPCLAIM.CLAIMFORMSIGNEDBY CLAIMFORMSIGNEDBY,
+&#x9;RPCLAIM.CLAIMID CLAIMID,
+&#x9;RPCLAIM.CLAIMIDENTIFICATIONMARK CLAIMIDENTIFICATIONMARK,
+&#x9;RPCLAIM.CLAIMIDENTIFIER CLAIMIDENTIFIER,
+&#x9;RPCLAIM.CLAIMPROCESSINTERMEDIARYID CLAIMPROCESSINTERMEDIARYID,
+&#x9;RPCLAIM.CLAIMSTATUSID CLAIMSTATUSID,
+&#x9;RPCLAIM.CONTAINSTRANSFERREDCASES CONTAINSTRANSFERREDCASES,
+&#x9;RPCLAIM.COUNTRYID COUNTRYID,
+&#x9;RPCLAIM.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPCLAIM.CREATEDBYLOGONUSERID CREATEDBYLOGONUSERID,
+&#x9;RPCLAIM.CREATEDBYREMOTEUSERID CREATEDBYREMOTEUSERID,
+&#x9;RPCLAIM.CURRENCYID CURRENCYID,
+&#x9;RPCLAIM.CUSTOMERID CUSTOMERID,
+&#x9;RPCLAIM.DATEDAMAGE DATEDAMAGE,
+&#x9;RPCLAIM.DATEENTERED DATEENTERED,
+&#x9;RPCLAIM.DATEEXPIRATIONFRISSCHECK DATEEXPIRATIONFRISSCHECK,
+&#x9;RPCLAIM.DATEEXTERNALLYPAIDTO DATEEXTERNALLYPAIDTO,
+&#x9;RPCLAIM.DATEFINISHED DATEFINISHED,
+&#x9;RPCLAIM.DATELASTREOPENED DATELASTREOPENED,
+&#x9;RPCLAIM.DATELATESTSTATUSCHANGE DATELATESTSTATUSCHANGE,
+&#x9;RPCLAIM.DATEREPORTED DATEREPORTED,
+&#x9;RPCLAIM.DATERESULTFRAUDINQUIRY DATERESULTFRAUDINQUIRY,
+&#x9;RPCLAIM.DATESTARTFRAUDINQUIRY DATESTARTFRAUDINQUIRY,
+&#x9;RPCLAIM.DESCRIPTION DESCRIPTION,
+&#x9;RPCLAIM.DOCUMENTSEXPLANATION DOCUMENTSEXPLANATION,
+&#x9;RPCLAIM.DOCUMENTSTOSEND DOCUMENTSTOSEND,
+&#x9;RPCLAIM.EMAILADDRESSFORCOMPLETION EMAILADDRESSFORCOMPLETION,
+&#x9;RPCLAIM.EMAILINTERMEDIARYEMPLOYEE EMAILINTERMEDIARYEMPLOYEE,
+&#x9;RPCLAIM.EXPORTNEWCLAIMSJOBID EXPORTNEWCLAIMSJOBID,
+&#x9;RPCLAIM.EXTAMTCOMPENSATION EXTAMTCOMPENSATION,
+&#x9;RPCLAIM.EXTAMTCOMPENSATIONVULNERABLE EXTAMTCOMPENSATIONVULNERABLE,
+&#x9;RPCLAIM.EXTCLAIMSTATUSID EXTCLAIMSTATUSID,
+&#x9;RPCLAIM.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCLAIM.EXTERNALRISKIDENTIFIER EXTERNALRISKIDENTIFIER,
+&#x9;RPCLAIM.FIRSTORIGINID FIRSTORIGINID,
+&#x9;RPCLAIM.FRAUDRESULTID FRAUDRESULTID,
+&#x9;RPCLAIM.GENERALEXPLANATION GENERALEXPLANATION,
+&#x9;RPCLAIM.GROUPCODEFORREPORTINGCLAIMSID GROUPCODEFORREPORTINGCLAIMSID,
+&#x9;RPCLAIM.HASBEENRELEASED HASBEENRELEASED,
+&#x9;RPCLAIM.HASEMAILFORCOMPLETIONBEENSENT HASEMAILFORCOMPLETIONBEENSENT,
+&#x9;RPCLAIM.HASFRAUDBEENCONSULTED HASFRAUDBEENCONSULTED,
+&#x9;RPCLAIM.HASFRAUDRESULTTOASSESS HASFRAUDRESULTTOASSESS,
+&#x9;RPCLAIM.HASREMINDERFORCLAIMBEENSENT HASREMINDERFORCLAIMBEENSENT,
+&#x9;RPCLAIM.IDENTIFIERFORCOMPLETION IDENTIFIERFORCOMPLETION,
+&#x9;RPCLAIM.IDENTIFIERFORCRM IDENTIFIERFORCRM,
+&#x9;RPCLAIM.INCIDENTNRFRAUDINQUIRY_UPPER INCIDENTNRFRAUDINQUIRY_UPPER,
+&#x9;RPCLAIM.INCIDENTNUMBERFRAUDINQUIRY INCIDENTNUMBERFRAUDINQUIRY,
+&#x9;RPCLAIM.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPCLAIM.INTERNALRISKIDENTIFIER INTERNALRISKIDENTIFIER,
+&#x9;RPCLAIM.ISASSESSMENTNECESSARYFORCLAIM ISASSESSMENTNECESSARYFORCLAIM,
+&#x9;RPCLAIM.ISCLAIMFORMSIGNEDBYALLPARTIES ISCLAIMFORMSIGNEDBYALLPARTIES,
+&#x9;RPCLAIM.ISCOINSUREDCLAIM ISCOINSUREDCLAIM,
+&#x9;RPCLAIM.ISCONVERTEDFROMLEGACYSYSTEM ISCONVERTEDFROMLEGACYSYSTEM,
+&#x9;RPCLAIM.ISEXPRESSCLAIM ISEXPRESSCLAIM,
+&#x9;RPCLAIM.ISEXTERNALCLAIM ISEXTERNALCLAIM,
+&#x9;RPCLAIM.ISIMPACTFULCLAIM ISIMPACTFULCLAIM,
+&#x9;RPCLAIM.ISMATTEROFCONCEALMENT ISMATTEROFCONCEALMENT,
+&#x9;RPCLAIM.ISMATTEROFFRAUD ISMATTEROFFRAUD,
+&#x9;RPCLAIM.ISPOLICREPORTNECESSARYFORCLAIM ISPOLICREPORTNECESSARYFORCLAIM,
+&#x9;RPCLAIM.ISRDRCOUNTERPARTYAGREED ISRDRCOUNTERPARTYAGREED,
+&#x9;RPCLAIM.ISRELATEDTOEXTERNALPOLICIES ISRELATEDTOEXTERNALPOLICIES,
+&#x9;RPCLAIM.ISREPAIRNECESSARYFORCLAIM ISREPAIRNECESSARYFORCLAIM,
+&#x9;RPCLAIM.ISREPONACTREINSURANCEPOLICIES ISREPONACTREINSURANCEPOLICIES,
+&#x9;RPCLAIM.ISREPORTEDONOPENPOLICIES ISREPORTEDONOPENPOLICIES,
+&#x9;RPCLAIM.ISREPORTEDUNJUSTLY ISREPORTEDUNJUSTLY,
+&#x9;RPCLAIM.ISREPORTEDVIAFORM ISREPORTEDVIAFORM,
+&#x9;RPCLAIM.ISREPORTEDVIAWEBSERVICE ISREPORTEDVIAWEBSERVICE,
+&#x9;RPCLAIM.ISSPECIALCASE ISSPECIALCASE,
+&#x9;RPCLAIM.LASTCHANGEDIALOGORIGINID LASTCHANGEDIALOGORIGINID,
+&#x9;RPCLAIM.LEGACYIDENTIFIER LEGACYIDENTIFIER,
+&#x9;RPCLAIM.MUNICIPALITYID MUNICIPALITYID,
+&#x9;RPCLAIM.NAMEINTERMEDIARYEMPLOYEE NAMEINTERMEDIARYEMPLOYEE,
+&#x9;RPCLAIM.ORIGINID ORIGINID,
+&#x9;RPCLAIM.ORIGINIDENTIFIER ORIGINIDENTIFIER,
+&#x9;RPCLAIM.PLACE PLACE,
+&#x9;RPCLAIM.POSTALCODE POSTALCODE,
+&#x9;RPCLAIM.REMARK REMARK,
+&#x9;RPCLAIM.REPORTERROLEID REPORTERROLEID,
+&#x9;RPCLAIM.RESPONSIBLELOGONUSERID RESPONSIBLELOGONUSERID,
+&#x9;RPCLAIM.RISKANALYSISFAILED RISKANALYSISFAILED,
+&#x9;RPCLAIM.RISKCUSTOMERID RISKCUSTOMERID,
+&#x9;RPCLAIM.TEXTADVICESPECIALBUSINESS TEXTADVICESPECIALBUSINESS,
+&#x9;RPCLAIM.TEXTFINISHED TEXTFINISHED,
+&#x9;RPCLAIM.TEXTFRAUDINQUIRY TEXTFRAUDINQUIRY,
+&#x9;RPCLAIM.TSCHANGED TSCHANGED,
+&#x9;RPCLAIM.TSCHANGEDFOREXTFRAUDSYSTEM TSCHANGEDFOREXTFRAUDSYSTEM,
+&#x9;RPCLAIM.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPCLAIM.TSCLAIMCREATED TSCLAIMCREATED,
+&#x9;RPCLAIM.TSCLEANED TSCLEANED,
+&#x9;RPCLAIM.TSCREATED TSCREATED,
+&#x9;RPCLAIM.TSPASSEDTOEXTERNALSYSTEM TSPASSEDTOEXTERNALSYSTEM,
+&#x9;RPCLAIM.TSRELEASED TSRELEASED,
+&#x9;RPCLAIM.TSREMINDERREQUESTCLAIMINFOSENT TSREMINDERREQUESTCLAIMINFOSENT,
+&#x9;RPCLAIM.TSREMINDERSENT TSREMINDERSENT,
+&#x9;RPCLAIM.TSREQUESTCLAIMINFOSENT TSREQUESTCLAIMINFOSENT,
+&#x9;RPCLAIM.USERCOULDAPPROVECLAIM USERCOULDAPPROVECLAIM,
+&#x9;RPCLAIM.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCLAIM.USERIDCREATED USERIDCREATED,
+&#x9;RPCLAIM.USERWANTEDTOAPPROVECLAIM USERWANTEDTOAPPROVECLAIM 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIM RPCLAIM</attribute>
+  <attribute name="creationDate" type="LONG">1664289119812</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIM&apos;.  On line 113, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289119812</attribute>
+</metadata>

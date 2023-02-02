@@ -1,0 +1,504 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPQUESTION" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPQUESTION" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ALLOWEDEXTENSIONS" nullable="true">
+      <datatype type="STRING" maxLength="511"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AUTOCOMPLETE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CODE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSSENSITIVEINFORMATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTVALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FUNCTIONALDATATYPEDATAFORMATID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FUNCTIONALDATATYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INPUTHEIGHT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INPUTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INPUTTYPESTYLINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INPUTWIDTH" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISEDITABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISEDITABLEAFTERPREFILL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREQUIRED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISSPECIALSCREENELEMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAXIMUMFILESIZE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAXLENGTH" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAXRESULTSAUTOSUGGEST" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MINLENGTH" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NUMBEROFDECIMALS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="QUESTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="QUESTIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REGULAREXPRESSION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWONPRINT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWONSCREEN" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWTEXTLEFTOFINPUTONPRINT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWTEXTQUESTION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWTEXTRIGHTOFINPUTONPRINT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SKIPINPUTCHECKSONTRIGGER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SPECIALSCREENELEMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STEPSIZE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="STYLESHEETCLASSNAME" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSESCAPEMARKUP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSLATETEXTAUTOMATICTOCAPS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSLATEWHITESPACEANDPERIODS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEMAXIMUM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEMINIMUM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPQUESTION" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ALLOWEDEXTENSIONS">
+        <datatype type="STRING" maxLength="511"/>
+      </element>
+      <element name="AUTOCOMPLETE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="CODE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="CONTAINSSENSITIVEINFORMATION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="DEFAULTVALUEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="FUNCTIONALDATATYPEDATAFORMATID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="FUNCTIONALDATATYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INPUTHEIGHT">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INPUTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INPUTTYPESTYLINGID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INPUTWIDTH">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISEDITABLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISEDITABLEAFTERPREFILL">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISREQUIRED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISSPECIALSCREENELEMENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="MAXIMUMFILESIZE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MAXLENGTH">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MAXRESULTSAUTOSUGGEST">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MINLENGTH">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NUMBEROFDECIMALS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="QUESTIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="QUESTIONTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REGULAREXPRESSION">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="SHOWONPRINT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHOWONSCREEN">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHOWTEXTLEFTOFINPUTONPRINT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHOWTEXTQUESTION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHOWTEXTRIGHTOFINPUTONPRINT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SKIPINPUTCHECKSONTRIGGER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SPECIALSCREENELEMENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="STEPSIZE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="STYLESHEETCLASSNAME">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="SUPPRESSESCAPEMARKUP">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TRANSLATETEXTAUTOMATICTOCAPS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TRANSLATEWHITESPACEANDPERIODS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="VALUELISTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="VALUEMAXIMUM">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="VALUEMINIMUM">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPQUESTION.ALLOWEDEXTENSIONS ALLOWEDEXTENSIONS,
+&#x9;RPQUESTION.AUTOCOMPLETE AUTOCOMPLETE,
+&#x9;RPQUESTION.CODE CODE,
+&#x9;RPQUESTION.CONTAINSSENSITIVEINFORMATION CONTAINSSENSITIVEINFORMATION,
+&#x9;RPQUESTION.DEFAULTVALUEID DEFAULTVALUEID,
+&#x9;RPQUESTION.FUNCTIONALDATATYPEDATAFORMATID FUNCTIONALDATATYPEDATAFORMATID,
+&#x9;RPQUESTION.FUNCTIONALDATATYPEID FUNCTIONALDATATYPEID,
+&#x9;RPQUESTION.INPUTHEIGHT INPUTHEIGHT,
+&#x9;RPQUESTION.INPUTTYPEID INPUTTYPEID,
+&#x9;RPQUESTION.INPUTTYPESTYLINGID INPUTTYPESTYLINGID,
+&#x9;RPQUESTION.INPUTWIDTH INPUTWIDTH,
+&#x9;RPQUESTION.ISEDITABLE ISEDITABLE,
+&#x9;RPQUESTION.ISEDITABLEAFTERPREFILL ISEDITABLEAFTERPREFILL,
+&#x9;RPQUESTION.ISREQUIRED ISREQUIRED,
+&#x9;RPQUESTION.ISSPECIALSCREENELEMENT ISSPECIALSCREENELEMENT,
+&#x9;RPQUESTION.MAXIMUMFILESIZE MAXIMUMFILESIZE,
+&#x9;RPQUESTION.MAXLENGTH MAXLENGTH,
+&#x9;RPQUESTION.MAXRESULTSAUTOSUGGEST MAXRESULTSAUTOSUGGEST,
+&#x9;RPQUESTION.MINLENGTH MINLENGTH,
+&#x9;RPQUESTION.NUMBEROFDECIMALS NUMBEROFDECIMALS,
+&#x9;RPQUESTION.QUESTIONID QUESTIONID,
+&#x9;RPQUESTION.QUESTIONTYPEID QUESTIONTYPEID,
+&#x9;RPQUESTION.REGULAREXPRESSION REGULAREXPRESSION,
+&#x9;RPQUESTION.SHOWONPRINT SHOWONPRINT,
+&#x9;RPQUESTION.SHOWONSCREEN SHOWONSCREEN,
+&#x9;RPQUESTION.SHOWTEXTLEFTOFINPUTONPRINT SHOWTEXTLEFTOFINPUTONPRINT,
+&#x9;RPQUESTION.SHOWTEXTQUESTION SHOWTEXTQUESTION,
+&#x9;RPQUESTION.SHOWTEXTRIGHTOFINPUTONPRINT SHOWTEXTRIGHTOFINPUTONPRINT,
+&#x9;RPQUESTION.SKIPINPUTCHECKSONTRIGGER SKIPINPUTCHECKSONTRIGGER,
+&#x9;RPQUESTION.SPECIALSCREENELEMENTTYPEID SPECIALSCREENELEMENTTYPEID,
+&#x9;RPQUESTION.STEPSIZE STEPSIZE,
+&#x9;RPQUESTION.STYLESHEETCLASSNAME STYLESHEETCLASSNAME,
+&#x9;RPQUESTION.SUPPRESSESCAPEMARKUP SUPPRESSESCAPEMARKUP,
+&#x9;RPQUESTION.TRANSLATETEXTAUTOMATICTOCAPS TRANSLATETEXTAUTOMATICTOCAPS,
+&#x9;RPQUESTION.TRANSLATEWHITESPACEANDPERIODS TRANSLATEWHITESPACEANDPERIODS,
+&#x9;RPQUESTION.TSCHANGED TSCHANGED,
+&#x9;RPQUESTION.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPQUESTION.TSCREATED TSCREATED,
+&#x9;RPQUESTION.USERIDCHANGED USERIDCHANGED,
+&#x9;RPQUESTION.USERIDCREATED USERIDCREATED,
+&#x9;RPQUESTION.VALUELISTID VALUELISTID,
+&#x9;RPQUESTION.VALUEMAXIMUM VALUEMAXIMUM,
+&#x9;RPQUESTION.VALUEMINIMUM VALUEMINIMUM 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPQUESTION RPQUESTION</attribute>
+  <attribute name="creationDate" type="LONG">1664294886462</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPQUESTION&apos;.  On line 46, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294886462</attribute>
+</metadata>

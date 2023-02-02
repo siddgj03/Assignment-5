@@ -1,0 +1,418 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_VehicleRepository" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/RDS/VehicleRepository/v_VehicleRepository" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="vehicleTypeId" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="vehicleCategoryCode" nullable="true">
+      <datatype type="STRING" maxLength="50" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="makeCode" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="makeDescription" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="modelDescriptionShort" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="modelDescription" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="vehicleTypeCode" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="typeDescription" nullable="true">
+      <datatype type="STRING" maxLength="240"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="isCoupe" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="isConvertible" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="isAllTerrain" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="isSportCar" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="motorPowerHp" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="motorSize" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="motorPowerKw" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="buildFromYear" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="buildFromMonth" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="buildUntilYear" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="buildUntilMonth" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="numberDoors" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="numberSeats" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="numberGears" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="topSpeed" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="sportivityRatio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="maxAllowedMass" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="co2EmissionNedc" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="co2EmissionWltpMax" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="co2EmissionWltpMin" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="imageUrl" nullable="true">
+      <datatype type="STRING" maxLength="1000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="modelCode" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bodyCode" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="bodyType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="transmissionTypeCode" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="transmissionType" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fuelTypeCode" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="fuelTypeName" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="catalogPriceExcl" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="catalogPriceIncl" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="languageCode" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="VTF_index" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="languageCode" sortOrder="ASCENDING"/>
+      <indexColumn name="vehicleTypeId" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/BODYCATEGORY" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/FUELTYPE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/MAKE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/MODEL" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/TRANSMISSIONTYPE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/VEHICLETYPE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/RDS/VehicleRepository/v_PRICE_CURRENT" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT
+
+VT.VEHICLE_TYPE_ID AS vehicleTypeId,
+TRIM(VT.VEHICLE_CATEGORY_CODE) AS vehicleCategoryCode,
+MA.MAKE_ID AS makeCode,
+MA.MAKE_NAME AS makeDescription,
+MO.MODEL_NAME_SHORT AS modelDescriptionShort,
+MO.MODEL_NAME_LONG AS modelDescription,
+VT.VEHICLE_TYPE_CODE AS vehicleTypeCode,
+--CAST(REPLACE(VT.TYPE_NAME,&apos;/&apos;,&apos; &apos;) AS VARCHAR(240)) AS typeDescription,
+VT.TYPE_NAME AS typeDescription,
+
+LOWER(VT.IS_COUPE) AS isCoupe,
+LOWER(VT.IS_CONVERTIBLE) AS isConvertible,
+LOWER(VT.IS_ALL_TERRAIN) AS isAllTerrain,
+LOWER(VT.IS_SPORTCAR) AS isSportCar,
+
+
+VT.MOTOR_POWER_HP AS motorPowerHp,
+VT.MOTOR_SIZE_CCM AS motorSize,
+VT.MOTOR_POWER_KW AS motorPowerKw,
+VT.BUILD_FROM_YEAR AS buildFromYear,
+VT.BUILD_FROM_MONTH AS buildFromMonth,
+VT.BUILD_UNTIL_YEAR AS buildUntilYear,
+VT.BUILD_UNTIL_MONTH AS buildUntilMonth,
+VT.NUMBER_DOORS AS numberDoors,
+VT.NUMBER_SEATS AS numberSeats,
+VT.NUMBER_GEARS AS numberGears,
+VT.TOP_SPEED AS topSpeed,
+VT.SPORTIVITY_RATIO AS sportivityRatio,
+VT.MAX_ALLOWED_MASS AS maxAllowedMass,
+VT.CO2_EMISSION_NEDC AS co2EmissionNedc,
+VT.CO2_EMISSION_MAX_WLTP AS co2EmissionWltpMax, 
+VT.CO2_EMISSION_MIN_WLTP AS co2EmissionWltpMin,
+VT.IMAGE_URL AS imageUrl,
+
+VT.MODEL_ID AS modelCode, 
+BC2.BODY_CODE AS bodyCode,
+BC2.BODY_NAME AS bodyType, 
+TT2.TRANSMISSION_CODE AS transmissionTypeCode,
+TT2.TRANSMISSION_NAME as transmissionType,
+FT2.FUEL_CODE AS fuelTypeCode,
+FT2.FUEL_NAME AS fuelTypeName,
+PR.catalogPriceExcl as catalogPriceExcl,
+PR.catalogPriceIncl as catalogPriceIncl,
+&apos;NL&apos; AS languageCode
+
+FROM /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/VEHICLETYPE VT
+
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/TRANSMISSIONTYPE TT ON VT.TRANSMISSION_ID = TT.TRANSMISSION_ID
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/TRANSMISSIONTYPE TT2 ON (TT2.TRANSMISSION_CODE = TT.TRANSMISSION_CODE AND TT2.TRANSMISSION_LANG_CODE=&apos;NL&apos;)
+
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/BODYCATEGORY BC ON VT.BODY_ID = BC.BODY_ID
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/BODYCATEGORY BC2 ON (BC2.BODY_CODE = BC.BODY_CODE AND BC2.BODY_LANG_CODE = &apos;NL&apos;)
+
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/FUELTYPE FT ON VT.FUEL_ID = FT.FUEL_ID 
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/FUELTYPE FT2 ON (FT2.FUEL_CODE=FT.FUEL_CODE AND FT2.FUEL_LANG_CODE = &apos;NL&apos;)
+
+INNER JOIN /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/RDS/VehicleRepository/v_PRICE_CURRENT PR on PR.VEHICLE_TYPE_ID = VT.VEHICLE_TYPE_ID
+
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/MODEL MO ON VT.MODEL_ID = MO.MODEL_ID
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/MAKE MA ON MO.MAKE_ID = MA.MAKE_ID
+
+
+
+UNION ALL
+
+
+SELECT
+
+VT.VEHICLE_TYPE_ID AS vehicleTypeId,
+TRIM(VT.VEHICLE_CATEGORY_CODE) AS vehicleCategoryCode,
+MA.MAKE_ID AS makeCode,
+MA.MAKE_NAME AS makeDescription,
+MO.MODEL_NAME_SHORT AS modelDescriptionShort,
+MO.MODEL_NAME_LONG AS modelDescription,
+VT.VEHICLE_TYPE_CODE AS vehicleTypeCode,
+--CAST(REPLACE(VT.TYPE_NAME,&apos;/&apos;,&apos; &apos;) AS VARCHAR(240)) AS typeDescription,
+VT.TYPE_NAME AS typeDescription,
+
+LOWER(VT.IS_COUPE) AS isCoupe,
+LOWER(VT.IS_CONVERTIBLE) AS isConvertible,
+LOWER(VT.IS_ALL_TERRAIN) AS isAllTerrain,
+LOWER(VT.IS_SPORTCAR) AS isSportCar,
+
+VT.MOTOR_POWER_HP AS motorPowerHp,
+VT.MOTOR_SIZE_CCM AS motorSize,
+VT.MOTOR_POWER_KW AS motorPowerKw,
+VT.BUILD_FROM_YEAR AS buildFromYear,
+VT.BUILD_FROM_MONTH AS buildFromMonth,
+VT.BUILD_UNTIL_YEAR AS buildUntilYear,
+VT.BUILD_UNTIL_MONTH AS buildUntilMonth,
+VT.NUMBER_DOORS AS numberDoors,
+VT.NUMBER_SEATS AS numberSeats,
+VT.NUMBER_GEARS AS numberGears,
+VT.TOP_SPEED AS topSpeed,
+VT.SPORTIVITY_RATIO AS sportivityRatio,
+VT.MAX_ALLOWED_MASS AS maxAllowedMass,
+VT.CO2_EMISSION_NEDC AS co2EmissionNedc,
+VT.CO2_EMISSION_MAX_WLTP AS co2EmissionWltpMax,
+VT.CO2_EMISSION_MIN_WLTP AS co2EmissionWltpMin,
+VT.IMAGE_URL AS imageUrl,
+
+VT.MODEL_ID AS modelCode, 
+BC2.BODY_CODE AS bodyCode,
+BC2.BODY_NAME AS bodyType, 
+TT2.TRANSMISSION_CODE AS transmissionTypeCode,
+TT2.TRANSMISSION_NAME as transmissionType,
+FT2.FUEL_CODE AS fuelTypeCode, 
+FT2.FUEL_NAME AS fuelTypeName,
+PR.catalogPriceExcl as catalogPriceExcl,
+PR.catalogPriceIncl as catalogPriceIncl,
+&apos;FR&apos; AS languageCode
+
+FROM /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/VEHICLETYPE VT
+
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/TRANSMISSIONTYPE TT ON  VT.TRANSMISSION_ID = TT.TRANSMISSION_ID
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/TRANSMISSIONTYPE TT2 ON (TT2.TRANSMISSION_CODE = TT.TRANSMISSION_CODE AND TT2.TRANSMISSION_LANG_CODE=&apos;FR&apos;)
+
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/BODYCATEGORY BC ON  VT.BODY_ID = BC.BODY_ID
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/BODYCATEGORY BC2 ON (BC2.BODY_CODE = BC.BODY_CODE AND BC2.BODY_LANG_CODE = &apos;FR&apos;)
+
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/FUELTYPE FT ON VT.FUEL_ID = FT.FUEL_ID
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/FUELTYPE FT2 ON (FT2.FUEL_CODE=FT.FUEL_CODE AND FT2.FUEL_LANG_CODE = &apos;FR&apos;)
+
+INNER JOIN /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/RDS/VehicleRepository/v_PRICE_CURRENT PR on PR.VEHICLE_TYPE_ID = VT.VEHICLE_TYPE_ID
+
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/MODEL MO ON VT.MODEL_ID = MO.MODEL_ID
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/MAKE MA ON MO.MAKE_ID = MA.MAKE_ID
+
+
+</attribute>
+  <attribute name="cacheLastTracking" type="STRING">/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/CACHE_TRACKING</attribute>
+  <attribute name="creationDate" type="LONG">1644334638625</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">true</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/RDS/VEHICLEREPO/VEHICLETYPE&apos;.  On line 48, column 6.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1659518752442</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1644334638625</attribute>
+</metadata>

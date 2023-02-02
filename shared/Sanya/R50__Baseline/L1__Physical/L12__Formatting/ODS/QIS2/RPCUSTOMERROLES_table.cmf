@@ -1,0 +1,311 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCUSTOMERROLES" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCUSTOMERROLES" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCEPTSFOLUPAMTCLEARINGHOUSE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCEPTSWADIRECTCLAIMSFORCLEARINGHUIS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADVICECOSTSFINANCIALVALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTFORAUTOMATICPAYMENTS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTMAXIMUMCLAIMASSESSMENT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANAUTPAYCLAIMASSESSMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANPAYBASEDONCALCULATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANSENDINVOICEWITHOUTASSIGNMNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CASECOSTSFINANCIALVALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHECKCASEANDADVICECOSTSINVOICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CODEFORHERSTELVERZEKERD" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTIDENTFORDAMAGEBILLS" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENDCONNTOEXTLIABSYSTEM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTCONNTOEXTLIABSYSTEM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTIONOPENINGHOURS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIERFORLIABINTERFACE" nullable="true">
+      <datatype type="STRING" maxLength="35"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCONNECTEDTOEXTLIABSYSTEM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LLMVCOMPANYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MEDICALREGISTRATIONNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NBBCODE" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PARTICIPATESINAMICABLYMEETING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PARTICIPATESINKNOCKFORKNOCK" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PARTICIPATESINOVS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROTECTORTYPEFORPIVID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SPECIFICCODEFORGDV" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SPECIFICCODEFORVWB" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USESASSESSMENTINTERFACE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USESGDVSCHADENNETZFORCOMM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="XMLVERSIONFORGDVSCHADENNETZ" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCUSTOMERROLES" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCUSTOMERROLES.ACCEPTSFOLUPAMTCLEARINGHOUSE ACCEPTSFOLUPAMTCLEARINGHOUSE,
+&#x9;RPCUSTOMERROLES.ACCEPTSWADIRECTCLAIMSFORCLEARINGHUIS ACCEPTSWADIRECTCLAIMSFORCLEARINGHUIS,
+&#x9;RPCUSTOMERROLES.ADVICECOSTSFINANCIALVALUEID ADVICECOSTSFINANCIALVALUEID,
+&#x9;RPCUSTOMERROLES.AMTFORAUTOMATICPAYMENTS AMTFORAUTOMATICPAYMENTS,
+&#x9;RPCUSTOMERROLES.AMTMAXIMUMCLAIMASSESSMENT AMTMAXIMUMCLAIMASSESSMENT,
+&#x9;RPCUSTOMERROLES.ASSESSMENTIDENTIFIER ASSESSMENTIDENTIFIER,
+&#x9;RPCUSTOMERROLES.CANAUTPAYCLAIMASSESSMENT CANAUTPAYCLAIMASSESSMENT,
+&#x9;RPCUSTOMERROLES.CANPAYBASEDONCALCULATION CANPAYBASEDONCALCULATION,
+&#x9;RPCUSTOMERROLES.CANSENDINVOICEWITHOUTASSIGNMNT CANSENDINVOICEWITHOUTASSIGNMNT,
+&#x9;RPCUSTOMERROLES.CASECOSTSFINANCIALVALUEID CASECOSTSFINANCIALVALUEID,
+&#x9;RPCUSTOMERROLES.CHECKCASEANDADVICECOSTSINVOICE CHECKCASEANDADVICECOSTSINVOICE,
+&#x9;RPCUSTOMERROLES.CODEFORHERSTELVERZEKERD CODEFORHERSTELVERZEKERD,
+&#x9;RPCUSTOMERROLES.CUSTIDENTFORDAMAGEBILLS CUSTIDENTFORDAMAGEBILLS,
+&#x9;RPCUSTOMERROLES.CUSTOMERID CUSTOMERID,
+&#x9;RPCUSTOMERROLES.DATEENDCONNTOEXTLIABSYSTEM DATEENDCONNTOEXTLIABSYSTEM,
+&#x9;RPCUSTOMERROLES.DATESTARTCONNTOEXTLIABSYSTEM DATESTARTCONNTOEXTLIABSYSTEM,
+&#x9;RPCUSTOMERROLES.DESCRIPTIONOPENINGHOURS DESCRIPTIONOPENINGHOURS,
+&#x9;RPCUSTOMERROLES.IDENTIFIERFORLIABINTERFACE IDENTIFIERFORLIABINTERFACE,
+&#x9;RPCUSTOMERROLES.ISCONNECTEDTOEXTLIABSYSTEM ISCONNECTEDTOEXTLIABSYSTEM,
+&#x9;RPCUSTOMERROLES.LLMVCOMPANYIDENTIFIER LLMVCOMPANYIDENTIFIER,
+&#x9;RPCUSTOMERROLES.MEDICALREGISTRATIONNUMBER MEDICALREGISTRATIONNUMBER,
+&#x9;RPCUSTOMERROLES.NBBCODE NBBCODE,
+&#x9;RPCUSTOMERROLES.PARTICIPATESINAMICABLYMEETING PARTICIPATESINAMICABLYMEETING,
+&#x9;RPCUSTOMERROLES.PARTICIPATESINKNOCKFORKNOCK PARTICIPATESINKNOCKFORKNOCK,
+&#x9;RPCUSTOMERROLES.PARTICIPATESINOVS PARTICIPATESINOVS,
+&#x9;RPCUSTOMERROLES.PROTECTORTYPEFORPIVID PROTECTORTYPEFORPIVID,
+&#x9;RPCUSTOMERROLES.SPECIFICCODEFORGDV SPECIFICCODEFORGDV,
+&#x9;RPCUSTOMERROLES.SPECIFICCODEFORVWB SPECIFICCODEFORVWB,
+&#x9;RPCUSTOMERROLES.TSCHANGED TSCHANGED,
+&#x9;RPCUSTOMERROLES.TSCREATED TSCREATED,
+&#x9;RPCUSTOMERROLES.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCUSTOMERROLES.USERIDCREATED USERIDCREATED,
+&#x9;RPCUSTOMERROLES.USESASSESSMENTINTERFACE USESASSESSMENTINTERFACE,
+&#x9;RPCUSTOMERROLES.USESGDVSCHADENNETZFORCOMM USESGDVSCHADENNETZFORCOMM,
+&#x9;RPCUSTOMERROLES.XMLVERSIONFORGDVSCHADENNETZ XMLVERSIONFORGDVSCHADENNETZ 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCUSTOMERROLES RPCUSTOMERROLES</attribute>
+  <attribute name="creationDate" type="LONG">1664289336661</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCUSTOMERROLES&apos;.  On line 38, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289336661</attribute>
+</metadata>

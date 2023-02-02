@@ -1,0 +1,559 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPAPPLICATIONGROUPCONTRDATA" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPAPPLICATIONGROUPCONTRDATA" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMTRETENTION" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTRETENTIONPERCLAIM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLGROUPCONTRACTDATAID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ARRANGEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSAGENCYFORCLAIMSPARTYEXTID" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENDGROUPCONTRACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEGROUPCONTRACTCONTINUATION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEGRPCONTRDEF" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPOLICYDURATIONSTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTGROUPCONTRACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEYEARENDCLOSING" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GENERALCONDTEMPLATEIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFCONDTEMPLATEIDENT" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFINSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDOCSALTPAYERCOMMTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDOCSCONTRHLDCOMMTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASSPECIFIEDFINANCIALDATA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASSPECIFIEDINSURANCEDATA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCONTRACTHOLDERPOLICYHOLDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISGRPCTRCONVFROMLEGACYSYS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISGRPCTRINSTCONVFROMLEGACYSYS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISLOCKEDFORNEWRISKS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPORTFOLIOTRANSFER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISRETENTIONAPPLICABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISSETTLEGROUPCONTRACT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISTRANSFERREDFROMEXTERNALADM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEGACYGENCONDSTEMPLATEIDENT" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEGACYGRPCDEFCONDSTEMPLIDENT" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEGACYGRPCTRIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MUTATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MUTATIONTYPEREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYDURATIONSEQUENCENUMBER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PREDEFINEDCONTRACTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SETTLEALLMARGINWITHNEWINTERMED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SETTLEGROUPCONTRACTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SETTLERETENTIONINTERMEDIARY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SETTLETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSPOSTINGNOTESFORRISKS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USEINTERMFEETYPEOFNEWINTERMED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPAPPLICATIONGROUPCONTRDATA" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="AMTRETENTION">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTRETENTIONPERCLAIM">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="APPLGROUPCONTRACTDATAID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="APPLICATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ARRANGEMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSAGENCYFORCLAIMSPARTYEXTID">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="DATEENDGROUPCONTRACT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEGROUPCONTRACTCONTINUATION">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEGRPCONTRDEF">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPOLICYDURATIONSTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESTARTGROUPCONTRACT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEYEARENDCLOSING">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="GENERALCONDTEMPLATEIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="GROUPCONTRACTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GROUPCONTRACTIDENTIFIER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="GRPCONTRDEFCONDTEMPLATEIDENT">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="GRPCONTRDEFID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GRPCONTRDEFINSTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GRPCONTRDOCSALTPAYERCOMMTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GRPCONTRDOCSCONTRHLDCOMMTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HASSPECIFIEDFINANCIALDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASSPECIFIEDINSURANCEDATA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCONTRACTHOLDERPOLICYHOLDER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISGRPCTRCONVFROMLEGACYSYS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISGRPCTRINSTCONVFROMLEGACYSYS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISLOCKEDFORNEWRISKS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPORTFOLIOTRANSFER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISRETENTIONAPPLICABLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISSETTLEGROUPCONTRACT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISTRANSFERREDFROMEXTERNALADM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="LEGACYGENCONDSTEMPLATEIDENT">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="LEGACYGRPCDEFCONDSTEMPLIDENT">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="LEGACYGRPCTRIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="MUTATIONTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MUTATIONTYPEREASONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYDURATIONSEQUENCENUMBER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PREDEFINEDCONTRACTNUMBER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="SETTLEALLMARGINWITHNEWINTERMED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SETTLEGROUPCONTRACTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SETTLERETENTIONINTERMEDIARY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SETTLETYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SUPPRESSPOSTINGNOTESFORRISKS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USEINTERMFEETYPEOFNEWINTERMED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPAPPLICATIONGROUPCONTRDATA.AMTRETENTION AMTRETENTION,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.AMTRETENTIONPERCLAIM AMTRETENTIONPERCLAIM,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.APPLGROUPCONTRACTDATAID APPLGROUPCONTRACTDATAID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.APPLICATIONID APPLICATIONID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.ARRANGEMENTID ARRANGEMENTID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.ASSAGENCYFORCLAIMSPARTYEXTID ASSAGENCYFORCLAIMSPARTYEXTID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.DATEENDGROUPCONTRACT DATEENDGROUPCONTRACT,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.DATEGROUPCONTRACTCONTINUATION DATEGROUPCONTRACTCONTINUATION,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.DATEGRPCONTRDEF DATEGRPCONTRDEF,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.DATEPOLICYDURATIONSTART DATEPOLICYDURATIONSTART,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.DATESTARTGROUPCONTRACT DATESTARTGROUPCONTRACT,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.DATEYEARENDCLOSING DATEYEARENDCLOSING,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.GENERALCONDTEMPLATEIDENTIFIER GENERALCONDTEMPLATEIDENTIFIER,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.GROUPCONTRACTID GROUPCONTRACTID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.GROUPCONTRACTIDENTIFIER GROUPCONTRACTIDENTIFIER,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.GRPCONTRDEFCONDTEMPLATEIDENT GRPCONTRDEFCONDTEMPLATEIDENT,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.GRPCONTRDEFID GRPCONTRDEFID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.GRPCONTRDEFINSTID GRPCONTRDEFINSTID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.GRPCONTRDOCSALTPAYERCOMMTYPEID GRPCONTRDOCSALTPAYERCOMMTYPEID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.GRPCONTRDOCSCONTRHLDCOMMTYPEID GRPCONTRDOCSCONTRHLDCOMMTYPEID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.HASSPECIFIEDFINANCIALDATA HASSPECIFIEDFINANCIALDATA,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.HASSPECIFIEDINSURANCEDATA HASSPECIFIEDINSURANCEDATA,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.ISCONTRACTHOLDERPOLICYHOLDER ISCONTRACTHOLDERPOLICYHOLDER,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.ISGRPCTRCONVFROMLEGACYSYS ISGRPCTRCONVFROMLEGACYSYS,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.ISGRPCTRINSTCONVFROMLEGACYSYS ISGRPCTRINSTCONVFROMLEGACYSYS,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.ISLOCKEDFORNEWRISKS ISLOCKEDFORNEWRISKS,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.ISPORTFOLIOTRANSFER ISPORTFOLIOTRANSFER,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.ISRETENTIONAPPLICABLE ISRETENTIONAPPLICABLE,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.ISSETTLEGROUPCONTRACT ISSETTLEGROUPCONTRACT,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.ISTRANSFERREDFROMEXTERNALADM ISTRANSFERREDFROMEXTERNALADM,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.LEGACYGENCONDSTEMPLATEIDENT LEGACYGENCONDSTEMPLATEIDENT,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.LEGACYGRPCDEFCONDSTEMPLIDENT LEGACYGRPCDEFCONDSTEMPLIDENT,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.LEGACYGRPCTRIDENTIFIER LEGACYGRPCTRIDENTIFIER,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.MUTATIONTYPEID MUTATIONTYPEID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.MUTATIONTYPEREASONID MUTATIONTYPEREASONID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.POLICYDURATIONSEQUENCENUMBER POLICYDURATIONSEQUENCENUMBER,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.POLICYID POLICYID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.PREDEFINEDCONTRACTNUMBER PREDEFINEDCONTRACTNUMBER,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.SETTLEALLMARGINWITHNEWINTERMED SETTLEALLMARGINWITHNEWINTERMED,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.SETTLEGROUPCONTRACTID SETTLEGROUPCONTRACTID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.SETTLERETENTIONINTERMEDIARY SETTLERETENTIONINTERMEDIARY,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.SETTLETYPEID SETTLETYPEID,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.SUPPRESSPOSTINGNOTESFORRISKS SUPPRESSPOSTINGNOTESFORRISKS,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.TSCHANGED TSCHANGED,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.TSCREATED TSCREATED,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.USEINTERMFEETYPEOFNEWINTERMED USEINTERMFEETYPEOFNEWINTERMED,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.USERIDCHANGED USERIDCHANGED,
+&#x9;RPAPPLICATIONGROUPCONTRDATA.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPAPPLICATIONGROUPCONTRDATA RPAPPLICATIONGROUPCONTRDATA</attribute>
+  <attribute name="creationDate" type="LONG">1664293580114</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAPPLICATIONGROUPCONTRDATA&apos;.  On line 51, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293580114</attribute>
+</metadata>

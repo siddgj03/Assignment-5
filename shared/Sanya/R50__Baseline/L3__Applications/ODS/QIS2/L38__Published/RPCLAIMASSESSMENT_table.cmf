@@ -1,0 +1,1747 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCLAIMASSESSMENT" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCLAIMASSESSMENT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ADDRESSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALTERNATIVECONTACTCLAIMCUSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMOUNTREDUCTION" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTASSESSMENT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDAMAGEEXPECTED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTINSURED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTPAIDTOREPAIRER" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPEAL" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AREVEHICLETIRESOK" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSCANCELLEDBYROLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTIDENTIFIERWEBSERVICE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTIMPACTDIRECTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTNETWORKTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTOBJECTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTTYPEASSCONCLID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSESSMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSNETWORKTYPESPECIFICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ASSREASONCANCELLATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AUTOMATICPAYMENTLIMIT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BRAND" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUILDINGAREA" nullable="true">
+      <datatype type="DECIMAL" maxDigits="9" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUILDINGTYPE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUILDINGUSAGE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCUSTOMERDEDUCTVAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANDAMAGEBERECLAIMED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHASSISNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMACTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMASSESSMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCUSTOMEROWNERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMOBJECTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COURTAUTHORITYTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DAMAGECAUSERTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DAMAGEINFORMATION" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DAMAGEPOSITIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATECREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEDEADLINEDEFENCE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEDEADLINERESPONSEINSURER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENDAUCTION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENDFILEREQUESTDESIRED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEOFVALIDITYBIDS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPAYMENTREQUESTREPAIRER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATERENTALEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATERENTALSTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTAUCTION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEVISIT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTIONCANCELLEDBYROLE" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTIONDAMAGEPOSITION" nullable="true">
+      <datatype type="STRING" maxLength="15"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTIONREASONCANCELLATION" nullable="true">
+      <datatype type="STRING" maxLength="120"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DISPUTEPLEASUBJECTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ERRORMESSAGE" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ESTIMATEDHEIGHT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ESTIMATEDWIDTH" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPERTSAGENCYCLAIMCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FALLSDAMAGEWITHINGUARENTEEFUND" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FAX" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FILEREQUESTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FLOOR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASHADEMERGENCYREPAIR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASOCCURREDOUTSIDETERRZONE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASPRIORITY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASREMINDERBEENSENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INCOMINGPOLICYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INSURANCEFORM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISACTIVE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISALTCONTCLAIMCUSTPRICONT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCHILDINVOLVED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOURTESYCARPROVIDED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISDAMAGEREPAIRED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISDAMAGEREPORTEDTOEXPERT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISDAMREPORTEDTOEMERGCALLCENTRE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISDATEVISITKNOWN" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISDIRECTPAYMENTALLOWED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFORDIRECTREPAIR" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISGENERATEDFROMREPAIRINTERFACE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINCOMING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISLEAKAGEINVESTIGATIONREQ" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISLIABILITYACKNOWLEDGEDBYCUST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISOBJECTOUTOFORDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPARTNERINVOLVED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPAYMENTFORREPAIRER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPOLICYHOLDERINVOLVED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREPAIRAPPROVED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISTECHNICALCONTROLREQUIRED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISTHIRDPARTYINVOLVED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISVEHICLEIMMOBILIZED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LAWSUITTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEGALPROCEDURETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEGALPROCESSREFERENCE" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LIABILITYEVENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LIABILITYTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LICENCEPLATE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LICENCEPLATEFORSEARCH" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAINASSESSMENTACTIVITYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MILEAGE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NAMEADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDAYSRENTALPERIOD" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NUMBEROFBIDS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NUMBEROFWINDOWS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OBJECTIDENTIFICATION" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OBJECTINFORMATION" nullable="true">
+      <datatype type="STRING" maxLength="300"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OBJECTMODEL" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OCCUPATION" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OFFSITEEXPERTSAGENCYCLCUSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OTHERLIABLECLAIMCUSTEXPERTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OTHERLIABLECLAIMCUSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OUTPUTLABELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCENTAGEREDUCTION" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCVATFINVALID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PHONE" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PHONEMOBILE" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRIORITY" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCERBUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROPERTYUNITNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMARKCLAIMCAUSE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMARKCONFIDENTIAL" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMARKGENERAL" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RENTALVEHICLEGROUP" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPAIRDURATIONINDAYS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPAIRERCLAIMCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPAIRINVOICEIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPEXPERTSAGENCYCLCUSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSIBLELOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RETURNADDRESSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REVISION" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ROLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ROLESPECIALISMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RULEFORASSESSMENTINTERFACEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDVIACOMMUNICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SIDEASSESSMENTACTIVITYID1" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SIDEASSESSMENTACTIVITYID2" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="THIRDPARTYCLAIMCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TIMERENTALEND" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TIMERENTALSTART" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCANCELLEDBYINSURER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGELASTEXPORTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSMARKEDASDONE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSREPAIRAPPROVALCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLETYPE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VISITORADDRESSNAME" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VISITORADDRESSREMARK" nullable="true">
+      <datatype type="STRING" maxLength="70"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VISITORADDRESSTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="YEARBUILT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMASSESSMENT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ADDRESSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ALTERNATIVECONTACTCLAIMCUSTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="AMOUNTREDUCTION">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTASSESSMENT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTDAMAGEEXPECTED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTINSURED">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTPAIDTOREPAIRER">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="APPEAL">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="AREVEHICLETIRESOK">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ASSCANCELLEDBYROLEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSESSMENTIDENTIFIER">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="ASSESSMENTIDENTIFIERWEBSERVICE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ASSESSMENTIMPACTDIRECTIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSESSMENTNETWORKTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSESSMENTOBJECTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSESSMENTSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSESSMENTTYPEASSCONCLID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSESSMENTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSNETWORKTYPESPECIFICATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ASSREASONCANCELLATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="AUTOMATICPAYMENTLIMIT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="BRAND">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="BUILDINGAREA">
+        <datatype type="DECIMAL" maxDigits="9" maxFractionalDigits="2"/>
+      </element>
+      <element name="BUILDINGTYPE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="BUILDINGUSAGE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="CANCUSTOMERDEDUCTVAT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CANDAMAGEBERECLAIMED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CHASSISNUMBER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="CLAIMACTIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMASSESSMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMCUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMCUSTOMEROWNERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMOBJECTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="COUNTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="COURTAUTHORITYTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DAMAGECAUSERTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DAMAGEINFORMATION">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="DAMAGEPOSITIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATECREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEDEADLINEDEFENCE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEDEADLINERESPONSEINSURER">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEENDAUCTION">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEENDFILEREQUESTDESIRED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEOFVALIDITYBIDS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPAYMENTREQUESTREPAIRER">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATERENTALEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATERENTALSTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESTARTAUCTION">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEVISIT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DESCRIPTION">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="DESCRIPTIONCANCELLEDBYROLE">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="DESCRIPTIONDAMAGEPOSITION">
+        <datatype type="STRING" maxLength="15"/>
+      </element>
+      <element name="DESCRIPTIONREASONCANCELLATION">
+        <datatype type="STRING" maxLength="120"/>
+      </element>
+      <element name="DISPUTEPLEASUBJECTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ERRORMESSAGE">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="ESTIMATEDHEIGHT">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ESTIMATEDWIDTH">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXPERTSAGENCYCLAIMCUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="FALLSDAMAGEWITHINGUARENTEEFUND">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="FAX">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="FILEREQUESTTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="FLOOR">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HASHADEMERGENCYREPAIR">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASOCCURREDOUTSIDETERRZONE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASPRIORITY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASREMINDERBEENSENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="INCOMINGPOLICYIDENTIFIER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="INSURANCEFORM">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="ISACTIVE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISALTCONTCLAIMCUSTPRICONT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCHILDINVOLVED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCOURTESYCARPROVIDED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISDAMAGEREPAIRED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISDAMAGEREPORTEDTOEXPERT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISDAMREPORTEDTOEMERGCALLCENTRE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISDATEVISITKNOWN">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISDIRECTPAYMENTALLOWED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISFORDIRECTREPAIR">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISGENERATEDFROMREPAIRINTERFACE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISINCOMING">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISLEAKAGEINVESTIGATIONREQ">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISLIABILITYACKNOWLEDGEDBYCUST">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISOBJECTOUTOFORDER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPARTNERINVOLVED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPAYMENTFORREPAIRER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPOLICYHOLDERINVOLVED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISREPAIRAPPROVED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISTECHNICALCONTROLREQUIRED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISTHIRDPARTYINVOLVED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISVEHICLEIMMOBILIZED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="JOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LAWSUITTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LEGALPROCEDURETYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LEGALPROCESSREFERENCE">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="LIABILITYEVENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LIABILITYTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LICENCEPLATE">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="LICENCEPLATEFORSEARCH">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="LOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MAINASSESSMENTACTIVITYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MILEAGE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NAMEADDRESS">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="NROFDAYSRENTALPERIOD">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NUMBEROFBIDS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NUMBEROFWINDOWS">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OBJECTIDENTIFICATION">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="OBJECTINFORMATION">
+        <datatype type="STRING" maxLength="300"/>
+      </element>
+      <element name="OBJECTMODEL">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="OCCUPATION">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="OFFSITEEXPERTSAGENCYCLCUSTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ORIGINIDENTIFIER">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="OTHERLIABLECLAIMCUSTEXPERTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OTHERLIABLECLAIMCUSTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="OUTPUTLABELID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCENTAGEREDUCTION">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCVATFINVALID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PHONE">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="PHONEMOBILE">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="PRIORITY">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="PRODUCERBUSINESSUNITID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PROPERTYUNITNUMBER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="REMARKCLAIMCAUSE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="REMARKCONFIDENTIAL">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="REMARKGENERAL">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="RENTALVEHICLEGROUP">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="REPAIRDURATIONINDAYS">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      </element>
+      <element name="REPAIRERCLAIMCUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REPAIRINVOICEIDENTIFIER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="RESPEXPERTSAGENCYCLCUSTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RESPONSIBLELOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RETURNADDRESSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REVISION">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="ROLEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ROLESPECIALISMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="RULEFORASSESSMENTINTERFACEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SENDVIACOMMUNICATION">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SIDEASSESSMENTACTIVITYID1">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SIDEASSESSMENTACTIVITYID2">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="THIRDPARTYCLAIMCUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TIMERENTALEND">
+        <datatype type="STRING" maxLength="5"/>
+      </element>
+      <element name="TIMERENTALSTART">
+        <datatype type="STRING" maxLength="5"/>
+      </element>
+      <element name="TSCANCELLEDBYINSURER">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGELASTEXPORTED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSMARKEDASDONE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSREPAIRAPPROVALCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="VEHICLETYPE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="VISITORADDRESSNAME">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="VISITORADDRESSREMARK">
+        <datatype type="STRING" maxLength="70"/>
+      </element>
+      <element name="VISITORADDRESSTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="YEARBUILT">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCLAIMASSESSMENT.ADDRESSID ADDRESSID,
+&#x9;RPCLAIMASSESSMENT.ALTERNATIVECONTACTCLAIMCUSTID ALTERNATIVECONTACTCLAIMCUSTID,
+&#x9;RPCLAIMASSESSMENT.AMOUNTREDUCTION AMOUNTREDUCTION,
+&#x9;RPCLAIMASSESSMENT.AMTASSESSMENT AMTASSESSMENT,
+&#x9;RPCLAIMASSESSMENT.AMTDAMAGEEXPECTED AMTDAMAGEEXPECTED,
+&#x9;RPCLAIMASSESSMENT.AMTINSURED AMTINSURED,
+&#x9;RPCLAIMASSESSMENT.AMTPAIDTOREPAIRER AMTPAIDTOREPAIRER,
+&#x9;RPCLAIMASSESSMENT.APPEAL APPEAL,
+&#x9;RPCLAIMASSESSMENT.AREVEHICLETIRESOK AREVEHICLETIRESOK,
+&#x9;RPCLAIMASSESSMENT.ASSCANCELLEDBYROLEID ASSCANCELLEDBYROLEID,
+&#x9;RPCLAIMASSESSMENT.ASSESSMENTIDENTIFIER ASSESSMENTIDENTIFIER,
+&#x9;RPCLAIMASSESSMENT.ASSESSMENTIDENTIFIERWEBSERVICE ASSESSMENTIDENTIFIERWEBSERVICE,
+&#x9;RPCLAIMASSESSMENT.ASSESSMENTIMPACTDIRECTIONID ASSESSMENTIMPACTDIRECTIONID,
+&#x9;RPCLAIMASSESSMENT.ASSESSMENTNETWORKTYPEID ASSESSMENTNETWORKTYPEID,
+&#x9;RPCLAIMASSESSMENT.ASSESSMENTOBJECTTYPEID ASSESSMENTOBJECTTYPEID,
+&#x9;RPCLAIMASSESSMENT.ASSESSMENTSTATUSID ASSESSMENTSTATUSID,
+&#x9;RPCLAIMASSESSMENT.ASSESSMENTTYPEASSCONCLID ASSESSMENTTYPEASSCONCLID,
+&#x9;RPCLAIMASSESSMENT.ASSESSMENTTYPEID ASSESSMENTTYPEID,
+&#x9;RPCLAIMASSESSMENT.ASSNETWORKTYPESPECIFICATIONID ASSNETWORKTYPESPECIFICATIONID,
+&#x9;RPCLAIMASSESSMENT.ASSREASONCANCELLATIONID ASSREASONCANCELLATIONID,
+&#x9;RPCLAIMASSESSMENT.AUTOMATICPAYMENTLIMIT AUTOMATICPAYMENTLIMIT,
+&#x9;RPCLAIMASSESSMENT.BRAND BRAND,
+&#x9;RPCLAIMASSESSMENT.BUILDINGAREA BUILDINGAREA,
+&#x9;RPCLAIMASSESSMENT.BUILDINGTYPE BUILDINGTYPE,
+&#x9;RPCLAIMASSESSMENT.BUILDINGUSAGE BUILDINGUSAGE,
+&#x9;RPCLAIMASSESSMENT.CANCUSTOMERDEDUCTVAT CANCUSTOMERDEDUCTVAT,
+&#x9;RPCLAIMASSESSMENT.CANDAMAGEBERECLAIMED CANDAMAGEBERECLAIMED,
+&#x9;RPCLAIMASSESSMENT.CHASSISNUMBER CHASSISNUMBER,
+&#x9;RPCLAIMASSESSMENT.CLAIMACTIONID CLAIMACTIONID,
+&#x9;RPCLAIMASSESSMENT.CLAIMASSESSMENTID CLAIMASSESSMENTID,
+&#x9;RPCLAIMASSESSMENT.CLAIMCUSTOMERID CLAIMCUSTOMERID,
+&#x9;RPCLAIMASSESSMENT.CLAIMCUSTOMEROWNERID CLAIMCUSTOMEROWNERID,
+&#x9;RPCLAIMASSESSMENT.CLAIMID CLAIMID,
+&#x9;RPCLAIMASSESSMENT.CLAIMOBJECTID CLAIMOBJECTID,
+&#x9;RPCLAIMASSESSMENT.COUNTRYID COUNTRYID,
+&#x9;RPCLAIMASSESSMENT.COURTAUTHORITYTYPEID COURTAUTHORITYTYPEID,
+&#x9;RPCLAIMASSESSMENT.DAMAGECAUSERTYPEID DAMAGECAUSERTYPEID,
+&#x9;RPCLAIMASSESSMENT.DAMAGEINFORMATION DAMAGEINFORMATION,
+&#x9;RPCLAIMASSESSMENT.DAMAGEPOSITIONID DAMAGEPOSITIONID,
+&#x9;RPCLAIMASSESSMENT.DATECREATED DATECREATED,
+&#x9;RPCLAIMASSESSMENT.DATEDEADLINEDEFENCE DATEDEADLINEDEFENCE,
+&#x9;RPCLAIMASSESSMENT.DATEDEADLINERESPONSEINSURER DATEDEADLINERESPONSEINSURER,
+&#x9;RPCLAIMASSESSMENT.DATEENDAUCTION DATEENDAUCTION,
+&#x9;RPCLAIMASSESSMENT.DATEENDFILEREQUESTDESIRED DATEENDFILEREQUESTDESIRED,
+&#x9;RPCLAIMASSESSMENT.DATEOFVALIDITYBIDS DATEOFVALIDITYBIDS,
+&#x9;RPCLAIMASSESSMENT.DATEPAYMENTREQUESTREPAIRER DATEPAYMENTREQUESTREPAIRER,
+&#x9;RPCLAIMASSESSMENT.DATERENTALEND DATERENTALEND,
+&#x9;RPCLAIMASSESSMENT.DATERENTALSTART DATERENTALSTART,
+&#x9;RPCLAIMASSESSMENT.DATESTARTAUCTION DATESTARTAUCTION,
+&#x9;RPCLAIMASSESSMENT.DATEVISIT DATEVISIT,
+&#x9;RPCLAIMASSESSMENT.DESCRIPTION DESCRIPTION,
+&#x9;RPCLAIMASSESSMENT.DESCRIPTIONCANCELLEDBYROLE DESCRIPTIONCANCELLEDBYROLE,
+&#x9;RPCLAIMASSESSMENT.DESCRIPTIONDAMAGEPOSITION DESCRIPTIONDAMAGEPOSITION,
+&#x9;RPCLAIMASSESSMENT.DESCRIPTIONREASONCANCELLATION DESCRIPTIONREASONCANCELLATION,
+&#x9;RPCLAIMASSESSMENT.DISPUTEPLEASUBJECTTYPEID DISPUTEPLEASUBJECTTYPEID,
+&#x9;RPCLAIMASSESSMENT.ERRORMESSAGE ERRORMESSAGE,
+&#x9;RPCLAIMASSESSMENT.ESTIMATEDHEIGHT ESTIMATEDHEIGHT,
+&#x9;RPCLAIMASSESSMENT.ESTIMATEDWIDTH ESTIMATEDWIDTH,
+&#x9;RPCLAIMASSESSMENT.EXPERTSAGENCYCLAIMCUSTOMERID EXPERTSAGENCYCLAIMCUSTOMERID,
+&#x9;RPCLAIMASSESSMENT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCLAIMASSESSMENT.FALLSDAMAGEWITHINGUARENTEEFUND FALLSDAMAGEWITHINGUARENTEEFUND,
+&#x9;RPCLAIMASSESSMENT.FAX FAX,
+&#x9;RPCLAIMASSESSMENT.FILEREQUESTTYPEID FILEREQUESTTYPEID,
+&#x9;RPCLAIMASSESSMENT.FLOOR FLOOR,
+&#x9;RPCLAIMASSESSMENT.HASHADEMERGENCYREPAIR HASHADEMERGENCYREPAIR,
+&#x9;RPCLAIMASSESSMENT.HASOCCURREDOUTSIDETERRZONE HASOCCURREDOUTSIDETERRZONE,
+&#x9;RPCLAIMASSESSMENT.HASPRIORITY HASPRIORITY,
+&#x9;RPCLAIMASSESSMENT.HASREMINDERBEENSENT HASREMINDERBEENSENT,
+&#x9;RPCLAIMASSESSMENT.INCOMINGPOLICYIDENTIFIER INCOMINGPOLICYIDENTIFIER,
+&#x9;RPCLAIMASSESSMENT.INSURANCEFORM INSURANCEFORM,
+&#x9;RPCLAIMASSESSMENT.ISACTIVE ISACTIVE,
+&#x9;RPCLAIMASSESSMENT.ISALTCONTCLAIMCUSTPRICONT ISALTCONTCLAIMCUSTPRICONT,
+&#x9;RPCLAIMASSESSMENT.ISCHILDINVOLVED ISCHILDINVOLVED,
+&#x9;RPCLAIMASSESSMENT.ISCOURTESYCARPROVIDED ISCOURTESYCARPROVIDED,
+&#x9;RPCLAIMASSESSMENT.ISDAMAGEREPAIRED ISDAMAGEREPAIRED,
+&#x9;RPCLAIMASSESSMENT.ISDAMAGEREPORTEDTOEXPERT ISDAMAGEREPORTEDTOEXPERT,
+&#x9;RPCLAIMASSESSMENT.ISDAMREPORTEDTOEMERGCALLCENTRE ISDAMREPORTEDTOEMERGCALLCENTRE,
+&#x9;RPCLAIMASSESSMENT.ISDATEVISITKNOWN ISDATEVISITKNOWN,
+&#x9;RPCLAIMASSESSMENT.ISDIRECTPAYMENTALLOWED ISDIRECTPAYMENTALLOWED,
+&#x9;RPCLAIMASSESSMENT.ISFORDIRECTREPAIR ISFORDIRECTREPAIR,
+&#x9;RPCLAIMASSESSMENT.ISGENERATEDFROMREPAIRINTERFACE ISGENERATEDFROMREPAIRINTERFACE,
+&#x9;RPCLAIMASSESSMENT.ISINCOMING ISINCOMING,
+&#x9;RPCLAIMASSESSMENT.ISLEAKAGEINVESTIGATIONREQ ISLEAKAGEINVESTIGATIONREQ,
+&#x9;RPCLAIMASSESSMENT.ISLIABILITYACKNOWLEDGEDBYCUST ISLIABILITYACKNOWLEDGEDBYCUST,
+&#x9;RPCLAIMASSESSMENT.ISOBJECTOUTOFORDER ISOBJECTOUTOFORDER,
+&#x9;RPCLAIMASSESSMENT.ISPARTNERINVOLVED ISPARTNERINVOLVED,
+&#x9;RPCLAIMASSESSMENT.ISPAYMENTFORREPAIRER ISPAYMENTFORREPAIRER,
+&#x9;RPCLAIMASSESSMENT.ISPOLICYHOLDERINVOLVED ISPOLICYHOLDERINVOLVED,
+&#x9;RPCLAIMASSESSMENT.ISREPAIRAPPROVED ISREPAIRAPPROVED,
+&#x9;RPCLAIMASSESSMENT.ISTECHNICALCONTROLREQUIRED ISTECHNICALCONTROLREQUIRED,
+&#x9;RPCLAIMASSESSMENT.ISTHIRDPARTYINVOLVED ISTHIRDPARTYINVOLVED,
+&#x9;RPCLAIMASSESSMENT.ISVEHICLEIMMOBILIZED ISVEHICLEIMMOBILIZED,
+&#x9;RPCLAIMASSESSMENT.JOBID JOBID,
+&#x9;RPCLAIMASSESSMENT.LAWSUITTYPEID LAWSUITTYPEID,
+&#x9;RPCLAIMASSESSMENT.LEGALPROCEDURETYPEID LEGALPROCEDURETYPEID,
+&#x9;RPCLAIMASSESSMENT.LEGALPROCESSREFERENCE LEGALPROCESSREFERENCE,
+&#x9;RPCLAIMASSESSMENT.LIABILITYEVENTID LIABILITYEVENTID,
+&#x9;RPCLAIMASSESSMENT.LIABILITYTYPEID LIABILITYTYPEID,
+&#x9;RPCLAIMASSESSMENT.LICENCEPLATE LICENCEPLATE,
+&#x9;RPCLAIMASSESSMENT.LICENCEPLATEFORSEARCH LICENCEPLATEFORSEARCH,
+&#x9;RPCLAIMASSESSMENT.LOGONUSERID LOGONUSERID,
+&#x9;RPCLAIMASSESSMENT.MAINASSESSMENTACTIVITYID MAINASSESSMENTACTIVITYID,
+&#x9;RPCLAIMASSESSMENT.MILEAGE MILEAGE,
+&#x9;RPCLAIMASSESSMENT.NAMEADDRESS NAMEADDRESS,
+&#x9;RPCLAIMASSESSMENT.NROFDAYSRENTALPERIOD NROFDAYSRENTALPERIOD,
+&#x9;RPCLAIMASSESSMENT.NUMBEROFBIDS NUMBEROFBIDS,
+&#x9;RPCLAIMASSESSMENT.NUMBEROFWINDOWS NUMBEROFWINDOWS,
+&#x9;RPCLAIMASSESSMENT.OBJECTIDENTIFICATION OBJECTIDENTIFICATION,
+&#x9;RPCLAIMASSESSMENT.OBJECTINFORMATION OBJECTINFORMATION,
+&#x9;RPCLAIMASSESSMENT.OBJECTMODEL OBJECTMODEL,
+&#x9;RPCLAIMASSESSMENT.OCCUPATION OCCUPATION,
+&#x9;RPCLAIMASSESSMENT.OFFSITEEXPERTSAGENCYCLCUSTID OFFSITEEXPERTSAGENCYCLCUSTID,
+&#x9;RPCLAIMASSESSMENT.ORIGINIDENTIFIER ORIGINIDENTIFIER,
+&#x9;RPCLAIMASSESSMENT.OTHERLIABLECLAIMCUSTEXPERTID OTHERLIABLECLAIMCUSTEXPERTID,
+&#x9;RPCLAIMASSESSMENT.OTHERLIABLECLAIMCUSTID OTHERLIABLECLAIMCUSTID,
+&#x9;RPCLAIMASSESSMENT.OUTPUTLABELID OUTPUTLABELID,
+&#x9;RPCLAIMASSESSMENT.PERCENTAGEREDUCTION PERCENTAGEREDUCTION,
+&#x9;RPCLAIMASSESSMENT.PERCVATFINVALID PERCVATFINVALID,
+&#x9;RPCLAIMASSESSMENT.PHONE PHONE,
+&#x9;RPCLAIMASSESSMENT.PHONEMOBILE PHONEMOBILE,
+&#x9;RPCLAIMASSESSMENT.PRIORITY PRIORITY,
+&#x9;RPCLAIMASSESSMENT.PRODUCERBUSINESSUNITID PRODUCERBUSINESSUNITID,
+&#x9;RPCLAIMASSESSMENT.PROPERTYUNITNUMBER PROPERTYUNITNUMBER,
+&#x9;RPCLAIMASSESSMENT.REMARKCLAIMCAUSE REMARKCLAIMCAUSE,
+&#x9;RPCLAIMASSESSMENT.REMARKCONFIDENTIAL REMARKCONFIDENTIAL,
+&#x9;RPCLAIMASSESSMENT.REMARKGENERAL REMARKGENERAL,
+&#x9;RPCLAIMASSESSMENT.RENTALVEHICLEGROUP RENTALVEHICLEGROUP,
+&#x9;RPCLAIMASSESSMENT.REPAIRDURATIONINDAYS REPAIRDURATIONINDAYS,
+&#x9;RPCLAIMASSESSMENT.REPAIRERCLAIMCUSTOMERID REPAIRERCLAIMCUSTOMERID,
+&#x9;RPCLAIMASSESSMENT.REPAIRINVOICEIDENTIFIER REPAIRINVOICEIDENTIFIER,
+&#x9;RPCLAIMASSESSMENT.RESPEXPERTSAGENCYCLCUSTID RESPEXPERTSAGENCYCLCUSTID,
+&#x9;RPCLAIMASSESSMENT.RESPONSIBLELOGONUSERID RESPONSIBLELOGONUSERID,
+&#x9;RPCLAIMASSESSMENT.RETURNADDRESSID RETURNADDRESSID,
+&#x9;RPCLAIMASSESSMENT.REVISION REVISION,
+&#x9;RPCLAIMASSESSMENT.ROLEID ROLEID,
+&#x9;RPCLAIMASSESSMENT.ROLESPECIALISMID ROLESPECIALISMID,
+&#x9;RPCLAIMASSESSMENT.RULEFORASSESSMENTINTERFACEID RULEFORASSESSMENTINTERFACEID,
+&#x9;RPCLAIMASSESSMENT.SENDVIACOMMUNICATION SENDVIACOMMUNICATION,
+&#x9;RPCLAIMASSESSMENT.SIDEASSESSMENTACTIVITYID1 SIDEASSESSMENTACTIVITYID1,
+&#x9;RPCLAIMASSESSMENT.SIDEASSESSMENTACTIVITYID2 SIDEASSESSMENTACTIVITYID2,
+&#x9;RPCLAIMASSESSMENT.THIRDPARTYCLAIMCUSTOMERID THIRDPARTYCLAIMCUSTOMERID,
+&#x9;RPCLAIMASSESSMENT.TIMERENTALEND TIMERENTALEND,
+&#x9;RPCLAIMASSESSMENT.TIMERENTALSTART TIMERENTALSTART,
+&#x9;RPCLAIMASSESSMENT.TSCANCELLEDBYINSURER TSCANCELLEDBYINSURER,
+&#x9;RPCLAIMASSESSMENT.TSCHANGED TSCHANGED,
+&#x9;RPCLAIMASSESSMENT.TSCHANGELASTEXPORTED TSCHANGELASTEXPORTED,
+&#x9;RPCLAIMASSESSMENT.TSCREATED TSCREATED,
+&#x9;RPCLAIMASSESSMENT.TSMARKEDASDONE TSMARKEDASDONE,
+&#x9;RPCLAIMASSESSMENT.TSREPAIRAPPROVALCHANGED TSREPAIRAPPROVALCHANGED,
+&#x9;RPCLAIMASSESSMENT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCLAIMASSESSMENT.USERIDCREATED USERIDCREATED,
+&#x9;RPCLAIMASSESSMENT.VEHICLETYPE VEHICLETYPE,
+&#x9;RPCLAIMASSESSMENT.VISITORADDRESSNAME VISITORADDRESSNAME,
+&#x9;RPCLAIMASSESSMENT.VISITORADDRESSREMARK VISITORADDRESSREMARK,
+&#x9;RPCLAIMASSESSMENT.VISITORADDRESSTYPEID VISITORADDRESSTYPEID,
+&#x9;RPCLAIMASSESSMENT.YEARBUILT YEARBUILT 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMASSESSMENT RPCLAIMASSESSMENT</attribute>
+  <attribute name="creationDate" type="LONG">1664293761466</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMASSESSMENT&apos;.  On line 159, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293761466</attribute>
+</metadata>

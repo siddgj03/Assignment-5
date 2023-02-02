@@ -1,0 +1,231 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="p_singleVehicleType" path="/shared/Sanya/R50_Baseline/L3_Applications/RDS/VehicleRepository/L38_published/p_singleVehicleType" type="PROCEDURE" subtype="SQL_SCRIPT_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="languageCodeIN" direction="IN" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+    <parameter name="makeCodeIN" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="modelCodeIN" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="motorPowerKwIN" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="fuelTypeCodeIN" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="transmissionTypeCodeIN" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="yearFrom" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="yearTo" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="monthFrom" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="monthTo" direction="IN" nullable="true">
+      <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+    </parameter>
+    <parameter name="pageNum" direction="IN" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="pageSize" direction="IN" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="ResultCount" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="PageSize_" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="PageCount" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="PageNum_" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="RESULT" direction="OUT" nullable="true">
+      <datatype name="RESULT" type="TABLE" refId="256">
+        <element name="VehicleCategoryCode">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="MakeCode">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+        </element>
+        <element name="MakeDescription">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="ModelCode">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+        </element>
+        <element name="ModelDescription">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="MotorPowerKw">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+        </element>
+        <element name="MotorPowerHp">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+        </element>
+        <element name="FuelTypeCode">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+        </element>
+        <element name="FuelType">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="TransmissionTypeCode">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+        </element>
+        <element name="TransmissionDescription">
+          <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+        </element>
+        <element name="CatalogPriceMinVatExcl">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+        </element>
+        <element name="CatalogPriceMaxVatExcl">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+        </element>
+        <element name="CatalogPriceMinVatIncl">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+        </element>
+        <element name="CatalogPriceMaxVatIncl">
+          <datatype name="DECIMAL" type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+        </element>
+      </datatype>
+    </parameter>
+    <parameter name="ErrorCode" direction="OUT" nullable="true">
+      <datatype name="INTEGER" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="ErrorDescription" direction="OUT" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <attribute name="Script" type="STRING">PROCEDURE p_singleVehicleType(&#x9;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN languageCodeIN VARCHAR, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN makeCodeIN DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN modelCodeIN DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN motorPowerKwIN DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN fuelTypeCodeIN DECIMAL(10),&#x9;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN transmissionTypeCodeIN DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN yearFrom DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN yearTo DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN monthFrom DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN monthTo DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN pageNum INT, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;IN pageSize INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT ResultCount INT, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT PageSize_ INT, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT PageCount INT, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT PageNum_ INT,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT RESULT CURSOR(
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;VehicleCategoryCode VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;MakeCode DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;MakeDescription VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ModelCode DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ModelDescription VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;MotorPowerKw DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;MotorPowerHp DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;FuelTypeCode DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;FuelType VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;TransmissionTypeCode DECIMAL(10),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;TransmissionDescription VARCHAR,
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CatalogPriceMinVatExcl DECIMAL(10,2),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CatalogPriceMaxVatExcl DECIMAL(10,2),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CatalogPriceMinVatIncl DECIMAL(10,2),
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;CatalogPriceMaxVatIncl DECIMAL(10,2)), 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT ErrorCode INT, 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;OUT ErrorDescription VARCHAR
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; &#x9;)
+BEGIN
+
+DECLARE sqlTextSelect LONGVARCHAR ;
+DECLARE sqlTextFilter LONGVARCHAR ;
+DECLARE countTable CURSOR ;
+
+SET sqlTextSelect = &apos;SELECT 
+&#x9;&#x9;&#x9;&#x9;&#x9;vehicleCategoryCode,
+&#x9;&#x9;&#x9;&#x9;&#x9;makeCode,
+&#x9;&#x9;&#x9;&#x9;&#x9;makeDescription,
+&#x9;&#x9;&#x9;&#x9;&#x9;modelCode,
+&#x9;&#x9;&#x9;&#x9;&#x9;modelDescription,
+&#x9;&#x9;&#x9;&#x9;&#x9;motorPowerKw,
+&#x9;&#x9;&#x9;&#x9;&#x9;motorPowerHp,
+&#x9;&#x9;&#x9;&#x9;&#x9;fuelTypeCode,
+&#x9;&#x9;&#x9;&#x9;&#x9;fuelTypeName,
+&#x9;&#x9;&#x9;&#x9;&#x9;transmissionTypeCode,
+&#x9;&#x9;&#x9;&#x9;&#x9;transmissionType,
+&#x9;&#x9;&#x9;&#x9;&#x9;MIN(catalogPriceExcl) as catalogPriceMinVatExcl,
+&#x9;&#x9;&#x9;&#x9;&#x9;MAX(catalogPriceExcl)*1.3 as catalogPriceMaxVatExcl,
+&#x9;&#x9;&#x9;&#x9;&#x9;MIN(catalogPriceIncl) as catalogPriceMinVatIncl,
+&#x9;&#x9;&#x9;&#x9;&#x9;MAX(catalogPriceIncl)*1.3 as catalogPriceMaxVatIncl
+
+&#x9;&#x9;&#x9;&#x9;&#x9;FROM /shared/R50_Baseline/L3_Applications/RDS/VehicleRepository/v_VehicleRepository ET
+
+&#x9;&#x9;&#x9;&#x9;&#x9;WHERE &#x9;ET.languageCode = languageCodeIN AND
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ET.makeCode = makeCodeIN AND
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ET.modelCode = modelCodeIN AND
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ET.motorPowerKw = motorPowerKwIN AND
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ET.fuelTypeCode = fuelTypeCodeIN AND
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ET.transmissionTypeCode = transmissionTypeCodeIN AND
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;ET.buildFromYear &lt;= yearTo  AND
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;(ET.buildUntilYear &gt;= yearFrom OR ET.buildUntilYear IS NULL)
+
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+
+&#x9;&#x9;&#x9;&#x9;&#x9;GROUP BY
+ &#x9;
+&#x9;&#x9;&#x9;&#x9;&#x9;vehicleCategoryCode,
+&#x9;&#x9;&#x9;&#x9;&#x9;makeCode,
+&#x9;&#x9;&#x9;&#x9;&#x9;makeDescription,
+&#x9;&#x9;&#x9;&#x9;&#x9;modelCode,
+&#x9;&#x9;&#x9;&#x9;&#x9;modelDescription,
+&#x9;&#x9;&#x9;&#x9;&#x9;motorPowerKw,
+&#x9;&#x9;&#x9;&#x9;&#x9;motorPowerHp,
+&#x9;&#x9;&#x9;&#x9;&#x9;fuelTypeCode,
+&#x9;&#x9;&#x9;&#x9;&#x9;fuelTypeName,
+&#x9;&#x9;&#x9;&#x9;&#x9;transmissionTypeCode,
+&#x9;&#x9;&#x9;&#x9;&#x9;transmissionType
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&apos;;
+
+
+SET PageSize_ = pageSize; SET PageNum_ = pageNum ;
+OPEN countTable FOR sqlTextSelect; SET ResultCount = (SELECT COUNT(*) FROM countTable) ;
+SET PageCount = CAST(CEILING(CAST(ResultCount as double) / CAST(pageSize as DOUBLE)) AS INT);
+
+IF &#x9;(languageCodeIN IS NULL) or (makeCodeIN IS NULL) or (modelCodeIN IS NULL) or
+&#x9;(fuelTypeCodeIN is NULL) or (transmissionTypeCodeIN is null) or (yearFrom is null) or
+&#x9;(yearTo is null) or (motorPowerKwIN IS NULL)
+THEN 
+SET ErrorCode=1; SET ErrorDescription=&apos;Invalid Parameters&apos;;
+ELSEIF ResultCount = 0 THEN SET ErrorCode=0; SET ErrorDescription=&apos;Not Found&apos;;
+ELSEIF ResultCount &gt; 1 THEN SET ErrorCode=2; SET ErrorDescription=&apos;Multiple unique IDs found&apos;;
+ELSE SET ErrorCode=NULL; SET ErrorDescription=NULL;
+END IF;
+
+OPEN RESULT FOR sqlTextSelect ;
+
+END</attribute>
+  <attribute name="creationDate" type="LONG">1644569765144</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1652952320080</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="native_only" type="STRING">false</attribute>
+  <attribute name="references" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1644569765144</attribute>
+</metadata>

@@ -1,0 +1,223 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_ChurnPolicy" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/UDS/UDS/v_ChurnPolicy" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="POLICY_SK" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="MUTATION_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="MUTATION_TYPE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EVENT_TYPE_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EVENT_TYPE_NM" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EVENT_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_POL_EVENT_TYPE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="EVENT_TYPE_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="EVENT_TYPE_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="PREVIOUS_EVENT_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="VALID_FROM_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="VALID_TO_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PROCESSED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="CURRENT_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="DELETED_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="CURRENT_EVENT_TYPE_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="EVENT_TYPE_DK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="EVENT_TYPE_NM">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="VERSION_UPDATE_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_POL_MUTATION_TYPE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="MUTATION_TYPE_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="MUTATION_TYPE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="MUTATION_TYPE_DESC">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="VALID_FROM_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="VALID_TO_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PROCESSED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="CURRENT_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="DELETED_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="CURRENT_MUTATION_TYPE_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="MUTATION_TYPE_DK">
+        <datatype type="INTEGER"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_F_POL_POLICY_EVENT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="POLICY_DK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="EVENT_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="POLICY_VERSION">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ORIGINAL_PREMIUM_AMT">
+        <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+      </element>
+      <element name="PREMIUM_AMT">
+        <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+      </element>
+      <element name="PREVIOUS_PREMIUM_AMT">
+        <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+      </element>
+      <element name="PREMIUM_CHANGE_AMT">
+        <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+      </element>
+      <element name="EVENT_TYPE_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="CREATED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DELETED_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="DELETED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="LAST_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="POLICY_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="PRODUCT_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="CUSTOMER_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="PRODUCER_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="SOURCE_SYSTEM_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="POLICY_VERSION_ISSUE_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="POLICY_VERSION_EFFECTIVE_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="MUTATION_TYPE_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="UPDATED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="INIT_PRODUCER_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="REF_PRODUCER_SK">
+        <datatype type="INTEGER"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT &#x9;POLEV.POLICY_SK,
+&#x9;&#x9;MUTYP.MUTATION_TYPE_CD,
+&#x9;&#x9;MUTYP.MUTATION_TYPE_DESC,
+&#x9;&#x9;POLEVTYP.EVENT_TYPE_ID,
+&#x9;&#x9;POLEVTYP.EVENT_TYPE_NM,
+&#x9;&#x9;POLEV.EVENT_DT
+&#x9;
+
+FROM &#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_F_POL_POLICY_EVENT POLEV 
+&#x9;&#x9;INNER JOIN 
+&#x9;&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_POL_MUTATION_TYPE MUTYP ON POLEV.MUTATION_TYPE_SK=MUTYP.MUTATION_TYPE_SK
+&#x9;&#x9;INNER JOIN
+&#x9;&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_POL_EVENT_TYPE POLEVTYP&#x9;ON POLEV.EVENT_TYPE_SK = POLEVTYP.EVENT_TYPE_SK
+
+WHERE EVENT_TYPE_ID=&apos;CHURN&apos;</attribute>
+  <attribute name="creationDate" type="LONG">1656060511229</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/F_POL_POLICY_EVENT&apos;.  On line 4, column 5.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1658824140250</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1656060511229</attribute>
+</metadata>

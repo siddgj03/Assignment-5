@@ -1,0 +1,625 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPACCOUNTDUNNINGPROCSTEP" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPACCOUNTDUNNINGPROCSTEP" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCOUNTDUNNINGPROCID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTDUNNINGPROCSTEPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTCOLLECTIONFEE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDUE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ANNOUNCEDBYACCTDUNPROCSTEPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKSTATEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKSTATEMENTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELLATIONSETTLACCOUNTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELLATIONWROFFACCOUNTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELLEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELLEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CDPOLICYACTIONDATETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CDPOLICYACTIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLOSEDUNNINGPROCESS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COLLECTIONFEEACCOUNTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATENEXTDUNNINGPROCESSSTEP" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DUNNINGPROCESSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DUNNINGPROCESSSTEPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DUNNINGSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DUNNINGSTEPTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DUNNINGSTEPTYPEREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASCOMMUNICATIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASPOLICYACTIONS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOVERAGEWITHDRAWNONPOLICY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPOLICYCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREVERTED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEXTDUNNINGPROCESSSTEPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NUMBEROFDAYSOVERDUE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REFUNDPREMIUM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMOVEHASOVERDUEINVOICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMOVEISCOMPTEMPPAYMENTCOLL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REMOVEISSPECFINPROCAPPLICABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REVERTACCOUNTDUNNINGPROCSTEPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SETHASOVERDUEINVOICE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SETISSPECIALFINPROCAPPLICABLE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SETTLEACCOUNTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSFERACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSFERACCOUNTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSFERTOCOLLAGENCYCOM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TRANSFERTOCOLLAGENCYINTERFACE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSDUNNINGSTEPCANCELLED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSDUNNINGSTEPCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERTASKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="WRITEOFFACCOUNTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="WRITEOFFCOLLECTIONFEE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPACCOUNTDUNNINGPROCSTEP" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ACCOUNTDUNNINGPROCID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ACCOUNTDUNNINGPROCSTEPID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ACCOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="AMTCOLLECTIONFEE">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="AMTDUE">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="ANNOUNCEDBYACCTDUNPROCSTEPID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BANKSTATEMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BANKSTATEMENTLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CANCELLATIONSETTLACCOUNTLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CANCELLATIONWROFFACCOUNTLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CANCELLEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CANCELLEDBYLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CDPOLICYACTIONDATETYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CDPOLICYACTIONTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLOSEDUNNINGPROCESS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="COLLECTIONFEEACCOUNTLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREATEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREATEDBYLOGONUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATENEXTDUNNINGPROCESSSTEP">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DUNNINGPROCESSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DUNNINGPROCESSSTEPID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DUNNINGSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DUNNINGSTEPTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DUNNINGSTEPTYPEREASONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="HASCOMMUNICATIONS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASPOLICYACTIONS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCANCELLED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISCOVERAGEWITHDRAWNONPOLICY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPOLICYCANCELLED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISREVERTED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NEXTDUNNINGPROCESSSTEPID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NUMBEROFDAYSOVERDUE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REFUNDPREMIUM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="REMOVEHASOVERDUEINVOICE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="REMOVEISCOMPTEMPPAYMENTCOLL">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="REMOVEISSPECFINPROCAPPLICABLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="REVERTACCOUNTDUNNINGPROCSTEPID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SETHASOVERDUEINVOICE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SETISSPECIALFINPROCAPPLICABLE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SETTLEACCOUNTLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TRANSFERACCOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TRANSFERACCOUNTLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TRANSFERTOCOLLAGENCYCOM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TRANSFERTOCOLLAGENCYINTERFACE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSDUNNINGSTEPCANCELLED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSDUNNINGSTEPCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERTASKID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="WRITEOFFACCOUNTLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="WRITEOFFCOLLECTIONFEE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPACCOUNTDUNNINGPROCSTEP.ACCOUNTDUNNINGPROCID ACCOUNTDUNNINGPROCID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.ACCOUNTDUNNINGPROCSTEPID ACCOUNTDUNNINGPROCSTEPID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.ACCOUNTID ACCOUNTID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.AMTCOLLECTIONFEE AMTCOLLECTIONFEE,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.AMTDUE AMTDUE,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.ANNOUNCEDBYACCTDUNPROCSTEPID ANNOUNCEDBYACCTDUNPROCSTEPID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.BANKSTATEMENTID BANKSTATEMENTID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.BANKSTATEMENTLINEID BANKSTATEMENTLINEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.CANCELLATIONSETTLACCOUNTLINEID CANCELLATIONSETTLACCOUNTLINEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.CANCELLATIONWROFFACCOUNTLINEID CANCELLATIONWROFFACCOUNTLINEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.CANCELLEDBYJOBID CANCELLEDBYJOBID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.CANCELLEDBYLOGONUSERID CANCELLEDBYLOGONUSERID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.CDPOLICYACTIONDATETYPEID CDPOLICYACTIONDATETYPEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.CDPOLICYACTIONTYPEID CDPOLICYACTIONTYPEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.CLOSEDUNNINGPROCESS CLOSEDUNNINGPROCESS,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.COLLECTIONFEEACCOUNTLINEID COLLECTIONFEEACCOUNTLINEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.CREATEDBYLOGONUSERID CREATEDBYLOGONUSERID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.DATENEXTDUNNINGPROCESSSTEP DATENEXTDUNNINGPROCESSSTEP,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.DUNNINGPROCESSID DUNNINGPROCESSID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.DUNNINGPROCESSSTEPID DUNNINGPROCESSSTEPID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.DUNNINGSTATUSID DUNNINGSTATUSID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.DUNNINGSTEPTYPEID DUNNINGSTEPTYPEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.DUNNINGSTEPTYPEREASONID DUNNINGSTEPTYPEREASONID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.HASCOMMUNICATIONS HASCOMMUNICATIONS,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.HASPOLICYACTIONS HASPOLICYACTIONS,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.ISCANCELLED ISCANCELLED,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.ISCOVERAGEWITHDRAWNONPOLICY ISCOVERAGEWITHDRAWNONPOLICY,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.ISPOLICYCANCELLED ISPOLICYCANCELLED,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.ISREVERTED ISREVERTED,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.NEXTDUNNINGPROCESSSTEPID NEXTDUNNINGPROCESSSTEPID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.NUMBEROFDAYSOVERDUE NUMBEROFDAYSOVERDUE,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.REFUNDPREMIUM REFUNDPREMIUM,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.REMOVEHASOVERDUEINVOICE REMOVEHASOVERDUEINVOICE,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.REMOVEISCOMPTEMPPAYMENTCOLL REMOVEISCOMPTEMPPAYMENTCOLL,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.REMOVEISSPECFINPROCAPPLICABLE REMOVEISSPECFINPROCAPPLICABLE,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.REVERTACCOUNTDUNNINGPROCSTEPID REVERTACCOUNTDUNNINGPROCSTEPID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.SETHASOVERDUEINVOICE SETHASOVERDUEINVOICE,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.SETISSPECIALFINPROCAPPLICABLE SETISSPECIALFINPROCAPPLICABLE,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.SETTLEACCOUNTLINEID SETTLEACCOUNTLINEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.TRANSFERACCOUNTID TRANSFERACCOUNTID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.TRANSFERACCOUNTLINEID TRANSFERACCOUNTLINEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.TRANSFERTOCOLLAGENCYCOM TRANSFERTOCOLLAGENCYCOM,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.TRANSFERTOCOLLAGENCYINTERFACE TRANSFERTOCOLLAGENCYINTERFACE,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.TSCHANGED TSCHANGED,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.TSCREATED TSCREATED,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.TSDUNNINGSTEPCANCELLED TSDUNNINGSTEPCANCELLED,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.TSDUNNINGSTEPCREATED TSDUNNINGSTEPCREATED,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.USERIDCHANGED USERIDCHANGED,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.USERIDCREATED USERIDCREATED,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.USERTASKID USERTASKID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.WRITEOFFACCOUNTLINEID WRITEOFFACCOUNTLINEID,
+&#x9;RPACCOUNTDUNNINGPROCSTEP.WRITEOFFCOLLECTIONFEE WRITEOFFCOLLECTIONFEE 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPACCOUNTDUNNINGPROCSTEP RPACCOUNTDUNNINGPROCSTEP</attribute>
+  <attribute name="creationDate" type="LONG">1664293441375</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPACCOUNTDUNNINGPROCSTEP&apos;.  On line 57, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293441375</attribute>
+</metadata>

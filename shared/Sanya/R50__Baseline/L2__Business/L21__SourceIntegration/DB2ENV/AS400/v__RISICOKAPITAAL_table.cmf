@@ -1,0 +1,159 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_RISICOKAPITAAL" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RISICOKAPITAAL" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="Sub_br" nullable="true">
+      <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Policy" nullable="true">
+      <datatype type="STRING" minLength="7" maxLength="7"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="polisnummer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypePolis" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypeWaarborg" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="12" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BegindatumWaarborg" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EinddatumWaarborg" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BedragWaarborg" nullable="true">
+      <datatype type="DECIMAL" maxDigits="21" maxFractionalDigits="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Res" nullable="true">
+      <datatype type="DECIMAL" maxDigits="27" maxFractionalDigits="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CSR" nullable="true">
+      <datatype type="DECIMAL" maxDigits="28" maxFractionalDigits="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PSIVde" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Kanaal" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/CUDEXPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/PORELPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_KAPOVL" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_LAST_ENDORS2" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RESERVE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">WITH TEMP AS
+(
+Select 
+&#x9;&#x9;&#x9;w.polisnummer as polisnummer,
+&#x9;&#x9;&#x9;w.Res,
+&#x9;&#x9;&#x9;j.custnrdbb as PSIVde
+
+&#x9;&#x9;&#x9;
+&#x9;&#x9; 
+from /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_KAPOVL a, 
+/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RESERVE w,
+ /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_LAST_ENDORS2 l, 
+/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/PORELPF i, 
+/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/CUDEXPF j, 
+/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/CUDEXPF jj 
+
+where 
+ &#x9;&#x9;a.TypeWaarborg in (&apos;PensioenT21&apos;,&apos;PensioenT23&apos;)
+&#x9;&#x9;and a.branche = i.prbrcd
+        and a.policy = i.prpono
+&#x9;&#x9;and a.branche = l.branche
+&#x9;&#x9;and a.policy = l.policy
+        and l.porel = i.prenno
+&#x9;&#x9;and i.prrela = &apos;ASSURED&apos;
+        and i.prnumb = j.custnrdib
+        and j.coextsys = &apos;02&apos;
+
+
+group by w.polisnummer, j.custnrdbb, w.Res)
+
+
+Select &#x9;&#x9;a.Sub_br,
+&#x9;&#x9;&#x9;a.Policy, 
+&#x9;&#x9;&#x9;a.polisnummer, 
+&#x9;&#x9;&#x9;a.TypePolis, 
+&#x9;&#x9;&#x9;a.TypeWaarborg, 
+&#x9;&#x9;&#x9;a.BegindatumWaarborg, 
+&#x9;&#x9;&#x9;a.EinddatumWaarborg, 
+&#x9;&#x9;&#x9;a.BedragWaarborg, 
+&#x9;&#x9;&#x9;TEMP.Res,
+&#x9;&#x9;&#x9;CASE WHEN a.BedragWaarborg-TEMP.Res &gt;= 0 THEN a.BedragWaarborg-TEMP.Res ELSE 0 END AS CSR,
+&#x9;&#x9;&#x9;TEMP.PSIVde, a.Kanaal
+
+from TEMP,
+/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_KAPOVL a 
+
+&#x9;&#x9;
+where a.Polisnummer = TEMP.polisnummer</attribute>
+  <attribute name="creationDate" type="LONG">1652799941363</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/PORELPF&apos;.  On line 13, column 1.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1671633231454</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1652799941363</attribute>
+</metadata>

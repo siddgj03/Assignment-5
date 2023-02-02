@@ -1,0 +1,471 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPLEDGERENTRYLINE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPLEDGERENTRYLINE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMOUNTTYPECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTLEDGERENTRYLINE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITBANKACCOUNTNR" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTRACTTYPEEXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEDUE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFINANCIALFACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPROCESSEDINLEDGER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALCODEFORLEDGER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYCATEGORYEXTIDEN" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYEXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYREPORTINGIDEN" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCREDIT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOURNALENTRYREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEDGERACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEDGERENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LEDGERENTRYLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MONTHDAMAGE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ORIGINATESFRMPERIODJUMPINGCONT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYSINSURANCETAXTOGOVERNMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODGROUPCODEFORLEDGEREXTIDEN" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTEXTERNALCODE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONCOVERAGEEXTCODE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPORTINGIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RISKBEAREREXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RISKBEARERFORRELATEDFAEXTIDENT" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RISKCONTRACTEXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TOBUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="YEARCLAIMREPORTED" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="YEARDAMAGE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="YEARPREMIUMBOOKED" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="YEARSIGNED" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPLEDGERENTRYLINE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="AMOUNTTYPECODEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="AMTLEDGERENTRYLINE">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="BUSINESSUNITBANKACCOUNTNR">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="BUSINESSUNITID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CONTRACTTYPEEXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="CURRENCYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEDUE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEFINANCIALFACT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPROCESSEDINLEDGER">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EXTERNALCODEFORLEDGER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="INTERMEDIARYCATEGORYEXTIDEN">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="INTERMEDIARYEXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="INTERMEDIARYREPORTINGIDEN">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="ISCREDIT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="JOURNALENTRYREASONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LEDGERACCOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LEDGERENTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LEDGERENTRYLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="MONTHDAMAGE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ORIGINATESFRMPERIODJUMPINGCONT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PAYSINSURANCETAXTOGOVERNMENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="POLICYIDENTIFIER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="PRODGROUPCODEFORLEDGEREXTIDEN">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="PRODUCTEXTERNALCODE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="PRODUCTVERSIONCOVERAGEEXTCODE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="REPORTINGIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="RISKBEAREREXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="RISKBEARERFORRELATEDFAEXTIDENT">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="RISKCONTRACTEXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="TOBUSINESSUNITID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="254"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="254"/>
+      </element>
+      <element name="YEARCLAIMREPORTED">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="YEARDAMAGE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="YEARPREMIUMBOOKED">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="YEARSIGNED">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPLEDGERENTRYLINE.AMOUNTTYPECODEID AMOUNTTYPECODEID,
+&#x9;RPLEDGERENTRYLINE.AMTLEDGERENTRYLINE AMTLEDGERENTRYLINE,
+&#x9;RPLEDGERENTRYLINE.BUSINESSUNITBANKACCOUNTNR BUSINESSUNITBANKACCOUNTNR,
+&#x9;RPLEDGERENTRYLINE.BUSINESSUNITID BUSINESSUNITID,
+&#x9;RPLEDGERENTRYLINE.CONTRACTTYPEEXTERNALIDENTIFIER CONTRACTTYPEEXTERNALIDENTIFIER,
+&#x9;RPLEDGERENTRYLINE.CURRENCYID CURRENCYID,
+&#x9;RPLEDGERENTRYLINE.DATEDUE DATEDUE,
+&#x9;RPLEDGERENTRYLINE.DATEFINANCIALFACT DATEFINANCIALFACT,
+&#x9;RPLEDGERENTRYLINE.DATEPROCESSEDINLEDGER DATEPROCESSEDINLEDGER,
+&#x9;RPLEDGERENTRYLINE.EXTERNALCODEFORLEDGER EXTERNALCODEFORLEDGER,
+&#x9;RPLEDGERENTRYLINE.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPLEDGERENTRYLINE.INTERMEDIARYCATEGORYEXTIDEN INTERMEDIARYCATEGORYEXTIDEN,
+&#x9;RPLEDGERENTRYLINE.INTERMEDIARYEXTERNALIDENTIFIER INTERMEDIARYEXTERNALIDENTIFIER,
+&#x9;RPLEDGERENTRYLINE.INTERMEDIARYREPORTINGIDEN INTERMEDIARYREPORTINGIDEN,
+&#x9;RPLEDGERENTRYLINE.ISCREDIT ISCREDIT,
+&#x9;RPLEDGERENTRYLINE.JOURNALENTRYREASONID JOURNALENTRYREASONID,
+&#x9;RPLEDGERENTRYLINE.LEDGERACCOUNTID LEDGERACCOUNTID,
+&#x9;RPLEDGERENTRYLINE.LEDGERENTRYID LEDGERENTRYID,
+&#x9;RPLEDGERENTRYLINE.LEDGERENTRYLINEID LEDGERENTRYLINEID,
+&#x9;RPLEDGERENTRYLINE.MONTHDAMAGE MONTHDAMAGE,
+&#x9;RPLEDGERENTRYLINE.ORIGINATESFRMPERIODJUMPINGCONT ORIGINATESFRMPERIODJUMPINGCONT,
+&#x9;RPLEDGERENTRYLINE.PAYSINSURANCETAXTOGOVERNMENT PAYSINSURANCETAXTOGOVERNMENT,
+&#x9;RPLEDGERENTRYLINE.POLICYIDENTIFIER POLICYIDENTIFIER,
+&#x9;RPLEDGERENTRYLINE.PRODGROUPCODEFORLEDGEREXTIDEN PRODGROUPCODEFORLEDGEREXTIDEN,
+&#x9;RPLEDGERENTRYLINE.PRODUCTEXTERNALCODE PRODUCTEXTERNALCODE,
+&#x9;RPLEDGERENTRYLINE.PRODUCTVERSIONCOVERAGEEXTCODE PRODUCTVERSIONCOVERAGEEXTCODE,
+&#x9;RPLEDGERENTRYLINE.REPORTINGIDENTIFIER REPORTINGIDENTIFIER,
+&#x9;RPLEDGERENTRYLINE.RISKBEAREREXTERNALIDENTIFIER RISKBEAREREXTERNALIDENTIFIER,
+&#x9;RPLEDGERENTRYLINE.RISKBEARERFORRELATEDFAEXTIDENT RISKBEARERFORRELATEDFAEXTIDENT,
+&#x9;RPLEDGERENTRYLINE.RISKCONTRACTEXTERNALIDENTIFIER RISKCONTRACTEXTERNALIDENTIFIER,
+&#x9;RPLEDGERENTRYLINE.TOBUSINESSUNITID TOBUSINESSUNITID,
+&#x9;RPLEDGERENTRYLINE.TSCHANGED TSCHANGED,
+&#x9;RPLEDGERENTRYLINE.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPLEDGERENTRYLINE.TSCREATED TSCREATED,
+&#x9;RPLEDGERENTRYLINE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPLEDGERENTRYLINE.USERIDCREATED USERIDCREATED,
+&#x9;RPLEDGERENTRYLINE.YEARCLAIMREPORTED YEARCLAIMREPORTED,
+&#x9;RPLEDGERENTRYLINE.YEARDAMAGE YEARDAMAGE,
+&#x9;RPLEDGERENTRYLINE.YEARPREMIUMBOOKED YEARPREMIUMBOOKED,
+&#x9;RPLEDGERENTRYLINE.YEARSIGNED YEARSIGNED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPLEDGERENTRYLINE RPLEDGERENTRYLINE</attribute>
+  <attribute name="creationDate" type="LONG">1664294465815</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPLEDGERENTRYLINE&apos;.  On line 43, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294465815</attribute>
+</metadata>

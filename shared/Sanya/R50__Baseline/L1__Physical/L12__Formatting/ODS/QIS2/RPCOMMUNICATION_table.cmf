@@ -1,0 +1,807 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCOMMUNICATION" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCOMMUNICATION" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ADDADDRESSDOCUMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ADDITIONALREMARK" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ANSWER" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELLEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONDESCRIPTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONDESTINATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONORIGINID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONQUESTIONEXPL" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONQUESTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONROLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONROUTINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONSUBREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONSUBSUBREASONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMUNICATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSDOCUMENTSINEXTSYSTEM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSMEDICALINFORMATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CONTAINSPRIVATEINFORMATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATECOMMUNICATION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATERECEIVED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESENT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATETOBECOMPLETED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCADDITIONALENCLOSURES" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DIDLOGONUSERTAKEINITIATIVE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESSFROM" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESSFROMALIAS" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESSTO" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILCONTENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILMESSAGEBODY" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILSUBJECT" nullable="true">
+      <datatype type="STRING" maxLength="254"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPLANATIONFORUNLINKING" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTTODOCUMENTARCHIVEJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALACCOUNTREFERENCE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALCOMMUNICATIONREFERENCE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FAXNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GENDERCOMMUNICATIONWITH" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCODEFORREPORTINGCOMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASBEENREAD" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASBEENUNLINKED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASMARKING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASPRIORITY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INBOXFORCOMMUNICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INSURANCEPLATENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="6"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCONTENTEXTERNALLYMANAGED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOPY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFEEDBACK" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINCOMING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINTERNAL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISLEGALAID" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LANGUAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MARKASNOTSEND" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MARKEDASDONEBYLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NAMECOMMUNICATIONWITH" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NEEDSEXTCUSTFEEDBACKREQUEST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NOTIFICATCOMMUNICATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OUTPUTLABELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PHONECOMMUNICATIONWITH" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PHONENUMBERTO" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRINTDESTINATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRINTLOCATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRINTQUEUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRIORITYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSIBLELOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDASREGISTERED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDBYDPKJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDERIDFORSMS" nullable="true">
+      <datatype type="STRING" maxLength="16"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SMSCONTENT" nullable="true">
+      <datatype type="STRING" maxLength="1000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTFORADDRESSDOCUMENT" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TIMERECEIVED" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TIMESENT" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFOREXTERNALARCHIVE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCLEANED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCOMMUNICATIONCANCELLED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCOMMUNICATIONCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCOMMUNICATIONMARKEDASDONE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTATTEMPTSUBMITTOEXTSYSTEM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTATTEMPTTOGENERATEDOCS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTATTEMPTTOSENDEMAIL" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTATTEMPTTOSENDSMS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSLASTREOPENED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSNOTIFICATIONSENT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSSENT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERTASKTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCOMMUNICATION" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCOMMUNICATION.ADDADDRESSDOCUMENT ADDADDRESSDOCUMENT,
+&#x9;RPCOMMUNICATION.ADDITIONALREMARK ADDITIONALREMARK,
+&#x9;RPCOMMUNICATION.ANSWER ANSWER,
+&#x9;RPCOMMUNICATION.CANCELLEDBYLOGONUSERID CANCELLEDBYLOGONUSERID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONDESCRIPTIONID COMMUNICATIONDESCRIPTIONID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONDESTINATIONID COMMUNICATIONDESTINATIONID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONGROUPID COMMUNICATIONGROUPID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONID COMMUNICATIONID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONIDENTIFIER COMMUNICATIONIDENTIFIER,
+&#x9;RPCOMMUNICATION.COMMUNICATIONORIGINID COMMUNICATIONORIGINID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONQUESTIONEXPL COMMUNICATIONQUESTIONEXPL,
+&#x9;RPCOMMUNICATION.COMMUNICATIONQUESTIONID COMMUNICATIONQUESTIONID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONREASONID COMMUNICATIONREASONID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONROLEID COMMUNICATIONROLEID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONROUTINGID COMMUNICATIONROUTINGID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONSTATUSID COMMUNICATIONSTATUSID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONSUBREASONID COMMUNICATIONSUBREASONID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONSUBSUBREASONID COMMUNICATIONSUBSUBREASONID,
+&#x9;RPCOMMUNICATION.COMMUNICATIONTYPEID COMMUNICATIONTYPEID,
+&#x9;RPCOMMUNICATION.CONTAINSDOCUMENTSINEXTSYSTEM CONTAINSDOCUMENTSINEXTSYSTEM,
+&#x9;RPCOMMUNICATION.CONTAINSMEDICALINFORMATION CONTAINSMEDICALINFORMATION,
+&#x9;RPCOMMUNICATION.CONTAINSPRIVATEINFORMATION CONTAINSPRIVATEINFORMATION,
+&#x9;RPCOMMUNICATION.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPCOMMUNICATION.CREATEDBYLOGONUSERID CREATEDBYLOGONUSERID,
+&#x9;RPCOMMUNICATION.CUSTOMERID CUSTOMERID,
+&#x9;RPCOMMUNICATION.DATECOMMUNICATION DATECOMMUNICATION,
+&#x9;RPCOMMUNICATION.DATERECEIVED DATERECEIVED,
+&#x9;RPCOMMUNICATION.DATESENT DATESENT,
+&#x9;RPCOMMUNICATION.DATETOBECOMPLETED DATETOBECOMPLETED,
+&#x9;RPCOMMUNICATION.DESCADDITIONALENCLOSURES DESCADDITIONALENCLOSURES,
+&#x9;RPCOMMUNICATION.DESCRIPTION DESCRIPTION,
+&#x9;RPCOMMUNICATION.DIDLOGONUSERTAKEINITIATIVE DIDLOGONUSERTAKEINITIATIVE,
+&#x9;RPCOMMUNICATION.EMAILADDRESSFROM EMAILADDRESSFROM,
+&#x9;RPCOMMUNICATION.EMAILADDRESSFROMALIAS EMAILADDRESSFROMALIAS,
+&#x9;RPCOMMUNICATION.EMAILADDRESSTO EMAILADDRESSTO,
+&#x9;RPCOMMUNICATION.EMAILCONTENTTYPEID EMAILCONTENTTYPEID,
+&#x9;RPCOMMUNICATION.EMAILMESSAGEBODY EMAILMESSAGEBODY,
+&#x9;RPCOMMUNICATION.EMAILSUBJECT EMAILSUBJECT,
+&#x9;RPCOMMUNICATION.EXPLANATIONFORUNLINKING EXPLANATIONFORUNLINKING,
+&#x9;RPCOMMUNICATION.EXPORTTODOCUMENTARCHIVEJOBID EXPORTTODOCUMENTARCHIVEJOBID,
+&#x9;RPCOMMUNICATION.EXTERNALACCOUNTREFERENCE EXTERNALACCOUNTREFERENCE,
+&#x9;RPCOMMUNICATION.EXTERNALCOMMUNICATIONREFERENCE EXTERNALCOMMUNICATIONREFERENCE,
+&#x9;RPCOMMUNICATION.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCOMMUNICATION.FAXNUMBER FAXNUMBER,
+&#x9;RPCOMMUNICATION.GENDERCOMMUNICATIONWITH GENDERCOMMUNICATIONWITH,
+&#x9;RPCOMMUNICATION.GROUPCODEFORREPORTINGCOMID GROUPCODEFORREPORTINGCOMID,
+&#x9;RPCOMMUNICATION.HASBEENREAD HASBEENREAD,
+&#x9;RPCOMMUNICATION.HASBEENUNLINKED HASBEENUNLINKED,
+&#x9;RPCOMMUNICATION.HASMARKING HASMARKING,
+&#x9;RPCOMMUNICATION.HASPRIORITY HASPRIORITY,
+&#x9;RPCOMMUNICATION.INBOXFORCOMMUNICATIONID INBOXFORCOMMUNICATIONID,
+&#x9;RPCOMMUNICATION.INSURANCEPLATENUMBER INSURANCEPLATENUMBER,
+&#x9;RPCOMMUNICATION.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPCOMMUNICATION.ISCONTENTEXTERNALLYMANAGED ISCONTENTEXTERNALLYMANAGED,
+&#x9;RPCOMMUNICATION.ISCOPY ISCOPY,
+&#x9;RPCOMMUNICATION.ISFEEDBACK ISFEEDBACK,
+&#x9;RPCOMMUNICATION.ISINCOMING ISINCOMING,
+&#x9;RPCOMMUNICATION.ISINTERNAL ISINTERNAL,
+&#x9;RPCOMMUNICATION.ISLEGALAID ISLEGALAID,
+&#x9;RPCOMMUNICATION.LANGUAGEID LANGUAGEID,
+&#x9;RPCOMMUNICATION.MARKASNOTSEND MARKASNOTSEND,
+&#x9;RPCOMMUNICATION.MARKEDASDONEBYLOGONUSERID MARKEDASDONEBYLOGONUSERID,
+&#x9;RPCOMMUNICATION.NAMECOMMUNICATIONWITH NAMECOMMUNICATIONWITH,
+&#x9;RPCOMMUNICATION.NEEDSEXTCUSTFEEDBACKREQUEST NEEDSEXTCUSTFEEDBACKREQUEST,
+&#x9;RPCOMMUNICATION.NOTIFICATCOMMUNICATIONTYPEID NOTIFICATCOMMUNICATIONTYPEID,
+&#x9;RPCOMMUNICATION.OUTPUTLABELID OUTPUTLABELID,
+&#x9;RPCOMMUNICATION.PHONECOMMUNICATIONWITH PHONECOMMUNICATIONWITH,
+&#x9;RPCOMMUNICATION.PHONENUMBERTO PHONENUMBERTO,
+&#x9;RPCOMMUNICATION.PRINTDESTINATIONID PRINTDESTINATIONID,
+&#x9;RPCOMMUNICATION.PRINTLOCATIONID PRINTLOCATIONID,
+&#x9;RPCOMMUNICATION.PRINTQUEUEID PRINTQUEUEID,
+&#x9;RPCOMMUNICATION.PRIORITYID PRIORITYID,
+&#x9;RPCOMMUNICATION.RESPONSIBLELOGONUSERID RESPONSIBLELOGONUSERID,
+&#x9;RPCOMMUNICATION.SENDASREGISTERED SENDASREGISTERED,
+&#x9;RPCOMMUNICATION.SENDBYDPKJOBID SENDBYDPKJOBID,
+&#x9;RPCOMMUNICATION.SENDERIDFORSMS SENDERIDFORSMS,
+&#x9;RPCOMMUNICATION.SMSCONTENT SMSCONTENT,
+&#x9;RPCOMMUNICATION.TEXTFORADDRESSDOCUMENT TEXTFORADDRESSDOCUMENT,
+&#x9;RPCOMMUNICATION.TIMERECEIVED TIMERECEIVED,
+&#x9;RPCOMMUNICATION.TIMESENT TIMESENT,
+&#x9;RPCOMMUNICATION.TSCHANGED TSCHANGED,
+&#x9;RPCOMMUNICATION.TSCHANGEDFOREXTERNALARCHIVE TSCHANGEDFOREXTERNALARCHIVE,
+&#x9;RPCOMMUNICATION.TSCLEANED TSCLEANED,
+&#x9;RPCOMMUNICATION.TSCOMMUNICATIONCANCELLED TSCOMMUNICATIONCANCELLED,
+&#x9;RPCOMMUNICATION.TSCOMMUNICATIONCREATED TSCOMMUNICATIONCREATED,
+&#x9;RPCOMMUNICATION.TSCOMMUNICATIONMARKEDASDONE TSCOMMUNICATIONMARKEDASDONE,
+&#x9;RPCOMMUNICATION.TSCREATED TSCREATED,
+&#x9;RPCOMMUNICATION.TSLASTATTEMPTSUBMITTOEXTSYSTEM TSLASTATTEMPTSUBMITTOEXTSYSTEM,
+&#x9;RPCOMMUNICATION.TSLASTATTEMPTTOGENERATEDOCS TSLASTATTEMPTTOGENERATEDOCS,
+&#x9;RPCOMMUNICATION.TSLASTATTEMPTTOSENDEMAIL TSLASTATTEMPTTOSENDEMAIL,
+&#x9;RPCOMMUNICATION.TSLASTATTEMPTTOSENDSMS TSLASTATTEMPTTOSENDSMS,
+&#x9;RPCOMMUNICATION.TSLASTREOPENED TSLASTREOPENED,
+&#x9;RPCOMMUNICATION.TSNOTIFICATIONSENT TSNOTIFICATIONSENT,
+&#x9;RPCOMMUNICATION.TSSENT TSSENT,
+&#x9;RPCOMMUNICATION.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCOMMUNICATION.USERIDCREATED USERIDCREATED,
+&#x9;RPCOMMUNICATION.USERTASKTYPEID USERTASKTYPEID 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCOMMUNICATION RPCOMMUNICATION</attribute>
+  <attribute name="creationDate" type="LONG">1664289227140</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCOMMUNICATION&apos;.  On line 100, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289227140</attribute>
+</metadata>

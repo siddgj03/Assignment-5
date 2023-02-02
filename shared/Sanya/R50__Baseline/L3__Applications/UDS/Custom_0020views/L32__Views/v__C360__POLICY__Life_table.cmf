@@ -1,0 +1,805 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_C360_POLICY_Life" path="/shared/Sanya/R50_Baseline/L3_Applications/UDS/Custom views/L32_Views/v_C360_POLICY_Life" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CUSTOMER_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ACTOR_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CURRENT_IND" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SOURCE_POLICY_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SOURCE_SYSTEM_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_START_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_END_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COVERAGE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PREMIUM_AMT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PREMIUM_BEGIN_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PREMIUM_END_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_STATUS_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_STATUS_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BUSINESS_OWNER_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_SUSPENSION_START_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_VERSION_ISSUE_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_VERSION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_VERSION_EFFECTIVE_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_VERSION_EXPIRATION_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="UW_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="UW_TYPE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_ISSUE_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PAYMENT_MODE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PAYMENT_MODE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BONUS_MALUS" nullable="true">
+      <datatype type="STRING" maxLength="1000"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EVENT_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EVENT_TYPE_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EVENT_TYPE_NM" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="MUTATION_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="MUTATION_TYPE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="AGI_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="AGISTM" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRODUCER_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="AGENCY_NM" nullable="true">
+      <datatype type="STRING" maxLength="600"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEV2_CLUSTER_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEV3_COMMERCIALZONE_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEV4_EXTERNAL_SECTOR_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEV5_SUBNET_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEV6_NET_NATIONAL2_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEV7_NET_NATIONAL_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DKKTYI" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="AGKDSR" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="AGODSR" nullable="true">
+      <datatype type="STRING" minLength="36" maxLength="36"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ODICIR" nullable="true">
+      <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ODIRDR" nullable="true">
+      <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PUKTAK" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PUKDVV" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PUKGRB" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PUKGRP" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRODUCT_CD" nullable="true">
+      <datatype type="STRING" maxLength="44"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRODUCT_NM" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRODUCT_TYPE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="GENERATION_FUND_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="GUAR_INT_RT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS" type="DATA_SOURCE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L23_Business/Custom views/Customer_360/v_Policy_Life" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CUSTOMER_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="ACTOR_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="CURRENT_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="POLICY_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="SOURCE_POLICY_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="SOURCE_SYSTEM_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="POLICY_START_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="POLICY_END_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="COVERAGE_DESC">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="PREMIUM_AMT">
+        <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+      </element>
+      <element name="PREMIUM_BEGIN_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PREMIUM_END_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="POLICY_STATUS_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="POLICY_STATUS_DESC">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="BUSINESS_OWNER_DESC">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="POLICY_SUSPENSION_START_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="POLICY_VERSION_ISSUE_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="POLICY_VERSION">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICY_VERSION_EFFECTIVE_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="POLICY_VERSION_EXPIRATION_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="UW_TYPE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="UW_TYPE_DESC">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="POLICY_ISSUE_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PAYMENT_MODE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="PAYMENT_MODE_DESC">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="BONUS_MALUS">
+        <datatype type="STRING" maxLength="1000"/>
+      </element>
+      <element name="EVENT_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EVENT_TYPE_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="EVENT_TYPE_NM">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="MUTATION_TYPE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="MUTATION_TYPE_DESC">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="AGI_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="AGISTM">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="PRODUCER_TYPE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="AGENCY_NM">
+        <datatype type="STRING" maxLength="600"/>
+      </element>
+      <element name="LEV2_CLUSTER_NAME">
+        <datatype type="STRING" maxLength="288"/>
+      </element>
+      <element name="LEV3_COMMERCIALZONE_NAME">
+        <datatype type="STRING" maxLength="288"/>
+      </element>
+      <element name="LEV4_EXTERNAL_SECTOR_NAME">
+        <datatype type="STRING" maxLength="288"/>
+      </element>
+      <element name="LEV5_SUBNET_NAME">
+        <datatype type="STRING" maxLength="288"/>
+      </element>
+      <element name="LEV6_NET_NATIONAL2_NAME">
+        <datatype type="STRING" maxLength="288"/>
+      </element>
+      <element name="LEV7_NET_NATIONAL_NAME">
+        <datatype type="STRING" maxLength="288"/>
+      </element>
+      <element name="DKKTYI">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="AGKDSR">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="AGODSR">
+        <datatype type="STRING" minLength="36" maxLength="36"/>
+      </element>
+      <element name="ODICIR">
+        <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+      </element>
+      <element name="ODIRDR">
+        <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+      </element>
+      <element name="PUKTAK">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PUKDVV">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PUKGRB">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PUKGRP">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PRODUCT_CD">
+        <datatype type="STRING" maxLength="44"/>
+      </element>
+      <element name="PRODUCT_NM">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="PRODUCT_TYPE_DESC">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="GENERATION_FUND_NM">
+        <datatype type="STRING" maxLength="160"/>
+      </element>
+      <element name="GUAR_INT_RT">
+        <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="4"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    *
+FROM      
+    /shared/Sanya/R50_Baseline/L2_Business/L23_Business/&quot;Custom views&quot;/Customer_360/v_Policy_Life v_Policy_Life</attribute>
+  <attribute name="cacheBucketMode" type="STRING">AUTO_GEN</attribute>
+  <attribute name="cacheBucketPrefix" type="STRING">view318491_</attribute>
+  <attribute name="cacheBucketSchema" type="STRING">ciscache</attribute>
+  <attribute name="cacheClearRule" type="STRING">MANUAL</attribute>
+  <attribute name="cacheConfigured" type="BOOLEAN">true</attribute>
+  <attribute name="cacheDeltaLoader" type="NULL"/>
+  <attribute name="cacheDropCreateIdx" type="BOOLEAN">true</attribute>
+  <attribute name="cacheEnabled" type="BOOLEAN">true</attribute>
+  <attribute name="cacheIncremental" type="BOOLEAN">false</attribute>
+  <attribute name="cacheLastTracking" type="STRING">/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/CACHE_TRACKING</attribute>
+  <attribute name="cacheNumBuckets" type="INTEGER">3</attribute>
+  <attribute name="cachePostRefreshCallback" type="NULL"/>
+  <attribute name="cachePreRefreshCallback" type="NULL"/>
+  <attribute name="cachePullBasedIncremental" type="BOOLEAN">false</attribute>
+  <attribute name="cacheRefreshMode" type="STRING">MANUAL</attribute>
+  <attribute name="cacheSnapshotLoader" type="NULL"/>
+  <attribute name="cacheStorageSource" type="STRING">/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS</attribute>
+  <attribute name="cacheStorageTargets" type="MAP">
+    <item>
+      <key type="STRING">result</key>
+      <value type="STRING">/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/C_v_C360_POLICY_Life</value>
+    </item>
+  </attribute>
+  <attribute name="cacheStorageType" type="STRING">DATA_SOURCE</attribute>
+  <attribute name="creationDate" type="LONG">1655815216072</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">8</attribute>
+  <attribute name="impactMessage" type="STRING">The resource &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS&apos; does not exist</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669214347635</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="BYTE_ARRAY">EIEJBAAAAAEQUQYBAA0AdgBfAFAAbwBsAGkAYwB5AF8ATABpAGYAZQYCAA0AdgBfAFAAbwBsAGkAYwB5AF8ATABpAGYAZQML/////wMK/////wMM/////wsRAAgABgBzAGgAYQByAGUAZAAFAFMAYQBuAHkAYQAMAFIANQAwAF8AQgBhAHMAZQBsAGkAbgBlAAsATAAyAF8AQgB1AHMAaQBuAGUAcwBzAAwATAAyADMAXwBCAHUAcwBpAG4AZQBzAHMADABDAHUAcwB0AG8AbQAgAHYAaQBlAHcAcwAMAEMAdQBzAHQAbwBtAGUAcgBfADMANgAwAA0AdgBfAFAAbwBsAGkAYwB5AF8ATABpAGYAZf//AwUAAAAACAIQMQYB//8BAgEBBgABAwABBAABBQADBwAAAAAHCQAAAAEAAAAACQoAAAABEEEGAQABACoGAgAABgP//wYE//8DCv////8GBf//BgYAAAYHAAAGCAAA/////wkGAAAAARCCAwoAAAADAwsAAAANAwwAAADIAw0AAADH//8IAxBxAwEAAAALAwIAAAAyCQMAAAImEHQDBgAAAAD//xByBgT/////EHP//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb///////8=</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1655815216072</attribute>
+  <trigger>
+    <security>
+      <owner user="nobody" domain="composite"/>
+    </security>
+    <dependency target="/lib/resource/RefreshResourceCache" type="PROCEDURE">
+      <datatype name="Tree" type="TREE" refId="257"></datatype>
+    </dependency>
+    <dependency target="/shared/Sanya/R50_Baseline/L3_Applications/UDS/Custom views/L32_Views/v_C360_POLICY_Life" type="TABLE">
+      <datatype type="TABLE" refId="256">
+        <element name="CUSTOMER_ID">
+          <datatype type="STRING" maxLength="128"/>
+        </element>
+        <element name="ACTOR_ID">
+          <datatype type="STRING" maxLength="128"/>
+        </element>
+        <element name="CURRENT_IND">
+          <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+        </element>
+        <element name="POLICY_ID">
+          <datatype type="STRING" maxLength="128"/>
+        </element>
+        <element name="SOURCE_POLICY_ID">
+          <datatype type="STRING" maxLength="128"/>
+        </element>
+        <element name="SOURCE_SYSTEM_CD">
+          <datatype type="STRING" maxLength="12"/>
+        </element>
+        <element name="POLICY_START_DT">
+          <datatype type="DATETIME"/>
+        </element>
+        <element name="POLICY_END_DT">
+          <datatype type="DATETIME"/>
+        </element>
+        <element name="COVERAGE_DESC">
+          <datatype type="STRING" maxLength="400"/>
+        </element>
+        <element name="PREMIUM_AMT">
+          <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+        </element>
+        <element name="PREMIUM_BEGIN_DT">
+          <datatype type="DATETIME"/>
+        </element>
+        <element name="PREMIUM_END_DT">
+          <datatype type="DATETIME"/>
+        </element>
+        <element name="POLICY_STATUS_CD">
+          <datatype type="STRING" maxLength="12"/>
+        </element>
+        <element name="POLICY_STATUS_DESC">
+          <datatype type="STRING" maxLength="400"/>
+        </element>
+        <element name="BUSINESS_OWNER_DESC">
+          <datatype type="STRING" maxLength="400"/>
+        </element>
+        <element name="POLICY_SUSPENSION_START_DT">
+          <datatype type="DATETIME"/>
+        </element>
+        <element name="POLICY_VERSION_ISSUE_DT">
+          <datatype type="DATETIME"/>
+        </element>
+        <element name="POLICY_VERSION">
+          <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+        </element>
+        <element name="POLICY_VERSION_EFFECTIVE_DT">
+          <datatype type="DATETIME"/>
+        </element>
+        <element name="POLICY_VERSION_EXPIRATION_DT">
+          <datatype type="DATETIME"/>
+        </element>
+        <element name="UW_TYPE_CD">
+          <datatype type="STRING" maxLength="12"/>
+        </element>
+        <element name="UW_TYPE_DESC">
+          <datatype type="STRING" maxLength="400"/>
+        </element>
+        <element name="POLICY_ISSUE_DT">
+          <datatype type="DATETIME"/>
+        </element>
+        <element name="PAYMENT_MODE_CD">
+          <datatype type="STRING" maxLength="12"/>
+        </element>
+        <element name="PAYMENT_MODE_DESC">
+          <datatype type="STRING" maxLength="400"/>
+        </element>
+        <element name="BONUS_MALUS">
+          <datatype type="STRING" maxLength="1000"/>
+        </element>
+        <element name="EVENT_DT">
+          <datatype type="DATETIME"/>
+        </element>
+        <element name="EVENT_TYPE_ID">
+          <datatype type="STRING" maxLength="128"/>
+        </element>
+        <element name="EVENT_TYPE_NM">
+          <datatype type="STRING" maxLength="200"/>
+        </element>
+        <element name="MUTATION_TYPE_CD">
+          <datatype type="STRING" maxLength="12"/>
+        </element>
+        <element name="MUTATION_TYPE_DESC">
+          <datatype type="STRING" maxLength="400"/>
+        </element>
+        <element name="AGI_ID">
+          <datatype type="STRING" maxLength="128"/>
+        </element>
+        <element name="AGISTM">
+          <datatype type="STRING" maxLength="128"/>
+        </element>
+        <element name="PRODUCER_TYPE_CD">
+          <datatype type="STRING" maxLength="12"/>
+        </element>
+        <element name="AGENCY_NM">
+          <datatype type="STRING" maxLength="600"/>
+        </element>
+        <element name="LEV2_CLUSTER_NAME">
+          <datatype type="STRING" maxLength="288"/>
+        </element>
+        <element name="LEV3_COMMERCIALZONE_NAME">
+          <datatype type="STRING" maxLength="288"/>
+        </element>
+        <element name="LEV4_EXTERNAL_SECTOR_NAME">
+          <datatype type="STRING" maxLength="288"/>
+        </element>
+        <element name="LEV5_SUBNET_NAME">
+          <datatype type="STRING" maxLength="288"/>
+        </element>
+        <element name="LEV6_NET_NATIONAL2_NAME">
+          <datatype type="STRING" maxLength="288"/>
+        </element>
+        <element name="LEV7_NET_NATIONAL_NAME">
+          <datatype type="STRING" maxLength="288"/>
+        </element>
+        <element name="DKKTYI">
+          <datatype type="STRING" minLength="2" maxLength="2"/>
+        </element>
+        <element name="AGKDSR">
+          <datatype type="STRING" minLength="2" maxLength="2"/>
+        </element>
+        <element name="AGODSR">
+          <datatype type="STRING" minLength="36" maxLength="36"/>
+        </element>
+        <element name="ODICIR">
+          <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+        </element>
+        <element name="ODIRDR">
+          <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+        </element>
+        <element name="PUKTAK">
+          <datatype type="STRING" minLength="3" maxLength="3"/>
+        </element>
+        <element name="PUKDVV">
+          <datatype type="STRING" minLength="3" maxLength="3"/>
+        </element>
+        <element name="PUKGRB">
+          <datatype type="STRING" minLength="3" maxLength="3"/>
+        </element>
+        <element name="PUKGRP">
+          <datatype type="STRING" minLength="3" maxLength="3"/>
+        </element>
+        <element name="PRODUCT_CD">
+          <datatype type="STRING" maxLength="44"/>
+        </element>
+        <element name="PRODUCT_NM">
+          <datatype type="STRING" maxLength="400"/>
+        </element>
+        <element name="PRODUCT_TYPE_DESC">
+          <datatype type="STRING" maxLength="64"/>
+        </element>
+        <element name="GENERATION_FUND_NM">
+          <datatype type="STRING" maxLength="160"/>
+        </element>
+        <element name="GUAR_INT_RT">
+          <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="4"/>
+        </element>
+      </datatype>
+    </dependency>
+    <attribute name="actionProperties" type="MAP">
+      <item>
+        <key type="STRING">PATH</key>
+        <value type="STRING">/lib/resource/RefreshResourceCache</value>
+      </item>
+      <item>
+        <key type="STRING">PARAMETERS</key>
+        <value type="STRING">&apos;/shared/Sanya/R50_Baseline/L3_Applications/UDS/Custom views/L32_Views/v_C360_POLICY_Life&apos;,&apos;TABLE&apos;</value>
+      </item>
+    </attribute>
+    <attribute name="actionType" type="STRING">PROCEDURE</attribute>
+    <attribute name="conditionSchedule" type="MAP">
+      <item>
+        <key type="STRING">period</key>
+        <value type="INTEGER">2</value>
+      </item>
+      <item>
+        <key type="STRING">recurringDay</key>
+        <value type="INTEGER">-1</value>
+      </item>
+      <item>
+        <key type="STRING">count</key>
+        <value type="INTEGER">1</value>
+      </item>
+      <item>
+        <key type="STRING">fromTimeInADay</key>
+        <value type="LONG">-1</value>
+      </item>
+      <item>
+        <key type="STRING">mode</key>
+        <value type="STRING">CALENDAR</value>
+      </item>
+      <item>
+        <key type="STRING">lastRunTime</key>
+        <value type="LONG">1656054000000</value>
+      </item>
+      <item>
+        <key type="STRING">lastScheduledTime</key>
+        <value type="LONG">1656054000000</value>
+      </item>
+      <item>
+        <key type="STRING">endTimeInADay</key>
+        <value type="LONG">-1</value>
+      </item>
+      <item>
+        <key type="STRING">startTime</key>
+        <value type="LONG">1655881200000</value>
+      </item>
+      <item>
+        <key type="STRING">interval</key>
+        <value type="INTEGER">0</value>
+      </item>
+      <item>
+        <key type="STRING">endTime</key>
+        <value type="LONG">0</value>
+      </item>
+      <item>
+        <key type="STRING">isCluster</key>
+        <value type="BOOLEAN">true</value>
+      </item>
+    </attribute>
+    <attribute name="conditionType" type="STRING">TIMER</attribute>
+    <attribute name="creationDate" type="LONG">1655880328335</attribute>
+    <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+    <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+    <attribute name="creatorUserName" type="STRING">d032080</attribute>
+    <attribute name="enabled" type="BOOLEAN">false</attribute>
+    <attribute name="isChildTrigger" type="BOOLEAN">true</attribute>
+    <attribute name="lastModifiedDate" type="LONG">1665151601000</attribute>
+    <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+    <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+    <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+    <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1655880328335</attribute>
+  </trigger>
+</metadata>

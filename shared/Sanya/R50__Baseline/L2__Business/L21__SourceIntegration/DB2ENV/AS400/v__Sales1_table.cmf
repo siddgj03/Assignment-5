@@ -1,0 +1,257 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_Sales1" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_Sales1" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="Platform" nullable="true">
+      <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="policy" nullable="true">
+      <datatype type="STRING" minLength="7" maxLength="7"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Polisnummer" nullable="true">
+      <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypePolis" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Kanaal" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Agent" nullable="true">
+      <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Begindatum" nullable="true">
+      <datatype type="DATE"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Beginjaar" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Boekdatum" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Boekjaar" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Valutajaar" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RecurrentePremie" nullable="true">
+      <datatype type="DECIMAL" maxDigits="14" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Koopsom" nullable="true">
+      <datatype type="DECIMAL" maxDigits="14" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Tak" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Fonds" nullable="true">
+      <datatype type="STRING" maxLength="3" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DLFHSTPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DRCRES1PF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DULMVTPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLICYDXPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">/* Tak 21 premies */
+select &apos;AS400&apos; as Platform, p.policy,
+&#x9;    800000000000+p.Branche*1000000000+CAST(p.Policy AS DECIMAL(7))*100+p.Check_d as Polisnummer,
+&#x9;    case when p.Branche = 95 then &apos;VAPZ&apos;
+&#x9;&#x9;&#x9;  when p.Branche = 94 and p.sub_br in (3,2103) then &apos;POZ&apos;
+&#x9;&#x9;&#x9;  else &apos;IPT&apos; end as TypePolis,
+&#x9;&#x9;case when p.sub_br &lt; 2100 then &apos;Belfius&apos; else &apos;DVV&apos; end as Kanaal, 
+&#x9;&#x9;p.ci_comm as Agent,
+&#x9;&#x9;p.eff_d_p as Begindatum,
+&#x9;&#x9;year(p.eff_d_p) as Beginjaar,
+&#x9;    d.dapost as Boekdatum,  
+&#x9;&#x9;year(d.dapost) as Boekjaar,
+&#x9;&#x9;year(d.dadeclare) as Valutajaar,
+&#x9;&#x9;&#x9;&#x9;
+&#x9;&#x9;case when d.sub_mvt = 0 then 
+&#x9;&#x9;&#x9;&#x9;case when d.movement = 6 then (d.amtcap + d.amtinexp + d.amt_solid) else (-d.amtcap-d.amtinexp-d.amt_solid) end 
+&#x9;&#x9;&#x9;&#x9;else 0 end as RecurrentePremie,
+&#x9;&#x9;case when d.sub_mvt = 2 then 
+&#x9;&#x9;&#x9;&#x9;case when d.movement = 6 then (d.amtcap + d.amtinexp + d.amt_solid) else (-d.amtcap-d.amtinexp-d.amt_solid) end 
+&#x9;&#x9;&#x9;&#x9;else 0 end as Koopsom,
+&#x9;&#x9;&apos;T21&apos; as Tak,
+&#x9;&#x9;&apos;T21&apos; as Fonds
+
+&#x9;from &#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DULMVTPF d, 
+&#x9;&#x9;&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLICYDXPF p
+
+&#x9;  where d.branche = p.branche
+        and d.policy = p.policy
+&#x9;&#x9;and (year(d.dapost)&gt;= YEAR(CURRENT_DATE)-2 AND month(d.dapost)&gt;=1 AND day(d.dapost)&gt;=1) 
+&#x9;&#x9;and (year(d.dapost)&lt;= YEAR(CURRENT_DATE) AND month(d.dapost)=1 AND day(d.dapost)&lt;=31) 
+&#x9;&#x9;--and d.dapost between mdy(&amp;DatumBeginM,&amp;DatumBeginD,&amp;DatumBeginJ) and mdy(&amp;DatumEindeM,&amp;DatumEindeD,&amp;DatumEindeJ)
+&#x9;&#x9;and d.branche in (94,95)
+&#x9;  &#x9;and d.movement in (6,25,36)
+&#x9;&#x9;and CAST(p.policy AS DECIMAL(7)) &lt; 9999900
+&#x9;&#x9;and D.COTRSCDOM = &apos;UL21&apos;
+
+UNION ALL
+/* Tak 23 premies */
+&#x9;  select &apos;AS400&apos; as Platform, p.policy,
+&#x9;&#x9;800000000000+p.Branche*1000000000+CAST(p.Policy AS DECIMAL(7))*100+p.Check_d as Polisnummer,
+&#x9;  &#x9;case when p.Branche = 94 and p.sub_br in (3,2103) then &apos;POZ&apos;
+&#x9;&#x9;&#x9;  else &apos;IPT&apos; end as TypePolis,
+&#x9;&#x9;case when p.sub_br &lt; 2100 then &apos;Belfius&apos; else &apos;DVV&apos; end as Kanaal, 
+&#x9;&#x9;p.ci_comm as Agent,
+&#x9;&#x9;p.eff_d_p as Begindatum,
+&#x9;&#x9;year(p.eff_d_p) as Beginjaar,
+&#x9;    d.dapost as Boekdatum,  
+&#x9;&#x9;year(d.dapost) as Boekjaar,
+&#x9;&#x9;year(d.lf_valutad) as Valutajaar,
+&#x9;&#x9;case when d.lf_submov = 0 then 
+&#x9;&#x9;&#x9;&#x9;case when d.lf_mov = 6 then (d.lf_o_amt + d.lf_kosten) else (-d.lf_o_amt - d.lf_kosten) end 
+&#x9;&#x9;&#x9;&#x9;else 0 end as RecurrentePremie,
+&#x9;&#x9;case when d.lf_submov = 2 then 
+&#x9;&#x9;&#x9;&#x9;case when d.lf_mov = 6 then (d.lf_o_amt + d.lf_kosten) else (-d.lf_o_amt - d.lf_kosten) end 
+&#x9;&#x9;&#x9;&#x9;else 0 end as Koopsom,
+&#x9;&#x9;&apos;T23&apos; as Tak,
+&#x9;&#x9;lf_fund as Fonds
+&#x9;&#x9;/*eventueel groeperen van fondsen, tot 1 lijn per storting ipv per storting per fonds?*/
+
+&#x9;  from &#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DLFHSTPF d, 
+&#x9;&#x9;&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLICYDXPF p
+
+&#x9;  where d.lf_brcd = p.branche
+        and d.lf_pono = p.policy
+&#x9;&#x9;and (year(d.dapost)&gt;= YEAR(CURRENT_DATE)-2 AND month(d.dapost)&gt;=1 AND day(d.dapost)&gt;=1) 
+&#x9;&#x9;and (year(d.dapost)&lt;= YEAR(CURRENT_DATE) AND month(d.dapost)=1 AND day(d.dapost)&lt;=31) 
+&#x9;&#x9;and d.lf_brcd = 94
+&#x9;  &#x9;and d.lf_mov in (6,25,36)
+&#x9;&#x9;and CAST(p.policy AS DECIMAL(7)) &lt; 9999900
+
+UNION ALL
+&#x9;&#x9;/*GI premie*/
+select &apos;AS400&apos; as Platform, p.policy,
+&#x9;    800000000000+p.Branche*1000000000+CAST(p.Policy AS DECIMAL(7))*100+p.Check_d as Polisnummer,
+&#x9;    case when p.Branche = 95 then &apos;VAPZ&apos;
+&#x9;&#x9;&#x9;  when p.Branche = 94 and p.sub_br in (3,2103) then &apos;POZ&apos;
+&#x9;&#x9;&#x9;  else &apos;IPT&apos; end as TypePolis,
+&#x9;&#x9;case when p.sub_br &lt; 2100 then &apos;Belfius&apos; else &apos;DVV&apos; end as Kanaal, 
+&#x9;&#x9;p.ci_comm as Agent,
+&#x9;&#x9;p.eff_d_p as Begindatum,
+&#x9;&#x9;year(p.eff_d_p) as Beginjaar,
+&#x9;   d.dapaymnt as Boekdatum,  
+&#x9;&#x9;year(d.dapaymnt) as Boekjaar,
+&#x9;&#x9;year(d.dapaymnt) as Valutajaar,
+&#x9;&#x9;case when d.nrmov = 6 then d.amnet+d.amentfee+d.amfrafee else -d.amnet-d.amentfee-d.amfrafee end as RecurrentePremie,
+&#x9;&#x9;0 as Koopsom,
+&#x9;&#x9;&apos;T21&apos; as Tak,
+&#x9;&#x9;&apos;GI&apos; as Fonds 
+
+from &#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DRCRES1PF d,
+&#x9;&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLICYDXPF p
+
+&#x9;  where d.cobranch = p.branche
+        and d.nrpolicy = p.policy
+&#x9;&#x9;and (year(d.dapaymnt)&gt;= YEAR(CURRENT_DATE)-2 AND month(d.dapaymnt)&gt;=1 AND day(d.dapaymnt)&gt;=1) 
+&#x9;&#x9;and (year(d.dapaymnt)&lt;= YEAR(CURRENT_DATE) AND month(d.dapaymnt)=1 AND day(d.dapaymnt)&lt;=31) 
+&#x9;&#x9;and d.cobranch in (94,95)
+&#x9;  &#x9;and d.nrmov in (6,25,36)
+&#x9;&#x9;and d.coguar = &apos;GI1&apos;
+&#x9;  &#x9;
+UNION ALL
+&#x9;&#x9;/*PV premie*/
+select &apos;AS400&apos; as Platform, p.policy,
+&#x9;    800000000000+p.Branche*1000000000+CAST(p.Policy AS DECIMAL(7))*100+p.Check_d as Polisnummer,
+&#x9;    case when p.Branche = 95 then &apos;VAPZ&apos;
+&#x9;&#x9;&#x9;  when p.Branche = 94 and p.sub_br in (3,2103) then &apos;POZ&apos;
+&#x9;&#x9;&#x9;  else &apos;IPT&apos; end as TypePolis,
+&#x9;&#x9;case when p.sub_br &lt; 2100 then &apos;Belfius&apos; else &apos;DVV&apos; end as Kanaal, 
+&#x9;&#x9;p.ci_comm as Agent,
+&#x9;&#x9;p.eff_d_p as Begindatum,
+&#x9;&#x9;year(p.eff_d_p) as Beginjaar,
+&#x9;&#x9;d.dapaymnt as Boekdatum,  
+&#x9;&#x9;year(d.dapaymnt) as Boekjaar,
+&#x9;&#x9;year(d.dapaymnt) as Valutajaar,
+&#x9;&#x9;case when d.nrmov = 6 then d.amnet+d.amentfee+d.amfrafee else -d.amnet-d.amentfee-d.amfrafee end as RecurrentePremie,
+&#x9;&#x9;0 as Koopsom,
+&#x9;&#x9;&apos;T21&apos; as Tak,
+&#x9;&#x9;&apos;PV&apos; as Fonds 
+
+&#x9;from &#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DRCRES1PF d, 
+&#x9;&#x9;&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/POLICYDXPF p
+
+&#x9;  where d.cobranch = p.branche
+        and d.nrpolicy = p.policy
+&#x9;&#x9;and (year(d.dapaymnt)&gt;= YEAR(CURRENT_DATE)-2 AND month(d.dapaymnt)&gt;=1 AND day(d.dapaymnt)&gt;=1) 
+&#x9;&#x9;and (year(d.dapaymnt)&lt;= YEAR(CURRENT_DATE) AND month(d.dapaymnt)=1 AND day(d.dapaymnt)&lt;=31) 
+&#x9;&#x9;and d.cobranch in (94,95)
+&#x9;  &#x9;and d.nrmov in (6,25,36)
+&#x9;&#x9;and d.coguar = &apos;WP1&apos;
+
+ </attribute>
+  <attribute name="creationDate" type="LONG">1657106542043</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/DULMVTPF&apos;.  On line 24, column 8.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1660308636579</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1657106542043</attribute>
+</metadata>

@@ -1,0 +1,680 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCLAIMCUSTOMER" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCLAIMCUSTOMER" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CANPROCESSPERIODICALPAYMENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMPARTYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATECONSOLIDATION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEEARLIESTFINPROCESSING" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFIRSTCONTACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEINJURYKNOWN" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEINTEGRATIONEVALEA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELIABILITYDETERMINED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEPERSONALCLAIMFINISHED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEUNTILRECOURSEPAID" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESSIFDIFFERENT" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPLANATIONROLE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORTHEATTENTIONOFGENDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORTHEATTENTIONOFINITIALS" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORTHEATTENTIONOFINSERT" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORTHEATTENTIONOFSURNAME" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FORTHEATTENTIONOFTITLE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GUIDELINEFORINJURYLOSSAMOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HANDLEACCORDINGTOPIVBGK" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASBANKACCOUNTBEENCHECKED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASCUSTSATISFSURVEYBEENSENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASFORTHEATTENTIONOFPARENTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASINJURYFOLDERBEENSENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INDIVIDUALEXPERTIDENTIFIER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INJURYSEVERITYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INJURYTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINJURED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPERSONALCLAIMFINISHED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPOLICYVERSIONRISKBEARER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISRECOURSETAKER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISRELATEDTOCLAIMCUSTOMER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISSELFEMPLOYED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISSETTLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISVULNERABLEROADUSER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAYNOLONGERBEUSEDINCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NOTEINJTREATCHANGEDBYLOGUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NUMBEROFDEPENDENTCHILDREN" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCCOMPENSATION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCLIABILITY" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCVATTODEDUCT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROTECTORTYPEFORPIVID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REFERENCENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REFERENCENUMBER_UPPER" nullable="true">
+      <datatype type="STRING" maxLength="75"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RELATEDTOCLAIMCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ROLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDSATISFACTIONSURVEY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHAREPERCENTAGE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDSENDSPECPERIODICPAYMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TELEPHONENUMBERIFDIFFERENT" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTFIELDSPECIALREMARKS" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDNOTEINJTREAT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMCUSTOMER" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CANPROCESSPERIODICALPAYMENTS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CLAIMCUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CLAIMPARTYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATECONSOLIDATION">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEEARLIESTFINPROCESSING">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEFIRSTCONTACT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEINJURYKNOWN">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEINTEGRATIONEVALEA">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATELIABILITYDETERMINED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEPERSONALCLAIMFINISHED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEUNTILRECOURSEPAID">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EMAILADDRESSIFDIFFERENT">
+        <datatype type="STRING" maxLength="320"/>
+      </element>
+      <element name="EXPLANATIONROLE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="FORTHEATTENTIONOFGENDER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="FORTHEATTENTIONOFINITIALS">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="FORTHEATTENTIONOFINSERT">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="FORTHEATTENTIONOFSURNAME">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="FORTHEATTENTIONOFTITLE">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="GUIDELINEFORINJURYLOSSAMOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HANDLEACCORDINGTOPIVBGK">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASBANKACCOUNTBEENCHECKED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASCUSTSATISFSURVEYBEENSENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASFORTHEATTENTIONOFPARENTS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HASINJURYFOLDERBEENSENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="INDIVIDUALEXPERTIDENTIFIER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INJURYSEVERITYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="INJURYTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISINJURED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPERSONALCLAIMFINISHED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISPOLICYVERSIONRISKBEARER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISRECOURSETAKER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISRELATEDTOCLAIMCUSTOMER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISSELFEMPLOYED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISSETTLED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ISVULNERABLEROADUSER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="MAYNOLONGERBEUSEDINCLAIM">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NOTEINJTREATCHANGEDBYLOGUSERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NUMBEROFDEPENDENTCHILDREN">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCCOMPENSATION">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCLIABILITY">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCVATTODEDUCT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PROTECTORTYPEFORPIVID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REFERENCENUMBER">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="REFERENCENUMBER_UPPER">
+        <datatype type="STRING" maxLength="75"/>
+      </element>
+      <element name="RELATEDTOCLAIMCUSTOMERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ROLEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SENDSATISFACTIONSURVEY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SHAREPERCENTAGE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SHOULDSENDSPECPERIODICPAYMENT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TELEPHONENUMBERIFDIFFERENT">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="TEXTFIELDSPECIALREMARKS">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDNOTEINJTREAT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCLAIMCUSTOMER.CANPROCESSPERIODICALPAYMENTS CANPROCESSPERIODICALPAYMENTS,
+&#x9;RPCLAIMCUSTOMER.CLAIMCUSTOMERID CLAIMCUSTOMERID,
+&#x9;RPCLAIMCUSTOMER.CLAIMID CLAIMID,
+&#x9;RPCLAIMCUSTOMER.CLAIMPARTYID CLAIMPARTYID,
+&#x9;RPCLAIMCUSTOMER.CUSTOMERID CUSTOMERID,
+&#x9;RPCLAIMCUSTOMER.DATECONSOLIDATION DATECONSOLIDATION,
+&#x9;RPCLAIMCUSTOMER.DATEEARLIESTFINPROCESSING DATEEARLIESTFINPROCESSING,
+&#x9;RPCLAIMCUSTOMER.DATEFIRSTCONTACT DATEFIRSTCONTACT,
+&#x9;RPCLAIMCUSTOMER.DATEINJURYKNOWN DATEINJURYKNOWN,
+&#x9;RPCLAIMCUSTOMER.DATEINTEGRATIONEVALEA DATEINTEGRATIONEVALEA,
+&#x9;RPCLAIMCUSTOMER.DATELIABILITYDETERMINED DATELIABILITYDETERMINED,
+&#x9;RPCLAIMCUSTOMER.DATEPERSONALCLAIMFINISHED DATEPERSONALCLAIMFINISHED,
+&#x9;RPCLAIMCUSTOMER.DATEUNTILRECOURSEPAID DATEUNTILRECOURSEPAID,
+&#x9;RPCLAIMCUSTOMER.EMAILADDRESSIFDIFFERENT EMAILADDRESSIFDIFFERENT,
+&#x9;RPCLAIMCUSTOMER.EXPLANATIONROLE EXPLANATIONROLE,
+&#x9;RPCLAIMCUSTOMER.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCLAIMCUSTOMER.FORTHEATTENTIONOFGENDER FORTHEATTENTIONOFGENDER,
+&#x9;RPCLAIMCUSTOMER.FORTHEATTENTIONOFINITIALS FORTHEATTENTIONOFINITIALS,
+&#x9;RPCLAIMCUSTOMER.FORTHEATTENTIONOFINSERT FORTHEATTENTIONOFINSERT,
+&#x9;RPCLAIMCUSTOMER.FORTHEATTENTIONOFSURNAME FORTHEATTENTIONOFSURNAME,
+&#x9;RPCLAIMCUSTOMER.FORTHEATTENTIONOFTITLE FORTHEATTENTIONOFTITLE,
+&#x9;RPCLAIMCUSTOMER.GUIDELINEFORINJURYLOSSAMOUNTID GUIDELINEFORINJURYLOSSAMOUNTID,
+&#x9;RPCLAIMCUSTOMER.HANDLEACCORDINGTOPIVBGK HANDLEACCORDINGTOPIVBGK,
+&#x9;RPCLAIMCUSTOMER.HASBANKACCOUNTBEENCHECKED HASBANKACCOUNTBEENCHECKED,
+&#x9;RPCLAIMCUSTOMER.HASCUSTSATISFSURVEYBEENSENT HASCUSTSATISFSURVEYBEENSENT,
+&#x9;RPCLAIMCUSTOMER.HASFORTHEATTENTIONOFPARENTS HASFORTHEATTENTIONOFPARENTS,
+&#x9;RPCLAIMCUSTOMER.HASINJURYFOLDERBEENSENT HASINJURYFOLDERBEENSENT,
+&#x9;RPCLAIMCUSTOMER.INDIVIDUALEXPERTIDENTIFIER INDIVIDUALEXPERTIDENTIFIER,
+&#x9;RPCLAIMCUSTOMER.INJURYSEVERITYID INJURYSEVERITYID,
+&#x9;RPCLAIMCUSTOMER.INJURYTYPEID INJURYTYPEID,
+&#x9;RPCLAIMCUSTOMER.ISINJURED ISINJURED,
+&#x9;RPCLAIMCUSTOMER.ISPERSONALCLAIMFINISHED ISPERSONALCLAIMFINISHED,
+&#x9;RPCLAIMCUSTOMER.ISPOLICYVERSIONRISKBEARER ISPOLICYVERSIONRISKBEARER,
+&#x9;RPCLAIMCUSTOMER.ISRECOURSETAKER ISRECOURSETAKER,
+&#x9;RPCLAIMCUSTOMER.ISRELATEDTOCLAIMCUSTOMER ISRELATEDTOCLAIMCUSTOMER,
+&#x9;RPCLAIMCUSTOMER.ISSELFEMPLOYED ISSELFEMPLOYED,
+&#x9;RPCLAIMCUSTOMER.ISSETTLED ISSETTLED,
+&#x9;RPCLAIMCUSTOMER.ISVULNERABLEROADUSER ISVULNERABLEROADUSER,
+&#x9;RPCLAIMCUSTOMER.MAYNOLONGERBEUSEDINCLAIM MAYNOLONGERBEUSEDINCLAIM,
+&#x9;RPCLAIMCUSTOMER.NOTEINJTREATCHANGEDBYLOGUSERID NOTEINJTREATCHANGEDBYLOGUSERID,
+&#x9;RPCLAIMCUSTOMER.NUMBEROFDEPENDENTCHILDREN NUMBEROFDEPENDENTCHILDREN,
+&#x9;RPCLAIMCUSTOMER.PERCCOMPENSATION PERCCOMPENSATION,
+&#x9;RPCLAIMCUSTOMER.PERCLIABILITY PERCLIABILITY,
+&#x9;RPCLAIMCUSTOMER.PERCVATTODEDUCT PERCVATTODEDUCT,
+&#x9;RPCLAIMCUSTOMER.PROTECTORTYPEFORPIVID PROTECTORTYPEFORPIVID,
+&#x9;RPCLAIMCUSTOMER.REFERENCENUMBER REFERENCENUMBER,
+&#x9;RPCLAIMCUSTOMER.REFERENCENUMBER_UPPER REFERENCENUMBER_UPPER,
+&#x9;RPCLAIMCUSTOMER.RELATEDTOCLAIMCUSTOMERID RELATEDTOCLAIMCUSTOMERID,
+&#x9;RPCLAIMCUSTOMER.ROLEID ROLEID,
+&#x9;RPCLAIMCUSTOMER.SENDSATISFACTIONSURVEY SENDSATISFACTIONSURVEY,
+&#x9;RPCLAIMCUSTOMER.SHAREPERCENTAGE SHAREPERCENTAGE,
+&#x9;RPCLAIMCUSTOMER.SHOULDSENDSPECPERIODICPAYMENT SHOULDSENDSPECPERIODICPAYMENT,
+&#x9;RPCLAIMCUSTOMER.TELEPHONENUMBERIFDIFFERENT TELEPHONENUMBERIFDIFFERENT,
+&#x9;RPCLAIMCUSTOMER.TEXTFIELDSPECIALREMARKS TEXTFIELDSPECIALREMARKS,
+&#x9;RPCLAIMCUSTOMER.TSCHANGED TSCHANGED,
+&#x9;RPCLAIMCUSTOMER.TSCHANGEDNOTEINJTREAT TSCHANGEDNOTEINJTREAT,
+&#x9;RPCLAIMCUSTOMER.TSCREATED TSCREATED,
+&#x9;RPCLAIMCUSTOMER.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCLAIMCUSTOMER.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCLAIMCUSTOMER RPCLAIMCUSTOMER</attribute>
+  <attribute name="creationDate" type="LONG">1664293792410</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCLAIMCUSTOMER&apos;.  On line 62, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293792410</attribute>
+</metadata>

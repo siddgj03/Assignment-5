@@ -1,0 +1,372 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPVWBMESSAGECOVER" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPVWBMESSAGECOVER" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="DATEANSWER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENDPOLICYPREINSURER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTPOLICYPREINSURER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DISCOUNTBASEYEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIERPREINSURER" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCERTIFICATEISSUED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NCBMCOVERTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NCBMSTEP" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDAYSDISRUPTINFINALCALYEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFPROCESSEDCLAIMSWITHCONSEQ" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFUNPROCCLAIMSWITHCONSEQ" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYHOLDERCITY" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYHOLDERCOUNTRYCODE" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYHOLDERFIRSTNAME" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYHOLDERNAME" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYHOLDERNAMECONTINUATION" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYHOLDERPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="6"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYHOLDERSALUTATIONKEY" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYHOLDERSTREETHOUSENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYNUMBERPREINSURER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYSTATUSPREINSURER" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSINGNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEIDENTNUMBERPREINSURER" nullable="true">
+      <datatype type="STRING" maxLength="17"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLETYPEPREINSURER" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VWBMESSAGECOVERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VWBMESSAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPVWBMESSAGECOVER" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="DATEANSWER">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATEENDPOLICYPREINSURER">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATESTARTPOLICYPREINSURER">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DISCOUNTBASEYEAR">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="IDENTIFIERPREINSURER">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="ISCERTIFICATEISSUED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NCBMCOVERTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NCBMSTEP">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="NROFDAYSDISRUPTINFINALCALYEAR">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NROFPROCESSEDCLAIMSWITHCONSEQ">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NROFUNPROCCLAIMSWITHCONSEQ">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="POLICYHOLDERCITY">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="POLICYHOLDERCOUNTRYCODE">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="POLICYHOLDERFIRSTNAME">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="POLICYHOLDERNAME">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="POLICYHOLDERNAMECONTINUATION">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="POLICYHOLDERPOSTALCODE">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+      <element name="POLICYHOLDERSALUTATIONKEY">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="POLICYHOLDERSTREETHOUSENUMBER">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="POLICYNUMBERPREINSURER">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="POLICYSTATUSPREINSURER">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="PROCESSINGNUMBER">
+        <datatype type="STRING" maxLength="18"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="VEHICLEIDENTNUMBERPREINSURER">
+        <datatype type="STRING" maxLength="17"/>
+      </element>
+      <element name="VEHICLETYPEPREINSURER">
+        <datatype type="STRING" maxLength="3"/>
+      </element>
+      <element name="VWBMESSAGECOVERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="VWBMESSAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPVWBMESSAGECOVER.DATEANSWER DATEANSWER,
+&#x9;RPVWBMESSAGECOVER.DATEENDPOLICYPREINSURER DATEENDPOLICYPREINSURER,
+&#x9;RPVWBMESSAGECOVER.DATESTARTPOLICYPREINSURER DATESTARTPOLICYPREINSURER,
+&#x9;RPVWBMESSAGECOVER.DISCOUNTBASEYEAR DISCOUNTBASEYEAR,
+&#x9;RPVWBMESSAGECOVER.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPVWBMESSAGECOVER.IDENTIFIERPREINSURER IDENTIFIERPREINSURER,
+&#x9;RPVWBMESSAGECOVER.ISCERTIFICATEISSUED ISCERTIFICATEISSUED,
+&#x9;RPVWBMESSAGECOVER.NCBMCOVERTYPEID NCBMCOVERTYPEID,
+&#x9;RPVWBMESSAGECOVER.NCBMSTEP NCBMSTEP,
+&#x9;RPVWBMESSAGECOVER.NROFDAYSDISRUPTINFINALCALYEAR NROFDAYSDISRUPTINFINALCALYEAR,
+&#x9;RPVWBMESSAGECOVER.NROFPROCESSEDCLAIMSWITHCONSEQ NROFPROCESSEDCLAIMSWITHCONSEQ,
+&#x9;RPVWBMESSAGECOVER.NROFUNPROCCLAIMSWITHCONSEQ NROFUNPROCCLAIMSWITHCONSEQ,
+&#x9;RPVWBMESSAGECOVER.POLICYHOLDERCITY POLICYHOLDERCITY,
+&#x9;RPVWBMESSAGECOVER.POLICYHOLDERCOUNTRYCODE POLICYHOLDERCOUNTRYCODE,
+&#x9;RPVWBMESSAGECOVER.POLICYHOLDERFIRSTNAME POLICYHOLDERFIRSTNAME,
+&#x9;RPVWBMESSAGECOVER.POLICYHOLDERNAME POLICYHOLDERNAME,
+&#x9;RPVWBMESSAGECOVER.POLICYHOLDERNAMECONTINUATION POLICYHOLDERNAMECONTINUATION,
+&#x9;RPVWBMESSAGECOVER.POLICYHOLDERPOSTALCODE POLICYHOLDERPOSTALCODE,
+&#x9;RPVWBMESSAGECOVER.POLICYHOLDERSALUTATIONKEY POLICYHOLDERSALUTATIONKEY,
+&#x9;RPVWBMESSAGECOVER.POLICYHOLDERSTREETHOUSENUMBER POLICYHOLDERSTREETHOUSENUMBER,
+&#x9;RPVWBMESSAGECOVER.POLICYNUMBERPREINSURER POLICYNUMBERPREINSURER,
+&#x9;RPVWBMESSAGECOVER.POLICYSTATUSPREINSURER POLICYSTATUSPREINSURER,
+&#x9;RPVWBMESSAGECOVER.PROCESSINGNUMBER PROCESSINGNUMBER,
+&#x9;RPVWBMESSAGECOVER.TSCHANGED TSCHANGED,
+&#x9;RPVWBMESSAGECOVER.TSCREATED TSCREATED,
+&#x9;RPVWBMESSAGECOVER.USERIDCHANGED USERIDCHANGED,
+&#x9;RPVWBMESSAGECOVER.USERIDCREATED USERIDCREATED,
+&#x9;RPVWBMESSAGECOVER.VEHICLEIDENTNUMBERPREINSURER VEHICLEIDENTNUMBERPREINSURER,
+&#x9;RPVWBMESSAGECOVER.VEHICLETYPEPREINSURER VEHICLETYPEPREINSURER,
+&#x9;RPVWBMESSAGECOVER.VWBMESSAGECOVERID VWBMESSAGECOVERID,
+&#x9;RPVWBMESSAGECOVER.VWBMESSAGEID VWBMESSAGEID 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPVWBMESSAGECOVER RPVWBMESSAGECOVER</attribute>
+  <attribute name="creationDate" type="LONG">1664295085961</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPVWBMESSAGECOVER&apos;.  On line 34, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664295085961</attribute>
+</metadata>

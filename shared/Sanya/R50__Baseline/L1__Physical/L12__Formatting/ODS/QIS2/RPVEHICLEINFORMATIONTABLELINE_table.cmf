@@ -1,0 +1,527 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPVEHICLEINFORMATIONTABLELINE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPVEHICLEINFORMATIONTABLELINE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ALLOWOVERWRITEFROMEXTERNALSRC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALLTERRAINVEHICLE" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTCATALOGUEVALUEEXCLTAX" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTCATALOGUEVALUEINCLTAX" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTCATALOGVALUEDEFAULT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTCATALOGVALUEMAX" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTCATALOGVALUEMIN" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BELGIANREFERENCENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BODYWORKTYPE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABRIOLET" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CO2EMISSION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COMMERCIALMODELNAME" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURBWEIGHT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFIRSTACTIVE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELASTACTIVE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELASTCHANGE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELASTPRICEINEUROCENTS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEPOLLUTIONNORM" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DISPLACEMENT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DRIVEWHEELSYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EUROPEANREFERENCENUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FISCALHORSEPOWER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FUELCODEFEBIAC" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FUELCONSUMPTION" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASAUTOMATICTRANSMISSION" nullable="true">
+      <datatype type="STRING" maxLength="3"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASDIESELPARTICLEFILTER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HIGHESTALLOWEDWEIGHT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HYBRID" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IMAGECODEINEXTERNALSYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INFORMATIONLINEFORSEARCH" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCABRIOLET" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOUPE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LENGTH" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MAXTRAILERWEIGHT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MODELGENERATION" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NOXEMISSION" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFADDITIONALSEATS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFDOORS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFHP" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFSEATS" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCCURRENTVAT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POWER" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SEGMENT" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SPORTSCARNEW" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SPORTSCAROLD" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TOPSPEED" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TYPEALTERNATIVE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="UNIQUEVEHICLEIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEBRANDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEBRANDMODELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEBRANDMODELTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLECATEGORY" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEFUELTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEINFORMATIONTABLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEINFORMATIONTABLELINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="WEIGHTWITHOUTDRIVER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="YEARMANUFACTUREDFROM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="YEARMANUFACTUREDTO" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPVEHICLEINFORMATIONTABLELINE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPVEHICLEINFORMATIONTABLELINE.ALLOWOVERWRITEFROMEXTERNALSRC ALLOWOVERWRITEFROMEXTERNALSRC,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.ALLTERRAINVEHICLE ALLTERRAINVEHICLE,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.AMTCATALOGUEVALUEEXCLTAX AMTCATALOGUEVALUEEXCLTAX,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.AMTCATALOGUEVALUEINCLTAX AMTCATALOGUEVALUEINCLTAX,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.AMTCATALOGVALUEDEFAULT AMTCATALOGVALUEDEFAULT,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.AMTCATALOGVALUEMAX AMTCATALOGVALUEMAX,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.AMTCATALOGVALUEMIN AMTCATALOGVALUEMIN,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.BELGIANREFERENCENUMBER BELGIANREFERENCENUMBER,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.BODYWORKTYPE BODYWORKTYPE,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.CABRIOLET CABRIOLET,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.CO2EMISSION CO2EMISSION,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.COMMERCIALMODELNAME COMMERCIALMODELNAME,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.CURBWEIGHT CURBWEIGHT,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.DATEFIRSTACTIVE DATEFIRSTACTIVE,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.DATELASTACTIVE DATELASTACTIVE,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.DATELASTCHANGE DATELASTCHANGE,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.DATELASTPRICEINEUROCENTS DATELASTPRICEINEUROCENTS,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.DEPOLLUTIONNORM DEPOLLUTIONNORM,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.DISPLACEMENT DISPLACEMENT,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.DRIVEWHEELSYSTEM DRIVEWHEELSYSTEM,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.EUROPEANREFERENCENUMBER EUROPEANREFERENCENUMBER,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.FISCALHORSEPOWER FISCALHORSEPOWER,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.FUELCODEFEBIAC FUELCODEFEBIAC,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.FUELCONSUMPTION FUELCONSUMPTION,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.HASAUTOMATICTRANSMISSION HASAUTOMATICTRANSMISSION,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.HASDIESELPARTICLEFILTER HASDIESELPARTICLEFILTER,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.HIGHESTALLOWEDWEIGHT HIGHESTALLOWEDWEIGHT,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.HYBRID HYBRID,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.IMAGECODEINEXTERNALSYSTEM IMAGECODEINEXTERNALSYSTEM,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.INFORMATIONLINEFORSEARCH INFORMATIONLINEFORSEARCH,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.ISCABRIOLET ISCABRIOLET,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.ISCOUPE ISCOUPE,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.LENGTH LENGTH,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.MAXTRAILERWEIGHT MAXTRAILERWEIGHT,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.MODELGENERATION MODELGENERATION,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.NOXEMISSION NOXEMISSION,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.NROFADDITIONALSEATS NROFADDITIONALSEATS,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.NROFDOORS NROFDOORS,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.NROFHP NROFHP,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.NROFSEATS NROFSEATS,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.PERCCURRENTVAT PERCCURRENTVAT,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.POWER POWER,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.SEGMENT SEGMENT,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.SPORTSCARNEW SPORTSCARNEW,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.SPORTSCAROLD SPORTSCAROLD,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.TOPSPEED TOPSPEED,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.TSCHANGED TSCHANGED,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.TSCREATED TSCREATED,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.TYPEALTERNATIVE TYPEALTERNATIVE,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.UNIQUEVEHICLEIDENTIFIER UNIQUEVEHICLEIDENTIFIER,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.USERIDCREATED USERIDCREATED,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.VEHICLEBRANDID VEHICLEBRANDID,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.VEHICLEBRANDMODELID VEHICLEBRANDMODELID,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.VEHICLEBRANDMODELTYPEID VEHICLEBRANDMODELTYPEID,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.VEHICLECATEGORY VEHICLECATEGORY,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.VEHICLEFUELTYPEID VEHICLEFUELTYPEID,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.VEHICLEINFORMATIONTABLEID VEHICLEINFORMATIONTABLEID,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.VEHICLEINFORMATIONTABLELINEID VEHICLEINFORMATIONTABLELINEID,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.WEIGHTWITHOUTDRIVER WEIGHTWITHOUTDRIVER,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.YEARMANUFACTUREDFROM YEARMANUFACTUREDFROM,
+&#x9;RPVEHICLEINFORMATIONTABLELINE.YEARMANUFACTUREDTO YEARMANUFACTUREDTO 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPVEHICLEINFORMATIONTABLELINE RPVEHICLEINFORMATIONTABLELINE</attribute>
+  <attribute name="creationDate" type="LONG">1664290349368</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPVEHICLEINFORMATIONTABLELINE&apos;.  On line 65, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290349368</attribute>
+</metadata>

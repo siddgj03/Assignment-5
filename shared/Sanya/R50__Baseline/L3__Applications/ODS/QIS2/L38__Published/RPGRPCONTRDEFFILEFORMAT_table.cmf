@@ -1,0 +1,251 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPGRPCONTRDEFFILEFORMAT" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPGRPCONTRDEFFILEFORMAT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CANBEUSEDFOREXPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBEUSEDFORIMPORT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CHARACTERSTRINGDELIMITER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="COLUMNDELIMITER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXCELTEMPLATEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTTEMPLATEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FOOTERFOREXPORT" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFFILEFORMATID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFFILEFORMATTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GRPCONTRDEFID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HEADERFOREXPORT" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IMPORTTEMPLATEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LINECONTAININGCOLUMNNAMES" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFHEADERLINES" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="XPATHEXPRESSIONFORITEM" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPGRPCONTRDEFFILEFORMAT" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CANBEUSEDFOREXPORT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CANBEUSEDFORIMPORT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CHARACTERSTRINGDELIMITER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="COLUMNDELIMITER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="EXCELTEMPLATEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXPORTTEMPLATEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="FOOTERFOREXPORT">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="GRPCONTRDEFFILEFORMATID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GRPCONTRDEFFILEFORMATTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="GRPCONTRDEFID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HEADERFOREXPORT">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="IMPORTTEMPLATEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="LINECONTAININGCOLUMNNAMES">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="NROFHEADERLINES">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="XPATHEXPRESSIONFORITEM">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPGRPCONTRDEFFILEFORMAT.CANBEUSEDFOREXPORT CANBEUSEDFOREXPORT,
+&#x9;RPGRPCONTRDEFFILEFORMAT.CANBEUSEDFORIMPORT CANBEUSEDFORIMPORT,
+&#x9;RPGRPCONTRDEFFILEFORMAT.CHARACTERSTRINGDELIMITER CHARACTERSTRINGDELIMITER,
+&#x9;RPGRPCONTRDEFFILEFORMAT.COLUMNDELIMITER COLUMNDELIMITER,
+&#x9;RPGRPCONTRDEFFILEFORMAT.EXCELTEMPLATEID EXCELTEMPLATEID,
+&#x9;RPGRPCONTRDEFFILEFORMAT.EXPORTTEMPLATEID EXPORTTEMPLATEID,
+&#x9;RPGRPCONTRDEFFILEFORMAT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPGRPCONTRDEFFILEFORMAT.FOOTERFOREXPORT FOOTERFOREXPORT,
+&#x9;RPGRPCONTRDEFFILEFORMAT.GRPCONTRDEFFILEFORMATID GRPCONTRDEFFILEFORMATID,
+&#x9;RPGRPCONTRDEFFILEFORMAT.GRPCONTRDEFFILEFORMATTYPEID GRPCONTRDEFFILEFORMATTYPEID,
+&#x9;RPGRPCONTRDEFFILEFORMAT.GRPCONTRDEFID GRPCONTRDEFID,
+&#x9;RPGRPCONTRDEFFILEFORMAT.HEADERFOREXPORT HEADERFOREXPORT,
+&#x9;RPGRPCONTRDEFFILEFORMAT.IMPORTTEMPLATEID IMPORTTEMPLATEID,
+&#x9;RPGRPCONTRDEFFILEFORMAT.LINECONTAININGCOLUMNNAMES LINECONTAININGCOLUMNNAMES,
+&#x9;RPGRPCONTRDEFFILEFORMAT.NROFHEADERLINES NROFHEADERLINES,
+&#x9;RPGRPCONTRDEFFILEFORMAT.TSCHANGED TSCHANGED,
+&#x9;RPGRPCONTRDEFFILEFORMAT.TSCREATED TSCREATED,
+&#x9;RPGRPCONTRDEFFILEFORMAT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPGRPCONTRDEFFILEFORMAT.USERIDCREATED USERIDCREATED,
+&#x9;RPGRPCONTRDEFFILEFORMAT.XPATHEXPRESSIONFORITEM XPATHEXPRESSIONFORITEM 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPGRPCONTRDEFFILEFORMAT RPGRPCONTRDEFFILEFORMAT</attribute>
+  <attribute name="creationDate" type="LONG">1664294275823</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPGRPCONTRDEFFILEFORMAT&apos;.  On line 23, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294275823</attribute>
+</metadata>

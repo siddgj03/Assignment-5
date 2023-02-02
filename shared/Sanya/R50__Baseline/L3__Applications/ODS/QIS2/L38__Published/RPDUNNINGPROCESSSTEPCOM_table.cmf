@@ -1,0 +1,174 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPDUNNINGPROCESSSTEPCOM" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPDUNNINGPROCESSSTEPCOM" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CDCOMMUNICATIONDESTINATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DUNNINGCOMRESTRICTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DUNNINGPROCESSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DUNNINGPROCESSSTEPCOMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DUNNINGPROCESSSTEPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDASREGISTERED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSCOMMACCSUSPCOLLAGENCY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSCOMMINTERMUSESTASKS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPDUNNINGPROCESSSTEPCOM" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CDCOMMUNICATIONDESTINATIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DUNNINGCOMRESTRICTIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DUNNINGPROCESSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DUNNINGPROCESSSTEPCOMID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DUNNINGPROCESSSTEPID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="SENDASREGISTERED">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SUPPRESSCOMMACCSUSPCOLLAGENCY">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SUPPRESSCOMMINTERMUSESTASKS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPDUNNINGPROCESSSTEPCOM.CDCOMMUNICATIONDESTINATIONID CDCOMMUNICATIONDESTINATIONID,
+&#x9;RPDUNNINGPROCESSSTEPCOM.DUNNINGCOMRESTRICTIONID DUNNINGCOMRESTRICTIONID,
+&#x9;RPDUNNINGPROCESSSTEPCOM.DUNNINGPROCESSID DUNNINGPROCESSID,
+&#x9;RPDUNNINGPROCESSSTEPCOM.DUNNINGPROCESSSTEPCOMID DUNNINGPROCESSSTEPCOMID,
+&#x9;RPDUNNINGPROCESSSTEPCOM.DUNNINGPROCESSSTEPID DUNNINGPROCESSSTEPID,
+&#x9;RPDUNNINGPROCESSSTEPCOM.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPDUNNINGPROCESSSTEPCOM.SENDASREGISTERED SENDASREGISTERED,
+&#x9;RPDUNNINGPROCESSSTEPCOM.SUPPRESSCOMMACCSUSPCOLLAGENCY SUPPRESSCOMMACCSUSPCOLLAGENCY,
+&#x9;RPDUNNINGPROCESSSTEPCOM.SUPPRESSCOMMINTERMUSESTASKS SUPPRESSCOMMINTERMUSESTASKS,
+&#x9;RPDUNNINGPROCESSSTEPCOM.TSCHANGED TSCHANGED,
+&#x9;RPDUNNINGPROCESSSTEPCOM.TSCREATED TSCREATED,
+&#x9;RPDUNNINGPROCESSSTEPCOM.USERIDCHANGED USERIDCHANGED,
+&#x9;RPDUNNINGPROCESSSTEPCOM.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPDUNNINGPROCESSSTEPCOM RPDUNNINGPROCESSSTEPCOM</attribute>
+  <attribute name="creationDate" type="LONG">1664294032654</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPDUNNINGPROCESSSTEPCOM&apos;.  On line 16, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294032654</attribute>
+</metadata>

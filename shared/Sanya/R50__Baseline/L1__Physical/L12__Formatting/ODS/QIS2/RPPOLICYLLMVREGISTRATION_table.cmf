@@ -1,0 +1,335 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPOLICYLLMVREGISTRATION" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPOLICYLLMVREGISTRATION" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATECORRECTEDREGISTRATION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEENDLLMVCOVER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORREGISTRATION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTLLMVCOVER" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATESTARTPOLICYVERSION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ERRORMESSAGE" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASNETEFFECT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IDENTIFIERFROMEXTERNALSYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISINGOING" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LIABILITYREGISTRATIONNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LICENCEPLATE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LLMVMESSAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LLMVMESSAGEINDICATION" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LLMVREGISTRATIONSYSTEMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LLMVREGISTRATIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="MESSAGELLMVSYSTEM" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDLICENCEPLATE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OLDVEHICLEIDENTIFICATIONNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYLLMVREGISTRATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPRESSAUTOMATICLLMVMESSAGES" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TOBEPROCESSED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSMARKASPROCESSED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSRECEIVED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEBRAND" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLECATEGORY" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEIDENTIFICATIONNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLEREGISTRATIONCODE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VEHICLETYPE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VERSION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYLLMVREGISTRATION" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPOLICYLLMVREGISTRATION.APPLICATIONID APPLICATIONID,
+&#x9;RPPOLICYLLMVREGISTRATION.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPPOLICYLLMVREGISTRATION.DATECORRECTEDREGISTRATION DATECORRECTEDREGISTRATION,
+&#x9;RPPOLICYLLMVREGISTRATION.DATEENDLLMVCOVER DATEENDLLMVCOVER,
+&#x9;RPPOLICYLLMVREGISTRATION.DATEFORREGISTRATION DATEFORREGISTRATION,
+&#x9;RPPOLICYLLMVREGISTRATION.DATESTARTLLMVCOVER DATESTARTLLMVCOVER,
+&#x9;RPPOLICYLLMVREGISTRATION.DATESTARTPOLICYVERSION DATESTARTPOLICYVERSION,
+&#x9;RPPOLICYLLMVREGISTRATION.ERRORMESSAGE ERRORMESSAGE,
+&#x9;RPPOLICYLLMVREGISTRATION.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPPOLICYLLMVREGISTRATION.HASNETEFFECT HASNETEFFECT,
+&#x9;RPPOLICYLLMVREGISTRATION.IDENTIFIERFROMEXTERNALSYSTEM IDENTIFIERFROMEXTERNALSYSTEM,
+&#x9;RPPOLICYLLMVREGISTRATION.ISINGOING ISINGOING,
+&#x9;RPPOLICYLLMVREGISTRATION.LIABILITYREGISTRATIONNUMBER LIABILITYREGISTRATIONNUMBER,
+&#x9;RPPOLICYLLMVREGISTRATION.LICENCEPLATE LICENCEPLATE,
+&#x9;RPPOLICYLLMVREGISTRATION.LLMVMESSAGEID LLMVMESSAGEID,
+&#x9;RPPOLICYLLMVREGISTRATION.LLMVMESSAGEINDICATION LLMVMESSAGEINDICATION,
+&#x9;RPPOLICYLLMVREGISTRATION.LLMVREGISTRATIONSYSTEMID LLMVREGISTRATIONSYSTEMID,
+&#x9;RPPOLICYLLMVREGISTRATION.LLMVREGISTRATIONTYPEID LLMVREGISTRATIONTYPEID,
+&#x9;RPPOLICYLLMVREGISTRATION.MESSAGELLMVSYSTEM MESSAGELLMVSYSTEM,
+&#x9;RPPOLICYLLMVREGISTRATION.OLDLICENCEPLATE OLDLICENCEPLATE,
+&#x9;RPPOLICYLLMVREGISTRATION.OLDVEHICLEIDENTIFICATIONNUMBER OLDVEHICLEIDENTIFICATIONNUMBER,
+&#x9;RPPOLICYLLMVREGISTRATION.POLICYID POLICYID,
+&#x9;RPPOLICYLLMVREGISTRATION.POLICYLLMVREGISTRATIONID POLICYLLMVREGISTRATIONID,
+&#x9;RPPOLICYLLMVREGISTRATION.SUPPRESSAUTOMATICLLMVMESSAGES SUPPRESSAUTOMATICLLMVMESSAGES,
+&#x9;RPPOLICYLLMVREGISTRATION.TOBEPROCESSED TOBEPROCESSED,
+&#x9;RPPOLICYLLMVREGISTRATION.TSCHANGED TSCHANGED,
+&#x9;RPPOLICYLLMVREGISTRATION.TSCREATED TSCREATED,
+&#x9;RPPOLICYLLMVREGISTRATION.TSEXPORTED TSEXPORTED,
+&#x9;RPPOLICYLLMVREGISTRATION.TSMARKASPROCESSED TSMARKASPROCESSED,
+&#x9;RPPOLICYLLMVREGISTRATION.TSRECEIVED TSRECEIVED,
+&#x9;RPPOLICYLLMVREGISTRATION.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPOLICYLLMVREGISTRATION.USERIDCREATED USERIDCREATED,
+&#x9;RPPOLICYLLMVREGISTRATION.VEHICLEBRAND VEHICLEBRAND,
+&#x9;RPPOLICYLLMVREGISTRATION.VEHICLECATEGORY VEHICLECATEGORY,
+&#x9;RPPOLICYLLMVREGISTRATION.VEHICLEIDENTIFICATIONNUMBER VEHICLEIDENTIFICATIONNUMBER,
+&#x9;RPPOLICYLLMVREGISTRATION.VEHICLEREGISTRATIONCODE VEHICLEREGISTRATIONCODE,
+&#x9;RPPOLICYLLMVREGISTRATION.VEHICLETYPE VEHICLETYPE,
+&#x9;RPPOLICYLLMVREGISTRATION.VERSION VERSION 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYLLMVREGISTRATION RPPOLICYLLMVREGISTRATION</attribute>
+  <attribute name="creationDate" type="LONG">1664290011298</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPOLICYLLMVREGISTRATION&apos;.  On line 41, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290011298</attribute>
+</metadata>

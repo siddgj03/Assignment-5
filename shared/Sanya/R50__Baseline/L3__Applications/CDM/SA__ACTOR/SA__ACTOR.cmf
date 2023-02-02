@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="SA_ACTOR" path="/shared/Sanya/R50_Baseline/L3_Applications/CDM/SA_ACTOR" type="CONTAINER" subtype="FOLDER" changeToken="0">
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ EXECUTE SELECT"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1659097242779</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664357170977</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d008289</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1659097242779</attribute>
+</metadata>

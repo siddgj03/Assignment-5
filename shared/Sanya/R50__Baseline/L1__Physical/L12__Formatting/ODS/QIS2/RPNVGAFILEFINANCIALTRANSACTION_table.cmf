@@ -1,0 +1,247 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPNVGAFILEFINANCIALTRANSACTION" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPNVGAFILEFINANCIALTRANSACTION" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="NVGAFILEFINANCIALTRANSACTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFILEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTBOEKDAT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTGABRA" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTGADEKCD" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTGASBRA" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTSCHRSRV" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTTAFSPRV" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTTDATTM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTTDATVAN" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTTDRLPRV" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTTPREMIE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTTRNSRT" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTTSCHBDR" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTTSVHBDR" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTTTEKCOM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAFTVGBRA" nullable="true">
+      <datatype type="STRING" maxLength="5"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGAPPNUMMER" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NVGASDSCHADAT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPNVGAFILEFINANCIALTRANSACTION" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFILEFINANCIALTRANSACTIONID NVGAFILEFINANCIALTRANSACTIONID,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFILEID NVGAFILEID,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTBOEKDAT NVGAFTBOEKDAT,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTGABRA NVGAFTGABRA,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTGADEKCD NVGAFTGADEKCD,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTGASBRA NVGAFTGASBRA,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTSCHRSRV NVGAFTSCHRSRV,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTTAFSPRV NVGAFTTAFSPRV,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTTDATTM NVGAFTTDATTM,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTTDATVAN NVGAFTTDATVAN,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTTDRLPRV NVGAFTTDRLPRV,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTTPREMIE NVGAFTTPREMIE,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTTRNSRT NVGAFTTRNSRT,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTTSCHBDR NVGAFTTSCHBDR,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTTSVHBDR NVGAFTTSVHBDR,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTTTEKCOM NVGAFTTTEKCOM,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAFTVGBRA NVGAFTVGBRA,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGAPPNUMMER NVGAPPNUMMER,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.NVGASDSCHADAT NVGASDSCHADAT,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.POLICYID POLICYID,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.PRODUCTID PRODUCTID,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.PRODUCTVERSIONCOVERAGEID PRODUCTVERSIONCOVERAGEID,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.PRODUCTVERSIONID PRODUCTVERSIONID,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.TSCHANGED TSCHANGED,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.TSCREATED TSCREATED,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.USERIDCHANGED USERIDCHANGED,
+&#x9;RPNVGAFILEFINANCIALTRANSACTION.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPNVGAFILEFINANCIALTRANSACTION RPNVGAFILEFINANCIALTRANSACTION</attribute>
+  <attribute name="creationDate" type="LONG">1664289889477</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPNVGAFILEFINANCIALTRANSACTION&apos;.  On line 30, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289889477</attribute>
+</metadata>

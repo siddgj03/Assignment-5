@@ -1,0 +1,1360 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_V_POL_EXPECTED_PREMIUM" path="/shared/Sanya/R50_Baseline/L3_Applications/UDS/Extended UDS/L32_Views/v_V_POL_EXPECTED_PREMIUM" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="BASE_COMMISSION_AMT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BASE_PREMIUM_AMT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COHORT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EXPECTED_COMMISSION_AMT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EXPECTED_PREMIUM_AMT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="16" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_VERSION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATED_DTTM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DELETED_DTTM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DELETED_IND" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="UPDATED_DTTM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CANCEL_EVENT_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CANCEL_EVENT_MONTH_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CANCEL_EVENT_QUARTER_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CANCEL_EVENT_WEEK_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CANCEL_EVENT_YEAR_NUM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CANCEL_EVENT_YYYYMM" nullable="true">
+      <datatype type="STRING" maxLength="24"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COV_BASE_COVERAGE_INDICATOR_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COV_COVERAGE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COV_COVERAGE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COV_PRODUCT_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATE_EVENT_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATE_EVENT_MONTH_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATE_EVENT_QUARTER_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATE_EVENT_WEEK_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATE_EVENT_YEAR_NUM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATE_EVENT_YYYYMM" nullable="true">
+      <datatype type="STRING" maxLength="24"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_ACTOR_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_ADDRESS_LINE_1" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_BIRTH_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_CITY_NM" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_COMPANY_REGISTRATION_NO" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_COUNTRY_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_EMAIL" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_FIRST_NM" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_GENDER_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_INTERCOMPANY_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_LANGUAGE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_MOBILE_PHONE_NO" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_NAME" nullable="true">
+      <datatype type="STRING" maxLength="600"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_NIS_SECTOR_CD" nullable="true">
+      <datatype type="STRING" maxLength="36"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_NONR_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_PARTY_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_PARTY_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_POSTAL_CD" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_SEGMENT_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CUST_TELEPHONE_NO" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EFFECTIVE_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EFFECTIVE_MONTH_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EFFECTIVE_QUARTER_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EFFECTIVE_WEEK_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EFFECTIVE_YEAR_NUM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EFFECTIVE_YYYYM" nullable="true">
+      <datatype type="STRING" maxLength="24"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EXPIRATION_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EXPIRATION_MONTH_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EXPIRATION_QUARTER_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EXPIRATION_WEEK_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EXPIRATION_YEAR_NUM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EXPIRATION_YYYYMM" nullable="true">
+      <datatype type="STRING" maxLength="24"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="IFRS17_GROUP_ID" nullable="true">
+      <datatype type="STRING" maxLength="560"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_ACTIVITY_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_ACTIVITY_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_ACTIVITY_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_ACT_PRD_GRP_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_ACT_PRD_GRP_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_ACT_PRD_GRP_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_ALM_SEG_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_ALM_SEG_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_ALM_SEG_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_COMM_PRD_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_COMM_PRD_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_COMM_PRD_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_COVERAGE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_COVERAGE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_EUR_BR_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_EUR_BR_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_EUR_BR_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_FSMA_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_FSMA_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_FSMA_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_INT_SOLII_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_INT_SOLII_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_INT_SOLII_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PREM_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PREM_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PREM_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PRODUCT_COVERAGE_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PRODUCT_COVERAGE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PROFIT_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PROFIT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PROFIT_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PROPHET_PRODUCT_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PROPHET_PRODUCT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PROPHET_PRODUCT_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PROPHET_WORKSPACE_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PROPHET_WORKSPACE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PROPHET_WORKSPACE_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PUKCDV" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PUKCDV_LOB_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PUKCDV_LOB_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PUKCDV_LOB_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PUOBOE_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PUOBOE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_PUOBOE_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_SECTION_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_SECTION_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_SOLII_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_SOLII_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_SOLII_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_WACHTPROJECT_CD" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_WACHTPROJECT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOB_WACHTPROJECT_NM" nullable="true">
+      <datatype type="STRING" maxLength="160"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_BUSINESS_OWNER_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_POLICY_END_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_POLICY_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_POLICY_ISSUE_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_ORIGINAL_POLICY_NO" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_PAYMENT_METHOD_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_PAYMENT_MODE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_PAYMENT_STATUS_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_RENEWAL_DAY" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_RENEWAL_MONTH" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_SOURCE_POLICY_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_SOURCE_SYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_START_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_STATUS_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_SUSPENSION_START_DT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_UNDERWRITING_COUNTRY_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY_UW_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POL_VER_EFF_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POL_VER_EFF_MONTH_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POL_VER_EFF_QUATER_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POL_VER_EFF_WEEK_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POL_VER_EFF_YEAR_NUM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POL_VER_EFF_YYYYMM" nullable="true">
+      <datatype type="STRING" maxLength="24"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRODUCT_CATEGORY_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRODUCT_CATEGORY_DESC" nullable="true">
+      <datatype type="STRING" maxLength="1020"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRODUCT_CD" nullable="true">
+      <datatype type="STRING" maxLength="44"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="INTERNAL_ORG_SHORT_NM" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LIFE_PRODUCT_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRODUCT_NM" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PUKDET" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PUKDET_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRODUCT_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRODUCT_TYPE_DESC" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_AGENCY_NM" nullable="true">
+      <datatype type="STRING" maxLength="600"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_AGISTM" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_AGI_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_CITY_NM" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LANGUAGE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV1_AGENCY_CI_ID" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV2_CLUSTER_ID" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV2_CLUSTER_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV3_COMMERCIALZONE_CI_ID" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV3_COMMERCIALZONE_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV4_EXTERNAL_SECTOR_CI_ID" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV4_EXTERNAL_SECTOR_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV5_SUBNET_CI_ID" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV5_SUBNET_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEV6_NET_NATIONAL2_CI_ID" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV6_NET_NATIONAL2_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV7_NET_NATIONAL_CI_ID" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_LEV7_NET_NATIONAL_NAME" nullable="true">
+      <datatype type="STRING" maxLength="288"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_ORG_NM" nullable="true">
+      <datatype type="STRING" maxLength="600"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_PORTFOLIO_GROUP_CD" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_POSTAL_CD" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_PRODUCER_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_STAR_CI_NUMBER" nullable="true">
+      <datatype type="STRING" maxLength="24"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_STAR_NAME_MANDATARIS" nullable="true">
+      <datatype type="STRING" maxLength="312"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PR_TELEPHONE_NO" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RENEWAL_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RENEWAL_MONTH_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RENEWAL_QUARTER_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RENEWAL_WEEK_NUM_OF_YEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RENEWAL_YEAR_NUM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="RENEWAL_YYYYMM" nullable="true">
+      <datatype type="STRING" maxLength="24"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SOI_TYPE_INSURED_SUBJECT_TYPE_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SOI_TYPE_SECTION_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SOI_TYPE_SECTION_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SOURCE_SYSTEM_CD" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="SOURCE_SYSTEM_NM" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_ACC_IFRS17_GROUP" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_COV_TYPE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_POL_LOB" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_POL_POLICY" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_POL_PRODUCT" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_PTY_PARTY" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_PTY_PRODUCER" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_REF_DATE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_REF_SOURCE_SYSTEM" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_SOI_TYPE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/F_POL_EXPECTED_PREMIUM" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT  
+F_POL_EXPECTED_PREMIUM.BASE_COMMISSION_AMT AS BASE_COMMISSION_AMT,  
+F_POL_EXPECTED_PREMIUM.BASE_PREMIUM_AMT AS BASE_PREMIUM_AMT,  
+F_POL_EXPECTED_PREMIUM.COHORT AS COHORT,  
+F_POL_EXPECTED_PREMIUM.EXPECTED_COMMISSION_AMT AS EXPECTED_COMMISSION_AMT, 
+ F_POL_EXPECTED_PREMIUM.EXPECTED_PREMIUM_AMT AS EXPECTED_PREMIUM_AMT,  
+F_POL_EXPECTED_PREMIUM.POLICY_VERSION AS POLICY_VERSION,  
+F_POL_EXPECTED_PREMIUM.CREATED_DTTM AS CREATED_DTTM,  
+F_POL_EXPECTED_PREMIUM.DELETED_DTTM AS DELETED_DTTM,  
+F_POL_EXPECTED_PREMIUM.DELETED_IND AS DELETED_IND,  
+F_POL_EXPECTED_PREMIUM.UPDATED_DTTM AS UPDATED_DTTM,  
+CANCEL_EVENT.&quot;DATE&quot; AS CANCEL_EVENT_DATE,  
+CANCEL_EVENT.MONTH_NUM_OF_YEAR AS CANCEL_EVENT_MONTH_NUM_OF_YEAR,  
+CANCEL_EVENT.QUARTER_NUM_OF_YEAR AS CANCEL_EVENT_QUARTER_NUM_OF_YEAR,  
+CANCEL_EVENT.WEEK_NUM_OF_YEAR AS CANCEL_EVENT_WEEK_NUM_OF_YEAR,  
+CANCEL_EVENT.YEAR_NUM AS CANCEL_EVENT_YEAR_NUM,  
+CANCEL_EVENT.YYYYMM AS CANCEL_EVENT_YYYYMM, 
+COV.BASE_COVERAGE_INDICATOR_CD AS COV_BASE_COVERAGE_INDICATOR_CD,  
+COV.COVERAGE_CD AS COV_COVERAGE_CD,  
+COV.COVERAGE_DESC AS COV_COVERAGE_DESC,  
+COV.PRODUCT_TYPE_CD AS COV_PRODUCT_TYPE_CD,  
+CREATE_EVENT.&quot;DATE&quot; AS CREATE_EVENT_DATE,  
+CREATE_EVENT.MONTH_NUM_OF_YEAR AS CREATE_EVENT_MONTH_NUM_OF_YEAR,  
+CREATE_EVENT.QUARTER_NUM_OF_YEAR AS CREATE_EVENT_QUARTER_NUM_OF_YEAR,  
+CREATE_EVENT.WEEK_NUM_OF_YEAR AS CREATE_EVENT_WEEK_NUM_OF_YEAR,
+CREATE_EVENT.YEAR_NUM AS CREATE_EVENT_YEAR_NUM,  
+CREATE_EVENT.YYYYMM AS CREATE_EVENT_YYYYMM,  
+CUST.ACTOR_ID AS CUST_ACTOR_ID,   
+CUST.ADDRESS_LINE_1 AS CUST_ADDRESS_LINE_1,  
+CUST.BIRTH_DT AS CUST_BIRTH_DT,  
+CUST.CITY_NM AS CUST_CITY_NM,  
+CUST.COMPANY_REGISTRATION_NO AS CUST_COMPANY_REGISTRATION_NO,  
+CUST.COUNTRY_CD AS CUST_COUNTRY_CD,  
+CUST.EMAIL AS CUST_EMAIL,  
+CUST.FIRST_NM AS CUST_FIRST_NM,  
+CUST.GENDER_CD AS CUST_GENDER_CD, 
+CUST.INTERCOMPANY_ID AS CUST_INTERCOMPANY_ID,  
+CUST.LANGUAGE_CD AS CUST_LANGUAGE_CD,  
+CUST.MOBILE_PHONE_NO AS CUST_MOBILE_PHONE_NO,  
+CUST.NAME AS CUST_NAME,  
+CUST.NIS_SECTOR_CD AS CUST_NIS_SECTOR_CD,  
+CUST.NONR_ID AS CUST_NONR_ID,  
+CUST.PARTY_ID AS CUST_PARTY_ID,  
+CUST.PARTY_TYPE_CD AS CUST_PARTY_TYPE_CD,  
+CUST.POSTAL_CD AS CUST_POSTAL_CD,  
+CUST.SEGMENT_CD AS CUST_SEGMENT_CD,  
+CUST.TELEPHONE_NO AS CUST_TELEPHONE_NO,  
+EFFECTIVE.&quot;DATE&quot; AS EFFECTIVE_DATE, 
+EFFECTIVE.MONTH_NUM_OF_YEAR AS EFFECTIVE_MONTH_OF_YEAR,  
+EFFECTIVE.QUARTER_NUM_OF_YEAR AS EFFECTIVE_QUARTER_NUM_OF_YEAR,  
+EFFECTIVE.WEEK_NUM_OF_YEAR AS EFFECTIVE_WEEK_NUM_OF_YEAR,  
+EFFECTIVE.YEAR_NUM AS EFFECTIVE_YEAR_NUM,  
+EFFECTIVE.YYYYMM AS EFFECTIVE_YYYYM,  
+EXPIRATION.&quot;DATE&quot; AS EXPIRATION_DATE,  
+EXPIRATION.MONTH_NUM_OF_YEAR AS EXPIRATION_MONTH_NUM_OF_YEAR,  
+EXPIRATION.QUARTER_NUM_OF_YEAR AS EXPIRATION_QUARTER_NUM_OF_YEAR, 
+EXPIRATION.WEEK_NUM_OF_YEAR AS EXPIRATION_WEEK_NUM_OF_YEAR,  
+EXPIRATION.YEAR_NUM AS EXPIRATION_YEAR_NUM,  
+EXPIRATION.YYYYMM AS EXPIRATION_YYYYMM,  
+IFRS17_GROUP.IFRS17_GROUP_ID AS IFRS17_GROUP_ID,  
+LOB.ACTIVITY_CD AS LOB_ACTIVITY_CD,  
+LOB.ACTIVITY_DESC AS LOB_ACTIVITY_DESC,  
+LOB.ACTIVITY_NM AS LOB_ACTIVITY_NM,  
+LOB.ACT_PRD_GRP_CD AS LOB_ACT_PRD_GRP_CD,  
+LOB.ACT_PRD_GRP_DESC AS LOB_ACT_PRD_GRP_DESC,  
+LOB.ACT_PRD_GRP_NM AS LOB_ACT_PRD_GRP_NM, 
+LOB.ALM_SEG_CD AS LOB_ALM_SEG_CD,  
+LOB.ALM_SEG_DESC AS LOB_ALM_SEG_DESC,  
+LOB.ALM_SEG_NM AS LOB_ALM_SEG_NM,  
+LOB.LOB_CD AS LOB_CD,  
+LOB.COMM_PRD_CD AS LOB_COMM_PRD_CD,  
+LOB.COMM_PRD_DESC AS LOB_COMM_PRD_DESC,  
+LOB.COMM_PRD_NM AS LOB_COMM_PRD_NM,  
+LOB.COVERAGE_CD AS LOB_COVERAGE_CD,  
+LOB.COVERAGE_DESC AS LOB_COVERAGE_DESC,  
+LOB.LOB_DESC AS LOB_DESC,  
+LOB.EUR_BR_CD AS LOB_EUR_BR_CD,  
+LOB.EUR_BR_DESC AS LOB_EUR_BR_DESC,  
+LOB.EUR_BR_NM AS LOB_EUR_BR_NM, 
+LOB.FSMA_CD AS LOB_FSMA_CD,   
+LOB.FSMA_DESC AS LOB_FSMA_DESC,  
+LOB.FSMA_NM AS LOB_FSMA_NM,  
+LOB.INT_SOLII_CD AS LOB_INT_SOLII_CD,  
+LOB.INT_SOLII_DESC AS LOB_INT_SOLII_DESC,  
+LOB.INT_SOLII_NM AS LOB_INT_SOLII_NM,  
+LOB.LOB_NM AS LOB_NM,  
+LOB.PREM_CD AS LOB_PREM_CD,  
+LOB.PREM_DESC AS LOB_PREM_DESC,  
+LOB.PREM_NM AS LOB_PREM_NM,  
+LOB.PRODUCT_COVERAGE_CD AS LOB_PRODUCT_COVERAGE_CD, 
+LOB.PRODUCT_COVERAGE_DESC AS LOB_PRODUCT_COVERAGE_DESC,  
+LOB.PROFIT_CD AS LOB_PROFIT_CD, 
+LOB.PROFIT_DESC AS LOB_PROFIT_DESC,  
+LOB.PROFIT_NM AS LOB_PROFIT_NM,  
+LOB.PROPHET_PRODUCT_CD AS LOB_PROPHET_PRODUCT_CD,  
+LOB.PROPHET_PRODUCT_DESC AS LOB_PROPHET_PRODUCT_DESC,  
+LOB.PROPHET_PRODUCT_NM AS LOB_PROPHET_PRODUCT_NM,  
+LOB.PROPHET_WORKSPACE_CD AS LOB_PROPHET_WORKSPACE_CD,  
+LOB.PROPHET_WORKSPACE_DESC AS LOB_PROPHET_WORKSPACE_DESC,  
+LOB.PROPHET_WORKSPACE_NM AS LOB_PROPHET_WORKSPACE_NM,  
+LOB.PUKCDV AS LOB_PUKCDV,  
+LOB.PUKCDV_LOB_CD AS LOB_PUKCDV_LOB_CD, 
+LOB.PUKCDV_LOB_DESC AS LOB_PUKCDV_LOB_DESC,  
+LOB.PUKCDV_LOB_NM AS LOB_PUKCDV_LOB_NM,  
+LOB.PUOBOE_CD AS LOB_PUOBOE_CD,  
+LOB.PUOBOE_DESC AS LOB_PUOBOE_DESC,  
+LOB.PUOBOE_NM AS LOB_PUOBOE_NM,  
+LOB.SECTION_CD AS LOB_SECTION_CD,  
+LOB.SECTION_DESC AS LOB_SECTION_DESC,  
+LOB.SOLII_CD AS LOB_SOLII_CD,  
+LOB.SOLII_DESC AS LOB_SOLII_DESC,  
+LOB.SOLII_NM AS LOB_SOLII_NM,  
+LOB.WACHTPROJECT_CD AS LOB_WACHTPROJECT_CD,  
+LOB.WACHTPROJECT_DESC AS LOB_WACHTPROJECT_DESC,  
+LOB.WACHTPROJECT_NM AS LOB_WACHTPROJECT_NM,  
+POLICY.BUSINESS_OWNER_CD AS POLICY_BUSINESS_OWNER_CD,  
+POLICY.POLICY_END_DT AS POLICY_POLICY_END_DT,  
+POLICY.POLICY_ID AS POLICY_POLICY_ID,  
+POLICY.POLICY_ISSUE_DT AS POLICY_POLICY_ISSUE_DT,  
+POLICY.ORIGINAL_POLICY_NO AS POLICY_ORIGINAL_POLICY_NO,  
+POLICY.PAYMENT_METHOD_CD AS POLICY_PAYMENT_METHOD_CD,  
+POLICY.PAYMENT_MODE_CD AS POLICY_PAYMENT_MODE_CD,  
+POLICY.PAYMENT_STATUS_CD AS POLICY_PAYMENT_STATUS_CD, 
+POLICY.RENEWAL_DAY AS POLICY_RENEWAL_DAY,  
+POLICY.RENEWAL_MONTH AS POLICY_RENEWAL_MONTH,  
+POLICY.SOURCE_POLICY_ID AS POLICY_SOURCE_POLICY_ID,  
+POLICY.SOURCE_SYSTEM_CD AS POLICY_SOURCE_SYSTEM,  
+POLICY.POLICY_START_DT AS POLICY_START_DT,  
+POLICY.POLICY_STATUS_CD AS POLICY_STATUS_CD,  
+POLICY.POLICY_SUSPENSION_START_DT AS POLICY_SUSPENSION_START_DT,  
+POLICY.UNDERWRITING_COUNTRY_CD AS POLICY_UNDERWRITING_COUNTRY_CD,  
+POLICY.UW_TYPE_CD AS POLICY_UW_TYPE_CD,  
+POL_VER_EFF.&quot;DATE&quot; AS POL_VER_EFF_DATE,  
+POL_VER_EFF.MONTH_NUM_OF_YEAR AS POL_VER_EFF_MONTH_NUM_OF_YEAR, 
+POL_VER_EFF.QUARTER_NUM_OF_YEAR AS POL_VER_EFF_QUATER_NUM_OF_YEAR,  
+POL_VER_EFF.WEEK_NUM_OF_YEAR AS POL_VER_EFF_WEEK_NUM_OF_YEAR,  
+POL_VER_EFF.YEAR_NUM AS POL_VER_EFF_YEAR_NUM,  
+POL_VER_EFF.YYYYMM AS POL_VER_EFF_YYYYMM,  
+PRODUCT.PRODUCT_CATEGORY_CD AS PRODUCT_CATEGORY_CD,  
+PRODUCT.PRODUCT_CATEGORY_DESC AS PRODUCT_CATEGORY_DESC,  
+PRODUCT.PRODUCT_CD AS PRODUCT_CD,  
+PRODUCT.INTERNAL_ORG_SHORT_NM AS INTERNAL_ORG_SHORT_NM,  
+PRODUCT.LIFE_PRODUCT_TYPE_CD AS LIFE_PRODUCT_TYPE_CD,
+ PRODUCT.PRODUCT_NM AS PRODUCT_NM,  
+PRODUCT.PUKDET AS PUKDET,  
+PRODUCT.PUKDET_DESC AS PUKDET_DESC,  
+PRODUCT.PRODUCT_TYPE_CD AS PRODUCT_TYPE_CD,  
+PRODUCT.PRODUCT_TYPE_DESC AS PRODUCT_TYPE_DESC,  
+PR.AGENCY_NM AS PR_AGENCY_NM, 
+PR.AGISTM AS PR_AGISTM,  
+PR.AGI_ID AS PR_AGI_ID,  
+PR.CITY_NM AS PR_CITY_NM,  
+PR.LANGUAGE_CD AS PR_LANGUAGE_CD,  
+PR.LEV1_AGENCY_CI_ID AS PR_LEV1_AGENCY_CI_ID,  
+PR.LEV2_CLUSTER_ID AS PR_LEV2_CLUSTER_ID, 
+PR.LEV2_CLUSTER_NAME AS PR_LEV2_CLUSTER_NAME,  
+PR.LEV3_COMMERCIALZONE_CI_ID AS PR_LEV3_COMMERCIALZONE_CI_ID,  
+PR.LEV3_COMMERCIALZONE_NAME AS PR_LEV3_COMMERCIALZONE_NAME,  
+PR.LEV4_EXTERNAL_SECTOR_CI_ID AS PR_LEV4_EXTERNAL_SECTOR_CI_ID,  
+PR.LEV4_EXTERNAL_SECTOR_NAME AS PR_LEV4_EXTERNAL_SECTOR_NAME,  
+PR.LEV5_SUBNET_CI_ID AS PR_LEV5_SUBNET_CI_ID,  
+PR.LEV5_SUBNET_NAME AS PR_LEV5_SUBNET_NAME,  
+PR.LEV6_NET_NATIONAL2_CI_ID AS LEV6_NET_NATIONAL2_CI_ID, 
+PR.LEV6_NET_NATIONAL2_NAME AS PR_LEV6_NET_NATIONAL2_NAME,  
+PR.LEV7_NET_NATIONAL_CI_ID AS PR_LEV7_NET_NATIONAL_CI_ID,  
+PR.LEV7_NET_NATIONAL_NAME AS PR_LEV7_NET_NATIONAL_NAME,  
+PR.ORG_NM AS PR_ORG_NM,  
+PR.PORTFOLIO_GROUP_CD AS PR_PORTFOLIO_GROUP_CD, 
+PR.POSTAL_CD AS PR_POSTAL_CD,  
+PR.PRODUCER_TYPE_CD AS PR_PRODUCER_TYPE_CD,  
+PR.STAR_CI_NUMBER AS PR_STAR_CI_NUMBER,  
+PR.STAR_NAME_MANDATARIS AS PR_STAR_NAME_MANDATARIS,  
+PR.TELEPHONE_NO AS PR_TELEPHONE_NO,  
+RENEWAL.&quot;DATE&quot; AS RENEWAL_DATE,  
+RENEWAL.MONTH_NUM_OF_YEAR AS RENEWAL_MONTH_OF_YEAR,  
+RENEWAL.QUARTER_NUM_OF_YEAR AS RENEWAL_QUARTER_NUM_OF_YEAR, 
+RENEWAL.WEEK_NUM_OF_YEAR AS RENEWAL_WEEK_NUM_OF_YEAR,  
+RENEWAL.YEAR_NUM AS RENEWAL_YEAR_NUM, 
+RENEWAL.YYYYMM AS RENEWAL_YYYYMM,  
+SOI_TYPE.INSURED_SUBJECT_TYPE_CD AS SOI_TYPE_INSURED_SUBJECT_TYPE_CD,  
+SOI_TYPE.SECTION_CD AS SOI_TYPE_SECTION_CD,  
+SOI_TYPE.SECTION_DESC AS SOI_TYPE_SECTION_DESC,  
+SOURCE_SYSTEM.SOURCE_SYSTEM_CD AS SOURCE_SYSTEM_CD,  
+SOURCE_SYSTEM.SOURCE_SYSTEM_NM AS SOURCE_SYSTEM_NM 
+
+
+
+FROM  /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/F_POL_EXPECTED_PREMIUM AS F_POL_EXPECTED_PREMIUM 
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_REF_DATE AS EFFECTIVE  ON EFFECTIVE.DATE_SK = CAST(FORMAT_DATE(F_POL_EXPECTED_PREMIUM.EFFECTIVE_DT, &apos;yyyymmdd&apos;) AS BIGINT)   
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_REF_DATE AS EXPIRATION  ON EXPIRATION.DATE_SK = CAST(FORMAT_DATE(F_POL_EXPECTED_PREMIUM.EXPIRATION_DT, &apos;yyyymmdd&apos;) AS BIGINT)  
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_REF_DATE AS CREATE_EVENT  ON CREATE_EVENT.DATE_SK = CAST(FORMAT_DATE(F_POL_EXPECTED_PREMIUM.CREATE_EVENT_DT, &apos;yyyymmdd&apos;) AS BIGINT)  
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_REF_DATE AS CANCEL_EVENT  ON CANCEL_EVENT.DATE_SK = CAST(FORMAT_DATE(F_POL_EXPECTED_PREMIUM.CANCEL_EVENT_DT, &apos;yyyymmdd&apos;) AS BIGINT)  
+INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_POL_POLICY AS POLICY  ON POLICY.POLICY_SK = F_POL_EXPECTED_PREMIUM.POLICY_SK  
+INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_COV_TYPE AS COV  ON COV.COVERAGE_TYPE_SK = F_POL_EXPECTED_PREMIUM.COVERAGE_TYPE_SK  
+INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_SOI_TYPE AS SOI_TYPE  ON SOI_TYPE.OBJECT_TYPE_SK = F_POL_EXPECTED_PREMIUM.OBJECT_TYPE_SK  
+INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_POL_PRODUCT AS PRODUCT  ON PRODUCT.PRODUCT_SK = F_POL_EXPECTED_PREMIUM.PRODUCT_SK  
+INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_PTY_PARTY AS CUST  ON CUST.PARTY_SK = F_POL_EXPECTED_PREMIUM.CUSTOMER_SK  
+INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_PTY_PRODUCER AS PR  ON PR.PRODUCER_SK = F_POL_EXPECTED_PREMIUM.PRODUCER_SK  
+INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_REF_SOURCE_SYSTEM AS SOURCE_SYSTEM  ON SOURCE_SYSTEM.SOURCE_SYSTEM_SK = F_POL_EXPECTED_PREMIUM.SOURCE_SYSTEM_SK  
+INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_POL_LOB AS LOB  ON LOB.LOB_SK = F_POL_EXPECTED_PREMIUM.LOB_SK  
+LEFT JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_REF_DATE AS POL_VER_EFF  ON POL_VER_EFF.DATE_SK = CAST(FORMAT_DATE(F_POL_EXPECTED_PREMIUM.POLICY_VERSION_EFFECTIVE_DT, &apos;yyyymmdd&apos;) AS BIGINT)  
+LEFT JOIN  /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_REF_DATE AS RENEWAL  ON RENEWAL.DATE_SK = CAST(FORMAT_DATE(F_POL_EXPECTED_PREMIUM.RENEWAL_DT, &apos;yyyymmdd&apos;) AS BIGINT)  
+INNER JOIN /shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_ACC_IFRS17_GROUP AS IFRS17_GROUP  
+ON IFRS17_GROUP.IFRS17_GROUP_SK = F_POL_EXPECTED_PREMIUM.IFRS17_GROUP_SK</attribute>
+  <attribute name="creationDate" type="LONG">1657531612366</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/F_POL_EXPECTED_PREMIUM&apos;.  On line 188, column 7.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1657615696281</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1657531612366</attribute>
+</metadata>

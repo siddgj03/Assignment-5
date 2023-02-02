@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="p_Refresh_MyBO" path="/shared/Sanya/R50_Baseline/L1_Physical/L14_Procedures/IDS/AGTV/p_Refresh_MyBO" type="PROCEDURE" subtype="SQL_SCRIPT_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="x" direction="OUT" nullable="true">
+      <datatype name="VARCHAR" type="STRING" maxLength="255"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/C_v_MY_BO0" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/C_v_MY_BO1" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/C_v_MY_BO2" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="Script" type="STRING">PROCEDURE p_Refresh_MyBO(out x varchar)
+BEGIN
+--&#x9;declare x varchar;
+    select max(party_id) into x from /shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/C_v_MY_BO0 where party_id = &apos;780370000&apos;;
+    select max(party_id) into x from /shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/C_v_MY_BO1 where party_id = &apos;780370000&apos;;
+    select max(party_id) into x from /shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/C_v_MY_BO2 where party_id = &apos;780370000&apos;;
+END</attribute>
+  <attribute name="creationDate" type="LONG">1637763751903</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">77876</attribute>
+  <attribute name="creatorUserName" type="STRING">nglezl</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">true</attribute>
+  <attribute name="impactLevel" type="INTEGER">2</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/IDS/AGTV/C_v_MY_BO0&apos;.  On line 4, column 38.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1637764376969</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">77876</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">nglezl</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="native_only" type="STRING">false</attribute>
+  <attribute name="public_constants" type="NULL"/>
+  <attribute name="public_exceptions" type="NULL"/>
+  <attribute name="public_types" type="NULL"/>
+  <attribute name="references" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1637763751903</attribute>
+</metadata>

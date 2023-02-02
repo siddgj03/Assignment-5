@@ -1,0 +1,327 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCUSTOMERENVIRONMENT" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCUSTOMERENVIRONMENT" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ALLOWINCLAPPLICATIONINPACKAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALLOWUSERTOADDSINGLEPOLICY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALLOWUSERTOCONFREQWAITFORCUST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ALLOWUSERTOCREATENEWPACKAGE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AREREMOTEUSERSCREATEDBYEXTSYST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BASEURL" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BASEURLMOBILE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANAUTOCREATACCPARTYWOPOLCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERENVIRONMENTGROUPID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERENVIRONMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTINTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESSCUSTCONTACTCENTER" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EMAILADDRESSFROM" nullable="true">
+      <datatype type="STRING" maxLength="320"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALBASEURL" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALBASEURLMOBILE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FALLBACKTOLOGONVIACREDENTIALS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="KEYSINGLESIGNON1" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="KEYSINGLESIGNON2" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGOFFURL" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="OUTPUTLABELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWCOMMSIFPARTYHASNOPOLORCL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWCURRENTPOLICYVERSION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWDEFAULTINTININTERMEDSEL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWINTERMEDIARYSELECTION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOWPOLICYREQUESTSADDEDBYCUST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SUPPORTSSINGLESIGNON" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="URLCSS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="URLLINKTOEXTERNALSYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="URLSHOWSSOLOGONERROREXTSYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="URLSSOLOGONEXTSYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USECUSTENVPRODUCTPRESELECTION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USESSNFORAUTOCREATINGACCOUNTS" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCUSTOMERENVIRONMENT" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCUSTOMERENVIRONMENT.ALLOWINCLAPPLICATIONINPACKAGE ALLOWINCLAPPLICATIONINPACKAGE,
+&#x9;RPCUSTOMERENVIRONMENT.ALLOWUSERTOADDSINGLEPOLICY ALLOWUSERTOADDSINGLEPOLICY,
+&#x9;RPCUSTOMERENVIRONMENT.ALLOWUSERTOCONFREQWAITFORCUST ALLOWUSERTOCONFREQWAITFORCUST,
+&#x9;RPCUSTOMERENVIRONMENT.ALLOWUSERTOCREATENEWPACKAGE ALLOWUSERTOCREATENEWPACKAGE,
+&#x9;RPCUSTOMERENVIRONMENT.AREREMOTEUSERSCREATEDBYEXTSYST AREREMOTEUSERSCREATEDBYEXTSYST,
+&#x9;RPCUSTOMERENVIRONMENT.BASEURL BASEURL,
+&#x9;RPCUSTOMERENVIRONMENT.BASEURLMOBILE BASEURLMOBILE,
+&#x9;RPCUSTOMERENVIRONMENT.CANAUTOCREATACCPARTYWOPOLCLAIM CANAUTOCREATACCPARTYWOPOLCLAIM,
+&#x9;RPCUSTOMERENVIRONMENT.CUSTOMERENVIRONMENTGROUPID CUSTOMERENVIRONMENTGROUPID,
+&#x9;RPCUSTOMERENVIRONMENT.CUSTOMERENVIRONMENTID CUSTOMERENVIRONMENTID,
+&#x9;RPCUSTOMERENVIRONMENT.DEFAULTINTERMEDIARYID DEFAULTINTERMEDIARYID,
+&#x9;RPCUSTOMERENVIRONMENT.EMAILADDRESSCUSTCONTACTCENTER EMAILADDRESSCUSTCONTACTCENTER,
+&#x9;RPCUSTOMERENVIRONMENT.EMAILADDRESSFROM EMAILADDRESSFROM,
+&#x9;RPCUSTOMERENVIRONMENT.EXTERNALBASEURL EXTERNALBASEURL,
+&#x9;RPCUSTOMERENVIRONMENT.EXTERNALBASEURLMOBILE EXTERNALBASEURLMOBILE,
+&#x9;RPCUSTOMERENVIRONMENT.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCUSTOMERENVIRONMENT.FALLBACKTOLOGONVIACREDENTIALS FALLBACKTOLOGONVIACREDENTIALS,
+&#x9;RPCUSTOMERENVIRONMENT.KEYSINGLESIGNON1 KEYSINGLESIGNON1,
+&#x9;RPCUSTOMERENVIRONMENT.KEYSINGLESIGNON2 KEYSINGLESIGNON2,
+&#x9;RPCUSTOMERENVIRONMENT.LOGOFFURL LOGOFFURL,
+&#x9;RPCUSTOMERENVIRONMENT.OUTPUTLABELID OUTPUTLABELID,
+&#x9;RPCUSTOMERENVIRONMENT.SHOWCOMMSIFPARTYHASNOPOLORCL SHOWCOMMSIFPARTYHASNOPOLORCL,
+&#x9;RPCUSTOMERENVIRONMENT.SHOWCURRENTPOLICYVERSION SHOWCURRENTPOLICYVERSION,
+&#x9;RPCUSTOMERENVIRONMENT.SHOWDEFAULTINTININTERMEDSEL SHOWDEFAULTINTININTERMEDSEL,
+&#x9;RPCUSTOMERENVIRONMENT.SHOWINTERMEDIARYSELECTION SHOWINTERMEDIARYSELECTION,
+&#x9;RPCUSTOMERENVIRONMENT.SHOWPOLICYREQUESTSADDEDBYCUST SHOWPOLICYREQUESTSADDEDBYCUST,
+&#x9;RPCUSTOMERENVIRONMENT.SUPPORTSSINGLESIGNON SUPPORTSSINGLESIGNON,
+&#x9;RPCUSTOMERENVIRONMENT.TSCHANGED TSCHANGED,
+&#x9;RPCUSTOMERENVIRONMENT.TSCREATED TSCREATED,
+&#x9;RPCUSTOMERENVIRONMENT.URLCSS URLCSS,
+&#x9;RPCUSTOMERENVIRONMENT.URLLINKTOEXTERNALSYSTEM URLLINKTOEXTERNALSYSTEM,
+&#x9;RPCUSTOMERENVIRONMENT.URLSHOWSSOLOGONERROREXTSYSTEM URLSHOWSSOLOGONERROREXTSYSTEM,
+&#x9;RPCUSTOMERENVIRONMENT.URLSSOLOGONEXTSYSTEM URLSSOLOGONEXTSYSTEM,
+&#x9;RPCUSTOMERENVIRONMENT.USECUSTENVPRODUCTPRESELECTION USECUSTENVPRODUCTPRESELECTION,
+&#x9;RPCUSTOMERENVIRONMENT.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCUSTOMERENVIRONMENT.USERIDCREATED USERIDCREATED,
+&#x9;RPCUSTOMERENVIRONMENT.USESSNFORAUTOCREATINGACCOUNTS USESSNFORAUTOCREATINGACCOUNTS 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCUSTOMERENVIRONMENT RPCUSTOMERENVIRONMENT</attribute>
+  <attribute name="creationDate" type="LONG">1664289304386</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCUSTOMERENVIRONMENT&apos;.  On line 40, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289304386</attribute>
+</metadata>

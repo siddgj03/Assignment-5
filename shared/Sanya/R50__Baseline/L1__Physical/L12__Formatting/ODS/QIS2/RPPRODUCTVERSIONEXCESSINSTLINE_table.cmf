@@ -1,0 +1,255 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPPRODUCTVERSIONEXCESSINSTLINE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPPRODUCTVERSIONEXCESSINSTLINE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMTEXCESS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTFRANCHISE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTMAXIMUMEXCESS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTMINIMUMEXCESS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANBEBOUGHTOFF" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DAMAGECAUSEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DEFAULTORDER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DISCOUNTAGREEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXCESSTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFCLAIMSINSAMEPOLICYDURATION" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NROFCLAIMSINSAMEYEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCEXCESS" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONCLAUSEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONEXCESSINSTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONEXCESSINSTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONFIELDID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDFRANCHISEBEAPPLIEDFIRST" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SYSTEMVARIABLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TOTALLOSSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="VALUELISTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPRODUCTVERSIONEXCESSINSTLINE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.AMTEXCESS AMTEXCESS,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.AMTFRANCHISE AMTFRANCHISE,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.AMTMAXIMUMEXCESS AMTMAXIMUMEXCESS,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.AMTMINIMUMEXCESS AMTMINIMUMEXCESS,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.CANBEBOUGHTOFF CANBEBOUGHTOFF,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.DAMAGECAUSEID DAMAGECAUSEID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.DEFAULTORDER DEFAULTORDER,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.DISCOUNTAGREEMENTID DISCOUNTAGREEMENTID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.EXCESSTYPEID EXCESSTYPEID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.NROFCLAIMSINSAMEPOLICYDURATION NROFCLAIMSINSAMEPOLICYDURATION,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.NROFCLAIMSINSAMEYEAR NROFCLAIMSINSAMEYEAR,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.PERCEXCESS PERCEXCESS,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.PRODUCTID PRODUCTID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.PRODUCTVERSIONCLAUSEID PRODUCTVERSIONCLAUSEID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.PRODUCTVERSIONCOVERAGEID PRODUCTVERSIONCOVERAGEID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.PRODUCTVERSIONEXCESSINSTID PRODUCTVERSIONEXCESSINSTID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.PRODUCTVERSIONEXCESSINSTLINEID PRODUCTVERSIONEXCESSINSTLINEID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.PRODUCTVERSIONFIELDID PRODUCTVERSIONFIELDID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.PRODUCTVERSIONID PRODUCTVERSIONID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.SHOULDFRANCHISEBEAPPLIEDFIRST SHOULDFRANCHISEBEAPPLIEDFIRST,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.SYSTEMVARIABLEID SYSTEMVARIABLEID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.TOTALLOSSID TOTALLOSSID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.TSCHANGED TSCHANGED,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.TSCREATED TSCREATED,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.USERIDCREATED USERIDCREATED,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.VALUEID VALUEID,
+&#x9;RPPRODUCTVERSIONEXCESSINSTLINE.VALUELISTID VALUELISTID 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPRODUCTVERSIONEXCESSINSTLINE RPPRODUCTVERSIONEXCESSINSTLINE</attribute>
+  <attribute name="creationDate" type="LONG">1664290140989</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPPRODUCTVERSIONEXCESSINSTLINE&apos;.  On line 31, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664290140989</attribute>
+</metadata>

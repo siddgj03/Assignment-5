@@ -1,0 +1,163 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPINCOMINGWEBSERVICEREQUEST" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPINCOMINGWEBSERVICEREQUEST" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="INCOMINGWEBSERVICEREQUESTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISOK" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REQUESTMESSAGE" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RESPONSEMESSAGE" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSSTART" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="WEBSERVICEMETHODNAME" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="WEBSERVICENAME" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPINCOMINGWEBSERVICEREQUEST" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="INCOMINGWEBSERVICEREQUESTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ISOK">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="REQUESTMESSAGE">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="RESPONSEMESSAGE">
+        <datatype type="CLOB" maxLength="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSSTART">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="WEBSERVICEMETHODNAME">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="WEBSERVICENAME">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPINCOMINGWEBSERVICEREQUEST.INCOMINGWEBSERVICEREQUESTID INCOMINGWEBSERVICEREQUESTID,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.ISOK ISOK,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.REQUESTMESSAGE REQUESTMESSAGE,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.RESPONSEMESSAGE RESPONSEMESSAGE,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.TSCHANGED TSCHANGED,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.TSCREATED TSCREATED,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.TSEND TSEND,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.TSSTART TSSTART,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.USERIDCHANGED USERIDCHANGED,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.USERIDCREATED USERIDCREATED,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.WEBSERVICEMETHODNAME WEBSERVICEMETHODNAME,
+&#x9;RPINCOMINGWEBSERVICEREQUEST.WEBSERVICENAME WEBSERVICENAME 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPINCOMINGWEBSERVICEREQUEST RPINCOMINGWEBSERVICEREQUEST</attribute>
+  <attribute name="creationDate" type="LONG">1664294330408</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPINCOMINGWEBSERVICEREQUEST&apos;.  On line 15, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664294330408</attribute>
+</metadata>

@@ -1,0 +1,511 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPFINANCIALEVENTLINE" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPFINANCIALEVENTLINE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCOUNTINGTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTCOINSSETTLEMENTPAYMENTSCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTCOINSSETTLEMENTRECOVERIESCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDESIREDRECOURSECHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDESRECCOINSSETTLEMNTCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDESRECOURSCOINSSHARECHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDESRESCOINSPAYMENTCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDESRESERVECOINSUSERCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDESRESERVEPAYMENTSCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTDESRESERVEUSERCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPCOINSSETTLEMENTPAYMENTSCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPCOINSSETTLEMENTRECOVERIESCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPORTEDPAYMENTSCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPORTEDPAYMENTSCHANGEDVAT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPORTEDRECEIPTSCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPORTEDRECEIPTSCHANGEDVAT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPPAYMENTSCHANGEDDIFFLIAB" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPPAYMENTSCHANGEDLIAB" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPPAYMENTSCHANGEDVATLIAB" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPRECEIPTSCHANGEDDIFFLIAB" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPRECEIPTSCHANGEDLIAB" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTEXPRECEIPTSCHANGEDVATLIAB" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTPAYMENTSCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTRECEIPTSCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTRECOURSECHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTRECOURSECOINSSETTLEDCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTRECOURSECOINSSHARECHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTRESERVECHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTRESERVECOINSCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTREVCHVATPOSTINGEUCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTREVCHVATPOSTOUTSEUCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTVATPOSTINGCHANGED" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="APPLICATIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCELRISKPOSTINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CASEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATERISKPOSTINGSCANCELJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATERISKPOSTINGSJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEDAMAGE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEREFLODRISKCONTRACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEREFRADRISKCONTRACT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXCLUDEFROMTREATYREINSURANCE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINANCIALEVENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINANCIALEVENTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINANCIALTRANSFERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINANCIALTRANSFERLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOINSUREDSETTLEMENTLINE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCERBUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REPORTINGIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="RISKPOSTINGID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TARGETGROUPAGREEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFINANCIALEVENTLINE" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPFINANCIALEVENTLINE.ACCOUNTINGTYPEID ACCOUNTINGTYPEID,
+&#x9;RPFINANCIALEVENTLINE.AMTCOINSSETTLEMENTPAYMENTSCHANGED AMTCOINSSETTLEMENTPAYMENTSCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTCOINSSETTLEMENTRECOVERIESCHANGED AMTCOINSSETTLEMENTRECOVERIESCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTDESIREDRECOURSECHANGED AMTDESIREDRECOURSECHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTDESRECCOINSSETTLEMNTCHANGED AMTDESRECCOINSSETTLEMNTCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTDESRECOURSCOINSSHARECHANGED AMTDESRECOURSCOINSSHARECHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTDESRESCOINSPAYMENTCHANGED AMTDESRESCOINSPAYMENTCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTDESRESERVECOINSUSERCHANGED AMTDESRESERVECOINSUSERCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTDESRESERVEPAYMENTSCHANGED AMTDESRESERVEPAYMENTSCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTDESRESERVEUSERCHANGED AMTDESRESERVEUSERCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPCOINSSETTLEMENTPAYMENTSCHANGED AMTEXPCOINSSETTLEMENTPAYMENTSCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPCOINSSETTLEMENTRECOVERIESCHANGED AMTEXPCOINSSETTLEMENTRECOVERIESCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPORTEDPAYMENTSCHANGED AMTEXPORTEDPAYMENTSCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPORTEDPAYMENTSCHANGEDVAT AMTEXPORTEDPAYMENTSCHANGEDVAT,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPORTEDRECEIPTSCHANGED AMTEXPORTEDRECEIPTSCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPORTEDRECEIPTSCHANGEDVAT AMTEXPORTEDRECEIPTSCHANGEDVAT,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPPAYMENTSCHANGEDDIFFLIAB AMTEXPPAYMENTSCHANGEDDIFFLIAB,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPPAYMENTSCHANGEDLIAB AMTEXPPAYMENTSCHANGEDLIAB,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPPAYMENTSCHANGEDVATLIAB AMTEXPPAYMENTSCHANGEDVATLIAB,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPRECEIPTSCHANGEDDIFFLIAB AMTEXPRECEIPTSCHANGEDDIFFLIAB,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPRECEIPTSCHANGEDLIAB AMTEXPRECEIPTSCHANGEDLIAB,
+&#x9;RPFINANCIALEVENTLINE.AMTEXPRECEIPTSCHANGEDVATLIAB AMTEXPRECEIPTSCHANGEDVATLIAB,
+&#x9;RPFINANCIALEVENTLINE.AMTPAYMENTSCHANGED AMTPAYMENTSCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTRECEIPTSCHANGED AMTRECEIPTSCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTRECOURSECHANGED AMTRECOURSECHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTRECOURSECOINSSETTLEDCHANGED AMTRECOURSECOINSSETTLEDCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTRECOURSECOINSSHARECHANGED AMTRECOURSECOINSSHARECHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTRESERVECHANGED AMTRESERVECHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTRESERVECOINSCHANGED AMTRESERVECOINSCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTREVCHVATPOSTINGEUCHANGED AMTREVCHVATPOSTINGEUCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTREVCHVATPOSTOUTSEUCHANGED AMTREVCHVATPOSTOUTSEUCHANGED,
+&#x9;RPFINANCIALEVENTLINE.AMTVATPOSTINGCHANGED AMTVATPOSTINGCHANGED,
+&#x9;RPFINANCIALEVENTLINE.APPLICATIONID APPLICATIONID,
+&#x9;RPFINANCIALEVENTLINE.CANCELRISKPOSTINGID CANCELRISKPOSTINGID,
+&#x9;RPFINANCIALEVENTLINE.CASEID CASEID,
+&#x9;RPFINANCIALEVENTLINE.CREATERISKPOSTINGSCANCELJOBID CREATERISKPOSTINGSCANCELJOBID,
+&#x9;RPFINANCIALEVENTLINE.CREATERISKPOSTINGSJOBID CREATERISKPOSTINGSJOBID,
+&#x9;RPFINANCIALEVENTLINE.CURRENCYID CURRENCYID,
+&#x9;RPFINANCIALEVENTLINE.DATEDAMAGE DATEDAMAGE,
+&#x9;RPFINANCIALEVENTLINE.DATEREFLODRISKCONTRACT DATEREFLODRISKCONTRACT,
+&#x9;RPFINANCIALEVENTLINE.DATEREFRADRISKCONTRACT DATEREFRADRISKCONTRACT,
+&#x9;RPFINANCIALEVENTLINE.EXCLUDEFROMTREATYREINSURANCE EXCLUDEFROMTREATYREINSURANCE,
+&#x9;RPFINANCIALEVENTLINE.FINANCIALEVENTID FINANCIALEVENTID,
+&#x9;RPFINANCIALEVENTLINE.FINANCIALEVENTLINEID FINANCIALEVENTLINEID,
+&#x9;RPFINANCIALEVENTLINE.FINANCIALTRANSFERID FINANCIALTRANSFERID,
+&#x9;RPFINANCIALEVENTLINE.FINANCIALTRANSFERLINEID FINANCIALTRANSFERLINEID,
+&#x9;RPFINANCIALEVENTLINE.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPFINANCIALEVENTLINE.ISCOINSUREDSETTLEMENTLINE ISCOINSUREDSETTLEMENTLINE,
+&#x9;RPFINANCIALEVENTLINE.POLICYID POLICYID,
+&#x9;RPFINANCIALEVENTLINE.PRODUCERBUSINESSUNITID PRODUCERBUSINESSUNITID,
+&#x9;RPFINANCIALEVENTLINE.PRODUCTID PRODUCTID,
+&#x9;RPFINANCIALEVENTLINE.PRODUCTVERSIONCOVERAGEID PRODUCTVERSIONCOVERAGEID,
+&#x9;RPFINANCIALEVENTLINE.PRODUCTVERSIONID PRODUCTVERSIONID,
+&#x9;RPFINANCIALEVENTLINE.REPORTINGIDENTIFIER REPORTINGIDENTIFIER,
+&#x9;RPFINANCIALEVENTLINE.RISKPOSTINGID RISKPOSTINGID,
+&#x9;RPFINANCIALEVENTLINE.TARGETGROUPAGREEMENTID TARGETGROUPAGREEMENTID,
+&#x9;RPFINANCIALEVENTLINE.TSCHANGED TSCHANGED,
+&#x9;RPFINANCIALEVENTLINE.TSCREATED TSCREATED,
+&#x9;RPFINANCIALEVENTLINE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPFINANCIALEVENTLINE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFINANCIALEVENTLINE RPFINANCIALEVENTLINE</attribute>
+  <attribute name="creationDate" type="LONG">1664289472647</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFINANCIALEVENTLINE&apos;.  On line 63, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289472647</attribute>
+</metadata>

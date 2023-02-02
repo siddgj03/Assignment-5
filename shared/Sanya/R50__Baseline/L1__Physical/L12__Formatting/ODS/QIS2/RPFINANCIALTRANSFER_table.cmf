@@ -1,0 +1,815 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPFINANCIALTRANSFER" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPFINANCIALTRANSFER" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AMTTOTAL" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTOTALEXCLVAT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTOTALEXECUTIONCUR" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTTOTALVAT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BASECURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CANCIBECOMPLETEDAUTOMATICALLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMACTIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMINVOICEDOCUMENTTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMRECEIVABLEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMYEAR" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATECREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGCANCELINFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEFORPROCESSINGINFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELATESTCHANGE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEOFEXECUTION" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEORIGINALLYPAID" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEORIGINALLYRECEIVED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DISCONNECTLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DISTRIBUTORBUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DISTRIBUTORBUSUNITBANKACCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXCHANGERATE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="9"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXECUTIONCURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTCANCELLATIONTOCASJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTCANCELLATIONTOPMSJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTTOCASJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTTODCSJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXPORTTOPMSJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FIATLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINALRECEIVERCLAIMCUSTOMERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINANCIALTRANSFEREXTERNALTYPE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINANCIALTRANSFERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINANCIALTRANSFERIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINANCIALTRANSFERTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINANCIALTRANSFERTYPESTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="FINISHEDLOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASBEENFINISHED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="HASREVERSECHARGEDVAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IMPORTFROMPMSJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="IMPORTFROMRCSJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="INTERMEDIARYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLATIONPROCESSEDINQISFA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCANCELLED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOUPLEDTODEEDOFCONVEYANCE" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISCOUPLEDTODETERMAGREEMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFETCHEDBACKFROMFIAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISFINTRANSFERFORINTERMEDIARY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISMANUALLYENTEREDRECOVERY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPAYMENTINFLBYCLAIMAMOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPAYMENTSTARTFROMADDCLAIM" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPAYMENTTONEWACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISPERIODICPAYMENT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISRECEIPTONCURRENTACCOUNT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREJECTEDINFIAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREJECTEDININTERNALCONTROL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISREJECTEDINPROCESSAMT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISVALIDITYPROCESSEDINQISFA" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISVATINCLUDED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISVATPARTLYINCLUDED" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="ISVIRTUAL" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="LOGONUSERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTDESCRIPTIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTEXPLANATION" nullable="true">
+      <datatype type="CLOB" maxLength="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTMEANSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTREASONFETCHEDBACKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTREJECTIONREASONFIATID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTREJECTIONREASONICID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTREJREASONPROCESSAMTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSALREADYEXCPAYMENTSJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSRECEIPTSJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SALESCHANNELID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDCLAIMINVOICEFOLLOWER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDPAYMCONFIRMATIONPOLHOLDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDPAYMENTCONFIRMATIONINT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDPAYMENTNOTIFICATION" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SENDPAYSLIP" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="SHOULDBESETTLEDDIRECTLY" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTREASONFETCHEDBACK" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTREASONFIAT" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTREASONINTERNALCONTROL" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTREJECTIONREASONFIAT" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TEXTREJECTIONREASONIC" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORFISH" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSEXPORTEDTOFA" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USECALCULATEDEXECUTIONDATE" nullable="true">
+      <datatype type="STRING" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFINANCIALTRANSFER" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPFINANCIALTRANSFER.AMTTOTAL AMTTOTAL,
+&#x9;RPFINANCIALTRANSFER.AMTTOTALEXCLVAT AMTTOTALEXCLVAT,
+&#x9;RPFINANCIALTRANSFER.AMTTOTALEXECUTIONCUR AMTTOTALEXECUTIONCUR,
+&#x9;RPFINANCIALTRANSFER.AMTTOTALVAT AMTTOTALVAT,
+&#x9;RPFINANCIALTRANSFER.BANKACCOUNTID BANKACCOUNTID,
+&#x9;RPFINANCIALTRANSFER.BASECURRENCYID BASECURRENCYID,
+&#x9;RPFINANCIALTRANSFER.CANCIBECOMPLETEDAUTOMATICALLY CANCIBECOMPLETEDAUTOMATICALLY,
+&#x9;RPFINANCIALTRANSFER.CLAIMACTIONID CLAIMACTIONID,
+&#x9;RPFINANCIALTRANSFER.CLAIMCUSTOMERID CLAIMCUSTOMERID,
+&#x9;RPFINANCIALTRANSFER.CLAIMID CLAIMID,
+&#x9;RPFINANCIALTRANSFER.CLAIMINVOICEDOCUMENTTYPEID CLAIMINVOICEDOCUMENTTYPEID,
+&#x9;RPFINANCIALTRANSFER.CLAIMRECEIVABLEID CLAIMRECEIVABLEID,
+&#x9;RPFINANCIALTRANSFER.CLAIMYEAR CLAIMYEAR,
+&#x9;RPFINANCIALTRANSFER.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPFINANCIALTRANSFER.CUSTOMERID CUSTOMERID,
+&#x9;RPFINANCIALTRANSFER.DATECREATED DATECREATED,
+&#x9;RPFINANCIALTRANSFER.DATEFORPROCESSINGCANCELINFA DATEFORPROCESSINGCANCELINFA,
+&#x9;RPFINANCIALTRANSFER.DATEFORPROCESSINGINFA DATEFORPROCESSINGINFA,
+&#x9;RPFINANCIALTRANSFER.DATELATESTCHANGE DATELATESTCHANGE,
+&#x9;RPFINANCIALTRANSFER.DATEOFEXECUTION DATEOFEXECUTION,
+&#x9;RPFINANCIALTRANSFER.DATEORIGINALLYPAID DATEORIGINALLYPAID,
+&#x9;RPFINANCIALTRANSFER.DATEORIGINALLYRECEIVED DATEORIGINALLYRECEIVED,
+&#x9;RPFINANCIALTRANSFER.DESCRIPTION DESCRIPTION,
+&#x9;RPFINANCIALTRANSFER.DISCONNECTLOGONUSERID DISCONNECTLOGONUSERID,
+&#x9;RPFINANCIALTRANSFER.DISTRIBUTORBUSINESSUNITID DISTRIBUTORBUSINESSUNITID,
+&#x9;RPFINANCIALTRANSFER.DISTRIBUTORBUSUNITBANKACCTID DISTRIBUTORBUSUNITBANKACCTID,
+&#x9;RPFINANCIALTRANSFER.EXCHANGERATE EXCHANGERATE,
+&#x9;RPFINANCIALTRANSFER.EXECUTIONCURRENCYID EXECUTIONCURRENCYID,
+&#x9;RPFINANCIALTRANSFER.EXPORTCANCELLATIONTOCASJOBID EXPORTCANCELLATIONTOCASJOBID,
+&#x9;RPFINANCIALTRANSFER.EXPORTCANCELLATIONTOPMSJOBID EXPORTCANCELLATIONTOPMSJOBID,
+&#x9;RPFINANCIALTRANSFER.EXPORTTOCASJOBID EXPORTTOCASJOBID,
+&#x9;RPFINANCIALTRANSFER.EXPORTTODCSJOBID EXPORTTODCSJOBID,
+&#x9;RPFINANCIALTRANSFER.EXPORTTOPMSJOBID EXPORTTOPMSJOBID,
+&#x9;RPFINANCIALTRANSFER.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPFINANCIALTRANSFER.FIATLOGONUSERID FIATLOGONUSERID,
+&#x9;RPFINANCIALTRANSFER.FINALRECEIVERCLAIMCUSTOMERID FINALRECEIVERCLAIMCUSTOMERID,
+&#x9;RPFINANCIALTRANSFER.FINANCIALTRANSFEREXTERNALTYPE FINANCIALTRANSFEREXTERNALTYPE,
+&#x9;RPFINANCIALTRANSFER.FINANCIALTRANSFERID FINANCIALTRANSFERID,
+&#x9;RPFINANCIALTRANSFER.FINANCIALTRANSFERIDENTIFIER FINANCIALTRANSFERIDENTIFIER,
+&#x9;RPFINANCIALTRANSFER.FINANCIALTRANSFERTYPEID FINANCIALTRANSFERTYPEID,
+&#x9;RPFINANCIALTRANSFER.FINANCIALTRANSFERTYPESTATUSID FINANCIALTRANSFERTYPESTATUSID,
+&#x9;RPFINANCIALTRANSFER.FINISHEDLOGONUSERID FINISHEDLOGONUSERID,
+&#x9;RPFINANCIALTRANSFER.HASBEENFINISHED HASBEENFINISHED,
+&#x9;RPFINANCIALTRANSFER.HASREVERSECHARGEDVAT HASREVERSECHARGEDVAT,
+&#x9;RPFINANCIALTRANSFER.IMPORTFROMPMSJOBID IMPORTFROMPMSJOBID,
+&#x9;RPFINANCIALTRANSFER.IMPORTFROMRCSJOBID IMPORTFROMRCSJOBID,
+&#x9;RPFINANCIALTRANSFER.INTERMEDIARYID INTERMEDIARYID,
+&#x9;RPFINANCIALTRANSFER.ISCANCELLATIONPROCESSEDINQISFA ISCANCELLATIONPROCESSEDINQISFA,
+&#x9;RPFINANCIALTRANSFER.ISCANCELLED ISCANCELLED,
+&#x9;RPFINANCIALTRANSFER.ISCOUPLEDTODEEDOFCONVEYANCE ISCOUPLEDTODEEDOFCONVEYANCE,
+&#x9;RPFINANCIALTRANSFER.ISCOUPLEDTODETERMAGREEMENT ISCOUPLEDTODETERMAGREEMENT,
+&#x9;RPFINANCIALTRANSFER.ISFETCHEDBACKFROMFIAT ISFETCHEDBACKFROMFIAT,
+&#x9;RPFINANCIALTRANSFER.ISFINTRANSFERFORINTERMEDIARY ISFINTRANSFERFORINTERMEDIARY,
+&#x9;RPFINANCIALTRANSFER.ISMANUALLYENTEREDRECOVERY ISMANUALLYENTEREDRECOVERY,
+&#x9;RPFINANCIALTRANSFER.ISPAYMENTINFLBYCLAIMAMOUNT ISPAYMENTINFLBYCLAIMAMOUNT,
+&#x9;RPFINANCIALTRANSFER.ISPAYMENTSTARTFROMADDCLAIM ISPAYMENTSTARTFROMADDCLAIM,
+&#x9;RPFINANCIALTRANSFER.ISPAYMENTTONEWACCOUNTNUMBER ISPAYMENTTONEWACCOUNTNUMBER,
+&#x9;RPFINANCIALTRANSFER.ISPERIODICPAYMENT ISPERIODICPAYMENT,
+&#x9;RPFINANCIALTRANSFER.ISRECEIPTONCURRENTACCOUNT ISRECEIPTONCURRENTACCOUNT,
+&#x9;RPFINANCIALTRANSFER.ISREJECTEDINFIAT ISREJECTEDINFIAT,
+&#x9;RPFINANCIALTRANSFER.ISREJECTEDININTERNALCONTROL ISREJECTEDININTERNALCONTROL,
+&#x9;RPFINANCIALTRANSFER.ISREJECTEDINPROCESSAMT ISREJECTEDINPROCESSAMT,
+&#x9;RPFINANCIALTRANSFER.ISVALIDITYPROCESSEDINQISFA ISVALIDITYPROCESSEDINQISFA,
+&#x9;RPFINANCIALTRANSFER.ISVATINCLUDED ISVATINCLUDED,
+&#x9;RPFINANCIALTRANSFER.ISVATPARTLYINCLUDED ISVATPARTLYINCLUDED,
+&#x9;RPFINANCIALTRANSFER.ISVIRTUAL ISVIRTUAL,
+&#x9;RPFINANCIALTRANSFER.LOGONUSERID LOGONUSERID,
+&#x9;RPFINANCIALTRANSFER.PAYMENTDESCRIPTIONTYPEID PAYMENTDESCRIPTIONTYPEID,
+&#x9;RPFINANCIALTRANSFER.PAYMENTEXPLANATION PAYMENTEXPLANATION,
+&#x9;RPFINANCIALTRANSFER.PAYMENTMEANSID PAYMENTMEANSID,
+&#x9;RPFINANCIALTRANSFER.PAYMENTREASONFETCHEDBACKID PAYMENTREASONFETCHEDBACKID,
+&#x9;RPFINANCIALTRANSFER.PAYMENTREJECTIONREASONFIATID PAYMENTREJECTIONREASONFIATID,
+&#x9;RPFINANCIALTRANSFER.PAYMENTREJECTIONREASONICID PAYMENTREJECTIONREASONICID,
+&#x9;RPFINANCIALTRANSFER.PAYMENTREJREASONPROCESSAMTID PAYMENTREJREASONPROCESSAMTID,
+&#x9;RPFINANCIALTRANSFER.PROCESSALREADYEXCPAYMENTSJOBID PROCESSALREADYEXCPAYMENTSJOBID,
+&#x9;RPFINANCIALTRANSFER.PROCESSRECEIPTSJOBID PROCESSRECEIPTSJOBID,
+&#x9;RPFINANCIALTRANSFER.PRODUCTID PRODUCTID,
+&#x9;RPFINANCIALTRANSFER.PRODUCTVERSIONID PRODUCTVERSIONID,
+&#x9;RPFINANCIALTRANSFER.SALESCHANNELID SALESCHANNELID,
+&#x9;RPFINANCIALTRANSFER.SENDCLAIMINVOICEFOLLOWER SENDCLAIMINVOICEFOLLOWER,
+&#x9;RPFINANCIALTRANSFER.SENDPAYMCONFIRMATIONPOLHOLDER SENDPAYMCONFIRMATIONPOLHOLDER,
+&#x9;RPFINANCIALTRANSFER.SENDPAYMENTCONFIRMATIONINT SENDPAYMENTCONFIRMATIONINT,
+&#x9;RPFINANCIALTRANSFER.SENDPAYMENTNOTIFICATION SENDPAYMENTNOTIFICATION,
+&#x9;RPFINANCIALTRANSFER.SENDPAYSLIP SENDPAYSLIP,
+&#x9;RPFINANCIALTRANSFER.SHOULDBESETTLEDDIRECTLY SHOULDBESETTLEDDIRECTLY,
+&#x9;RPFINANCIALTRANSFER.TEXTREASONFETCHEDBACK TEXTREASONFETCHEDBACK,
+&#x9;RPFINANCIALTRANSFER.TEXTREASONFIAT TEXTREASONFIAT,
+&#x9;RPFINANCIALTRANSFER.TEXTREASONINTERNALCONTROL TEXTREASONINTERNALCONTROL,
+&#x9;RPFINANCIALTRANSFER.TEXTREJECTIONREASONFIAT TEXTREJECTIONREASONFIAT,
+&#x9;RPFINANCIALTRANSFER.TEXTREJECTIONREASONIC TEXTREJECTIONREASONIC,
+&#x9;RPFINANCIALTRANSFER.TSCHANGED TSCHANGED,
+&#x9;RPFINANCIALTRANSFER.TSCHANGEDFORFISH TSCHANGEDFORFISH,
+&#x9;RPFINANCIALTRANSFER.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPFINANCIALTRANSFER.TSCREATED TSCREATED,
+&#x9;RPFINANCIALTRANSFER.TSEXPORTEDTOFA TSEXPORTEDTOFA,
+&#x9;RPFINANCIALTRANSFER.USECALCULATEDEXECUTIONDATE USECALCULATEDEXECUTIONDATE,
+&#x9;RPFINANCIALTRANSFER.USERIDCHANGED USERIDCHANGED,
+&#x9;RPFINANCIALTRANSFER.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFINANCIALTRANSFER RPFINANCIALTRANSFER</attribute>
+  <attribute name="creationDate" type="LONG">1664289479769</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28064</attribute>
+  <attribute name="creatorUserName" type="STRING">d031794</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPFINANCIALTRANSFER&apos;.  On line 101, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664295638265</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28064</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664289479769</attribute>
+</metadata>

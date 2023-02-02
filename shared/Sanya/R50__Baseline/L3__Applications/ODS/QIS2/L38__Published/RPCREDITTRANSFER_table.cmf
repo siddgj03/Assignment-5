@@ -1,0 +1,636 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPCREDITTRANSFER" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPCREDITTRANSFER" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AMTCREDIT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKERRORMESSAGECODEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKERRORMESSAGETYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKSTATEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BANKSTATEMENTLINEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITBANKACCOUNTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="BUSINESSUNITID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAACCOUNTHOLDERPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKADDRESS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKCITY" nullable="true">
+      <datatype type="STRING" maxLength="60"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKCLEARINGHOUSECODE" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKCOUNTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKIDENTIFIERCODE" nullable="true">
+      <datatype type="STRING" maxLength="11"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKNAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABABANKPOSTALCODE" nullable="true">
+      <datatype type="STRING" maxLength="18"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABADOMESTICBANKACCOUNTNUMBER" nullable="true">
+      <datatype type="STRING" maxLength="34"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAHASALTERNBANKACCOUNTHOLDER" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAISDOMESTIC" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CABAISIBANFORMAT" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CLAIMIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREATEDBYJOBID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREDITTRANSFERBATCHID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREDITTRANSFERID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CREDITTRANSFERSTATUSID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="CURRENCYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATEDESIREDPROCESSING" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DATELATESTSTATUSCHANGE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="511"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="DESCRIPTIONSHORT" nullable="true">
+      <datatype type="STRING" maxLength="25"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="GROUPCONTRACTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="JOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTDESCRIPTIONTYPEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PAYMENTIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="POLICYIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PROCESSINGJOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REASONOFREJECTION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="REJECTIONJOURNALENTRYID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGEDFORMIS" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREDITTRANSFERCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSFAILED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSFINISHED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSREJECTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERTASKID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCREDITTRANSFER" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ACCOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="AMTCREDIT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="BANKERRORMESSAGECODEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BANKERRORMESSAGETYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BANKID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BANKSTATEMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BANKSTATEMENTLINEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BUSINESSUNITBANKACCOUNTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BUSINESSUNITID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CABAACCOUNTHOLDERADDRESS">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="CABAACCOUNTHOLDERCITY">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="CABAACCOUNTHOLDERCOUNTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CABAACCOUNTHOLDERNAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="CABAACCOUNTHOLDERPOSTALCODE">
+        <datatype type="STRING" maxLength="18"/>
+      </element>
+      <element name="CABABANKACCOUNTNUMBER">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="CABABANKADDRESS">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="CABABANKCITY">
+        <datatype type="STRING" maxLength="60"/>
+      </element>
+      <element name="CABABANKCLEARINGHOUSECODE">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="CABABANKCOUNTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CABABANKIDENTIFIERCODE">
+        <datatype type="STRING" maxLength="11"/>
+      </element>
+      <element name="CABABANKNAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="CABABANKPOSTALCODE">
+        <datatype type="STRING" maxLength="18"/>
+      </element>
+      <element name="CABADOMESTICBANKACCOUNTNUMBER">
+        <datatype type="STRING" maxLength="34"/>
+      </element>
+      <element name="CABAHASALTERNBANKACCOUNTHOLDER">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CABAISDOMESTIC">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CABAISIBANFORMAT">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="CLAIMIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="CREATEDBYJOBID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREDITTRANSFERBATCHID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREDITTRANSFERID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREDITTRANSFERSTATUSID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CURRENCYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DATEDESIREDPROCESSING">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DATELATESTSTATUSCHANGE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DESCRIPTION">
+        <datatype type="STRING" maxLength="511"/>
+      </element>
+      <element name="DESCRIPTIONSHORT">
+        <datatype type="STRING" maxLength="25"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="GROUPCONTRACTIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="JOURNALENTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PAYMENTDESCRIPTIONTYPEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PAYMENTIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="POLICYIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="PROCESSINGJOURNALENTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="REASONOFREJECTION">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="REJECTIONJOURNALENTRYID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCHANGEDFORMIS">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREDITTRANSFERCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSFAILED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSFINISHED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSREJECTED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERTASKID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPCREDITTRANSFER.ACCOUNTID ACCOUNTID,
+&#x9;RPCREDITTRANSFER.AMTCREDIT AMTCREDIT,
+&#x9;RPCREDITTRANSFER.BANKERRORMESSAGECODEID BANKERRORMESSAGECODEID,
+&#x9;RPCREDITTRANSFER.BANKERRORMESSAGETYPEID BANKERRORMESSAGETYPEID,
+&#x9;RPCREDITTRANSFER.BANKID BANKID,
+&#x9;RPCREDITTRANSFER.BANKSTATEMENTID BANKSTATEMENTID,
+&#x9;RPCREDITTRANSFER.BANKSTATEMENTLINEID BANKSTATEMENTLINEID,
+&#x9;RPCREDITTRANSFER.BUSINESSUNITBANKACCOUNTID BUSINESSUNITBANKACCOUNTID,
+&#x9;RPCREDITTRANSFER.BUSINESSUNITID BUSINESSUNITID,
+&#x9;RPCREDITTRANSFER.CABAACCOUNTHOLDERADDRESS CABAACCOUNTHOLDERADDRESS,
+&#x9;RPCREDITTRANSFER.CABAACCOUNTHOLDERCITY CABAACCOUNTHOLDERCITY,
+&#x9;RPCREDITTRANSFER.CABAACCOUNTHOLDERCOUNTRYID CABAACCOUNTHOLDERCOUNTRYID,
+&#x9;RPCREDITTRANSFER.CABAACCOUNTHOLDERNAME CABAACCOUNTHOLDERNAME,
+&#x9;RPCREDITTRANSFER.CABAACCOUNTHOLDERPOSTALCODE CABAACCOUNTHOLDERPOSTALCODE,
+&#x9;RPCREDITTRANSFER.CABABANKACCOUNTNUMBER CABABANKACCOUNTNUMBER,
+&#x9;RPCREDITTRANSFER.CABABANKADDRESS CABABANKADDRESS,
+&#x9;RPCREDITTRANSFER.CABABANKCITY CABABANKCITY,
+&#x9;RPCREDITTRANSFER.CABABANKCLEARINGHOUSECODE CABABANKCLEARINGHOUSECODE,
+&#x9;RPCREDITTRANSFER.CABABANKCOUNTRYID CABABANKCOUNTRYID,
+&#x9;RPCREDITTRANSFER.CABABANKIDENTIFIERCODE CABABANKIDENTIFIERCODE,
+&#x9;RPCREDITTRANSFER.CABABANKNAME CABABANKNAME,
+&#x9;RPCREDITTRANSFER.CABABANKPOSTALCODE CABABANKPOSTALCODE,
+&#x9;RPCREDITTRANSFER.CABADOMESTICBANKACCOUNTNUMBER CABADOMESTICBANKACCOUNTNUMBER,
+&#x9;RPCREDITTRANSFER.CABAHASALTERNBANKACCOUNTHOLDER CABAHASALTERNBANKACCOUNTHOLDER,
+&#x9;RPCREDITTRANSFER.CABAISDOMESTIC CABAISDOMESTIC,
+&#x9;RPCREDITTRANSFER.CABAISIBANFORMAT CABAISIBANFORMAT,
+&#x9;RPCREDITTRANSFER.CLAIMIDENTIFIER CLAIMIDENTIFIER,
+&#x9;RPCREDITTRANSFER.CREATEDBYJOBID CREATEDBYJOBID,
+&#x9;RPCREDITTRANSFER.CREDITTRANSFERBATCHID CREDITTRANSFERBATCHID,
+&#x9;RPCREDITTRANSFER.CREDITTRANSFERID CREDITTRANSFERID,
+&#x9;RPCREDITTRANSFER.CREDITTRANSFERSTATUSID CREDITTRANSFERSTATUSID,
+&#x9;RPCREDITTRANSFER.CURRENCYID CURRENCYID,
+&#x9;RPCREDITTRANSFER.DATEDESIREDPROCESSING DATEDESIREDPROCESSING,
+&#x9;RPCREDITTRANSFER.DATELATESTSTATUSCHANGE DATELATESTSTATUSCHANGE,
+&#x9;RPCREDITTRANSFER.DESCRIPTION DESCRIPTION,
+&#x9;RPCREDITTRANSFER.DESCRIPTIONSHORT DESCRIPTIONSHORT,
+&#x9;RPCREDITTRANSFER.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPCREDITTRANSFER.GROUPCONTRACTIDENTIFIER GROUPCONTRACTIDENTIFIER,
+&#x9;RPCREDITTRANSFER.JOURNALENTRYID JOURNALENTRYID,
+&#x9;RPCREDITTRANSFER.PAYMENTDESCRIPTIONTYPEID PAYMENTDESCRIPTIONTYPEID,
+&#x9;RPCREDITTRANSFER.PAYMENTIDENTIFIER PAYMENTIDENTIFIER,
+&#x9;RPCREDITTRANSFER.POLICYIDENTIFIER POLICYIDENTIFIER,
+&#x9;RPCREDITTRANSFER.PROCESSINGJOURNALENTRYID PROCESSINGJOURNALENTRYID,
+&#x9;RPCREDITTRANSFER.REASONOFREJECTION REASONOFREJECTION,
+&#x9;RPCREDITTRANSFER.REJECTIONJOURNALENTRYID REJECTIONJOURNALENTRYID,
+&#x9;RPCREDITTRANSFER.TSCHANGED TSCHANGED,
+&#x9;RPCREDITTRANSFER.TSCHANGEDFORMIS TSCHANGEDFORMIS,
+&#x9;RPCREDITTRANSFER.TSCREATED TSCREATED,
+&#x9;RPCREDITTRANSFER.TSCREDITTRANSFERCREATED TSCREDITTRANSFERCREATED,
+&#x9;RPCREDITTRANSFER.TSFAILED TSFAILED,
+&#x9;RPCREDITTRANSFER.TSFINISHED TSFINISHED,
+&#x9;RPCREDITTRANSFER.TSREJECTED TSREJECTED,
+&#x9;RPCREDITTRANSFER.USERIDCHANGED USERIDCHANGED,
+&#x9;RPCREDITTRANSFER.USERIDCREATED USERIDCREATED,
+&#x9;RPCREDITTRANSFER.USERTASKID USERTASKID 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPCREDITTRANSFER RPCREDITTRANSFER</attribute>
+  <attribute name="creationDate" type="LONG">1664293915435</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPCREDITTRANSFER&apos;.  On line 58, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293915435</attribute>
+</metadata>

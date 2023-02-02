@@ -1,0 +1,92 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_VINVUL" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_VINVUL" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="BRANCHE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="2" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="POLICY" nullable="true">
+      <datatype type="STRING" minLength="7" maxLength="7"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ReserveT21" nullable="true">
+      <datatype type="DECIMAL" maxDigits="20" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="iavg" nullable="true">
+      <datatype type="DECIMAL" maxDigits="38" maxFractionalDigits="14"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/VINVULPF" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">/*
+
+create table work.vinvul as (
+&#x9;select branche, policy, sum(afbd+afwd+rescorr+rescorrpb) as ReserveT21,
+&#x9;  case when sum(afbd+afwd+rescorr+rescorrpb) = 0 then 0
+&#x9;&#x9;&#x9;&#x9;else sum(ultaux*(afbd+afwd+rescorr+rescorrpb))/(sum(afbd+afwd+rescorr+rescorrpb))end as iavg
+&#x9;  from db2as4o.vinvulpf 
+&#x9;  where branche in (94,95) and daclose = mdy(&amp;m,&amp;d,&amp;j)
+&#x9;  group by branche, policy
+
+
+*/
+
+WITH TEMP AS
+
+(
+SELECT 
+&#x9;&#x9;BRANCHE,
+&#x9;&#x9;POLICY,
+&#x9;&#x9;(afbd+afwd+rescorr+rescorrpb) as ReserveT21_0,
+&#x9;&#x9;ultaux*(afbd+afwd+rescorr+rescorrpb) as iavg_01,
+&#x9;&#x9;afbd+afwd+rescorr+rescorrpb as iavg_02
+
+
+from /shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/VINVULPF
+where branche in (94,95) and daclose = (CURRENT_DATE + (-DAY(CURRENT_DATE)))
+),
+
+TEMP1 AS 
+
+(
+SELECT BRANCHE,POLICY, SUM(iavg_01) as iavg_1, SUM(iavg_02) as iavg_2, SUM(ReserveT21_0) AS ReserveT21 FROM TEMP GROUP BY BRANCHE, POLICY
+) 
+
+SELECT 
+&#x9;&#x9;BRANCHE,
+&#x9;&#x9;POLICY,
+&#x9;&#x9;ReserveT21,
+&#x9;&#x9;CASE WHEN ReserveT21 = 0 THEN 0 ELSE iavg_1/iavg_2 END AS iavg
+
+FROM TEMP1 ORDER BY POLICY</attribute>
+  <attribute name="creationDate" type="LONG">1652788361233</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/VINVULPF&apos;.  On line 25, column 6.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1660308636579</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1652788361233</attribute>
+</metadata>

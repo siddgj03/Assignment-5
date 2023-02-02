@@ -1,0 +1,123 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_FinancialIndicators_KIRUACAD" path="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/Bank_CDP_Analytical/RAW_GEKI/v_FinancialIndicators_KIRUACAD" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="NR_KBOE_020BENT" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DY_EXERC_020ACNT" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CO_RUBR_020CRUB" nullable="true">
+      <datatype type="STRING" maxLength="6"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="AM_RUB_020RUAC" nullable="true">
+      <datatype type="DECIMAL" maxDigits="18" maxFractionalDigits="0"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="YM_CLOT_020ACNT" nullable="true">
+      <datatype type="STRING" maxLength="6"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/Bank_CDP_Analytical/RAW_GEKI/v_Finstat_MaxYear_VIR" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="NR_KBOE_020BENT">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="Year_Max">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/Bank_CDP_Analytical/RAW_GEKI/v_KIRUACAD" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="NR_KBOE_020BENT">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="CO_NATURE_020ACNT">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="DY_EXERC_020ACNT">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="CO_ORIGIN_020ACNT">
+        <datatype type="STRING" maxLength="1"/>
+      </element>
+      <element name="NS_VERS_020ACNT">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="YM_CLOT_020ACNT">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+      <element name="CO_RUBR_020CRUB">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+      <element name="AM_RUB_020RUAC">
+        <datatype type="DECIMAL" maxDigits="15" maxFractionalDigits="2"/>
+      </element>
+      <element name="NR_CHDIG_020RUAC">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="NS_OPR_231OPLG">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="DA_EFVDTA_231DWOD">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="NS_OPRUPD_231OPLG">
+        <datatype type="INTEGER"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT &#x9;KIRUACAD.NR_KBOE_020BENT,
+&#x9;&#x9;KIRUACAD.DY_EXERC_020ACNT,
+&#x9;&#x9;KIRUACAD.CO_RUBR_020CRUB,
+&#x9;&#x9;ROUND((KIRUACAD.AM_RUB_020RUAC)*1000) AM_RUB_020RUAC,
+&#x9;&#x9;YM_CLOT_020ACNT
+
+FROM &#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/Bank_CDP_Analytical/RAW_GEKI/v_KIRUACAD KIRUACAD
+INNER JOIN /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/Bank_CDP_Analytical/RAW_GEKI/v_Finstat_MaxYear_VIR Filter_Year
+
+ON KIRUACAD.DY_EXERC_020ACNT = Filter_Year.Year_Max
+AND KIRUACAD.NR_KBOE_020BENT=Filter_Year.NR_KBOE_020BENT
+
+WHERE KIRUACAD.CO_NATURE_020ACNT &lt;&gt; &apos;99&apos; and KIRUACAD.CO_ORIGIN_020ACNT = &apos;O&apos;
+&#x9;&#x9;AND (KIRUACAD.CO_RUBR_020CRUB = &apos;000070&apos;
+&#x9;&#x9;OR &#x9;KIRUACAD.CO_RUBR_020CRUB = &apos;000062&apos;
+&#x9;&#x9;OR  KIRUACAD.CO_RUBR_020CRUB = &apos;002058&apos;
+&#x9;&#x9;OR&#x9;KIRUACAD.CO_RUBR_020CRUB = &apos;001015&apos;)
+</attribute>
+  <attribute name="creationDate" type="LONG">1638869908647</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">1902271</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/Bank_CDP_Analytical/RAW_GEKI/KIRUACAD&apos;.  On line 4, column 5.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1648045775413</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">1902271</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032080</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1638869908647</attribute>
+</metadata>

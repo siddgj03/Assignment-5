@@ -1,0 +1,372 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="RPAGREEMENTINSTPRODVERCOVERAGE" path="/shared/Sanya/R50_Baseline/L3_Applications/ODS/QIS2/L38_Published/RPAGREEMENTINSTPRODVERCOVERAGE" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AGREEMENTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="AGREEMENTINSTANCEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="EXTERNALIDENTIFIER" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="NRMONTHSEARNINGPERIODINITCOMM" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCCOMPANYDISCFIRSTDURFVID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCCOMPANYDISCOUNT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCCOMPANYDISCOUNTFINVALID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCCOMPANYDISCOUNTFIRSTDUR" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCINITIALCOMMFROMCOMPWEB" nullable="true">
+      <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCINITIALCOMMFROMCOMPWEBFVID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCINITIALCOMMISSION" nullable="true">
+      <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCINITIALCOMMISSIONFINVALID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCINITIALMARGDISTLEVEL1INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCINITIALMARGDISTLEVEL2INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCINITIALMARGDISTLEVEL3INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCMARGINONPREMFIRSTDURFVID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCMARGINONPREMIUM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCMARGINONPREMIUMFINVALID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCMARGINONPREMIUMFIRSTDUR" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCMRGNONPRM1STDRFRMCMPWBFVID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCMRGNONPRM1STDURFROMCOMPWEB" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCRENEWALMARGDISTLEVEL1INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCRENEWALMARGDISTLEVEL2INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PERCRENEWALMARGDISTLEVEL3INT" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONCOVERAGEID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="PRODUCTVERSIONID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCHANGED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="TSCREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCHANGED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+    <column name="USERIDCREATED" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+      <annotation><![CDATA[]]></annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPAGREEMENTINSTPRODVERCOVERAGE" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="AGREEMENTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="AGREEMENTINSTANCEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="EXTERNALIDENTIFIER">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="NRMONTHSEARNINGPERIODINITCOMM">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCCOMPANYDISCFIRSTDURFVID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCCOMPANYDISCOUNT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCCOMPANYDISCOUNTFINVALID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCCOMPANYDISCOUNTFIRSTDUR">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCINITIALCOMMFROMCOMPWEB">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCINITIALCOMMFROMCOMPWEBFVID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCINITIALCOMMISSION">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCINITIALCOMMISSIONFINVALID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCINITIALMARGDISTLEVEL1INT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCINITIALMARGDISTLEVEL2INT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCINITIALMARGDISTLEVEL3INT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONPREMFIRSTDURFVID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCMARGINONPREMIUM">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMARGINONPREMIUMFINVALID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCMARGINONPREMIUMFIRSTDUR">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCMRGNONPRM1STDRFRMCMPWBFVID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PERCMRGNONPRM1STDURFROMCOMPWEB">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCRENEWALMARGDISTLEVEL1INT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCRENEWALMARGDISTLEVEL2INT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PERCRENEWALMARGDISTLEVEL3INT">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="2"/>
+      </element>
+      <element name="PRODUCTID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODUCTVERSIONCOVERAGEID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PRODUCTVERSIONID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TSCHANGED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TSCREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="USERIDCHANGED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="USERIDCREATED">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.AGREEMENTID AGREEMENTID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.AGREEMENTINSTANCEID AGREEMENTINSTANCEID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.EXTERNALIDENTIFIER EXTERNALIDENTIFIER,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.NRMONTHSEARNINGPERIODINITCOMM NRMONTHSEARNINGPERIODINITCOMM,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCCOMPANYDISCFIRSTDURFVID PERCCOMPANYDISCFIRSTDURFVID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCCOMPANYDISCOUNT PERCCOMPANYDISCOUNT,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCCOMPANYDISCOUNTFINVALID PERCCOMPANYDISCOUNTFINVALID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCCOMPANYDISCOUNTFIRSTDUR PERCCOMPANYDISCOUNTFIRSTDUR,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCINITIALCOMMFROMCOMPWEB PERCINITIALCOMMFROMCOMPWEB,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCINITIALCOMMFROMCOMPWEBFVID PERCINITIALCOMMFROMCOMPWEBFVID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCINITIALCOMMISSION PERCINITIALCOMMISSION,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCINITIALCOMMISSIONFINVALID PERCINITIALCOMMISSIONFINVALID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCINITIALMARGDISTLEVEL1INT PERCINITIALMARGDISTLEVEL1INT,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCINITIALMARGDISTLEVEL2INT PERCINITIALMARGDISTLEVEL2INT,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCINITIALMARGDISTLEVEL3INT PERCINITIALMARGDISTLEVEL3INT,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCMARGINONPREMFIRSTDURFVID PERCMARGINONPREMFIRSTDURFVID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCMARGINONPREMIUM PERCMARGINONPREMIUM,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCMARGINONPREMIUMFINVALID PERCMARGINONPREMIUMFINVALID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCMARGINONPREMIUMFIRSTDUR PERCMARGINONPREMIUMFIRSTDUR,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCMRGNONPRM1STDRFRMCMPWBFVID PERCMRGNONPRM1STDRFRMCMPWBFVID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCMRGNONPRM1STDURFROMCOMPWEB PERCMRGNONPRM1STDURFROMCOMPWEB,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCRENEWALMARGDISTLEVEL1INT PERCRENEWALMARGDISTLEVEL1INT,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCRENEWALMARGDISTLEVEL2INT PERCRENEWALMARGDISTLEVEL2INT,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PERCRENEWALMARGDISTLEVEL3INT PERCRENEWALMARGDISTLEVEL3INT,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PRODUCTID PRODUCTID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PRODUCTVERSIONCOVERAGEID PRODUCTVERSIONCOVERAGEID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.PRODUCTVERSIONID PRODUCTVERSIONID,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.TSCHANGED TSCHANGED,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.TSCREATED TSCREATED,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.USERIDCHANGED USERIDCHANGED,
+&#x9;RPAGREEMENTINSTPRODVERCOVERAGE.USERIDCREATED USERIDCREATED 
+FROM
+&#x9;/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/ODS/QIS2/RPAGREEMENTINSTPRODVERCOVERAGE RPAGREEMENTINSTPRODVERCOVERAGE</attribute>
+  <attribute name="creationDate" type="LONG">1664293480710</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">320490</attribute>
+  <attribute name="creatorUserName" type="STRING">d032633</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/ODS/QIS/RPAGREEMENTINSTPRODVERCOVERAGE&apos;.  On line 34, column 2.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1664955701327</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">320490</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1664293480710</attribute>
+</metadata>

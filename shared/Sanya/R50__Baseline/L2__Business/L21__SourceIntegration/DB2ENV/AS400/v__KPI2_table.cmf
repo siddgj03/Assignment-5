@@ -1,0 +1,105 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_KPI2" path="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_KPI2" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="TypePolis" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Kanaal" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypeWaarborg" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="12" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="Aantal" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CSR_Bedrag" nullable="true">
+      <datatype type="DECIMAL" maxDigits="34" maxFractionalDigits="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RISICOKAPITAAL" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="Sub_br">
+        <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="0"/>
+      </element>
+      <element name="Policy">
+        <datatype type="STRING" minLength="7" maxLength="7"/>
+      </element>
+      <element name="polisnummer">
+        <datatype type="DECIMAL" maxDigits="23" maxFractionalDigits="0"/>
+      </element>
+      <element name="TypePolis">
+        <datatype type="STRING" minLength="3" maxLength="4" trailingSpaces="false"/>
+      </element>
+      <element name="TypeWaarborg">
+        <datatype type="STRING" minLength="2" maxLength="12" trailingSpaces="false"/>
+      </element>
+      <element name="BegindatumWaarborg">
+        <datatype type="DATE"/>
+      </element>
+      <element name="EinddatumWaarborg">
+        <datatype type="DATE"/>
+      </element>
+      <element name="BedragWaarborg">
+        <datatype type="DECIMAL" maxDigits="21" maxFractionalDigits="8"/>
+      </element>
+      <element name="Res">
+        <datatype type="DECIMAL" maxDigits="27" maxFractionalDigits="8"/>
+      </element>
+      <element name="CSR">
+        <datatype type="DECIMAL" maxDigits="28" maxFractionalDigits="8"/>
+      </element>
+      <element name="PSIVde">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="Kanaal">
+        <datatype type="STRING" minLength="3" maxLength="7" trailingSpaces="false"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT
+
+TypePolis, 
+Kanaal, 
+TypeWaarborg,
+count(Polisnummer) as Aantal, 
+sum(CSR) as CSR_Bedrag
+
+FROM /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/AS400/v_RISICOKAPITAAL&#x9;
+
+group by TypePolis, Kanaal, TypeWaarborg</attribute>
+  <attribute name="creationDate" type="LONG">1654869200544</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28080</attribute>
+  <attribute name="creatorUserName" type="STRING">d032080</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/DB2ENV/AS400/PORELPF&apos;.  On line 13, column 1.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1671633231454</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28080</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d032633</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1654869200544</attribute>
+</metadata>

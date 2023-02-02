@@ -1,0 +1,777 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_DIM_ACTOR" path="/shared/Sanya/R50_Baseline/L2_Business/L22_Logical/04 Virtual ADM/SHARED_ACTOR/v_DIM_ACTOR" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="SK_ACTOR" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="VALID_FROM_DTTM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="VALID_TO_DTTM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROCESSED_DTTM" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CURRENT_IND" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DELETED_IND" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CURRENT_SK_ACTOR" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DK_ACTOR" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ACTOR_ID" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="NATIONAL_REGISTER_NUMBER" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ENTERPRISE_NUMBER" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TYPE_CODE_ID" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ORGANIZATION_NAME" nullable="true">
+      <datatype type="STRING" maxLength="600" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEGAL_SITUATION_CODE_ID" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEGAL_SITUATION_CODE_NL_SHORT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEGAL_SITUATION_CODE_FR_SHORT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LEGAL_SITUATION_CODE_ENG_SHORT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LANGUAGE_CODE_ID" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LANGUAGE_CODE_NL_SHORT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LANGUAGE_CODE_FR_SHORT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LANGUAGE_CODE_ENG_SHORT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="GENDER_CODE_ID" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TITLE_CODE_ID" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TITLE_CODE_NL_SHORT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TITLE_CODE_FR_SHORT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TITLE_CODE_ENG_SHORT_DESC" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ACTOR_NAME" nullable="true">
+      <datatype type="STRING" maxLength="600" trailingSpaces="false"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="FIRST_NAME" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="STREET_NAME" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="HOUSE_NUMBER" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="HOUSE_NUMBER_BOX" nullable="true">
+      <datatype type="STRING" maxLength="256"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ZIP_CODE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CITY_NAME" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="COUNTRY_CODE_ID" nullable="true">
+      <datatype type="STRING" maxLength="12"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BIRTH_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="MAIN_PRIVATE_LAND_LINE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="MAIN_PRIVATE_MOBILE" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="MAIN_PRIVATE_EMAIL" nullable="true">
+      <datatype type="STRING" maxLength="400"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="ACTOR_ID_BELFIUS" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/R/v_TBFC25" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="G1KVWZ">
+        <datatype type="STRING" minLength="8" maxLength="8"/>
+      </element>
+      <element name="A1KVWZ">
+        <datatype type="STRING" minLength="4" maxLength="4"/>
+      </element>
+      <element name="XXTVWZ">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PSI">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="TLK">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="STN">
+        <datatype type="STRING" minLength="30" maxLength="30"/>
+      </element>
+      <element name="ADIHUI">
+        <datatype type="STRING" minLength="5" maxLength="5"/>
+      </element>
+      <element name="ADIBUS">
+        <datatype type="STRING" minLength="4" maxLength="4"/>
+      </element>
+      <element name="GMKPST">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="GMIVLG">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="LDK">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PSN">
+        <datatype type="STRING" minLength="35" maxLength="35"/>
+      </element>
+      <element name="PSNVOO">
+        <datatype type="STRING" minLength="15" maxLength="15"/>
+      </element>
+      <element name="BUK">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NNK">
+        <datatype type="STRING" minLength="5" maxLength="5"/>
+      </element>
+      <element name="PSIRRG">
+        <datatype type="STRING" minLength="11" maxLength="11"/>
+      </element>
+      <element name="PSDOVL">
+        <datatype type="DATE"/>
+      </element>
+      <element name="GSK">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PNKJST">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="PSKOVL">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSDGEB">
+        <datatype type="DATE"/>
+      </element>
+      <element name="PSIBTW">
+        <datatype type="STRING" minLength="9" maxLength="9"/>
+      </element>
+      <element name="DXI">
+        <datatype type="STRING" minLength="5" maxLength="5"/>
+      </element>
+      <element name="DXKREG">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PSIWDT">
+        <datatype type="STRING" minLength="12" maxLength="12"/>
+      </element>
+      <element name="PSKAST">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="PSDFAI">
+        <datatype type="DATE"/>
+      </element>
+      <element name="NONR">
+        <datatype type="STRING" minLength="9" maxLength="9"/>
+      </element>
+      <element name="TLKSG1">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="TLKSG2">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSKROK">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="ADKRED">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="PSIGWS">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="PSICOO">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PSKVZT">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="PSKJUI">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="PSKVVD">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="ADKTST">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="BTKPLI">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSKSOC">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="HDK">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="ZONFON">
+        <datatype type="STRING" minLength="35" maxLength="35"/>
+      </element>
+      <element name="ZONVFO">
+        <datatype type="STRING" minLength="15" maxLength="15"/>
+      </element>
+      <element name="A1KVKR">
+        <datatype type="STRING" minLength="4" maxLength="4"/>
+      </element>
+      <element name="G1KVKR">
+        <datatype type="STRING" minLength="8" maxLength="8"/>
+      </element>
+      <element name="XXTVKR">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="STI">
+        <datatype type="STRING" minLength="6" maxLength="6"/>
+      </element>
+      <element name="PSKSTA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="GMKPGE">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="GMIVGE">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="LDKGEB">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PSKARC">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSKBRP">
+        <datatype type="STRING" minLength="5" maxLength="5"/>
+      </element>
+      <element name="PSKBBP">
+        <datatype type="STRING" minLength="5" maxLength="5"/>
+      </element>
+      <element name="PSKSPE">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSJBEL">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="PSOBRP">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="PSN1">
+        <datatype type="STRING" maxLength="35"/>
+      </element>
+      <element name="STN1">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="DYK">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PSIORG">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PSNV1R">
+        <datatype type="STRING" minLength="12" maxLength="12"/>
+      </element>
+      <element name="PSNV2R">
+        <datatype type="STRING" minLength="12" maxLength="12"/>
+      </element>
+      <element name="MCKPER">
+        <datatype type="STRING" minLength="4" maxLength="4"/>
+      </element>
+      <element name="PSKARA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="ATKNCB">
+        <datatype type="STRING" minLength="7" maxLength="7"/>
+      </element>
+      <element name="PSKSEC">
+        <datatype type="STRING" minLength="7" maxLength="7"/>
+      </element>
+      <element name="PSKPAS">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="PSDPAS">
+        <datatype type="STRING" minLength="6" maxLength="6"/>
+      </element>
+      <element name="MWKACT">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="PSKKOR">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="NNKTWE">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PSKGRC">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSKFTC">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="PSDFTC">
+        <datatype type="DATE"/>
+      </element>
+      <element name="PSKFRB">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSKCRS">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="PSKCEC">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSKPEP">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSKONA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSDPRO">
+        <datatype type="DATE"/>
+      </element>
+      <element name="PSKMSS">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSKMSP">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="PSKNPA">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="X_TIMESTAMP">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_PTY_PARTY" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="PARTY_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="VALID_FROM_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="VALID_TO_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PROCESSED_DTTM">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="CURRENT_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="DELETED_IND">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="CURRENT_PARTY_SK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="PARTY_DK">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="PARTY_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="PARTY_TYPE_CD">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="SOURCE_SYSTEM_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="FIRST_NM">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="NAME">
+        <datatype type="STRING" maxLength="600"/>
+      </element>
+      <element name="BIRTH_DT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="GENDER_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="MOBILE_PHONE_NO">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="ADDRESS_LINE_1">
+        <datatype type="STRING" maxLength="256"/>
+      </element>
+      <element name="ADDRESS_LINE_2">
+        <datatype type="STRING" maxLength="256"/>
+      </element>
+      <element name="ADDRESS_LINE_3">
+        <datatype type="STRING" maxLength="256"/>
+      </element>
+      <element name="CITY_NM">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="POSTAL_CD">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="COUNTRY_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="TELEPHONE_NO">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="NIS_SECTOR_CD">
+        <datatype type="STRING" maxLength="36"/>
+      </element>
+      <element name="LANGUAGE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="NONR_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="UL3_PERSON_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="ACTOR_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="SEGMENT_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="INTERCOMPANY_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="COMPANY_REGISTRATION_NO">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="EMAIL">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="REINSURER_ID">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="CLASSIFICATION_ENTERPRISE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="NATURE_OF_BUSINESS_CD">
+        <datatype type="STRING" maxLength="28"/>
+      </element>
+      <element name="ORG_LEGAL_TYPE_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="MARITAL_STATUS_CD">
+        <datatype type="STRING" maxLength="12"/>
+      </element>
+      <element name="PSI">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_TR_REF_DESCRIPTION" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="COLUMN_NM">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="CODE_VALUE">
+        <datatype type="STRING" maxLength="120"/>
+      </element>
+      <element name="DUTCH">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="ENGLISH">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+      <element name="FRENCH">
+        <datatype type="STRING" maxLength="400"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/R/v_PartyExternalReference_NationalRegistryNumber" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="G1KVWZ">
+        <datatype type="STRING" minLength="8" maxLength="8"/>
+      </element>
+      <element name="A1KVWZ">
+        <datatype type="STRING" minLength="4" maxLength="4"/>
+      </element>
+      <element name="XXTVWZ">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PSI">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="HDK">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PSKEXT">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PSIEXT">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PEDBEG">
+        <datatype type="DATE"/>
+      </element>
+      <element name="X_TIMESTAMP">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/U/v_CodeDescriptions_CPDB" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="CODE">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+      <element name="CODEVALUE">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="DESCR_NL_SHORT">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="DESCR_NL_LONG">
+        <datatype type="STRING" maxLength="36"/>
+      </element>
+      <element name="DESCR_FR_SHORT">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="DESCR_FR_LONG">
+        <datatype type="STRING" maxLength="36"/>
+      </element>
+      <element name="DESCR_ENG_SHORT">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="DESCR_ENG_LONG">
+        <datatype type="STRING" maxLength="36"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;v_D_PTY_PARTY.PARTY_SK AS SK_ACTOR,
+&#x9;v_D_PTY_PARTY.VALID_FROM_DTTM,
+&#x9;v_D_PTY_PARTY.VALID_TO_DTTM,
+&#x9;v_D_PTY_PARTY.PROCESSED_DTTM,
+&#x9;v_D_PTY_PARTY.CURRENT_IND,
+&#x9;v_D_PTY_PARTY.DELETED_IND,
+&#x9;v_D_PTY_PARTY.CURRENT_PARTY_SK AS CURRENT_SK_ACTOR,
+&#x9;v_D_PTY_PARTY.PARTY_DK AS DK_ACTOR,
+&#x9;v_D_PTY_PARTY.PARTY_ID AS ACTOR_ID,
+&#x9;v_PartyExternalReference_NationalRegistryNumber.PSIEXT AS NATIONAL_REGISTER_NUMBER,
+&#x9;v_D_PTY_PARTY.COMPANY_REGISTRATION_NO AS ENTERPRISE_NUMBER,
+&#x9;v_D_PTY_PARTY.PARTY_TYPE_CD AS TYPE_CODE_ID,
+&#x9;CASE WHEN
+&#x9;&#x9;v_D_PTY_PARTY.GENDER_CD IS NOT NULL THEN &apos;&apos;
+&#x9;&#x9;ELSE v_D_PTY_PARTY.NAME
+&#x9;END AS ORGANIZATION_NAME,
+&#x9;v_D_PTY_PARTY.ORG_LEGAL_TYPE_CD AS LEGAL_SITUATION_CODE_ID,
+&#x9;v_TR_REF_DESCRIPTION_ORG_LEGAL_TYPE_CD.DUTCH AS LEGAL_SITUATION_CODE_NL_SHORT_DESC, 
+&#x9;v_TR_REF_DESCRIPTION_ORG_LEGAL_TYPE_CD.FRENCH AS LEGAL_SITUATION_CODE_FR_SHORT_DESC, 
+&#x9;v_TR_REF_DESCRIPTION_ORG_LEGAL_TYPE_CD.ENGLISH AS LEGAL_SITUATION_CODE_ENG_SHORT_DESC, 
+&#x9;v_D_PTY_PARTY.LANGUAGE_CD AS LANGUAGE_CODE_ID,
+&#x9;v_TR_REF_DESCRIPTION_LANGUAGE_CD.DUTCH AS LANGUAGE_CODE_NL_SHORT_DESC, 
+&#x9;v_TR_REF_DESCRIPTION_LANGUAGE_CD.FRENCH AS LANGUAGE_CODE_FR_SHORT_DESC, 
+&#x9;v_TR_REF_DESCRIPTION_LANGUAGE_CD.ENGLISH AS LANGUAGE_CODE_ENG_SHORT_DESC, 
+&#x9;v_D_PTY_PARTY.GENDER_CD AS GENDER_CODE_ID, 
+&#x9;v_TBFC25.PSKAST AS TITLE_CODE_ID,
+&#x9;v_CodeDescriptions_CPDB_PSKAST.DESCR_NL_SHORT AS TITLE_CODE_NL_SHORT_DESC,
+&#x9;v_CodeDescriptions_CPDB_PSKAST.DESCR_FR_SHORT AS TITLE_CODE_FR_SHORT_DESC,
+&#x9;v_CodeDescriptions_CPDB_PSKAST.DESCR_ENG_SHORT AS TITLE_CODE_ENG_SHORT_DESC,
+&#x9;CASE WHEN
+&#x9;&#x9;v_D_PTY_PARTY.GENDER_CD IS NULL THEN &apos;&apos;
+&#x9;&#x9;ELSE v_D_PTY_PARTY.NAME
+&#x9;END AS ACTOR_NAME,
+&#x9;v_D_PTY_PARTY.FIRST_NM AS FIRST_NAME,
+&#x9;v_D_PTY_PARTY.ADDRESS_LINE_1 AS STREET_NAME,
+&#x9;v_D_PTY_PARTY.ADDRESS_LINE_2 AS HOUSE_NUMBER,
+&#x9;v_D_PTY_PARTY.ADDRESS_LINE_3 AS HOUSE_NUMBER_BOX,
+&#x9;v_D_PTY_PARTY.POSTAL_CD AS ZIP_CODE,
+&#x9;v_D_PTY_PARTY.CITY_NM AS CITY_NAME,
+&#x9;v_D_PTY_PARTY.COUNTRY_CD AS COUNTRY_CODE_ID,
+&#x9;v_D_PTY_PARTY.BIRTH_DT AS BIRTH_DATE, 
+&#x9;v_D_PTY_PARTY.TELEPHONE_NO AS MAIN_PRIVATE_LAND_LINE, 
+&#x9;v_D_PTY_PARTY.MOBILE_PHONE_NO AS MAIN_PRIVATE_MOBILE, 
+&#x9;v_D_PTY_PARTY.EMAIL AS MAIN_PRIVATE_EMAIL,
+&#x9;v_D_PTY_PARTY.ACTOR_ID AS ACTOR_ID_BELFIUS
+
+FROM /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_D_PTY_PARTY v_D_PTY_PARTY
+LEFT OUTER JOIN /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/DB2ENV/R/v_TBFC25 v_TBFC25
+ON v_D_PTY_PARTY.PARTY_ID = v_TBFC25.PSI 
+LEFT OUTER JOIN /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/R/v_PartyExternalReference_NationalRegistryNumber v_PartyExternalReference_NationalRegistryNumber
+ON v_D_PTY_PARTY.PARTY_ID = v_PartyExternalReference_NationalRegistryNumber.PSI 
+LEFT OUTER JOIN /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_TR_REF_DESCRIPTION v_TR_REF_DESCRIPTION_ORG_LEGAL_TYPE_CD
+ON v_D_PTY_PARTY.ORG_LEGAL_TYPE_CD = v_TR_REF_DESCRIPTION_ORG_LEGAL_TYPE_CD.CODE_VALUE 
+AND v_TR_REF_DESCRIPTION_ORG_LEGAL_TYPE_CD.COLUMN_NM = &apos;ORG_LEGAL_TYPE_CD&apos;
+LEFT OUTER JOIN /shared/Sanya/R50_Baseline/L1_Physical/L12_Formatting/UDS/UDS/v_TR_REF_DESCRIPTION v_TR_REF_DESCRIPTION_LANGUAGE_CD 
+ON v_D_PTY_PARTY.LANGUAGE_CD = v_TR_REF_DESCRIPTION_LANGUAGE_CD.CODE_VALUE 
+AND v_TR_REF_DESCRIPTION_LANGUAGE_CD.COLUMN_NM = &apos;LANGUAGE_CD&apos;
+LEFT OUTER JOIN /shared/Sanya/R50_Baseline/L2_Business/L21_SourceIntegration/DB2ENV/U/v_CodeDescriptions_CPDB v_CodeDescriptions_CPDB_PSKAST 
+ON v_TBFC25.PSKAST = v_CodeDescriptions_CPDB_PSKAST.CODEVALUE 
+AND v_CodeDescriptions_CPDB_PSKAST.CODE = &apos;PSKAST&apos; 
+
+WHERE v_D_PTY_PARTY.SOURCE_SYSTEM_CD = &apos;27&apos; </attribute>
+  <attribute name="creationDate" type="LONG">1670424579414</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="creatorUserId" type="INTEGER">28084</attribute>
+  <attribute name="creatorUserName" type="STRING">d008289</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">Invalid table &apos;/shared/R40_DataSources/L1_Physical/L11_Metadata/UDS/UDS/D_PTY_PARTY&apos;.  On line 8, column 5.  [parser-2906435]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1670427294636</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">dvsys.dv.be</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">28084</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">d008289</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1670424579414</attribute>
+</metadata>
