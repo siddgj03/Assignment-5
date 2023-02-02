@@ -1,0 +1,60 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="EBX_OAuth" path="/shared/John3/EBX_OAuth" type="DATA_SOURCE" subtype="NONE" changeToken="7810367675242119288">
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/John3/EBX_OAuth/MaterialDefinitions" type="DEFINITION_SET">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="BadgerFish" type="STRING">false</attribute>
+  <attribute name="JSONFormat" type="STRING">false</attribute>
+  <attribute name="OAuthConfig" type="STRING">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;OAuthConfig&gt;
+    &lt;OAuthFlowConfig accessToken=&quot;B85D97F1CEA3BC77B77A7DF5162F79734D8448C34428BBC6BE9A8231EE42A0D0A1FFA661949A6E919B09E6B74688FFE1BD18134AF27166293C894C9760751A3CD9A2AA901D236C493A127885CE0C55B4A0E9FEF5F23A40CBEC83A1B001C4CC156A7F40B7B6FE4CEF8F57AD0042B5FA659960EE8A0AF13807349B00A1EFD6691219FD8F54235441CCC5731BF217DBF5030BD7D3770084F7C248A7658CDE69304190B40CD142A7F386A7AB4D15ECB7F454F199FC5A8B84914F02ADB382EECC398E94471F808E1A77FB7C514943DF3EEF887A6FF1A7192C758D6EB003224CDAF29227112B7B86EBD95A38B60E2A983A92AB269AFA3F6DBB9D1FD34A93AE330ECE03FE85BA121579777F6516B309BBA6C19DFBE146ECD7CD3F70DDF2F779DCEB3B3EC1BE75F10E3A222D737FCB8D7179D1EE987F0BA07810AD12F9BFB1C1137AA23019DF9AC83673F807385C3C0542FB9C489FD2EA358193953FC2D8EF3CCA5E828FFD3810EF639A21FB70C2FE085E7D285482613FE97F146931AF1734F40496B5024DCC3DD11FF0BDED3A4117D0560127B1DD49749CFB68CFB5E47E3320F721BBBB5592DA4896C379CAFC6C06BE3E0F430F58FE4C707453F68D1BBE926F5772A95D1263DE96FE0E35CE983346F8E49408C078CAFA5F8D6DB21B0164521B9F61A586A2ABAA6D86941B313B3AC1EBDCCA0DE1844FBD0B7E10E2D124F954C661E71F5B00F251534C6878A90C886B8E4139EC7B5D980007D167E81551F12F69834614266FAC4B64343EBE8FB8C5CBC9BB4CC1FD033C30DF1139CCC7BFD82C54F81C5B58085D05B00F14C965A88433BFAC3C10E5A5CCB083BA8BF78199E8BFD222142AB56D0ABBF19D6A7DBE6FB73237A4186BDE4CDCA7B04C3708B7FF1F6C72ADDB3D79332539CFE17F15A1F3C67FC95DA5210E6DD863E1536C693ADE6B0633BB981C62410765C06761E0F3&quot; accessTokenType=&quot;Bearer&quot; accessTokenUri=&quot;https://irweb.intranet.dow.com/idsproxy/api/connect/token&quot; authrizationUri=&quot;https://irweb.intranet.dow.com/idsproxy/api/connect/authorize&quot; clientId=&quot;tdv.mdms.client&quot; clientSecret=&quot;909312B2B19EEE19F62E8F06AD6E1792&quot; customFlow=&quot;&quot; exprTime=&quot;3600&quot; oAuthFlowType=&quot;AuthorizationCode&quot; processors=&quot;&quot; redirectUri=&quot;https://mdw19dtdv01.dow.com:9403/auth/callback&quot; refreshToken=&quot;&quot; scope=&quot;MDMSDataServicesAPI&quot; state=&quot;state&quot; timeStamp=&quot;1667852505119&quot; useCustomFlow=&quot;false&quot; useProcessors=&quot;false&quot; useRefreshToken=&quot;false&quot;&gt;
+        &lt;clientAuth authMethod=&quot;NEGOTIATE&quot; domain=&quot;&quot; isPassThrough=&quot;true&quot; login=&quot;&quot; password=&quot;&quot; persistPassword=&quot;true&quot; spn=&quot;HTTP/mdw19dtdv01.dow.com&quot;/&gt;
+        &lt;resourceOwnerAuth authMethod=&quot;NEGOTIATE&quot; domain=&quot;&quot; isPassThrough=&quot;true&quot; login=&quot;&quot; password=&quot;&quot; persistPassword=&quot;true&quot; spn=&quot;HTTP/mdw19dtdv01.dow.com&quot;/&gt;
+        &lt;SensitiveKeyWords/&gt;
+    &lt;/OAuthFlowConfig&gt;
+&lt;/OAuthConfig&gt;
+</attribute>
+  <attribute name="PackageName" type="STRING"/>
+  <attribute name="PrimitiveValue" type="STRING">false</attribute>
+  <attribute name="RestOperations" type="STRING">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;bindingModel&gt;&lt;portBindings&gt;&lt;portBinding xsi:type=&quot;restfulPortBinding&quot; jsonBareValue=&quot;false&quot; jsonFieldAsString=&quot;false&quot; jsonUseProcParamName=&quot;false&quot; jsonValidateXml=&quot;true&quot; jsonWrappedCursor=&quot;true&quot; jsonWrappedTable=&quot;true&quot; serviceName=&quot;Material&quot; bindingStyles=&quot;&quot; enabled=&quot;false&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;operationBindings&gt;&lt;operationBinding xsi:type=&quot;restfulProcedureBinding&quot; httpMethod=&quot;GET&quot; operationPathTemplate=&quot;rest/data/v1/BRNDMasterDataSpace/RNDDataSet/root/Material/&quot; resourceName=&quot;Material&quot; requestWrapperQName=&quot;&quot; parameterStyle=&quot;BARE&quot; responseWrapperQName=&quot;&quot;&gt;&lt;parameterBindings&gt;&lt;parameterBinding xsi:type=&quot;restfulParameterBinding&quot; nulLable=&quot;false&quot; parameterFormat=&quot;JSON&quot; xml=&quot;false&quot; name=&quot;output1&quot; definitionName=&quot;test_output&quot; inOut=&quot;OUT&quot; dataType=&quot;DEFINITION&quot; isUrl=&quot;false&quot; location=&quot;Body&quot; definitionStr=&quot;/shared/John3/EBX_OAuth/MaterialDefinitions/test_output&quot;/&gt;&lt;/parameterBindings&gt;&lt;/operationBinding&gt;&lt;/operationBindings&gt;&lt;/portBinding&gt;&lt;/portBindings&gt;&lt;/bindingModel&gt;</attribute>
+  <attribute name="accessToken" type="STRING"/>
+  <attribute name="authentication" type="STRING">OAUTH 2.0</attribute>
+  <attribute name="autoAddChildren" type="BOOLEAN">true</attribute>
+  <attribute name="cacheStatusAndTrackingDS" type="STRING"/>
+  <attribute name="cacheStatusTable" type="STRING"/>
+  <attribute name="cacheTrackingTable" type="STRING"/>
+  <attribute name="chunkedTransferCoding" type="BOOLEAN">false</attribute>
+  <attribute name="circularRedirectsAllowed" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1566503748646</attribute>
+  <attribute name="creatorUserDomain" type="STRING">dow</attribute>
+  <attribute name="creatorUserId" type="INTEGER">337</attribute>
+  <attribute name="creatorUserName" type="STRING">u376962</attribute>
+  <attribute name="domain" type="STRING">dow</attribute>
+  <attribute name="driverName" type="STRING">REST</attribute>
+  <attribute name="encodeUrl" type="BOOLEAN">true</attribute>
+  <attribute name="environmentPassThrough" type="STRING"/>
+  <attribute name="execTimeout" type="LONG">0</attribute>
+  <attribute name="isPassThrough" type="STRING">Enabled</attribute>
+  <attribute name="jsonResponseWrapper" type="STRING">test_output</attribute>
+  <attribute name="keystore" type="MAP"></attribute>
+  <attribute name="lastModifiedDate" type="LONG">1668805727482</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="login" type="STRING"/>
+  <attribute name="name" type="STRING">EBX_OAuth</attribute>
+  <attribute name="noPresentCert" type="BOOLEAN">false</attribute>
+  <attribute name="password" type="NULL"/>
+  <attribute name="persistPassword" type="BOOLEAN">false</attribute>
+  <attribute name="propertyPassThrough" type="STRING"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1566503748646</attribute>
+  <attribute name="retrieveToken" type="STRING">true</attribute>
+  <attribute name="spn" type="STRING"/>
+  <attribute name="type" type="STRING">Rest</attribute>
+  <attribute name="url" type="STRING">https://mdmsdev.intranet.dow.com/ebx-dataservices</attribute>
+  <attribute name="userDeletedSet" type="SET"></attribute>
+</metadata>
