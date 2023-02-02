@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_MainOffice" path="/shared/Will/mainoffice/v_MainOffice" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ActorID" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="OrganisationalElementID" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LinkActorOrgElemLmodTimestamp" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Will/mainoffice/v_OrganisationalElementRoleonActor" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ActorID">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="AcorId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="TypeOrganisationalElem">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="OrganisationalElementID">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="LinkActorOrgelemRole">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="BeginDateLinkActorOrgelem">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="LinkActorOrgElemLmodTimestamp">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EndDateLinkActorOrgelem">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="LinkActorOrgElemSubIdentifier">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="H__TS_SOURCE_DB2_COMMIT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="H__TS_ATTUNITY_DATETIME">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT &#x9;ActorID,
+&#x9;&#x9;cast(substring(min(
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;(CASE WHEN LinkActorOrgelemRole = &apos;10&apos;&#x9;THEN &apos;0&apos;||&apos;00000000&apos;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; WHEN LinkActorOrgelemRole = &apos;01&apos;&#x9;THEN &apos;1&apos;|| to_char(BeginDateLinkActorOrgelem,&apos;YYYYMMDD&apos;)
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; ELSE &apos;999999999&apos;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; END
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; ) || OrganisationalElementID 
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;  ), 10,20) as varchar(20) 
+&#x9;&#x9;&#x9;) as OrganisationalElementID,
+&#x9;&#x9;max(LinkActorOrgElemLmodTimestamp) as LinkActorOrgElemLmodTimestamp
+FROM &#x9;/shared/Will/mainoffice/v_OrganisationalElementRoleonActor 
+WHERE&#x9;TypeOrganisationalElem = &apos;AGEN&apos; 
+&#x9;&#x9;AND (BeginDateLinkActorOrgelem &lt;= now() AND EndDateLinkActorOrgelem &gt; now()) 
+&#x9;&#x9;AND LinkActorOrgelemRole IN (&apos;01&apos;,&apos;10&apos;)
+group by ActorID
+
+</attribute>
+  <attribute name="creationDate" type="LONG">1612189319788</attribute>
+  <attribute name="creatorUserDomain" type="STRING">belwired</attribute>
+  <attribute name="creatorUserId" type="INTEGER">92001</attribute>
+  <attribute name="creatorUserName" type="STRING">mambot</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669772636323</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1612189319788</attribute>
+</metadata>

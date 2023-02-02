@@ -1,0 +1,139 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="missing" path="/shared/Will/mainoffice/missing" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ActorID" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AcorId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypeOrganisationalElem" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OrganisationalElementID" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LinkActorOrgelemRole" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BeginDateLinkActorOrgelem" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LinkActorOrgElemLmodTimestamp" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="EndDateLinkActorOrgelem" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LinkActorOrgElemSubIdentifier" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="H__TS_SOURCE_DB2_COMMIT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="H__TS_ATTUNITY_DATETIME" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Will/mainoffice/odh_2019/sqldb-dwdp-odh-gtu-001/STG_GEI1_DB2/I1ACORTB" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="NR_IDACT_217ACTR" nullable="false">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="NS_IDACOR_217ACOR" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CO_TYPORGE_998OREL" nullable="false">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="NR_IDORGEL_998OREL" nullable="false">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="CO_ROL_217ACOR" nullable="false">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="DA_BEGROL_217ACOR" nullable="false">
+        <datatype type="DATE"/>
+      </element>
+      <element name="TS_LMOD_217ACOR" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="DA_ENDROL_217ACOR" nullable="false">
+        <datatype type="DATE"/>
+      </element>
+      <element name="NR_SUBID_217ACOR" nullable="false">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="H__TS_SOURCE_DB2_COMMIT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="H__TS_ATTUNITY_DATETIME">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    I1ACORTB.NR_IDACT_217ACTR ActorID, 
+    CAST(I1ACORTB.NS_IDACOR_217ACOR AS BIGINT) AcorId, 
+    I1ACORTB.CO_TYPORGE_998OREL TypeOrganisationalElem, 
+    I1ACORTB.NR_IDORGEL_998OREL OrganisationalElementID, 
+    I1ACORTB.CO_ROL_217ACOR LinkActorOrgelemRole, 
+    CAST(I1ACORTB.DA_BEGROL_217ACOR AS TIMESTAMP) BeginDateLinkActorOrgelem, 
+    I1ACORTB.TS_LMOD_217ACOR LinkActorOrgElemLmodTimestamp, 
+    CAST(I1ACORTB.DA_ENDROL_217ACOR AS TIMESTAMP) EndDateLinkActorOrgelem, 
+    I1ACORTB.NR_SUBID_217ACOR LinkActorOrgElemSubIdentifier, 
+    I1ACORTB.H__TS_SOURCE_DB2_COMMIT, 
+    I1ACORTB.H__TS_ATTUNITY_DATETIME
+FROM      
+    /shared/Will/mainoffice/odh_2019/&quot;sqldb-dwdp-odh-gtu-001&quot;/STG_GEI1_DB2/I1ACORTB I1ACORTB</attribute>
+  <attribute name="creationDate" type="LONG">1669772603248</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669772630887</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1669772603248</attribute>
+</metadata>

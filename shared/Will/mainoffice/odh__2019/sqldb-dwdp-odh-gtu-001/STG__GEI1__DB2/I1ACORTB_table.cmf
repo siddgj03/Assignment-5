@@ -1,0 +1,113 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="I1ACORTB" path="/shared/Will/mainoffice/odh_2019/sqldb-dwdp-odh-gtu-001/STG_GEI1_DB2/I1ACORTB" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="NR_IDACT_217ACTR" nullable="false">
+      <datatype name="varchar" extendedName="varchar(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="NS_IDACOR_217ACOR" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CO_TYPORGE_998OREL" nullable="false">
+      <datatype name="varchar" extendedName="varchar(4)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="NR_IDORGEL_998OREL" nullable="false">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="CO_ROL_217ACOR" nullable="false">
+      <datatype name="varchar" extendedName="varchar(2)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DA_BEGROL_217ACOR" nullable="false">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TS_LMOD_217ACOR" nullable="false">
+      <datatype name="datetime2" extendedName="datetime2" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="DA_ENDROL_217ACOR" nullable="false">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="NR_SUBID_217ACOR" nullable="false">
+      <datatype name="varchar" extendedName="varchar(10)" subType="DATASOURCE_TYPE" type="STRING" maxLength="10"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="H__TS_SOURCE_DB2_COMMIT" nullable="true">
+      <datatype name="datetime2" extendedName="datetime2" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="H__TS_ATTUNITY_DATETIME" nullable="true">
+      <datatype name="datetime2" extendedName="datetime2" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="I1ACORTB_I1ACORTB_PK" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="NR_IDACT_217ACTR" sortOrder="ASCENDING"/>
+      <indexColumn name="NS_IDACOR_217ACOR" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:10:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:6:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:7:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:8:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:9:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1666176313873</attribute>
+  <attribute name="creatorUserDomain" type="STRING">belwired</attribute>
+  <attribute name="creatorUserId" type="INTEGER">50183</attribute>
+  <attribute name="creatorUserName" type="STRING">nglezl</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1666176313873</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">belwired</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">50183</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">nglezl</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1666176313873</attribute>
+</metadata>

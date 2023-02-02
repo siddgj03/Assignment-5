@@ -1,0 +1,139 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_OrganisationalElementRoleonActor" path="/shared/Will/mainoffice/v_OrganisationalElementRoleonActor" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ActorID" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="AcorId" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="TypeOrganisationalElem" nullable="true">
+      <datatype type="STRING" maxLength="4"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="OrganisationalElementID" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LinkActorOrgelemRole" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="BeginDateLinkActorOrgelem" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LinkActorOrgElemLmodTimestamp" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="EndDateLinkActorOrgelem" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="LinkActorOrgElemSubIdentifier" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="H__TS_SOURCE_DB2_COMMIT" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+    <column name="H__TS_ATTUNITY_DATETIME" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="nobody" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="nobody" domain="composite"/>
+  </security>
+  <dependency target="/shared/Will/mainoffice/missing" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="ActorID">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="AcorId">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="TypeOrganisationalElem">
+        <datatype type="STRING" maxLength="4"/>
+      </element>
+      <element name="OrganisationalElementID">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="LinkActorOrgelemRole">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="BeginDateLinkActorOrgelem">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="LinkActorOrgElemLmodTimestamp">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="EndDateLinkActorOrgelem">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="LinkActorOrgElemSubIdentifier">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="H__TS_SOURCE_DB2_COMMIT">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="H__TS_ATTUNITY_DATETIME">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    v_OrganisationalElementRoleonActor.ActorID, 
+    v_OrganisationalElementRoleonActor.AcorId, 
+    v_OrganisationalElementRoleonActor.TypeOrganisationalElem, 
+    v_OrganisationalElementRoleonActor.OrganisationalElementID, 
+    v_OrganisationalElementRoleonActor.LinkActorOrgelemRole, 
+    v_OrganisationalElementRoleonActor.BeginDateLinkActorOrgelem, 
+    v_OrganisationalElementRoleonActor.LinkActorOrgElemLmodTimestamp, 
+    v_OrganisationalElementRoleonActor.EndDateLinkActorOrgelem, 
+    v_OrganisationalElementRoleonActor.LinkActorOrgElemSubIdentifier, 
+    v_OrganisationalElementRoleonActor.H__TS_SOURCE_DB2_COMMIT, 
+    v_OrganisationalElementRoleonActor.H__TS_ATTUNITY_DATETIME
+FROM      
+    /shared/Will/mainoffice/missing v_OrganisationalElementRoleonActor</attribute>
+  <attribute name="creationDate" type="LONG">1611930632971</attribute>
+  <attribute name="creatorUserDomain" type="STRING">belwired</attribute>
+  <attribute name="creatorUserId" type="INTEGER">92001</attribute>
+  <attribute name="creatorUserName" type="STRING">mambot</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1669772636323</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611930632971</attribute>
+</metadata>
